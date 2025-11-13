@@ -1,75 +1,37 @@
-name: Aggiorna GeoJSON dal Google Sheet
+name: Update GeoJSON from Google Sheet
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # ogni giorno alle 04:00
-  workflow_dispatch:      # per avviarlo a mano
+    - cron: '0 5 * * *'    # ogni giorno 05:00 UTC (modifica come vuoi)
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Installa Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      - name: Installa dipendenze
-        run: pip install pandas requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Scarica Google Sheet e converti in GeoJSON
+      - name: Convert CSV to GeoJSON
         run: |
-          python3 << 'EOF'
-          import pandas as pd
-          import requests
-          import json
+          python scripts/csv_to_geojson.py "${{ secrets.SHEET_CSV_URL }}" events.geojson
 
-          # LINK GOOGLE SHEET 
-          sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUlBQ2E_vI60fmFoQ9eqstN_XBUhaMjOAK0j9OZLDyRxoXnOepmjHMKNkIrYGOekD51myxWg7USH7M/pub?gid=0&single=true&output=csv"
-
-          # Converti in CSV esportato da Google
-          csv_export = sheet_url.replace("/edit?usp=sharing", "/export?format=csv")
-
-          df = pd.read_csv(csv_export)
-
-          features = []
-          for _, row in df.iterrows():
-              feat = {
-                  "type": "Feature",
-                  "properties": {
-                      "title": row["title"],
-                      "date": row["date"],
-                      "type": row["type"],
-                      "location": row["location"],
-                      "source": row["source"],
-                      "notes": row.get("notes", "")
-                  },
-                  "geometry": {
-                      "type": "Point",
-                      "coordinates": [float(row["longitude"]), float(row["latitude"])]
-                  }
-              }
-              features.append(feat)
-
-          geojson = {
-              "type": "FeatureCollection",
-              "features": features
-          }
-
-          with open("events.geojson", "w", encoding="utf-8") as f:
-              json.dump(geojson, f, ensure_ascii=False, indent=2)
-
-          EOF
-
-      - name: Commit & Push del nuovo GeoJSON
+      - name: Commit and push changes if any
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add events.geojson
-          git commit -m "Aggiornato GeoJSON automatico"
-          git push
-        continue-on-error: true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep events.geojson; then
+            git add events.geojson
+            git commit -m "Auto-update events.geojson from Google Sheet"
+            git push origin HEAD:main
+          else
+            echo "No changes"
+          fi
