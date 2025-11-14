@@ -39,7 +39,6 @@ jobs:
 
           git add events.geojson
 
-          # Se non ci sono cambi, evita l’errore
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
@@ -47,7 +46,6 @@ jobs:
 
           git commit -m "Auto-update events.geojson from Google Sheet"
 
-          # Evita l’errore "fetch first"
           git pull --rebase
 
           git push
