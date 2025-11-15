@@ -1,8 +1,8 @@
-name: Update GeoJSON & Timeline CSV
+name: Update GeoJSON + Timeline JSON
 
 on:
   schedule:
-    - cron: '0 5 * * *' # ogni giorno alle 05:00 UTC
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,37 +11,39 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install requests
 
-      - name: Convert CSV to GeoJSON & Timeline CSV
-        run: |
-          python scripts/csv_to_geojson.py "${{ secrets.SHEET_CSV_URL }}" events.geojson assets/data/events_timeline.csv
+      - name: Generate GeoJSON
+        run: python scripts/csv_to_geojson.py "${{ secrets.SHEET_CSV_URL }}" events.geojson
 
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate Timeline JSON
+        run: python scripts/csv_to_timeline.py "${{ secrets.SHEET_CSV_URL }}" events_timeline.json
+
+      - name: Commit changes
         run: |
           git config user.email "actions@github.com"
           git config user.name "github-actions[bot]"
 
-          git add events.geojson assets/data/events_timeline.csv
+          git add events.geojson events_timeline.json
 
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
             exit 0
           fi
 
-          git commit -m "Auto-update GeoJSON & Timeline CSV"
+          git commit -m "Auto-update GEOJSON + TIMELINE"
+          git pull --rebase
           git push
