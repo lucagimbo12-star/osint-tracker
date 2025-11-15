@@ -1,22 +1,22 @@
 // assets/js/map.js
 
-// Inizializza la mappa centrata sulla zona di interesse
+// Inizializza la mappa
 let map = L.map('map').setView([54.5, 37.6], 5);
 
-// Aggiunge le tiles di OpenStreetMap
+// Tiles OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Layer per i marker
-let markersLayer = L.layerGroup().addTo(map);
+// Layer di marker cluster
+let markersLayer = L.markerClusterGroup().addTo(map);
 
-// Variabile globale per i dati
+// Variabile globale per dati
 let geoData;
 
-// Carica il file GeoJSON
-fetch('assets/events.geojson') // Modifica il path se events.geojson non è in root
+// Carica GeoJSON
+fetch('assets/events.geojson')
   .then(res => res.json())
   .then(data => {
     geoData = data.features;
@@ -24,9 +24,9 @@ fetch('assets/events.geojson') // Modifica il path se events.geojson non è in r
   })
   .catch(err => console.error("Errore caricamento GeoJSON:", err));
 
-// Funzione per mostrare i dati sulla mappa
+// Funzione per mostrare i dati
 function showData(data) {
-  markersLayer.clearLayers(); // Pulisce i marker precedenti
+  markersLayer.clearLayers(); // Pulisce marker precedenti
   data.forEach(f => {
     let p = f.properties;
     let coords = f.geometry.coordinates;
@@ -43,7 +43,7 @@ function showData(data) {
   });
 }
 
-// Gestione filtri
+// Filtri
 document.getElementById('applyFilter').addEventListener('click', () => {
   let start = document.getElementById('startDate').value;
   let end = document.getElementById('endDate').value;
@@ -56,6 +56,8 @@ document.getElementById('applyFilter').addEventListener('click', () => {
     if(type) typeOk = f.properties.type === type;
     return dateOk && typeOk;
   });
+
   showData(filtered);
 });
+
 
