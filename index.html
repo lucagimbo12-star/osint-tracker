@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OSINT Tracker</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-    <!-- MarkerCluster (opzionale ma utile) -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
-    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact Atlas</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
-
 <body>
-    <div id="sidebar">
-        <h2>Eventi</h2>
-        <input type="text" id="search" placeholder="Cerca un evento...">
-        <ul id="event-list"></ul>
+
+  <!-- Header -->
+  <header>
+    <h1>Impact Atlas</h1>
+    <nav>
+      <a href="#map-section">Mappa</a>
+      <a href="#timeline-section">Timeline</a>
+      <a href="#about-section">Metodologia</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
+    <p>Basato su fonti OSINT verificate, con dati aggiornati quotidianamente.</p>
+    <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
+      Vai alla mappa
+    </button>
+  </section>
+
+  <!-- Mappa Section -->
+  <section id="map-section">
+    <div class="filters">
+      <label>Data da: <input type="date" id="startDate"></label>
+      <label>Data a: <input type="date" id="endDate"></label>
+      <label>Tipo di attacco:
+        <select id="attackType">
+          <option value="">Tutti</option>
+          <option value="Missile">Missile</option>
+          <option value="Droni">Droni</option>
+          <option value="Sabotaggio">Sabotaggio</option>
+        </select>
+      </label>
+      <button id="applyFilter">Applica filtri</button>
     </div>
 
     <div id="map"></div>
+  </section>
 
-    <script src="assets/js/map.js"></script>
+  <!-- Timeline Section -->
+  <section id="timeline-section">
+    <h2>Timeline degli eventi</h2>
+    <iframe 
+      src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https://docs.google.com/spreadsheets/d/e/2PACX-1vTUlBQ2E_vI60fmFoQ9eqstN_XBUhaMjOAK0j9OZLDyRxoXnOepmjHMKNkIrYGOekD51myxWg7USH7M/pubhtmlL&font=Default&lang=it&initial_zoom=2&height=600"
+      width="100%" height="600" frameborder="0"></iframe>
+  </section>
+
+  <!-- About Section -->
+  <section id="about-section">
+    <h2>Metodologia e note</h2>
+    <p>I dati riportati provengono da fonti OSINT pubbliche. Ogni evento è verificato con geolocalizzazione e cross-check di più fonti.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Impact Atlas. Fonti OSINT. <a href="#">Disclaimer</a></p>
+  </footer>
+
+  <!-- Script Map -->
+  <script src="assets/js/map.js"></script>
 </body>
 </html>
 
