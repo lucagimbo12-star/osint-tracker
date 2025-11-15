@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impact Atlas</title>
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+  <!-- JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 </head>
 <body>
 
@@ -23,7 +30,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
-    <p>Basato su fonti OSINT verificate, con dati aggiornati quotidianamente.</p>
+    <p>Basato su fonti OSINT verificate, aggiornato quotidianamente.</p>
     <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
       Vai alla mappa
     </button>
@@ -52,7 +59,7 @@
   <section id="timeline-section">
     <h2>Timeline degli eventi</h2>
     <iframe 
-      src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https://docs.google.com/spreadsheets/d/e/2PACX-1vTUlBQ2E_vI60fmFoQ9eqstN_XBUhaMjOAK0j9OZLDyRxoXnOepmjHMKNkIrYGOekD51myxWg7USH7M/pubhtmlL&font=Default&lang=it&initial_zoom=2&height=600"
+      src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=YOUR_GOOGLE_SHEET_URL&font=Default&lang=it&initial_zoom=2&height=600"
       width="100%" height="600" frameborder="0"></iframe>
   </section>
 
@@ -71,5 +78,6 @@
   <script src="assets/js/map.js"></script>
 </body>
 </html>
+
 
 
