@@ -1,25 +1,32 @@
-<div id="map" style="height: 600px;"></div>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSINT Tracker</title>
 
-<script>
-  var map = L.map('map').setView([48, 40], 4);
+    <link rel="stylesheet" href="style.css">
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-  }).addTo(map);
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  fetch('events.geojson')
-    .then(response => response.json())
-    .then(data => {
-      L.geoJSON(data, {
-        onEachFeature: function (feature, layer) {
-          let p = feature.properties;
-          layer.bindPopup(
-            "<b>" + p.title + "</b><br>" +
-            p.date + "<br>" +
-            p.location + "<br>" +
-            "<a href='" + p.source + "' target='_blank'>Fonte</a>"
-          );
-        }
-      }).addTo(map);
-    });
-</script>
+    <!-- MarkerCluster (opzionale ma utile) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+</head>
+
+<body>
+    <div id="sidebar">
+        <h2>Eventi</h2>
+        <input type="text" id="search" placeholder="Cerca un evento...">
+        <ul id="event-list"></ul>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="map.js"></script>
+</body>
+</html>
+
