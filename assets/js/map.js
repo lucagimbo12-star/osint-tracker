@@ -16,7 +16,7 @@ let markersLayer = L.markerClusterGroup().addTo(map);
 let geoData;
 
 // Carica GeoJSON
-fetch('assets/events.geojson')
+fetch('events.geojson')
   .then(res => res.json())
   .then(data => {
     geoData = data.features;
