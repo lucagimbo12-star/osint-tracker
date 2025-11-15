@@ -1,0 +1,99 @@
+/* Base */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0b0c10;
+  color: #fefefe;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header a {
+  color: #fefefe;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+header a:hover { text-decoration: underline; }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #1f2833, #45a29e);
+  color: #fff;
+}
+.hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+.hero p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+.hero button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #66fcf1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.hero button:hover {
+  background: #45a29e;
+  color: #fff;
+}
+
+/* Mappa */
+#map {
+  width: 90%;
+  height: 500px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Filtri */
+.filters {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.filters input, .filters select, .filters button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+/* Timeline */
+iframe {
+  display: block;
+  width: 90%;
+  height: 600px;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+/* Sections */
+section { padding: 2rem 0; text-align: center; }
+section h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0b0c10;
+  color: #fefefe;
+}
+footer a { color: #66fcf1; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
