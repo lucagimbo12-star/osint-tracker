@@ -15,7 +15,7 @@ let markersLayer = L.markerClusterGroup().addTo(map);
 // Variabile globale per dati
 let geoData;
 
-// Carica GeoJSON
+// Carica GeoJSON dalla root della repo
 fetch('events.geojson')
   .then(res => res.json())
   .then(data => {
@@ -24,7 +24,7 @@ fetch('events.geojson')
   })
   .catch(err => console.error("Errore caricamento GeoJSON:", err));
 
-// Funzione per mostrare i dati
+// Funzione per mostrare i dati sulla mappa
 function showData(data) {
   markersLayer.clearLayers(); // Pulisce marker precedenti
   data.forEach(f => {
@@ -59,5 +59,3 @@ document.getElementById('applyFilter').addEventListener('click', () => {
 
   showData(filtered);
 });
-
-
