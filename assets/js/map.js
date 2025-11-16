@@ -79,7 +79,7 @@ fetch('events_database.json')
 
 // Fallback per compatibilità con vecchi dati
 function loadLegacyData() {
-  fetch('events.geojson')
+  fetch('events_database.json')
     .then(res => res.json())
     .then(data => {
       allEvents = convertLegacyData(data.features);
