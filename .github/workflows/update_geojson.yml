@@ -85,7 +85,7 @@ jobs:
           import csv, json
 
           input_path = "assets/data/events_timeline.csv"
-          output_path = "public/timeline.json"
+          output_path = "assets/data/events_timeline.json"
 
           events = []
           with open(input_path, encoding="utf-8") as f:
@@ -103,7 +103,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add public/timeline.json
+          git add assets/data/events_timeline.json
           git diff --cached --quiet || git commit -m "Update timeline JSON"
       - name: Push changes
         if: success()
