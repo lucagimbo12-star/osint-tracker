@@ -1,113 +1,113 @@
-name: Update GeoJSON + Timeline JSON
+name: Update Data Files
 
 on:
-  schedule:
-    - cron: "0 5 * * *"
+  push:
+    paths:
+      - "assets/data/*.csv"
+      - ".github/workflows/update_geojson.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update-data:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install deps
-        run: pip install requests
-
-      - name: Generate GeoJSON
-        run: python scripts/csv_to_geojson.py "${{ secrets.SHEET_CSV_URL }}" events.geojson
-
-      - name: Generate Timeline JSON
-        run: python scripts/csv_to_timeline.py "${{ secrets.SHEET_CSV_URL }}" events_timeline.json
-
-      - name: Convert CSV to Timeline JSON
-        run: |
-          python scripts/csv_to_timeline_json.py assets/data/events_timeline.csv assets/data/events_timeline.json
-
-      - name: Commit changes
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "github-actions[bot]"
-
-          git add events.geojson events_timeline.json assets/data/events_timeline.json
-
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
-
-          git commit -m "Auto-update GEOJSON + TIMELINE"
-          git pull --rebase
-          git push
-          name: Build Timeline JSON
-
-on:
-  push:
-    paths:
-      - "assets/data/events_timeline.csv"
-      - ".github/workflows/build_timeline.yml"
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      # 1) Checkout del repo
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # 2) Setup Python
-      # Qui NON si fa ancora la conversione,
-      # si prepara solo l’ambiente.
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
-      # 3) Conversione CSV -> JSON
-      # Questo è lo step che volevi individuare.
-      # Qui devi inserire il tuo script Python.
-      - name: Convert CSV to JSON
+      - name: Install required packages
+        run: pip install pandas
+
+      ###############################################################
+      # STEP 1 — Convert CSV → GeoJSON (se lo usavi già)
+      ###############################################################
+      - name: Convert attacks CSV to GeoJSON
         run: |
           python3 <<EOF
-          import csv, json
+          import pandas as pd
+          import json
 
-          input_path = "assets/data/events_timeline.csv"
-          output_path = "assets/data/events_timeline.json"
+          df = pd.read_csv("assets/data/events_timeline.csv")
 
-          events = []
-          with open(input_path, encoding="utf-8") as f:
-              reader = csv.DictReader(f)
-              for row in reader:
-                  events.append(row)
+          features = []
+          for _, row in df.iterrows():
+              lat = row.get("latitude")
+              lon = row.get("longitude")
+              if pd.isna(lat) or pd.isna(lon):
+                  continue
 
-          with open(output_path, "w", encoding="utf-8") as f:
-              json.dump(events, f, ensure_ascii=False, indent=2)
+              features.append({
+                  "type": "Feature",
+                  "geometry": {
+                      "type": "Point",
+                      "coordinates": [float(lon), float(lat)]
+                  },
+                  "properties": {
+                      "title": row.get("title", ""),
+                      "date": row.get("date", ""),
+                      "type": row.get("type", ""),
+                      "location": row.get("location", ""),
+                      "source": row.get("source", ""),
+                      "archived": row.get("archived", ""),
+                      "verification": row.get("verification", ""),
+                      "notes": row.get("notes", "")
+                  }
+              })
+
+          geojson = {"type": "FeatureCollection", "features": features}
+
+          with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
+              json.dump(geojson, f, ensure_ascii=False, indent=2)
           EOF
 
-      # 4) Commit & Push dei file generati
-      # (solo se il JSON è cambiato)
-      - name: Commit changes
+      ###############################################################
+      # STEP 2 — Convert CSV → timeline JSON
+      ###############################################################
+      - name: Convert CSV to Timeline JSON
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add assets/data/events_timeline.json
-          git diff --cached --quiet || git commit -m "Update timeline JSON"
-      - name: Push changes
-        if: success()
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          python3 <<EOF
+          import pandas as pd
+          import json
 
+          df = pd.read_csv("assets/data/events_timeline.csv")
+
+          events = []
+          for _, row in df.iterrows():
+              events.append({
+                  "title": row.get("title", ""),
+                  "date": row.get("date", ""),
+                  "type": row.get("type", ""),
+                  "location": row.get("location", ""),
+                  "latitude": row.get("latitude", None),
+                  "longitude": row.get("longitude", None),
+                  "source": row.get("source", ""),
+                  "archived": row.get("archived", ""),
+                  "verification": row.get("verification", ""),
+                  "notes": row.get("notes", "")
+              })
+
+          out = {"events": events}
+
+          with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False, indent=2)
+          EOF
+
+      ###############################################################
+      # Commit changes back to repo
+      ###############################################################
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets/data/events.geojson
+          git add assets/data/events_timeline.json
+          git commit -m "Updated data files" || echo "No changes to commit"
+          git push
