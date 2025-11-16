@@ -21,55 +21,96 @@
 
   <!-- Header -->
   <header>
-    <h1>Impact Atlas</h1>
-    <nav>
-      <a href="#map-section">Mappa</a>
-      <a href="#timeline-section">Timeline</a>
-      <a href="#about-section">Metodologia</a>
-    </nav>
+    <div class="header-content">
+      <h1>Impact Atlas</h1>
+      <nav>
+        <a href="#map-section">Mappa</a>
+        <a href="#timeline-section">Timeline</a>
+        <a href="#about-section">Metodologia</a>
+      </nav>
+    </div>
   </header>
 
   <!-- Hero Section -->
   <section class="hero">
-    <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
-    <p>Basato su fonti OSINT verificate, aggiornato quotidianemente.</p>
-    <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
-      Vai alla mappa
-    </button>
+    <div class="hero-content">
+      <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
+      <p>Basato su fonti OSINT verificate, aggiornato quotidianamente.</p>
+      <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
+        Esplora la mappa
+      </button>
+    </div>
   </section>
 
-  <!-- Mappa Section -->
+  <!-- Mappa Section con layout a due colonne -->
   <section id="map-section">
-    <div class="filters">
-      <label>Data da: <input type="date" id="startDate"></label>
-      <label>Data a: <input type="date" id="endDate"></label>
-      <label>Tipo di attacco:
-        <select id="attackType">
-          <option value="">Tutti</option>
-          <option value="Missile">Missile</option>
-          <option value="Droni">Droni</option>
-          <option value="Sabotaggio">Sabotaggio</option>
-        </select>
-      </label>
-      <button id="applyFilter">Applica filtri</button>
+    <div class="map-container">
+      <!-- Sidebar filtri -->
+      <aside class="filters-sidebar">
+        <h3>Filtri</h3>
+        
+        <div class="filter-group">
+          <label>Data inizio</label>
+          <input type="date" id="startDate">
+        </div>
+        
+        <div class="filter-group">
+          <label>Data fine</label>
+          <input type="date" id="endDate">
+        </div>
+        
+        <div class="filter-group">
+          <label>Tipo di attacco</label>
+          <select id="attackType">
+            <option value="">Tutti</option>
+            <option value="Missile">Missile</option>
+            <option value="Droni">Droni</option>
+            <option value="Sabotaggio">Sabotaggio</option>
+          </select>
+        </div>
+        
+        <button id="applyFilter" class="btn-primary">Applica filtri</button>
+        <button id="resetFilter" class="btn-secondary">Reset</button>
+        
+        <div class="stats">
+          <h4>Statistiche</h4>
+          <p><strong>Eventi visualizzati:</strong> <span id="eventCount">0</span></p>
+          <p><strong>Ultimo aggiornamento:</strong> <span id="lastUpdate">-</span></p>
+        </div>
+      </aside>
+      
+      <!-- Mappa -->
+      <div class="map-wrapper">
+        <div id="map"></div>
+      </div>
     </div>
-
-    <div id="map"></div>
   </section>
 
   <!-- Timeline Section -->
   <section id="timeline-section">
     <h2>Timeline degli eventi</h2>
-
-    <!-- Contenitore timeline locale -->
     <div id="timeline" style="width:100%; height:650px;"></div>
-
   </section>
 
   <!-- About Section -->
   <section id="about-section">
-    <h2>Metodologia e note</h2>
-    <p>I dati riportati provengono da fonti OSINT pubbliche. Ogni evento è verificato con geolocalizzazione e cross-check di più fonti.</p>
+    <div class="about-content">
+      <h2>Metodologia e note</h2>
+      <div class="methodology-grid">
+        <div class="method-card">
+          <h3>📍 Geolocalizzazione</h3>
+          <p>Ogni evento è verificato con coordinate precise tramite fonti multiple</p>
+        </div>
+        <div class="method-card">
+          <h3>🔍 Fonti OSINT</h3>
+          <p>Dati raccolti da fonti pubbliche verificabili e archiviate</p>
+        </div>
+        <div class="method-card">
+          <h3>✓ Cross-check</h3>
+          <p>Ogni informazione è confermata da almeno due fonti indipendenti</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
@@ -86,7 +127,7 @@
     "timeline",
     "https://lucagimbo12-star.github.io/osint-tracker/assets/data/events_timeline.json"
   );
-</script>
+  </script>
 
 </body>
 </html>
