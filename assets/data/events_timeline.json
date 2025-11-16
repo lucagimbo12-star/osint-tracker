@@ -1,5 +1,536 @@
 {
+  "title": {
+    "text": {
+      "headline": "Attacchi alle infrastrutture petrolifere russe",
+      "text": "Timeline degli attacchi con droni e missili alle raffinerie e depositi petroliferi in Russia - Agosto-Novembre 2025"
+    }
+  },
   "events": [
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "2"
+      },
+      "text": {
+        "headline": "Raffineria di Novokuibyshevsk",
+        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-kuibyshevsk-refinery-halted-operations-after-drone-attacks-sources-say-2025-08-29/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.067561,
+        "lon": 49.876177
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "2"
+      },
+      "text": {
+        "headline": "Raffineria di Rjazan",
+        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-ryazan-oil-refinery-halves-refining-capacity-after-drone-attacks-sources-2025-08-04/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.5725405,
+        "lon": 39.7482438
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "7"
+      },
+      "text": {
+        "headline": "Raffineria di Afipsky",
+        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/world/europe/fire-russias-afipsky-oil-refinery-extinguished-after-drone-attack-2025-08-07/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 44.88167,
+        "lon": 38.82194
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.reuters.com/world/ukraine-says-it-struck-oil-refinery-russias-saratov-region-2025-08-10/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Raffineria di Volgograd",
+        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://www.reuters.com/world/europe/russia-reports-fire-volgograd-refinery-after-ukrainian-drone-attack-2025-08-14/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 48.48917,
+        "lon": 44.62722
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "15"
+      },
+      "text": {
+        "headline": "Raffineria di Syzran",
+        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-reports-strikes-russian-oil-refinery-caspian-port-hub-2025-08-15/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.09368,
+        "lon": 48.40192
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "19"
+      },
+      "text": {
+        "headline": "Raffineria di Volgograd",
+        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://kyivindependent.com/ukrainian-drones-hit-oil-refinery-in-russias-volgograd-oblast-governor-says/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 48.48917,
+        "lon": 44.62722
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "21"
+      },
+      "text": {
+        "headline": "Raffineria di Novoshakhtinsk",
+        "text": "Tipo: Drones<br>Luogo: Novoshakhtinsk, Oblast di Rostov<br>Fonte: <a href='https://www.reuters.com/world/blaze-erupts-industrial-site-russias-novoshakhstinsk-after-drone-attack-2025-08-21/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 47.836725,
+        "lon": 39.851232
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Raffineria di Syzran",
+        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://kyivindependent.com/drone-strikes-spark-fire-at-russian-gas-terminal-and-oil-refinery-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.09368,
+        "lon": 48.40192
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "28"
+      },
+      "text": {
+        "headline": "Raffineria di Afipsky",
+        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/business/energy/russia-says-it-put-out-fire-large-oil-refinery-after-latest-ukrainian-drone-2025-08-28/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 44.88167,
+        "lon": 38.82194
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "28"
+      },
+      "text": {
+        "headline": "Raffineria di Kuibyshev",
+        "text": "Tipo: Drones<br>Luogo: Kujbyšev, Oblast' di Novosibirsk<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-kuibyshevsk-refinery-halted-operations-after-drone-attacks-sources-say-2025-08-29/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.1098,
+        "lon": 50.06331
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "30"
+      },
+      "text": {
+        "headline": "Raffineria di Syzran",
+        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-military-says-it-struck-two-russian-oil-refineries-overnight-2025-08-30/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.09368,
+        "lon": 48.40192
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "8",
+        "day": "30"
+      },
+      "text": {
+        "headline": "Raffineria di Krasnodar",
+        "text": "Tipo: Drones<br>Luogo: Krasnodar, Krasnodar Kraj<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-military-says-it-struck-two-russian-oil-refineries-overnight-2025-08-30/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 44.88167,
+        "lon": 38.82194
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "5"
+      },
+      "text": {
+        "headline": "Raffineria di Rjazan",
+        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/markets/commodities/ukraine-says-it-attacks-russian-refinery-ryazan-oil-depot-luhansk-2025-09-05/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.5725405,
+        "lon": 39.7482438
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "7"
+      },
+      "text": {
+        "headline": "Raffineria di Ilsky",
+        "text": "Tipo: Drones<br>Luogo: Il'skij, Krasnodar Kraj<br>Fonte: <a href='https://kyivindependent.com/ukrainian-drones-reportedly-strike-russias-ilsky-oil-refinery-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 46.33291,
+        "lon": 38.93463
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "13"
+      },
+      "text": {
+        "headline": "Bashneft-Novoyl",
+        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.theguardian.com/world/2025/sep/13/ukraine-drone-sparks-fire-at-one-of-russias-largest-oil-plants' target='_blank'>The Guardian</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.883371,
+        "lon": 56.077389
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Raffineria di Kiriši",
+        "text": "Tipo: Drones<br>Luogo: Kiriši, Oblast di Leningrado<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-attacks-major-russian-refinery-with-drone-assault-2025-09-14/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 59.48362,
+        "lon": 32.0708
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://militarnyi.com/en/news/ukrainian-special-operations-forces-hit-the-saratov-oil-refinery/' target='_blank'>Militarnyi</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "18"
+      },
+      "text": {
+        "headline": "Raffineria Gazprom Neftekhim Salavat",
+        "text": "Tipo: Drones<br>Luogo: Salavat, Repubblica di Baschiria<br>Fonte: <a href='https://kyivindependent.com/ukraine-struck-russian-oil-facilities-in-bashkortostan-volgograd-oblast/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.4012,
+        "lon": 55.90512
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Raffineria di Novokuibyshevsk",
+        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-09-20/ukraine-claims-overnight-drone-strikes-on-two-russian-refineries' target='_blank'>Bloomberg</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.067561,
+        "lon": 49.876177
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.theguardian.com/world/2025/sep/20/ukraine-war-briefing-drones-blast-russias-saratov-refinery-for-second-time-in-a-week' target='_blank'>The Guardian</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Raffineria di Astrakhan",
+        "text": "Tipo: Drones<br>Luogo: Astrakhan, Oblast di Astrakhan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-astrakhan-gas-plant-halted-operations-after-drone-attack-sources-say-2025-09-23/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 46.77502,
+        "lon": 48.11057
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "24"
+      },
+      "text": {
+        "headline": "Raffineria Gazprom Neftekhim Salavat",
+        "text": "Tipo: Drones<br>Luogo: Salavat, Repubblica di Baschiria<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-drones-again-attack-russias-major-petrochemical-complex-2025-09-24/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.4012,
+        "lon": 55.90512
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "9",
+        "day": "26"
+      },
+      "text": {
+        "headline": "Raffineria di Afipsky",
+        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/world/europe/russias-afipsky-refinery-douses-fire-caused-by-drone-debris-2025-09-26/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 44.88167,
+        "lon": 38.82194
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "3"
+      },
+      "text": {
+        "headline": "Raffineria di Orsk",
+        "text": "Tipo: Drones<br>Luogo: Orsk, Oblast' di Orenburg<br>Fonte: <a href='https://militarnyi.com/en/news/video-drones-strike-a-refinery-in-the-russian-city-of-orsk-1400-kilometers-from-the-ukrainian-border/' target='_blank'>Militarnyi</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.25948,
+        "lon": 58.52666
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "4"
+      },
+      "text": {
+        "headline": "Raffineria di Kiriši",
+        "text": "Tipo: Drones<br>Luogo: Kiriši, Oblast di Leningrado<br>Fonte: <a href='https://www.reuters.com/world/russias-kirishi-refinery-halts-largest-unit-after-drone-attack-sources-say-2025-10-06/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 59.48362,
+        "lon": 32.0708
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "11"
+      },
+      "text": {
+        "headline": "Bashneft-Novoyl",
+        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-10-11/ukraine-claims-strike-on-russian-bashneft-refinery-in-ufa' target='_blank'>Bloomberg</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.883371,
+        "lon": 56.077389
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "15"
+      },
+      "text": {
+        "headline": "Bashneft-Ufaneftkhim",
+        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.ukrinform.net/rubric-ato/4047496-drone-attacks-russian-oil-refinery-more-than-1000-kilometers-from-ukraine.html' target='_blank'>Ukrinform</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.883371,
+        "lon": 56.077389
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://militarnyi.com/en/news/oil-refinery-burns-in-saratov-after-drone-attack/' target='_blank'>Militarnyi</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "16"
+      },
+      "text": {
+        "headline": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
+        "text": "Tipo: Drones<br>Luogo: Kstovo, Oblast' di Nižnij Novgorod<br>Fonte: <a href='https://militarnyi.com/en/news/drones-attacked-lukoil-nizhegorodnefteorgsintez-facility-shut-down-and-on-fire/' target='_blank'>Militarnyi</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 56.10583,
+        "lon": 44.14389
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "19"
+      },
+      "text": {
+        "headline": "Raffineria di Novokuibyshevsk",
+        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/world/russias-novokuibyshevsk-oil-refinery-stops-processing-after-drone-attack-sources-2025-10-20/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 53.067561,
+        "lon": 49.876177
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "19"
+      },
+      "text": {
+        "headline": "Raffineria di Orenburg",
+        "text": "Tipo: Drones<br>Luogo: Orenbúrg, Oblast di Orenbúrg<br>Fonte: <a href='https://kyivindependent.com/massive-russian-gas-plant-forced-to-suspend-gas-intake-following-ukrainian-drone-attack/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.6541,
+        "lon": 54.7969
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "20"
+      },
+      "text": {
+        "headline": "Raffineria di Orenburg",
+        "text": "Tipo: Drones<br>Luogo: Orenbúrg, Oblast di Orenbúrg<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-drone-attack-russian-gas-plant-hits-kazakh-output-sources-say-2025-10-20/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.6541,
+        "lon": 54.7969
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Raffineria di Makhachkala",
+        "text": "Tipo: Drones<br>Luogo: Mačačkala, Repubblica autonoma del Daghestan<br>Fonte: <a href='https://kyivindependent.com/drones-attack-oil-refinery-mechanical-plant-in-russia-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 42.966633,
+        "lon": 47.51263
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "10",
+        "day": "23"
+      },
+      "text": {
+        "headline": "Raffineria di Rjazan",
+        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-fourth-largest-oil-refinery-halts-processing-unit-after-drone-attack-2025-10-24/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 54.5725405,
+        "lon": 39.7482438
+      }
+    },
     {
       "start_date": {
         "year": "2025",
@@ -63,606 +594,6 @@
     {
       "start_date": {
         "year": "2025",
-        "month": "8",
-        "day": "2"
-      },
-      "text": {
-        "headline": "Raffineria di Novokuibyshevsk",
-        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-kuibyshevsk-refinery-halted-operations-after-drone-attacks-sources-say-2025-08-29/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.067561,
-        "lon": 49.876177
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "20"
-      },
-      "text": {
-        "headline": "Raffineria di Novokuibyshevsk",
-        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-09-20/ukraine-claims-overnight-drone-strikes-on-two-russian-refineries' target='_blank'>Bloomberg</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.067561,
-        "lon": 49.876177
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "19"
-      },
-      "text": {
-        "headline": "Raffineria di Novokuibyshevsk",
-        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/world/russias-novokuibyshevsk-oil-refinery-stops-processing-after-drone-attack-sources-2025-10-20/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.067561,
-        "lon": 49.876177
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "2"
-      },
-      "text": {
-        "headline": "Raffineria di Rjazan",
-        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-ryazan-oil-refinery-halves-refining-capacity-after-drone-attacks-sources-2025-08-04/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.5725405,
-        "lon": 39.7482438
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "5"
-      },
-      "text": {
-        "headline": "Raffineria di Rjazan",
-        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/markets/commodities/ukraine-says-it-attacks-russian-refinery-ryazan-oil-depot-luhansk-2025-09-05/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.5725405,
-        "lon": 39.7482438
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "23"
-      },
-      "text": {
-        "headline": "Raffineria di Rjazan",
-        "text": "Tipo: Drones<br>Luogo: Rjazan, oblast di Rjazan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-fourth-largest-oil-refinery-halts-processing-unit-after-drone-attack-2025-10-24/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.5725405,
-        "lon": 39.7482438
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "7"
-      },
-      "text": {
-        "headline": "Raffineria di Afipsky",
-        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/world/europe/fire-russias-afipsky-oil-refinery-extinguished-after-drone-attack-2025-08-07/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 44.88167,
-        "lon": 38.82194
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "28"
-      },
-      "text": {
-        "headline": "Raffineria di Afipsky",
-        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/business/energy/russia-says-it-put-out-fire-large-oil-refinery-after-latest-ukrainian-drone-2025-08-28/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 44.88167,
-        "lon": 38.82194
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "26"
-      },
-      "text": {
-        "headline": "Raffineria di Afipsky",
-        "text": "Tipo: Drones<br>Luogo: Afipsky, Krasnodar Krai<br>Fonte: <a href='https://www.reuters.com/world/europe/russias-afipsky-refinery-douses-fire-caused-by-drone-debris-2025-09-26/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 44.88167,
-        "lon": 38.82194
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "10"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.reuters.com/world/ukraine-says-it-struck-oil-refinery-russias-saratov-region-2025-08-10/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "16"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://militarnyi.com/en/news/ukrainian-special-operations-forces-hit-the-saratov-oil-refinery/' target='_blank'>Militarnyi</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "20"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.theguardian.com/world/2025/sep/20/ukraine-war-briefing-drones-blast-russias-saratov-refinery-for-second-time-in-a-week' target='_blank'>The Guardian</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "16"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://militarnyi.com/en/news/oil-refinery-burns-in-saratov-after-drone-attack/' target='_blank'>Militarnyi</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "11",
-        "day": "3"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://kyivindependent.com/explosions-reported-at-saratov-oil-refinery-amid-alleged-drone-strike/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "11",
-        "day": "11"
-      },
-      "text": {
-        "headline": "Raffineria di Saratov",
-        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-11-11/ukraine-claims-new-strike-on-russia-s-saratov-refinery' target='_blank'>Bloomberg</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.46116,
-        "lon": 45.93466
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "14"
-      },
-      "text": {
-        "headline": "Raffineria di Volgograd",
-        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://www.reuters.com/world/europe/russia-reports-fire-volgograd-refinery-after-ukrainian-drone-attack-2025-08-14/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 48.48917,
-        "lon": 44.62722
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "19"
-      },
-      "text": {
-        "headline": "Raffineria di Volgograd",
-        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://kyivindependent.com/ukrainian-drones-hit-oil-refinery-in-russias-volgograd-oblast-governor-says/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 48.48917,
-        "lon": 44.62722
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "11",
-        "day": "6"
-      },
-      "text": {
-        "headline": "Raffineria di Volgograd",
-        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-volgograd-oil-refinery-halts-operations-after-ukrainian-drone-attack-2025-11-06/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 48.48917,
-        "lon": 44.62722
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "15"
-      },
-      "text": {
-        "headline": "Raffineria di Syzran",
-        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-reports-strikes-russian-oil-refinery-caspian-port-hub-2025-08-15/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.09368,
-        "lon": 48.40192
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "24"
-      },
-      "text": {
-        "headline": "Raffineria di Syzran",
-        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://kyivindependent.com/drone-strikes-spark-fire-at-russian-gas-terminal-and-oil-refinery-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.09368,
-        "lon": 48.40192
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "30"
-      },
-      "text": {
-        "headline": "Raffineria di Syzran",
-        "text": "Tipo: Drones<br>Luogo: Syzran, Oblast di Samara<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-military-says-it-struck-two-russian-oil-refineries-overnight-2025-08-30/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.09368,
-        "lon": 48.40192
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "21"
-      },
-      "text": {
-        "headline": "Raffineria di Novoshakhtinsk",
-        "text": "Tipo: Drones<br>Luogo: Novoshakhtinsk, Oblast di Rostov<br>Fonte: <a href='https://www.reuters.com/world/blaze-erupts-industrial-site-russias-novoshakhstinsk-after-drone-attack-2025-08-21/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 47.836725,
-        "lon": 39.851232
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "28"
-      },
-      "text": {
-        "headline": "Raffineria di Kuibyshev",
-        "text": "Tipo: Drones<br>Luogo: Kujbyšev, Oblast' di Novosibirsk<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-kuibyshevsk-refinery-halted-operations-after-drone-attacks-sources-say-2025-08-29/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.1098,
-        "lon": 50.06331
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "8",
-        "day": "30"
-      },
-      "text": {
-        "headline": "Raffineria di Krasnodar",
-        "text": "Tipo: Drones<br>Luogo: Krasnodar, Krasnodar Kraj<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-military-says-it-struck-two-russian-oil-refineries-overnight-2025-08-30/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 44.88167,
-        "lon": 38.82194
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "7"
-      },
-      "text": {
-        "headline": "Raffineria di Ilsky",
-        "text": "Tipo: Drones<br>Luogo: Il'skij, Krasnodar Kraj<br>Fonte: <a href='https://kyivindependent.com/ukrainian-drones-reportedly-strike-russias-ilsky-oil-refinery-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 46.33291,
-        "lon": 38.93463
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "13"
-      },
-      "text": {
-        "headline": "Bashneft-Novoyl",
-        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.theguardian.com/world/2025/sep/13/ukraine-drone-sparks-fire-at-one-of-russias-largest-oil-plants' target='_blank'>The Guardian</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.883371,
-        "lon": 56.077389
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "11"
-      },
-      "text": {
-        "headline": "Bashneft-Novoyl",
-        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-10-11/ukraine-claims-strike-on-russian-bashneft-refinery-in-ufa' target='_blank'>Bloomberg</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.883371,
-        "lon": 56.077389
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "15"
-      },
-      "text": {
-        "headline": "Bashneft-Ufaneftkhim",
-        "text": "Tipo: Drones<br>Luogo: Ufa, Repubblica di Baschiria<br>Fonte: <a href='https://www.ukrinform.net/rubric-ato/4047496-drone-attacks-russian-oil-refinery-more-than-1000-kilometers-from-ukraine.html' target='_blank'>Ukrinform</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 54.883371,
-        "lon": 56.077389
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "14"
-      },
-      "text": {
-        "headline": "Raffineria di Kiriši",
-        "text": "Tipo: Drones<br>Luogo: Kiriši, Oblast di Leningrado<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-attacks-major-russian-refinery-with-drone-assault-2025-09-14/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 59.48362,
-        "lon": 32.0708
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "4"
-      },
-      "text": {
-        "headline": "Raffineria di Kiriši",
-        "text": "Tipo: Drones<br>Luogo: Kiriši, Oblast di Leningrado<br>Fonte: <a href='https://www.reuters.com/world/russias-kirishi-refinery-halts-largest-unit-after-drone-attack-sources-say-2025-10-06/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 59.48362,
-        "lon": 32.0708
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "18"
-      },
-      "text": {
-        "headline": "Raffineria Gazprom Neftekhim Salavat",
-        "text": "Tipo: Drones<br>Luogo: Salavat, Repubblica di Baschiria<br>Fonte: <a href='https://kyivindependent.com/ukraine-struck-russian-oil-facilities-in-bashkortostan-volgograd-oblast/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.4012,
-        "lon": 55.90512
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "24"
-      },
-      "text": {
-        "headline": "Raffineria Gazprom Neftekhim Salavat",
-        "text": "Tipo: Drones<br>Luogo: Salavat, Repubblica di Baschiria<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraines-drones-again-attack-russias-major-petrochemical-complex-2025-09-24/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 53.4012,
-        "lon": 55.90512
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "9",
-        "day": "22"
-      },
-      "text": {
-        "headline": "Raffineria di Astrakhan",
-        "text": "Tipo: Drones<br>Luogo: Astrakhan, Oblast di Astrakhan<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-astrakhan-gas-plant-halted-operations-after-drone-attack-sources-say-2025-09-23/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 46.77502,
-        "lon": 48.11057
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "3"
-      },
-      "text": {
-        "headline": "Raffineria di Orsk",
-        "text": "Tipo: Drones<br>Luogo: Orsk, Oblast' di Orenburg<br>Fonte: <a href='https://militarnyi.com/en/news/video-drones-strike-a-refinery-in-the-russian-city-of-orsk-1400-kilometers-from-the-ukrainian-border/' target='_blank'>Militarnyi</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.25948,
-        "lon": 58.52666
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "11",
-        "day": "11"
-      },
-      "text": {
-        "headline": "Raffineria di Orsk",
-        "text": "Tipo: Drones<br>Luogo: Orsk, Oblast' di Orenburg<br>Fonte: <a href='https://kyivindependent.com/russias-orsk-oil-refinery-hit-in-ukrainian-strike-general-staff-says/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.25948,
-        "lon": 58.52666
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "16"
-      },
-      "text": {
-        "headline": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
-        "text": "Tipo: Drones<br>Luogo: Kstovo, Oblast' di Nižnij Novgorod<br>Fonte: <a href='https://militarnyi.com/en/news/drones-attacked-lukoil-nizhegorodnefteorgsintez-facility-shut-down-and-on-fire/' target='_blank'>Militarnyi</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 56.10583,
-        "lon": 44.14389
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "11",
-        "day": "4"
-      },
-      "text": {
-        "headline": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
-        "text": "Tipo: Drones<br>Luogo: Kstovo, Oblast' di Nižnij Novgorod<br>Fonte: <a href='https://www.reuters.com/world/ukrainian-military-says-it-struck-refinery-russias-nizhny-novgorod-2025-11-04/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 56.10583,
-        "lon": 44.14389
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "19"
-      },
-      "text": {
-        "headline": "Raffineria di Orenburg",
-        "text": "Tipo: Drones<br>Luogo: Orenbúrg, Oblast di Orenbúrg<br>Fonte: <a href='https://kyivindependent.com/massive-russian-gas-plant-forced-to-suspend-gas-intake-following-ukrainian-drone-attack/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.6541,
-        "lon": 54.7969
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "20"
-      },
-      "text": {
-        "headline": "Raffineria di Orenburg",
-        "text": "Tipo: Drones<br>Luogo: Orenbúrg, Oblast di Orenbúrg<br>Fonte: <a href='https://www.reuters.com/business/energy/ukraine-drone-attack-russian-gas-plant-hits-kazakh-output-sources-say-2025-10-20/' target='_blank'>Reuters</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 51.6541,
-        "lon": 54.7969
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
-        "month": "10",
-        "day": "22"
-      },
-      "text": {
-        "headline": "Raffineria di Makhachkala",
-        "text": "Tipo: Drones<br>Luogo: Mačačkala, Repubblica autonoma del Daghestan<br>Fonte: <a href='https://kyivindependent.com/drones-attack-oil-refinery-mechanical-plant-in-russia-media-reports/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
-      },
-      "location": {
-        "lat": 42.966633,
-        "lon": 47.51263
-      }
-    },
-    {
-      "start_date": {
-        "year": "2025",
         "month": "10",
         "day": "29"
       },
@@ -718,6 +649,81 @@
       "location": {
         "lat": 44.10417,
         "lon": 39.09861
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "3"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://kyivindependent.com/explosions-reported-at-saratov-oil-refinery-amid-alleged-drone-strike/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "4"
+      },
+      "text": {
+        "headline": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
+        "text": "Tipo: Drones<br>Luogo: Kstovo, Oblast' di Nižnij Novgorod<br>Fonte: <a href='https://www.reuters.com/world/ukrainian-military-says-it-struck-refinery-russias-nizhny-novgorod-2025-11-04/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 56.10583,
+        "lon": 44.14389
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "6"
+      },
+      "text": {
+        "headline": "Raffineria di Volgograd",
+        "text": "Tipo: Drones<br>Luogo: Volgograd, Oblast di Volgograd<br>Fonte: <a href='https://www.reuters.com/business/energy/russias-volgograd-oil-refinery-halts-operations-after-ukrainian-drone-attack-2025-11-06/' target='_blank'>Reuters</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 48.48917,
+        "lon": 44.62722
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "11"
+      },
+      "text": {
+        "headline": "Raffineria di Saratov",
+        "text": "Tipo: Drones<br>Luogo: Saratov, Oblast di Saratov<br>Fonte: <a href='https://www.bloomberg.com/news/articles/2025-11-11/ukraine-claims-new-strike-on-russia-s-saratov-refinery' target='_blank'>Bloomberg</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.46116,
+        "lon": 45.93466
+      }
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "month": "11",
+        "day": "11"
+      },
+      "text": {
+        "headline": "Raffineria di Orsk",
+        "text": "Tipo: Drones<br>Luogo: Orsk, Oblast' di Orenburg<br>Fonte: <a href='https://kyivindependent.com/russias-orsk-oil-refinery-hit-in-ukrainian-strike-general-staff-says/' target='_blank'>Kyiv Independent</a><br>Verifica: verified"
+      },
+      "location": {
+        "lat": 51.25948,
+        "lon": 58.52666
       }
     }
   ]
