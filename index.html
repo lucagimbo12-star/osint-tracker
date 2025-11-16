@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impact Atlas</title>
+  <title>Impact Atlas - Conflict Tracker</title>
   
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -11,18 +11,12 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
-  
-  <!-- JS -->
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head>
 <body>
 
-  <!-- Header -->
   <header>
     <div class="header-content">
-      <h1>Impact Atlas</h1>
+      <h1>⚡ Impact Atlas</h1>
       <nav>
         <a href="#map-section">Mappa</a>
         <a href="#timeline-section">Timeline</a>
@@ -31,98 +25,198 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
-      <p>Basato su fonti OSINT verificate, aggiornato quotidianamente.</p>
+      <h2>Tracker Multi-Layer del Conflitto Ucraino</h2>
+      <p>Monitoraggio in tempo reale di attacchi energetici, militari e civili. Basato su fonti OSINT verificate.</p>
       <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
-        Esplora la mappa
+        Esplora la mappa interattiva
       </button>
     </div>
   </section>
 
-  <!-- Mappa Section con layout a due colonne -->
   <section id="map-section">
     <div class="map-container">
-      <!-- Sidebar filtri -->
+      
+      <!-- Sidebar Filtri Avanzati -->
       <aside class="filters-sidebar">
-        <h3>Filtri</h3>
+        <h3>🎯 Filtri Avanzati</h3>
         
+        <!-- Filtri Data -->
         <div class="filter-group">
-          <label>Data inizio</label>
+          <label>📅 Data inizio</label>
           <input type="date" id="startDate">
         </div>
         
         <div class="filter-group">
-          <label>Data fine</label>
+          <label>📅 Data fine</label>
           <input type="date" id="endDate">
         </div>
         
+        <!-- Filtro Categoria -->
         <div class="filter-group">
-          <label>Tipo di attacco</label>
-          <select id="attackType">
+          <label>📂 Categoria</label>
+          <select id="categoryFilter">
+            <option value="">Tutte le categorie</option>
+            <option value="ukraine-strike-energy">🇺🇦 Attacchi UA → Energia RU</option>
+            <option value="ukraine-strike-military">🇺🇦 Attacchi UA → Militare RU</option>
+            <option value="russia-strike-energy">🇷🇺 Attacchi RU → Energia UA</option>
+            <option value="russia-strike-civilian">🇷🇺 Attacchi RU → Civili UA</option>
+            <option value="cross-border">⚡ Transfrontalieri</option>
+          </select>
+        </div>
+        
+        <!-- Filtro Attore -->
+        <div class="filter-group">
+          <label>🎭 Attore</label>
+          <select id="actorFilter">
             <option value="">Tutti</option>
-            <option value="Missile">Missile</option>
-            <option value="Droni">Droni</option>
-            <option value="Sabotaggio">Sabotaggio</option>
+            <option value="Ukraine">🇺🇦 Ucraina</option>
+            <option value="Russia">🇷🇺 Russia</option>
+          </select>
+        </div>
+        
+        <!-- Filtro Impatto -->
+        <div class="filter-group">
+          <label>💥 Livello Impatto</label>
+          <select id="impactFilter">
+            <option value="">Tutti i livelli</option>
+            <option value="critical">🔴 Critico</option>
+            <option value="high">🟠 Alto</option>
+            <option value="medium">🟡 Medio</option>
+            <option value="low">🟢 Basso</option>
           </select>
         </div>
         
         <button id="applyFilter" class="btn-primary">Applica filtri</button>
         <button id="resetFilter" class="btn-secondary">Reset</button>
         
+        <!-- Layer Toggles -->
+        <div class="layer-controls" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
+          <h4 style="font-size: 1rem; margin-bottom: 1rem;">🗂️ Layer Visibili</h4>
+          
+          <label class="layer-checkbox">
+            <input type="checkbox" class="layer-toggle" data-category="ukraine-strike-energy" checked>
+            <span style="background: #ffc107;"></span>
+            Attacchi UA → Energia
+          </label>
+          
+          <label class="layer-checkbox">
+            <input type="checkbox" class="layer-toggle" data-category="ukraine-strike-military" checked>
+            <span style="background: #ff6b6b;"></span>
+            Attacchi UA → Militare
+          </label>
+          
+          <label class="layer-checkbox">
+            <input type="checkbox" class="layer-toggle" data-category="russia-strike-energy" checked>
+            <span style="background: #dc3545;"></span>
+            Attacchi RU → Energia
+          </label>
+          
+          <label class="layer-checkbox">
+            <input type="checkbox" class="layer-toggle" data-category="russia-strike-civilian" checked>
+            <span style="background: #e74c3c;"></span>
+            Attacchi RU → Civili
+          </label>
+          
+          <label class="layer-checkbox">
+            <input type="checkbox" class="layer-toggle" data-category="cross-border" checked>
+            <span style="background: #6f42c1;"></span>
+            Transfrontalieri
+          </label>
+        </div>
+        
+        <!-- Statistiche -->
         <div class="stats">
-          <h4>Statistiche</h4>
+          <h4>📊 Statistiche</h4>
           <p><strong>Eventi visualizzati:</strong> <span id="eventCount">0</span></p>
           <p><strong>Ultimo aggiornamento:</strong> <span id="lastUpdate">-</span></p>
+          
+          <div id="categoryStats" style="margin-top: 1rem;"></div>
+        </div>
+        
+        <!-- Strumenti -->
+        <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
+          <h4 style="font-size: 1rem; margin-bottom: 0.8rem;">🛠️ Strumenti</h4>
+          <button id="exportData" class="btn-secondary" style="font-size: 0.85em; padding: 0.5rem;">
+            📥 Esporta CSV
+          </button>
         </div>
       </aside>
       
       <!-- Mappa -->
       <div class="map-wrapper">
         <div id="map"></div>
+        
+        <!-- Legenda -->
+        <div class="map-legend">
+          <h4>Legenda Impatto</h4>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #dc3545; width: 16px; height: 16px;"></span>
+            Critico
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #fd7e14; width: 14px; height: 14px;"></span>
+            Alto
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #ffc107; width: 12px; height: 12px;"></span>
+            Medio/Basso
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Timeline Section -->
   <section id="timeline-section">
-    <h2>Timeline degli eventi</h2>
+    <h2>📅 Timeline degli eventi</h2>
     <div id="timeline" style="width:100%; height:650px;"></div>
   </section>
 
-  <!-- About Section -->
   <section id="about-section">
     <div class="about-content">
-      <h2>Metodologia e note</h2>
+      <h2>Metodologia e Fonti</h2>
       <div class="methodology-grid">
         <div class="method-card">
-          <h3>📍 Geolocalizzazione</h3>
-          <p>Ogni evento è verificato con coordinate precise tramite fonti multiple</p>
+          <h3>🔍 Geolocalizzazione</h3>
+          <p>Ogni evento è verificato con coordinate GPS precise tramite analisi satellite e fonti multiple</p>
         </div>
         <div class="method-card">
-          <h3>🔍 Fonti OSINT</h3>
-          <p>Dati raccolti da fonti pubbliche verificabili e archiviate</p>
+          <h3>📰 Fonti OSINT</h3>
+          <p>Reuters, Kyiv Independent, Euromaidan Press, Moscow Times, Bloomberg e altre fonti verificabili</p>
         </div>
         <div class="method-card">
           <h3>✓ Cross-check</h3>
-          <p>Ogni informazione è confermata da almeno due fonti indipendenti</p>
+          <p>Ogni informazione è confermata da almeno due fonti indipendenti prima della pubblicazione</p>
+        </div>
+        <div class="method-card">
+          <h3>📊 Database Strutturato</h3>
+          <p>Schema JSON modulare con metadata completi: attore, target, impatto, affidabilità</p>
+        </div>
+        <div class="method-card">
+          <h3>🎯 Categorizzazione</h3>
+          <p>5 categorie principali: attacchi UA/RU su energia, militare, civili e transfrontalieri</p>
+        </div>
+        <div class="method-card">
+          <h3>⚡ Aggiornamento Real-time</h3>
+          <p>Database aggiornato quotidianamente con nuovi eventi verificati</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Impact Atlas. Fonti OSINT. <a href="#">Disclaimer</a></p>
+    <p>&copy; 2025 Impact Atlas. Progetto OSINT indipendente. <a href="#">Disclaimer</a> | <a href="#">GitHub</a></p>
   </footer>
 
-  <!-- Script Map -->
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script src="assets/js/map.js"></script>
 
-  <!-- Script Timeline -->
   <script>
+  // Timeline (usa il tuo JSON esistente)
   var timeline = new TL.Timeline(
     "timeline",
     "https://lucagimbo12-star.github.io/osint-tracker/assets/data/events_timeline.json"
