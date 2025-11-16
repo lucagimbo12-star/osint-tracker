@@ -10,10 +10,12 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
+  
   <!-- JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head>
 <body>
 
@@ -30,7 +32,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <h2>Tracker indipendente di attacchi a infrastrutture energetiche</h2>
-    <p>Basato su fonti OSINT verificate, aggiornato quotidianamente.</p>
+    <p>Basato su fonti OSINT verificate, aggiornato quotidianemente.</p>
     <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
       Vai alla mappa
     </button>
@@ -58,11 +60,10 @@
   <!-- Timeline Section -->
   <section id="timeline-section">
     <h2>Timeline degli eventi</h2>
-    <iframe 
-  src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https://lucagimbo12-star.github.io/osint-tracker/events_timeline.json&font=Default&lang=it&initial_zoom=2"
-  width="100%" height="650" frameborder="0">
-</iframe>
-    
+
+    <!-- Contenitore timeline locale -->
+    <div id="timeline" style="width:100%; height:650px;"></div>
+
   </section>
 
   <!-- About Section -->
@@ -78,8 +79,14 @@
 
   <!-- Script Map -->
   <script src="assets/js/map.js"></script>
+
+  <!-- Script Timeline -->
+  <script>
+    var timeline = new TL.Timeline(
+      "timeline",
+      "assets/data/events_timeline.json"
+    );
+  </script>
+
 </body>
 </html>
-
-
-
