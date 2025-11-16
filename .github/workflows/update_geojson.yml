@@ -51,3 +51,63 @@ jobs:
           git commit -m "Auto-update GEOJSON + TIMELINE"
           git pull --rebase
           git push
+          name: Build Timeline JSON
+
+on:
+  push:
+    paths:
+      - "assets/data/events_timeline.csv"
+      - ".github/workflows/build_timeline.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Checkout del repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2) Setup Python
+      # Qui NON si fa ancora la conversione,
+      # si prepara solo l’ambiente.
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      # 3) Conversione CSV -> JSON
+      # Questo è lo step che volevi individuare.
+      # Qui devi inserire il tuo script Python.
+      - name: Convert CSV to JSON
+        run: |
+          python3 <<EOF
+          import csv, json
+
+          input_path = "assets/data/events_timeline.csv"
+          output_path = "public/timeline.json"
+
+          events = []
+          with open(input_path, encoding="utf-8") as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  events.append(row)
+
+          with open(output_path, "w", encoding="utf-8") as f:
+              json.dump(events, f, ensure_ascii=False, indent=2)
+          EOF
+
+      # 4) Commit & Push dei file generati
+      # (solo se il JSON è cambiato)
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add public/timeline.json
+          git diff --cached --quiet || git commit -m "Update timeline JSON"
+      - name: Push changes
+        if: success()
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
