@@ -11,6 +11,42 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+// Aggiungi legenda come Leaflet Control
+L.Control.Legend = L.Control.extend({
+  onAdd: function(map) {
+    const div = L.DomUtil.create('div', 'legend-control');
+    div.innerHTML = `
+      <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+        <h4 style="margin: 0 0 10px 0; font-size: 0.9rem; color: #0b0c10; font-weight: 600;">Legenda Impatto</h4>
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.85rem; color: #495057;">
+          <span style="width: 16px; height: 16px; background: #dc3545; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></span>
+          Critico
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.85rem; color: #495057;">
+          <span style="width: 14px; height: 14px; background: #fd7e14; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></span>
+          Alto
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 0.85rem; color: #495057;">
+          <span style="width: 12px; height: 12px; background: #ffc107; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></span>
+          Medio
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: #495057;">
+          <span style="width: 12px; height: 12px; background: #6c757d; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></span>
+          Basso
+        </div>
+      </div>
+    `;
+    return div;
+  },
+  onRemove: function(map) {}
+});
+
+L.control.legend = function(opts) {
+  return new L.Control.Legend(opts);
+}
+
+L.control.legend({ position: 'bottomright' }).addTo(map);
+
 // Layer groups per categorie
 let layerGroups = {
   'ukraine-strike-energy': L.markerClusterGroup({ maxClusterRadius: 50 }),
