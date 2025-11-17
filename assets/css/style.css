@@ -755,3 +755,125 @@ footer a:hover {
 #timeline .tl-headline-title { font-size: 24px !important; }
 #timeline .tl-text p { font-size: 14px !important; }
 #timeline .tl-timemarker h2 { font-size: 11px !important; }
+
+/* ============================================
+   SEZIONE GRAFICI TIMELINE
+   ============================================ */
+
+.charts-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 2px solid #e9ecef;
+}
+
+.charts-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #0b0c10;
+  font-weight: 600;
+}
+
+/* Timeline Controls */
+.timeline-controls {
+  margin-bottom: 1.5rem;
+}
+
+.timeline-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-item label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.filter-item input,
+.filter-item select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.filter-item input:focus,
+.filter-item select:focus {
+  outline: none;
+  border-color: #45a29e;
+  box-shadow: 0 0 0 3px rgba(69, 162, 158, 0.1);
+}
+
+.btn-secondary-small {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #e9ecef;
+  color: #495057;
+  white-space: nowrap;
+}
+
+.btn-secondary-small:hover {
+  background: #dee2e6;
+  transform: translateY(-1px);
+}
+
+/* Chart Container */
+.chart-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border: 1px solid #e9ecef;
+  height: 400px;
+}
+
+.chart-container canvas {
+  max-width: 100%;
+  height: 100% !important;
+}
+
+/* Responsive Charts */
+@media (max-width: 968px) {
+  .timeline-filters {
+    grid-template-columns: 1fr;
+  }
+  
+  .chart-container {
+    height: 300px;
+    padding: 1rem;
+  }
+  
+  .charts-section {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .chart-container {
+    height: 250px;
+    padding: 0.8rem;
+  }
+  
+  .charts-section h3 {
+    font-size: 1.1rem;
+  }
+}
