@@ -153,7 +153,43 @@
       <!-- Mappa -->
       <div class="map-wrapper">
         <div id="map"></div>
+      </div>
+      
+      <!-- Sezione Grafici Timeline -->
+      <div class="charts-section">
+        <h3>📊 Analisi Temporale</h3>
         
+        <!-- Timeline Controls -->
+        <div class="timeline-controls">
+          <div class="timeline-filters">
+            <div class="filter-item">
+              <label>📅 Data inizio</label>
+              <input type="date" id="chartStartDate">
+            </div>
+            
+            <div class="filter-item">
+              <label>📅 Data fine</label>
+              <input type="date" id="chartEndDate">
+            </div>
+            
+            <div class="filter-item">
+              <label>🎯 Tipo evento</label>
+              <select id="chartTypeFilter">
+                <option value="">Tutti i tipi</option>
+              </select>
+            </div>
+            
+            <button id="resetChartFilters" class="btn-secondary-small">Reset filtri</button>
+          </div>
+        </div>
+        
+        <!-- Canvas per Chart.js -->
+        <div class="chart-container">
+          <canvas id="timelineChart"></canvas>
+        </div>
+      </div>
+      
+    </div>
   </section>
 
   <section id="timeline-section">
@@ -201,8 +237,10 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script src="assets/js/map.js"></script>
+  <script src="assets/js/charts.js"></script>
 
   <!-- Script Timeline con fix CSS -->
 <script>
