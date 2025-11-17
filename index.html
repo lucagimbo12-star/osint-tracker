@@ -215,13 +215,27 @@
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script src="assets/js/map.js"></script>
 
-  <script>
-  // Timeline (usa il tuo JSON esistente)
+  <!-- Script Timeline con fix CSS -->
+<script>
   var timeline = new TL.Timeline(
     "timeline",
     "https://lucagimbo12-star.github.io/osint-tracker/assets/data/events_timeline.json"
   );
-  </script>
-
+  
+  // Fix CSS dopo caricamento
+  setTimeout(function() {
+    var style = document.createElement('style');
+    style.textContent = `
+      #timeline .tl-text h2.tl-headline-title { font-size: 24px !important; line-height: 26px !important; }
+      #timeline .tl-text h3 { font-size: 18px !important; line-height: 20px !important; }
+      #timeline .tl-text p { font-size: 14px !important; line-height: 1.6 !important; }
+      #timeline .tl-timemarker-text h2 { font-size: 11px !important; line-height: 12px !important; }
+      #timeline .tl-timenav { height: 150px !important; }
+      #timeline { height: 600px !important; }
+    `;
+    document.head.appendChild(style);
+  }, 500);
+</script>
+  
 </body>
 </html>
