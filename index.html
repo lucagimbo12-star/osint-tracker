@@ -91,39 +91,45 @@
         <button id="applyFilter" class="btn-primary">Applica filtri</button>
         <button id="resetFilter" class="btn-secondary">Reset</button>
         
-        <!-- Layer Toggles -->
+        <!-- Layer Controls -->
         <div class="layer-controls" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
-          <h4 style="font-size: 1rem; margin-bottom: 1rem;">🗂️ Layer Visibili</h4>
+          <h4 style="font-size: 1rem; margin-bottom: 1rem;">🗺️ Controlli Layer</h4>
           
           <label class="layer-checkbox">
-            <input type="checkbox" class="layer-toggle" data-category="ukraine-strike-energy" checked>
-            <span style="background: #ffc107;"></span>
-            Attacchi UA → Energia
+            <input type="checkbox" id="layerEventi" onchange="toggleEventsLayer(this.checked)" checked>
+            <span style="background: #45a29e;"></span>
+            Eventi
           </label>
           
           <label class="layer-checkbox">
-            <input type="checkbox" class="layer-toggle" data-category="ukraine-strike-military" checked>
-            <span style="background: #ff6b6b;"></span>
-            Attacchi UA → Militare
-          </label>
-          
-          <label class="layer-checkbox">
-            <input type="checkbox" class="layer-toggle" data-category="russia-strike-energy" checked>
+            <input type="checkbox" id="layerHeatmap" onchange="toggleHeatmapLayer(this.checked)">
             <span style="background: #dc3545;"></span>
-            Attacchi RU → Energia
+            Heatmap
           </label>
           
           <label class="layer-checkbox">
-            <input type="checkbox" class="layer-toggle" data-category="russia-strike-civilian" checked>
-            <span style="background: #e74c3c;"></span>
-            Attacchi RU → Civili
+            <input type="checkbox" id="layerConfini" onchange="toggleBordersLayer(this.checked)">
+            <span style="background: #6c757d;"></span>
+            Confini
           </label>
           
           <label class="layer-checkbox">
-            <input type="checkbox" class="layer-toggle" data-category="cross-border" checked>
-            <span style="background: #6f42c1;"></span>
-            Transfrontalieri
+            <input type="checkbox" id="layerSatellitare" onchange="toggleSatelliteLayer(this.checked)">
+            <span style="background: #1f2833;"></span>
+            Satellitare
           </label>
+        </div>
+        
+        <!-- Legenda Heatmap -->
+        <div class="heatmap-legend" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
+          <h4 style="font-size: 0.95rem; margin-bottom: 1rem; color: #0b0c10;">🔥 Legenda Heatmap</h4>
+          <div style="background: linear-gradient(to right, #6c757d, #ffc107, #fd7e14, #dc3545); height: 12px; border-radius: 6px; margin-bottom: 8px;"></div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #666;">
+            <span>Basso</span>
+            <span>Medio</span>
+            <span>Alto</span>
+            <span>Critico</span>
+          </div>
         </div>
         
         <!-- Statistiche -->
@@ -194,6 +200,7 @@
   <!-- Scripts -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   <script src="assets/js/map.js"></script>
 
