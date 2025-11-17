@@ -714,3 +714,9 @@ footer a:hover {
   color: white;
   font-weight: 600;
 }
+
+/* Fix timeline dimensioni */
+#timeline * { font-size: initial !important; }
+#timeline .tl-headline-title { font-size: 24px !important; }
+#timeline .tl-text p { font-size: 14px !important; }
+#timeline .tl-timemarker h2 { font-size: 11px !important; }
