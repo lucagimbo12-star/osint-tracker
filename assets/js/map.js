@@ -62,97 +62,36 @@ function getMarkerIcon(category, impactLevel) {
   });
 }
 
-// Carica dati dal nuovo database
-fetch('assets/data/events_database.json')
+// Carica dati dal database
+fetch('events_database.json')
   .then(res => res.json())
   .then(data => {
-    allEvents = data.events || convertTimelineEvents(data);
-    // Converti formato timeline in formato database
-function convertTimelineEvents(timelineData) {
-    if (!timelineData.events) return [];
-    
-    return timelineData.events.map((event, idx) => {
-        const date = `${event.start_date.year}-${String(event.start_date.month).padStart(2, '0')}-${String(event.start_date.day).padStart(2, '0')}`;
-        
-        // Estrai info dal testo
-        const text = event.text.text;
-        const tipo = text.match(/Tipo:\s*(.+?)(?:<br>|$)/)?.[1] || 'Drones';
-        const verifica = text.match(/Verifica:\s*(.+?)$/)?.[1] || 'verified';
-        
-        return {
-            id: `TL-${idx}`,
-            date: date,
-            actor: 'Ukraine',
-            target_actor: 'Russia',
-            category: 'ukraine-strike-energy',
-            type: tipo,
-            location: {
-                lat: event.location.lat,
-                lon: event.location.lon
-            },
-            location_text: event.text.headline,
-            impact: {
-                damage_level: verifica === 'verified' ? 'medium' : 'low'
-            },
-            sources: [],
-            reliability: verifica === 'verified' ? 'confirmed' : 'medium',
-            context: event.text.headline
-        };
-    });
-}
+    console.log('Database caricato:', data);
+    allEvents = data.events;
     displayEvents(allEvents);
     updateStatistics(allEvents);
     populateFilters(allEvents);
   })
   .catch(err => {
     console.error("Errore caricamento database:", err);
-    // Fallback al vecchio geojson se esiste
-    loadLegacyData();
+    alert('Errore nel caricamento di events_database.json. Verifica che il file esista nella root del progetto.');
   });
-
-// Fallback per compatibilità con vecchi dati
-function loadLegacyData() {
-  fetch('events_database.json')
-    .then(res => res.json())
-    .then(data => {
-      allEvents = convertLegacyData(data.features);
-      displayEvents(allEvents);
-      updateStatistics(allEvents);
-    });
-}
-
-// Converti vecchi dati in nuovo formato
-function convertLegacyData(features) {
-  return features.map((f, idx) => ({
-    id: `LEGACY-${idx}`,
-    date: f.properties.date,
-    actor: 'Ukraine',
-    target_actor: 'Russia',
-    category: 'ukraine-strike-energy',
-    type: f.properties.type,
-    location: {
-      lat: f.geometry.coordinates[1],
-      lon: f.geometry.coordinates[0]
-    },
-    location_text: f.properties.title,
-    impact: {
-      damage_level: 'medium'
-    },
-    sources: f.properties.archived ? [{ url: f.properties.archived }] : [],
-    reliability: f.properties.verification === 'verified' ? 'confirmed' : 'medium'
-  }));
-}
 
 // Mostra eventi sulla mappa
 function displayEvents(events) {
   // Pulisci tutti i layer
   Object.values(layerGroups).forEach(layer => layer.clearLayers());
   
+  console.log('Visualizzo eventi:', events.length);
+  
   events.forEach(event => {
     const category = event.category;
     const layer = layerGroups[category];
     
-    if (!layer) return;
+    if (!layer) {
+      console.warn('Layer non trovato per categoria:', category);
+      return;
+    }
     
     const marker = L.marker(
       [event.location.lat, event.location.lon],
@@ -244,13 +183,15 @@ function formatDate(dateStr) {
 
 // Aggiorna statistiche
 function updateStatistics(events) {
-  document.getElementById('eventCount').textContent = events.length;
+  const countEl = document.getElementById('eventCount');
+  if (countEl) countEl.textContent = events.length;
   
   // Trova ultima data
   const dates = events.map(e => new Date(e.date)).filter(d => !isNaN(d));
   if (dates.length > 0) {
     const lastDate = new Date(Math.max(...dates));
-    document.getElementById('lastUpdate').textContent = lastDate.toLocaleDateString('it-IT');
+    const updateEl = document.getElementById('lastUpdate');
+    if (updateEl) updateEl.textContent = lastDate.toLocaleDateString('it-IT');
   }
   
   // Statistiche per categoria
@@ -278,57 +219,76 @@ function populateFilters(events) {
   if (dates.length > 0) {
     const minDate = new Date(Math.min(...dates));
     const maxDate = new Date(Math.max(...dates));
-    document.getElementById('startDate').min = minDate.toISOString().split('T')[0];
-    document.getElementById('endDate').max = maxDate.toISOString().split('T')[0];
+    const startEl = document.getElementById('startDate');
+    const endEl = document.getElementById('endDate');
+    if (startEl) startEl.min = minDate.toISOString().split('T')[0];
+    if (endEl) endEl.max = maxDate.toISOString().split('T')[0];
   }
 }
 
 // Applica filtri
-document.getElementById('applyFilter').addEventListener('click', () => {
-  currentFilter.startDate = document.getElementById('startDate').value;
-  currentFilter.endDate = document.getElementById('endDate').value;
-  currentFilter.category = document.getElementById('categoryFilter').value;
-  currentFilter.actor = document.getElementById('actorFilter').value;
-  currentFilter.impactLevel = document.getElementById('impactFilter').value;
-  
-  const filtered = allEvents.filter(event => {
-    // Filtra per data
-    if (currentFilter.startDate && event.date < currentFilter.startDate) return false;
-    if (currentFilter.endDate && event.date > currentFilter.endDate) return false;
+const applyBtn = document.getElementById('applyFilter');
+if (applyBtn) {
+  applyBtn.addEventListener('click', () => {
+    const startDateEl = document.getElementById('startDate');
+    const endDateEl = document.getElementById('endDate');
+    const categoryEl = document.getElementById('categoryFilter');
+    const actorEl = document.getElementById('actorFilter');
+    const impactEl = document.getElementById('impactFilter');
     
-    // Filtra per categoria
-    if (currentFilter.category && event.category !== currentFilter.category) return false;
+    currentFilter.startDate = startDateEl ? startDateEl.value : null;
+    currentFilter.endDate = endDateEl ? endDateEl.value : null;
+    currentFilter.category = categoryEl ? categoryEl.value : null;
+    currentFilter.actor = actorEl ? actorEl.value : null;
+    currentFilter.impactLevel = impactEl ? impactEl.value : null;
     
-    // Filtra per attore
-    if (currentFilter.actor && event.actor !== currentFilter.actor) return false;
+    const filtered = allEvents.filter(event => {
+      // Filtra per data
+      if (currentFilter.startDate && event.date < currentFilter.startDate) return false;
+      if (currentFilter.endDate && event.date > currentFilter.endDate) return false;
+      
+      // Filtra per categoria
+      if (currentFilter.category && event.category !== currentFilter.category) return false;
+      
+      // Filtra per attore
+      if (currentFilter.actor && event.actor !== currentFilter.actor) return false;
+      
+      // Filtra per impatto
+      if (currentFilter.impactLevel && event.impact?.damage_level !== currentFilter.impactLevel) return false;
+      
+      return true;
+    });
     
-    // Filtra per impatto
-    if (currentFilter.impactLevel && event.impact?.damage_level !== currentFilter.impactLevel) return false;
+    displayEvents(filtered);
+    updateStatistics(filtered);
     
-    return true;
+    // Feedback
+    applyBtn.textContent = `✓ Filtrati: ${filtered.length}`;
+    setTimeout(() => applyBtn.textContent = 'Applica filtri', 2000);
   });
-  
-  displayEvents(filtered);
-  updateStatistics(filtered);
-  
-  // Feedback
-  const btn = document.getElementById('applyFilter');
-  btn.textContent = `✓ Filtrati: ${filtered.length}`;
-  setTimeout(() => btn.textContent = 'Applica filtri', 2000);
-});
+}
 
 // Reset filtri
-document.getElementById('resetFilter').addEventListener('click', () => {
-  document.getElementById('startDate').value = '';
-  document.getElementById('endDate').value = '';
-  document.getElementById('categoryFilter').value = '';
-  document.getElementById('actorFilter').value = '';
-  document.getElementById('impactFilter').value = '';
-  
-  currentFilter = {};
-  displayEvents(allEvents);
-  updateStatistics(allEvents);
-});
+const resetBtn = document.getElementById('resetFilter');
+if (resetBtn) {
+  resetBtn.addEventListener('click', () => {
+    const startDate = document.getElementById('startDate');
+    const endDate = document.getElementById('endDate');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const actorFilter = document.getElementById('actorFilter');
+    const impactFilter = document.getElementById('impactFilter');
+    
+    if (startDate) startDate.value = '';
+    if (endDate) endDate.value = '';
+    if (categoryFilter) categoryFilter.value = '';
+    if (actorFilter) actorFilter.value = '';
+    if (impactFilter) impactFilter.value = '';
+    
+    currentFilter = {};
+    displayEvents(allEvents);
+    updateStatistics(allEvents);
+  });
+}
 
 // Toggle layer visibility
 document.querySelectorAll('.layer-toggle').forEach(toggle => {
@@ -344,23 +304,21 @@ document.querySelectorAll('.layer-toggle').forEach(toggle => {
   });
 });
 
-// Heatmap (placeholder - richiede leaflet.heat plugin)
-document.getElementById('toggleHeatmap')?.addEventListener('click', () => {
-  alert('Funzionalità heatmap in arrivo! Richiede plugin leaflet.heat');
-});
-
 // Export dati filtrati
-document.getElementById('exportData')?.addEventListener('click', () => {
-  const filtered = allEvents.filter(event => {
-    if (currentFilter.startDate && event.date < currentFilter.startDate) return false;
-    if (currentFilter.endDate && event.date > currentFilter.endDate) return false;
-    if (currentFilter.category && event.category !== currentFilter.category) return false;
-    return true;
+const exportBtn = document.getElementById('exportData');
+if (exportBtn) {
+  exportBtn.addEventListener('click', () => {
+    const filtered = allEvents.filter(event => {
+      if (currentFilter.startDate && event.date < currentFilter.startDate) return false;
+      if (currentFilter.endDate && event.date > currentFilter.endDate) return false;
+      if (currentFilter.category && event.category !== currentFilter.category) return false;
+      return true;
+    });
+    
+    const csv = convertToCSV(filtered);
+    downloadCSV(csv, 'eventi_filtrati.csv');
   });
-  
-  const csv = convertToCSV(filtered);
-  downloadCSV(csv, 'eventi_filtrati.csv');
-});
+}
 
 function convertToCSV(events) {
   const headers = ['ID', 'Data', 'Attore', 'Target', 'Categoria', 'Tipo', 'Località', 'Lat', 'Lon', 'Impatto', 'Affidabilità'];
@@ -393,7 +351,7 @@ function downloadCSV(csv, filename) {
 // Responsive
 window.addEventListener('resize', () => map.invalidateSize());
 
-// CSS per animazione pulse (aggiungi a head)
+// CSS per animazione pulse
 const style = document.createElement('style');
 style.textContent = `
   @keyframes pulse {
