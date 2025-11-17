@@ -63,7 +63,7 @@ function getMarkerIcon(category, impactLevel) {
 }
 
 // Carica dati dal nuovo database
-fetch('assets/data/events_timeline.json')
+fetch('assets/data/events_database.json')
   .then(res => res.json())
   .then(data => {
     allEvents = data.events || convertTimelineEvents(data);
