@@ -63,10 +63,43 @@ function getMarkerIcon(category, impactLevel) {
 }
 
 // Carica dati dal nuovo database
-fetch('events_database.json')
+fetch('assets/data/events_timeline.json')
   .then(res => res.json())
   .then(data => {
-    allEvents = data.events;
+    allEvents = data.events || convertTimelineEvents(data);
+    // Converti formato timeline in formato database
+function convertTimelineEvents(timelineData) {
+    if (!timelineData.events) return [];
+    
+    return timelineData.events.map((event, idx) => {
+        const date = `${event.start_date.year}-${String(event.start_date.month).padStart(2, '0')}-${String(event.start_date.day).padStart(2, '0')}`;
+        
+        // Estrai info dal testo
+        const text = event.text.text;
+        const tipo = text.match(/Tipo:\s*(.+?)(?:<br>|$)/)?.[1] || 'Drones';
+        const verifica = text.match(/Verifica:\s*(.+?)$/)?.[1] || 'verified';
+        
+        return {
+            id: `TL-${idx}`,
+            date: date,
+            actor: 'Ukraine',
+            target_actor: 'Russia',
+            category: 'ukraine-strike-energy',
+            type: tipo,
+            location: {
+                lat: event.location.lat,
+                lon: event.location.lon
+            },
+            location_text: event.text.headline,
+            impact: {
+                damage_level: verifica === 'verified' ? 'medium' : 'low'
+            },
+            sources: [],
+            reliability: verifica === 'verified' ? 'confirmed' : 'medium',
+            context: event.text.headline
+        };
+    });
+}
     displayEvents(allEvents);
     updateStatistics(allEvents);
     populateFilters(allEvents);
