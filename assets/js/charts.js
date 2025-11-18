@@ -2,7 +2,7 @@
 // CHARTS.JS - TIMELINE E GRAFICI INTERATTIVI
 // ============================================
 
-let timelineChart = null;  // ✅ CORRETTO: usa null invece di NaN
+let timelineChart = null;
 let allTimelineData = [];
 let filteredTimelineData = [];
 
@@ -23,7 +23,7 @@ async function loadTimelineData() {
       response = await fetch('assets/data/events.geojson');
       
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`File non trovato! Status: ${response.status}`);
       }
       
       const geojsonData = await response.json();
@@ -33,7 +33,12 @@ async function loadTimelineData() {
       allTimelineData = convertTimelineJSONToData(timelineData);
     }
     
-    console.log('Dati timeline caricati:', allTimelineData.length, 'eventi');
+    if (allTimelineData.length === 0) {
+      console.warn('⚠️ Nessun dato valido trovato');
+      return;
+    }
+    
+    console.log('✅ Dati timeline caricati:', allTimelineData.length, 'eventi');
     
     // Inizializza filtri
     populateTypeFilter();
@@ -47,73 +52,143 @@ async function loadTimelineData() {
     updateChart();
     
   } catch (error) {
-    console.error('Errore caricamento dati timeline:', error);
-    alert('Errore nel caricamento dei dati per i grafici. Verifica che i file siano disponibili.');
+    console.error('❌ Errore caricamento dati timeline:', error);
+    
+    const chartContainer = document.getElementById('timelineChart')?.parentElement;
+    if (chartContainer) {
+      chartContainer.innerHTML = `
+        <div style="padding: 20px; text-align: center; color: #dc3545;">
+          <h4>⚠️ Impossibile caricare i dati del grafico</h4>
+          <p style="font-size: 0.9em; color: #666;">
+            Errore: ${error.message}<br>
+            Verifica che i file siano presenti in <strong>assets/data/</strong>
+          </p>
+        </div>
+      `;
+    }
   }
 }
 
 // ============================================
-// CONVERSIONE DATI
+// CONVERSIONE DATI - VERSIONE CORRETTA PER IL TUO JSON
 // ============================================
 
 function convertTimelineJSONToData(timelineData) {
-  if (!timelineData.events) return [];
+  if (!timelineData.events || !Array.isArray(timelineData.events)) {
+    console.error('❌ Struttura JSON non valida: manca array events');
+    return [];
+  }
   
-  return timelineData.events.map(event => {
-    const text = event.text.text || '';
-    const headline = event.text.headline || 'Evento';
-    
-    // Estrai tipo
-    const tipoMatch = text.match(/Tipo:\s*(.+?)(?:<br>|$)/i);
-    const tipo = tipoMatch ? tipoMatch[1].trim() : 'Drones';
-    
-    // Estrai verifica
-    const verificaMatch = text.match(/Verifica:\s*(.+?)$/i);
-    const verifica = verificaMatch ? verificaMatch[1].trim() : 'not verified';
-    
-    // Costruisci data ISO
-    const year = event.start_date.year;
-    const month = String(event.start_date.month).padStart(2, '0');
-    const day = String(event.start_date.day).padStart(2, '0');
-    const dateISO = `${year}-${month}-${day}`;
-    
-    return {
-      date: dateISO,
-      dateObj: new Date(dateISO),
-      title: headline,
-      type: tipo,
-      verification: verifica
-    };
-  }).filter(e => !isNaN(e.dateObj.getTime())); // Filtra date invalide
+  const validEvents = [];
+  
+  timelineData.events.forEach((event, index) => {
+    try {
+      // Validazione campi essenziali
+      if (!event.date) {
+        console.warn(`⚠️ Evento ${index}: manca campo date, skip`);
+        return;
+      }
+      
+      // Converti data da formato DD/MM/YY a ISO YYYY-MM-DD
+      let dateISO = event.date;
+      if (dateISO.includes('/')) {
+        const parts = dateISO.split('/');
+        if (parts.length === 3) {
+          const day = parts[0].padStart(2, '0');
+          const month = parts[1].padStart(2, '0');
+          let year = parts[2];
+          
+          // Converti anno a 2 cifre in 4 cifre
+          if (year.length === 2) {
+            year = '20' + year;
+          }
+          // Se l'anno ha già 4 cifre ma è solo "2025" scritto male
+          else if (year.length === 4) {
+            year = year;
+          }
+          
+          dateISO = `${year}-${month}-${day}`;
+        }
+      }
+      
+      const dateObj = new Date(dateISO);
+      
+      // Valida data
+      if (isNaN(dateObj.getTime())) {
+        console.warn(`⚠️ Evento ${index}: data non valida (${event.date} -> ${dateISO}), skip`);
+        return;
+      }
+      
+      // Crea oggetto evento
+      validEvents.push({
+        date: dateISO,
+        dateObj: dateObj,
+        title: event.title || 'Evento senza titolo',
+        type: event.type || 'Drones',
+        verification: event.verification || 'not verified'
+      });
+      
+    } catch (err) {
+      console.error(`❌ Errore processando evento ${index}:`, err);
+    }
+  });
+  
+  console.log(`✅ Convertiti ${validEvents.length}/${timelineData.events.length} eventi validi`);
+  return validEvents;
 }
 
 function convertGeoJSONToTimeline(geojsonData) {
-  if (!geojsonData.features) return [];
+  if (!geojsonData.features) {
+    console.error('❌ Nessun array features nel GeoJSON');
+    return [];
+  }
   
-  return geojsonData.features.map(feature => {
-    const props = feature.properties;
-    
-    // Converti data
-    let dateISO = props.date || '';
-    if (dateISO.includes('/')) {
-      const parts = dateISO.split('/');
-      if (parts.length === 3) {
-        const day = parts[0].padStart(2, '0');
-        const month = parts[1].padStart(2, '0');
-        let year = parts[2];
-        if (year.length === 2) year = '20' + year;
-        dateISO = `${year}-${month}-${day}`;
+  const validEvents = [];
+  
+  geojsonData.features.forEach((feature, index) => {
+    try {
+      const props = feature.properties || {};
+      
+      if (!props.date) {
+        console.warn(`⚠️ Feature ${index}: manca campo date, skip`);
+        return;
       }
+      
+      // Converti data
+      let dateISO = props.date;
+      if (dateISO.includes('/')) {
+        const parts = dateISO.split('/');
+        if (parts.length === 3) {
+          const day = parts[0].padStart(2, '0');
+          const month = parts[1].padStart(2, '0');
+          let year = parts[2];
+          if (year.length === 2) year = '20' + year;
+          dateISO = `${year}-${month}-${day}`;
+        }
+      }
+      
+      const dateObj = new Date(dateISO);
+      
+      if (isNaN(dateObj.getTime())) {
+        console.warn(`⚠️ Feature ${index}: data non valida (${dateISO}), skip`);
+        return;
+      }
+      
+      validEvents.push({
+        date: dateISO,
+        dateObj: dateObj,
+        title: props.title || 'Evento senza titolo',
+        type: props.type || 'Drones',
+        verification: props.verification || 'not verified'
+      });
+      
+    } catch (err) {
+      console.error(`❌ Errore processando feature ${index}:`, err);
     }
-    
-    return {
-      date: dateISO,
-      dateObj: new Date(dateISO),
-      title: props.title || 'Evento',
-      type: props.type || 'Drones',
-      verification: props.verification || 'not verified'
-    };
-  }).filter(e => !isNaN(e.dateObj.getTime())); // Filtra date invalide
+  });
+  
+  console.log(`✅ Convertiti ${validEvents.length}/${geojsonData.features.length} eventi validi`);
+  return validEvents;
 }
 
 // ============================================
@@ -123,7 +198,7 @@ function convertGeoJSONToTimeline(geojsonData) {
 function initializeChart() {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) {
-    console.error('Canvas timelineChart non trovato');
+    console.error('❌ Canvas timelineChart non trovato nel DOM');
     return;
   }
   
@@ -219,7 +294,10 @@ function initializeChart() {
 // ============================================
 
 function updateChart() {
-  if (!timelineChart) return;
+  if (!timelineChart) {
+    console.warn('⚠️ timelineChart non inizializzato');
+    return;
+  }
   
   // Aggrega eventi per data
   const eventsByDate = {};
