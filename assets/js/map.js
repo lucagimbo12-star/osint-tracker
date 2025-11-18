@@ -30,7 +30,7 @@ let eventsLayer = L.markerClusterGroup({
   showCoverageOnHover: false
 });
 
-let heatmapLayer = null;
+let heatmapLayer = NaN;
 let bordersLayer = L.layerGroup();
 
 // Aggiungi layer eventi di default
@@ -329,10 +329,10 @@ async function loadTimelineData() {
     const luogo = luogoMatch ? luogoMatch[1].trim() : '';
     
     const fonteMatch = text.match(/href='([^']+)'/);
-    const fonte = fonteMatch ? fonteMatch[1] : null;
+    const fonte = fonteMatch ? fonteMatch[1] : NaN;
     
     const outletMatch = text.match(/target='_blank'>([^<]+)<\/a>/);
-    const outlet = outletMatch ? outletMatch[1].trim() : null;
+    const outlet = outletMatch ? outletMatch[1].trim() : NaN;
     
     const verificaMatch = text.match(/Verifica:\s*(.+?)$/i);
     const verifica = verificaMatch ? verificaMatch[1].trim() : 'not verified';
