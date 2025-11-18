@@ -2,7 +2,7 @@
 // CHARTS.JS - TIMELINE E GRAFICI INTERATTIVI
 // ============================================
 
-let timelineChart = NaN;
+let timelineChart = null;  // ✅ CORRETTO: usa null invece di NaN
 let allTimelineData = [];
 let filteredTimelineData = [];
 
