@@ -99,16 +99,6 @@ jobs:
           for feature in data.get("features", []):
               props = feature.get("properties", {})
 
-              # Rename source → link
-              if "source" in props:
-                  props["link"] = props.pop("source")
-                  changed = True
-
-              # Rename notes → description
-              if "notes" in props:
-                  props["description"] = props.pop("notes")
-                  changed = True
-
               # Add intensity if missing
               if "intensity" not in props:
                   props["intensity"] = 0.7 if props.get("verification") == "verified" else 0.2
