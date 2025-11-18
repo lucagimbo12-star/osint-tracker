@@ -12,14 +12,14 @@ let filteredTimelineData = [];
 
 async function loadTimelineData() {
   try {
-    console.log('Caricamento dati per grafici timeline...');
+    console.log('🔄 Caricamento dati per grafici timeline...');
     
     // Prova prima events_timeline.json
     let response = await fetch('assets/data/events_timeline.json');
     
     if (!response.ok) {
       // Fallback a events.geojson
-      console.log('Fallback a events.geojson...');
+      console.log('📁 Fallback a events.geojson...');
       response = await fetch('assets/data/events.geojson');
       
       if (!response.ok) {
@@ -30,6 +30,7 @@ async function loadTimelineData() {
       allTimelineData = convertGeoJSONToTimeline(geojsonData);
     } else {
       const timelineData = await response.json();
+      console.log('📊 File timeline caricato:', timelineData);
       allTimelineData = convertTimelineJSONToData(timelineData);
     }
     
@@ -52,7 +53,8 @@ async function loadTimelineData() {
     updateChart();
     
   } catch (error) {
-    console.error('❌ Errore caricamento dati timeline:', error);
+    console.error('❌ ERRORE COMPLETO:', error);
+    console.error('Stack trace:', error.stack);
     
     const chartContainer = document.getElementById('timelineChart')?.parentElement;
     if (chartContainer) {
@@ -70,41 +72,62 @@ async function loadTimelineData() {
 }
 
 // ============================================
-// CONVERSIONE DATI - VERSIONE CORRETTA PER IL TUO JSON
+// CONVERSIONE DATI - PER IL TUO FORMATO JSON
 // ============================================
 
 function convertTimelineJSONToData(timelineData) {
-  if (!timelineData.events || !Array.isArray(timelineData.events)) {
-    console.error('❌ Struttura JSON non valida: manca array events');
+  console.log('🔄 Inizio conversione timeline JSON...');
+  
+  if (!timelineData) {
+    console.error('❌ timelineData è undefined o null');
     return [];
   }
+  
+  if (!timelineData.events) {
+    console.error('❌ timelineData.events non esiste. Struttura ricevuta:', Object.keys(timelineData));
+    return [];
+  }
+  
+  if (!Array.isArray(timelineData.events)) {
+    console.error('❌ timelineData.events non è un array');
+    return [];
+  }
+  
+  console.log(`📊 Trovati ${timelineData.events.length} eventi da processare`);
   
   const validEvents = [];
   
   timelineData.events.forEach((event, index) => {
     try {
+      // Log per debug
+      if (index === 0) {
+        console.log('📝 Esempio primo evento:', event);
+      }
+      
       // Validazione campi essenziali
+      if (!event) {
+        console.warn(`⚠️ Evento ${index}: evento è null/undefined, skip`);
+        return;
+      }
+      
       if (!event.date) {
         console.warn(`⚠️ Evento ${index}: manca campo date, skip`);
         return;
       }
       
       // Converti data da formato DD/MM/YY a ISO YYYY-MM-DD
-      let dateISO = event.date;
+      let dateISO = event.date.trim();
+      
       if (dateISO.includes('/')) {
         const parts = dateISO.split('/');
         if (parts.length === 3) {
-          const day = parts[0].padStart(2, '0');
-          const month = parts[1].padStart(2, '0');
-          let year = parts[2];
+          let day = parts[0].trim().padStart(2, '0');
+          let month = parts[1].trim().padStart(2, '0');
+          let year = parts[2].trim();
           
           // Converti anno a 2 cifre in 4 cifre
           if (year.length === 2) {
             year = '20' + year;
-          }
-          // Se l'anno ha già 4 cifre ma è solo "2025" scritto male
-          else if (year.length === 4) {
-            year = year;
           }
           
           dateISO = `${year}-${month}-${day}`;
@@ -120,24 +143,34 @@ function convertTimelineJSONToData(timelineData) {
       }
       
       // Crea oggetto evento
-      validEvents.push({
+      const processedEvent = {
         date: dateISO,
         dateObj: dateObj,
         title: event.title || 'Evento senza titolo',
         type: event.type || 'Drones',
         verification: event.verification || 'not verified'
-      });
+      };
+      
+      validEvents.push(processedEvent);
       
     } catch (err) {
       console.error(`❌ Errore processando evento ${index}:`, err);
+      console.error('Evento problematico:', event);
     }
   });
   
   console.log(`✅ Convertiti ${validEvents.length}/${timelineData.events.length} eventi validi`);
+  
+  if (validEvents.length > 0) {
+    console.log('📝 Esempio evento convertito:', validEvents[0]);
+  }
+  
   return validEvents;
 }
 
 function convertGeoJSONToTimeline(geojsonData) {
+  console.log('🔄 Conversione GeoJSON...');
+  
   if (!geojsonData.features) {
     console.error('❌ Nessun array features nel GeoJSON');
     return [];
@@ -287,6 +320,8 @@ function initializeChart() {
       }
     }
   });
+  
+  console.log('✅ Grafico inizializzato');
 }
 
 // ============================================
@@ -325,6 +360,8 @@ function updateChart() {
   timelineChart.data.datasets[0].data = counts;
   timelineChart.data.datasets[0].label = `Eventi: ${filteredTimelineData.length} totali`;
   timelineChart.update();
+  
+  console.log('✅ Grafico aggiornato con', filteredTimelineData.length, 'eventi');
 }
 
 // ============================================
@@ -441,6 +478,8 @@ function resetFilters() {
 
 // Aggiungi event listeners quando il DOM è pronto
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('🚀 DOM caricato, inizializzazione charts.js...');
+  
   const startDateInput = document.getElementById('chartStartDate');
   const endDateInput = document.getElementById('chartEndDate');
   const typeFilter = document.getElementById('chartTypeFilter');
