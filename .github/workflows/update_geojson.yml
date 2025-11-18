@@ -25,7 +25,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install pandas geojson
+          pip install pandas
 
       ###############################################################
       # STEP 1 — Convert CSV → events.geojson
@@ -129,26 +129,58 @@ jobs:
           EOF
 
       ###############################################################
-      # STEP 3 — Validate GeoJSON to ensure it is well formed
+      # STEP 3 — Validate GeoJSON (custom validator, no external deps)
       ###############################################################
       - name: Validate GeoJSON
         run: |
           python3 <<'EOF'
-          import geojson
+          import json
           import sys
+          from numbers import Number
+
+          def error(msg):
+              print("VALIDATION ERROR:", msg)
+              sys.exit(1)
 
           try:
               with open("assets/data/events.geojson", "r", encoding="utf-8") as f:
-                  obj = geojson.load(f)
+                  data = json.load(f)
           except Exception as e:
-              print("Errore aprendo il file per la validazione:", e)
-              sys.exit(1)
+              error(f"Impossibile leggere assets/data/events.geojson: {e}")
 
-          if not geojson.is_valid(obj)["valid"]:
-              print("GeoJSON non valido:", geojson.is_valid(obj))
-              sys.exit(1)
+          # Basic FeatureCollection check
+          if not isinstance(data, dict):
+              error("Root object non è un oggetto JSON.")
+          if data.get("type") != "FeatureCollection":
+              error(f"Root type non è FeatureCollection: {data.get('type')}")
+          features = data.get("features")
+          if not isinstance(features, list):
+              error("features non è una lista.")
 
-          print("GeoJSON valido.")
+          # Check each feature
+          for i, feat in enumerate(features):
+              if not isinstance(feat, dict):
+                  error(f"Feature {i} non è un oggetto.")
+              if feat.get("type") != "Feature":
+                  error(f"Feature {i} type non è 'Feature': {feat.get('type')}")
+              geom = feat.get("geometry")
+              if not isinstance(geom, dict):
+                  error(f"Feature {i} geometry mancante o non è un oggetto.")
+              gtype = geom.get("type")
+              if gtype != "Point":
+                  error(f"Feature {i} geometry type non è 'Point': {gtype}")
+              coords = geom.get("coordinates")
+              if not (isinstance(coords, list) and len(coords) == 2):
+                  error(f"Feature {i} coordinates non valide: {coords}")
+              lon, lat = coords
+              if not (isinstance(lon, Number) and isinstance(lat, Number)):
+                  error(f"Feature {i} coordinate non numeriche: {coords}")
+
+              props = feat.get("properties")
+              if not isinstance(props, dict):
+                  error(f"Feature {i} properties non è un oggetto.")
+
+          print("GeoJSON validazione minima: OK")
           EOF
 
       ###############################################################
