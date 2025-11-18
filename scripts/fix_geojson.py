@@ -1,45 +1,32 @@
-#!/usr/bin/env python3
-"""
-Script per correggere il file events.geojson
-Sostituisce i valori NaN con null per renderlo JSON valido
-"""
+import json
 
-import re
-import sys
+# Carica GeoJSON
+with open('events.geojson', 'r') as f:
+    data = json.load(f)
 
-def fix_geojson(input_file, output_file):
-    """Corregge il file GeoJSON sostituendo NaN con null"""
+# Converti ogni feature
+for feature in data['features']:
+    props = feature['properties']
     
-    try:
-        # Leggi il file
-        with open(input_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Sostituisci NaN con null
-        # Pattern per trovare: "key": NaN
-        content = re.sub(r':\s*NaN\s*([,\}])', r': null\1', content)
-        
-        # Scrivi il file corretto
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(content)
-        
-        print(f"✅ File corretto salvato in: {output_file}")
-        print(f"   Sostituiti tutti i valori NaN con null")
-        
-        # Verifica che sia JSON valido
-        import json
-        with open(output_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        print(f"✅ JSON valido! Features: {len(data.get('features', []))}")
-        
-    except Exception as e:
-        print(f"❌ Errore: {e}", file=sys.stderr)
-        sys.exit(1)
-
-if __name__ == '__main__':
-    input_file = 'assets/data/events.geojson'
-    output_file = 'assets/data/events.geojson'
+    # Rinomina campi
+    if 'source' in props:
+        props['link'] = props.pop('source')
+    if 'notes' in props:
+        props['description'] = props.pop('notes')
     
-    print("🔧 Correzione events.geojson...")
-    fix_geojson(input_file, output_file)
+    # Aggiungi intensity se mancante
+    if 'intensity' not in props:
+        # Calcola in base a verification
+        if props.get('verification') == 'verified':
+            props['intensity'] = 0.7 or 0.8 or 0.9 or 1.0 or 0.6
+        else:
+            props['intensity'] = 0.2
+    
+    # Pulisci NaN
+    for key in props:
+        if props[key] == 'NaN' or str(props[key]) == 'nan':
+            props[key] = None if key == 'link' else ''
+
+# Salva
+with open('events_fixed.geojson', 'w') as f:
+    json.dump(data, f, indent=2)
