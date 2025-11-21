@@ -1,11 +1,9 @@
-name: Update Data Files
+name: Update Data from Google Sheets
 
 on:
-  push:
-    paths:
-      - "assets/data/*.csv"
-      - ".github/workflows/update_geojson.yml"
-  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # Esegue ogni 6 ore automaticamente
+  workflow_dispatch:      # Permette l'esecuzione manuale
 
 permissions:
   contents: write
@@ -23,31 +21,38 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Python dependencies
-        run: pip install pandas numpy
+      - name: Install dependencies
+        run: pip install pandas requests numpy
 
-      ###############################################################
-      # STEP 1 — Convert CSV → events.geojson (CLEAN & ROBUST)
-      ###############################################################
-      - name: Generate Clean GeoJSON
+      - name: Download and Process Data
         run: |
           python3 <<'EOF'
           import pandas as pd
           import json
           import sys
           import numpy as np
+          import requests
+          import io
 
+          # 1. SCARICAMENTO DA GOOGLE SHEETS
+          SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
+          
+          print("🔄 Scaricamento dati da Google Sheets...")
           try:
-              # Legge il CSV
-              df = pd.read_csv("assets/data/events_timeline.csv")
-              
-              # FIX CRITICO: Sostituisce NaN (float) con None (null) o stringhe vuote
-              # Questo impedisce la creazione di "NaN" invalidi nel JSON
-              df = df.replace({np.nan: None})
+              response = requests.get(SHEET_URL)
+              response.raise_for_status()
+              # Legge il CSV direttamente dalla memoria
+              df = pd.read_csv(io.StringIO(response.text))
+              print(f"✅ Scaricate {len(df)} righe.")
           except Exception as e:
-              print("Errore nel caricamento CSV:", e)
+              print(f"❌ Errore scaricamento: {e}")
               sys.exit(1)
 
+          # 2. PULIZIA DATI (CRUCIALE PER I GRAFICI)
+          # Sostituisce NaN con None (che diventa null in JSON) o stringhe vuote
+          df = df.replace({np.nan: None})
+
+          # 3. GENERAZIONE EVENTS.GEOJSON (Per la Mappa)
           features = []
           for _, row in df.iterrows():
               lat = row.get("latitude")
@@ -57,107 +62,91 @@ jobs:
               if lat is None or lon is None:
                   continue
 
-              # Calcola intensity automaticamente
-              verification = row.get("verification", "not verified")
-              intensity = 0.7 if verification == "verified" else 0.2
-
-              # Mappa le proprietà
-              # Usa 'or ""' per assicurarsi che siano stringhe se None
-              props = {
-                  "title": row.get("title") or "Evento",
-                  "date": row.get("date") or "",
-                  "type": row.get("type") or "Drones",
-                  "location": row.get("location") or "",
-                  "source": row.get("source") or "",
-                  "archived": row.get("archived") or "",
-                  "verification": verification,
-                  "notes": row.get("notes") or "",
-                  "intensity": intensity
-              }
-
-              features.append({
-                  "type": "Feature",
-                  "geometry": {
-                      "type": "Point",
-                      "coordinates": [float(lon), float(lat)]
-                  },
-                  "properties": props
-              })
-
-          data = {"type": "FeatureCollection", "features": features}
-
-          with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
-              json.dump(data, f, ensure_ascii=False, indent=2)
-
-          print(f"✅ GeoJSON generato con {len(features)} eventi.")
-          EOF
-
-      ###############################################################
-      # STEP 2 — Convert CSV → timeline JSON (CLEAN)
-      ###############################################################
-      - name: Generate Clean Timeline JSON
-        run: |
-          python3 <<'EOF'
-          import pandas as pd
-          import json
-          import sys
-          import numpy as np
-
-          try:
-              df = pd.read_csv("assets/data/events_timeline.csv")
-              df = df.replace({np.nan: None})
-          except Exception as e:
-              print("Errore CSV Timeline:", e)
-              sys.exit(1)
-
-          events = []
-          for _, row in df.iterrows():
-              # Costruisce la descrizione HTML
-              text_parts = []
-              if row.get("location"): text_parts.append(f"Luogo: {row['location']}")
-              if row.get("source"): text_parts.append(f"<br>Fonte: <a href='{row['source']}' target='_blank'>link</a>")
-              if row.get("verification"): text_parts.append(f"<br>Verifica: {row['verification']}")
-              
-              description = "".join(text_parts)
-
-              # Normalizza data (DD/MM/YY -> YYYY, MM, DD)
               try:
-                  d_str = row.get("date", "")
-                  day, month, year = d_str.split('/')
-                  if len(year) == 2: year = "20" + year
-              except:
-                  continue # Salta date non valide
+                  # Logica per l'intensità (Heatmap)
+                  verification = row.get("verification", "not verified")
+                  intensity = 0.7 if verification == "verified" else 0.2
 
-              events.append({
-                  "start_date": {
-                      "year": int(year),
-                      "month": int(month),
-                      "day": int(day)
-                  },
-                  "text": {
-                      "headline": row.get("title") or "Evento",
-                      "text": description
-                  },
-                  "location": {
-                      "lat": row.get("latitude"),
-                      "lon": row.get("longitude")
+                  props = {
+                      "title": row.get("title") or "Evento",
+                      "date": row.get("date") or "",
+                      "type": row.get("type") or "Drones",
+                      "location": row.get("location") or "",
+                      "link": row.get("source") or "", # Normalizzato a 'link'
+                      "archived": row.get("archived") or "",
+                      "verification": verification,
+                      "description": row.get("notes") or "", # Normalizzato a 'description'
+                      "intensity": intensity
                   }
-              })
 
-          out = {"events": events}
+                  features.append({
+                      "type": "Feature",
+                      "geometry": {
+                          "type": "Point",
+                          "coordinates": [float(lon), float(lat)]
+                      },
+                      "properties": props
+                  })
+              except Exception as e:
+                  print(f"⚠️ Errore riga GeoJSON: {e}")
+                  continue
 
+          geojson_data = {"type": "FeatureCollection", "features": features}
+          
+          with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
+              json.dump(geojson_data, f, ensure_ascii=False, indent=2)
+          print("✅ events.geojson aggiornato.")
+
+          # 4. GENERAZIONE EVENTS_TIMELINE.JSON (Per Grafici e Timeline)
+          timeline_events = []
+          for _, row in df.iterrows():
+              try:
+                  # Gestione date (DD/MM/YY o YYYY-MM-DD)
+                  date_str = str(row.get("date", ""))
+                  if '/' in date_str:
+                      day, month, year = date_str.split('/')
+                      if len(year) == 2: year = "20" + year
+                  elif '-' in date_str:
+                      year, month, day = date_str.split('-')
+                  else:
+                      continue # Data non valida
+
+                  # Costruzione testo HTML per la timeline
+                  text_html = f"Tipo: {row.get('type') or 'Drones'}<br>"
+                  if row.get("location"): text_html += f"Luogo: {row['location']}<br>"
+                  if row.get("verification"): text_html += f"Verifica: {row['verification']}"
+
+                  timeline_events.append({
+                      "start_date": {
+                          "year": int(year),
+                          "month": int(month),
+                          "day": int(day)
+                      },
+                      "text": {
+                          "headline": row.get("title") or "Evento",
+                          "text": text_html
+                      },
+                      "group": row.get("type") or "Drones", # Utile per i filtri
+                      "location": {
+                        "lat": row.get("latitude"),
+                        "lon": row.get("longitude")
+                      }
+                  })
+              except Exception as e:
+                  # Ignora righe con date rotte
+                  continue
+
+          timeline_data = {"events": timeline_events}
+          
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
-              json.dump(out, f, ensure_ascii=False, indent=2)
-
-          print(f"✅ Timeline JSON generato con {len(events)} eventi.")
+              json.dump(timeline_data, f, ensure_ascii=False, indent=2)
+          print(f"✅ events_timeline.json aggiornato ({len(timeline_events)} eventi).")
           EOF
 
-      ###############################################################
-      # STEP 3 — Commit changes
-      ###############################################################
       - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add assets/data/events.geojson assets/data/events_timeline.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update: Clean JSON data" && git push)
+          # Committa solo se ci sono cambiamenti
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Dati aggiornati da Google Sheets" && git push)
