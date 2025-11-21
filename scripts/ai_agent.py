@@ -5,54 +5,57 @@ from google.oauth2.service_account import Credentials
 from tavily import TavilyClient
 from openai import OpenAI
 import pandas as pd
-from datetime import datetime
+import time
 
 # --- CONFIGURAZIONE ---
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit"
-CONFIDENCE_THRESHOLD = 85  # Accetta come "Verified" solo se sicurezza > 85%
+CONFIDENCE_THRESHOLD = 85
 
 def setup_clients():
-    # Google Sheets
     scope = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
     creds_dict = json.loads(os.environ['GCP_CREDENTIALS_JSON'])
     creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
     gc = gspread.authorize(creds)
-    
-    # Tavily & OpenAI
     tavily = TavilyClient(api_key=os.environ['TAVILY_API_KEY'])
     openai = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
-    
     return gc, tavily, openai
 
-def analyze_event(openai, event, news_context):
-    """Chiede all'AI di analizzare se le news confermano l'evento"""
-    
+def analyze_event_v2(openai, event, news_context):
+    """
+    Versione Potenziata: Chiede descrizione, video e intensità.
+    """
     prompt = f"""
-    Sei un analista OSINT esperto. Verifica se le notizie trovate confermano questo evento di guerra.
-    
-    EVENTO DA VERIFICARE:
-    - Titolo: {event['Title']}
-    - Data: {event['Date']}
-    - Luogo: {event['Location']}
-    - Tipo: {event['Type']}
-    
-    NOTIZIE TROVATE SUL WEB:
+    Sei un analista di intelligence e giornalista OSINT. 
+    Analizza le notizie fornite relative a questo evento bellico.
+
+    DATI EVENTO:
+    - Titolo: {event.get('Title', '')}
+    - Luogo: {event.get('Location', '')}
+    - Data: {event.get('Date', '')}
+
+    NOTIZIE DAL WEB:
     {news_context}
-    
-    REGOLE DI VERIFICA:
-    1. La data deve corrispondere (o essere entro 48h dal report).
-    2. Il luogo e il tipo di attacco devono coincidere.
-    3. Cerca conferme da fonti ufficiali o media affidabili.
-    
-    Rispondi SOLO in formato JSON con questi campi:
+
+    COMPITI:
+    1. Verifica se l'evento è confermato (data/luogo devono coincidere).
+    2. Scrivi una descrizione dettagliata in ITALIANO (max 250 caratteri) stile agenzia stampa.
+    3. Cerca nel testo URL di video o foto (Twitter, Telegram, YouTube). Se non ne trovi, lascia null.
+    4. Calcola l'INTENSITÀ (da 0.1 a 1.0) basandoti sui danni:
+       - 0.2: Droni abbattuti, nessun danno.
+       - 0.5: Incendio lieve o danni minori.
+       - 0.8: Incendio grave, infrastruttura danneggiata.
+       - 1.0: Distruzione totale o vittime multiple.
+
+    RISPONDI SOLO IN JSON:
     {{
-        "match": true/false (true solo se sei sicuro),
-        "confidence": 0-100 (livello di sicurezza),
-        "summary": "Breve spiegazione (max 1 frase)",
-        "best_link": "URL della fonte migliore trovata (o null)"
+        "match": true/false,
+        "confidence": 0-100,
+        "description_it": "Testo descrizione...",
+        "video_url": "URL trovato o null",
+        "intensity": 0.5,
+        "best_link": "URL fonte principale"
     }}
     """
-    
     try:
         response = openai.chat.completions.create(
             model="gpt-4o-mini",
@@ -65,68 +68,75 @@ def analyze_event(openai, event, news_context):
         return {"match": False, "confidence": 0}
 
 def main():
-    print("🤖 AI Agent avviato...")
-    gc, tavily, openai = setup_clients()
-    
-    # Apre il foglio
-    sh = gc.open_by_url(SHEET_URL)
-    worksheet = sh.get_worksheet(0) # Primo foglio
-    
-    # Legge tutti i dati
-    data = worksheet.get_all_records()
-    df = pd.DataFrame(data)
-    
-    # Trova righe da processare (senza verifica o link)
-    # Nota: gspread usa indici che partono da 2 (1 è header)
-    rows_to_check = []
-    for i, row in enumerate(data):
-        # Se manca la verifica O manca la fonte
-        if not row.get('Verification') or row.get('Verification') == 'not verified' or not row.get('Source'):
-            rows_to_check.append((i + 2, row)) # i+2 perché gspread è 1-based + header
-            
-    print(f"📋 Trovate {len(rows_to_check)} righe da verificare.")
-    
-    for row_idx, event in rows_to_check[:5]: # Processa max 5 eventi alla volta per sicurezza/costi
-        print(f"\n🔍 Analisi riga {row_idx}: {event['Title']}...")
+    print("🤖 Avvio Super-Agente OSINT...")
+    try:
+        gc, tavily, openai = setup_clients()
+        sh = gc.open_by_url(SHEET_URL)
+        worksheet = sh.get_worksheet(0)
         
-        # 1. Cerca su Web
-        query = f"{event['Title']} {event['Location']} {event['Date']} ukraine russia war attack"
+        data = worksheet.get_all_records()
+        headers = worksheet.row_values(1)
+        
+        # Mappa colonne (trova l'indice della colonna basandosi sul nome)
         try:
-            search_result = tavily.search(query, search_depth="advanced", max_results=5)
-            context = "\n".join([f"- {r['content']} (Source: {r['url']})" for r in search_result['results']])
-        except Exception as e:
-            print(f"❌ Errore ricerca: {e}")
-            continue
+            col_ver = headers.index('Verification') + 1
+            col_src = headers.index('Source') + 1
+            col_desc = headers.index('Description') + 1
+            col_video = headers.index('Video') + 1
+            col_int = headers.index('Intensity') + 1
+        except ValueError as e:
+            print(f"❌ ERRORE: Manca una colonna nel foglio Google! {e}")
+            print("Assicurati di avere: Verification, Source, Description, Video, Intensity")
+            return
+
+        rows_to_process = []
+        for i, row in enumerate(data):
+            ver = str(row.get('Verification', '')).lower()
+            src = str(row.get('Source', ''))
+            # Processa se non verificato O se manca la descrizione (così arricchisce anche i vecchi verificati)
+            if (ver != 'verified') or (not row.get('Description')):
+                rows_to_process.append((i + 2, row))
+
+        print(f"📋 Righe da arricchire: {len(rows_to_process)}")
+
+        for row_idx, event in rows_to_process[:5]: # Max 5 per volta
+            print(f"\n🔍 Elaborazione: {event.get('Title')}...")
             
-        # 2. Analisi AI
-        result = analyze_event(openai, event, context)
-        print(f"   🧠 Risultato AI: {result}")
-        
-        # 3. Aggiorna Foglio (Se affidabile)
-        if result['match'] and result['confidence'] >= CONFIDENCE_THRESHOLD:
-            print(f"   ✅ VERIFICATO! Aggiorno foglio...")
-            
-            # Aggiorna celle specifiche
-            # Attenzione: Assicurati che i nomi colonne siano corretti nel foglio
+            query = f"{event.get('Title')} {event.get('Location')} {event.get('Date')} footage video confirmed damage report"
             try:
-                # Trova indici colonne (gspread find)
-                col_ver = worksheet.find("Verification").col
-                col_src = worksheet.find("Source").col
-                col_note = worksheet.find("Notes").col
-                
-                worksheet.update_cell(row_idx, col_ver, "verified")
-                if result['best_link']:
-                    worksheet.update_cell(row_idx, col_src, result['best_link'])
-                
-                # Aggiunge nota AI
-                old_note = event.get('Notes', '')
-                new_note = f"{old_note} [AI Verified: {result['summary']}]".strip()
-                worksheet.update_cell(row_idx, col_note, new_note)
-                
+                # Cerca anche video specificamente
+                search = tavily.search(query, search_depth="advanced", include_images=False, max_results=6)
+                context = "\n".join([f"- {r['content']} (Link: {r['url']})" for r in search['results']])
             except Exception as e:
-                print(f"❌ Errore scrittura foglio: {e}")
-        else:
-            print("   ⚠️ Non abbastanza sicuro o nessun match.")
+                print(f"❌ Errore ricerca: {e}")
+                continue
+
+            res = analyze_event_v2(openai, event, context)
+            
+            if res.get('match') and res.get('confidence') >= CONFIDENCE_THRESHOLD:
+                print(f"   ✅ Dati generati! Intensity: {res.get('intensity')}")
+                
+                # Aggiorna TUTTI i campi
+                worksheet.update_cell(row_idx, col_ver, "verified")
+                
+                if res.get('best_link') and not event.get('Source'):
+                    worksheet.update_cell(row_idx, col_src, res['best_link'])
+                
+                # Scrive descrizione, video e intensità
+                worksheet.update_cell(row_idx, col_desc, res.get('description_it', ''))
+                worksheet.update_cell(row_idx, col_int, res.get('intensity', 0.2))
+                
+                if res.get('video_url'):
+                    worksheet.update_cell(row_idx, col_video, res.get('video_url'))
+                    print(f"   🎥 Video trovato: {res.get('video_url')}")
+                
+                time.sleep(1.5) # Rispetto limiti API
+            else:
+                print(f"   ⚠️ Dati insufficienti (Confidence: {res.get('confidence')}%)")
+
+    except Exception as e:
+        print(f"❌ ERRORE CRITICO: {e}")
+        raise e
 
 if __name__ == "__main__":
     main()
