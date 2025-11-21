@@ -24,21 +24,26 @@ jobs:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: |
-          pip install pandas
+        run: pip install pandas numpy
 
       ###############################################################
-      # STEP 1 — Convert CSV → events.geojson
+      # STEP 1 — Convert CSV → events.geojson (CLEAN & ROBUST)
       ###############################################################
-      - name: Build GeoJSON from CSV
+      - name: Generate Clean GeoJSON
         run: |
           python3 <<'EOF'
           import pandas as pd
           import json
           import sys
+          import numpy as np
 
           try:
+              # Legge il CSV
               df = pd.read_csv("assets/data/events_timeline.csv")
+              
+              # FIX CRITICO: Sostituisce NaN (float) con None (null) o stringhe vuote
+              # Questo impedisce la creazione di "NaN" invalidi nel JSON
+              df = df.replace({np.nan: None})
           except Exception as e:
               print("Errore nel caricamento CSV:", e)
               sys.exit(1)
@@ -47,18 +52,27 @@ jobs:
           for _, row in df.iterrows():
               lat = row.get("latitude")
               lon = row.get("longitude")
-              if pd.isna(lat) or pd.isna(lon):
+              
+              # Salta se mancano le coordinate
+              if lat is None or lon is None:
                   continue
 
+              # Calcola intensity automaticamente
+              verification = row.get("verification", "not verified")
+              intensity = 0.7 if verification == "verified" else 0.2
+
+              # Mappa le proprietà
+              # Usa 'or ""' per assicurarsi che siano stringhe se None
               props = {
-                  "title": row.get("title", ""),
-                  "date": row.get("date", ""),
-                  "type": row.get("type", ""),
-                  "location": row.get("location", ""),
-                  "source": row.get("source", ""),
-                  "archived": row.get("archived", ""),
-                  "verification": row.get("verification", ""),
-                  "notes": row.get("notes", "")
+                  "title": row.get("title") or "Evento",
+                  "date": row.get("date") or "",
+                  "type": row.get("type") or "Drones",
+                  "location": row.get("location") or "",
+                  "source": row.get("source") or "",
+                  "archived": row.get("archived") or "",
+                  "verification": verification,
+                  "notes": row.get("notes") or "",
+                  "intensity": intensity
               }
 
               features.append({
@@ -75,132 +89,59 @@ jobs:
           with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
 
-          print("GeoJSON generato correttamente.")
+          print(f"✅ GeoJSON generato con {len(features)} eventi.")
           EOF
 
       ###############################################################
-      # STEP 2 — Clean, normalize and enhance events.geojson
+      # STEP 2 — Convert CSV → timeline JSON (CLEAN)
       ###############################################################
-      - name: Normalize GeoJSON fields
-        run: |
-          python3 <<'EOF'
-          import json
-          import sys
-
-          try:
-              with open("assets/data/events.geojson", "r", encoding="utf-8") as f:
-                  data = json.load(f)
-          except Exception as e:
-              print("Errore caricando GeoJSON:", e)
-              sys.exit(1)
-
-          changed = False
-
-          for feature in data.get("features", []):
-              props = feature.get("properties", {})
-
-              # Add intensity if missing
-              if "intensity" not in props:
-                  props["intensity"] = 0.7 if props.get("verification") == "verified" else 0.2
-                  changed = True
-
-              # Clean NaN
-              for k, v in list(props.items()):
-                  if v == "NaN" or str(v).lower() == "nan":
-                      props[k] = None if k == "link" else ""
-                      changed = True
-
-          if changed:
-              with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
-                  json.dump(data, f, ensure_ascii=False, indent=2)
-              print("GeoJSON normalizzato.")
-          else:
-              print("GeoJSON già pulito. Nessuna modifica.")
-          EOF
-
-      ###############################################################
-      # STEP 3 — Validate GeoJSON (custom validator, no external deps)
-      ###############################################################
-      - name: Validate GeoJSON
-        run: |
-          python3 <<'EOF'
-          import json
-          import sys
-          from numbers import Number
-
-          def error(msg):
-              print("VALIDATION ERROR:", msg)
-              sys.exit(1)
-
-          try:
-              with open("assets/data/events.geojson", "r", encoding="utf-8") as f:
-                  data = json.load(f)
-          except Exception as e:
-              error(f"Impossibile leggere assets/data/events.geojson: {e}")
-
-          # Basic FeatureCollection check
-          if not isinstance(data, dict):
-              error("Root object non è un oggetto JSON.")
-          if data.get("type") != "FeatureCollection":
-              error(f"Root type non è FeatureCollection: {data.get('type')}")
-          features = data.get("features")
-          if not isinstance(features, list):
-              error("features non è una lista.")
-
-          # Check each feature
-          for i, feat in enumerate(features):
-              if not isinstance(feat, dict):
-                  error(f"Feature {i} non è un oggetto.")
-              if feat.get("type") != "Feature":
-                  error(f"Feature {i} type non è 'Feature': {feat.get('type')}")
-              geom = feat.get("geometry")
-              if not isinstance(geom, dict):
-                  error(f"Feature {i} geometry mancante o non è un oggetto.")
-              gtype = geom.get("type")
-              if gtype != "Point":
-                  error(f"Feature {i} geometry type non è 'Point': {gtype}")
-              coords = geom.get("coordinates")
-              if not (isinstance(coords, list) and len(coords) == 2):
-                  error(f"Feature {i} coordinates non valide: {coords}")
-              lon, lat = coords
-              if not (isinstance(lon, Number) and isinstance(lat, Number)):
-                  error(f"Feature {i} coordinate non numeriche: {coords}")
-
-              props = feat.get("properties")
-              if not isinstance(props, dict):
-                  error(f"Feature {i} properties non è un oggetto.")
-
-          print("GeoJSON validazione minima: OK")
-          EOF
-
-      ###############################################################
-      # STEP 4 — Convert CSV → timeline JSON
-      ###############################################################
-      - name: Build timeline JSON
+      - name: Generate Clean Timeline JSON
         run: |
           python3 <<'EOF'
           import pandas as pd
           import json
           import sys
+          import numpy as np
 
           try:
               df = pd.read_csv("assets/data/events_timeline.csv")
+              df = df.replace({np.nan: None})
           except Exception as e:
-              print("Errore caricando CSV timeline:", e)
+              print("Errore CSV Timeline:", e)
               sys.exit(1)
 
           events = []
           for _, row in df.iterrows():
+              # Costruisce la descrizione HTML
+              text_parts = []
+              if row.get("location"): text_parts.append(f"Luogo: {row['location']}")
+              if row.get("source"): text_parts.append(f"<br>Fonte: <a href='{row['source']}' target='_blank'>link</a>")
+              if row.get("verification"): text_parts.append(f"<br>Verifica: {row['verification']}")
+              
+              description = "".join(text_parts)
+
+              # Normalizza data (DD/MM/YY -> YYYY, MM, DD)
+              try:
+                  d_str = row.get("date", "")
+                  day, month, year = d_str.split('/')
+                  if len(year) == 2: year = "20" + year
+              except:
+                  continue # Salta date non valide
+
               events.append({
-                  "title": row.get("title", ""),
-                  "date": row.get("date", ""),
-                  "type": row.get("type", ""),
-                  "location": row.get("location", ""),
-                  "latitude": row.get("latitude", None),
-                  "longitude": row.get("longitude", None),
-                  "verification": row.get("verification", ""),
-                  "archived": row.get("archived", ""),
-                  "notes": row.get("notes", "")
+                  "start_date": {
+                      "year": int(year),
+                      "month": int(month),
+                      "day": int(day)
+                  },
+                  "text": {
+                      "headline": row.get("title") or "Evento",
+                      "text": description
+                  },
+                  "location": {
+                      "lat": row.get("latitude"),
+                      "lon": row.get("longitude")
+                  }
               })
 
           out = {"events": events}
@@ -208,22 +149,15 @@ jobs:
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
               json.dump(out, f, ensure_ascii=False, indent=2)
 
-          print("Timeline JSON generato correttamente.")
+          print(f"✅ Timeline JSON generato con {len(events)} eventi.")
           EOF
 
       ###############################################################
-      # STEP 5 — Commit changes only if files changed
+      # STEP 3 — Commit changes
       ###############################################################
       - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-          if git diff --quiet; then
-            echo "Nessuna modifica da commitare."
-          else
-            git add assets/data/events.geojson
-            git add assets/data/events_timeline.json
-            git commit -m "Auto update data files"
-            git push
-          fi
+          git add assets/data/events.geojson assets/data/events_timeline.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update: Clean JSON data" && git push)
