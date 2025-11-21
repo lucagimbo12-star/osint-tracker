@@ -1,54 +1,73 @@
 import csv
 import requests
-import sys
+import json
 
-# URL CSV Google Sheet (se vuoi aggiornamento automatico da Sheets)
-sheet_url = https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit?usp=sharing [1]  # es: URL CSV Google Sheet
-geojson_output = events.geojson[2]  # es: events.geojson
-timeline_csv_output = events_timeline.csv [3]  # nuovo: events_timeline.csv
+# URL corretto del foglio in formato CSV
+sheet_url = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
 
-# Scarica dati
+# Output
+geojson_output = "events.geojson"
+timeline_csv_output = "events_timeline.csv"
+
+# Scarica il CSV
 r = requests.get(sheet_url)
 r.raise_for_status()
 lines = r.text.splitlines()
 reader = csv.DictReader(lines)
 
-# Per GeoJSON
+# Colonne note del foglio
+valid_fields = [
+    "title",
+    "date",
+    "type",
+    "location",
+    "latitude",
+    "longitude",
+    "source",
+    "archived",
+    "verification"
+]
+
+# GeoJSON
 geojson = {
     "type": "FeatureCollection",
     "features": []
 }
 
-# Per TimelineCSV
-timeline_fields = ['Year','Month','Day','Headline','Text','Media','Media Credit','Media Caption']
+# Timeline
 timeline_rows = []
 
 for row in reader:
-    # GeoJSON
-    try:
-        lon = float(row['Longitude'])
-        lat = float(row['Latitude'])
-    except:
-        continue  # ignora righe senza coordinate
 
+    # Converti lat/lon a numeri
+    try:
+        lat = float(row["latitude"])
+        lon = float(row["longitude"])
+    except Exception:
+        # se non è convertibile la saltiamo
+        continue
+
+    # Aggiungi feature GeoJSON
     feature = {
         "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [lon, lat]},
-        "properties": row
+        "geometry": {
+            "type": "Point",
+            "coordinates": [lon, lat]
+        },
+        "properties": {field: row.get(field, "") for field in valid_fields}
     }
-    geojson['features'].append(feature)
 
-    # TimelineCSV
-    timeline_row = {field: row.get(field, '') for field in timeline_fields}
-    timeline_rows.append(timeline_row)
+    geojson["features"].append(feature)
+
+    # Costruisci riga timeline (solo colonne note)
+    timeline_rows.append({field: row.get(field, "") for field in valid_fields})
 
 # Scrivi GeoJSON
-import json
-with open(geojson_output, 'w', encoding='utf-8') as f:
+with open(geojson_output, "w", encoding="utf-8") as f:
     json.dump(geojson, f, ensure_ascii=False, indent=2)
 
-# Scrivi CSV per Timeline
-with open(timeline_csv_output, 'w', newline='', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=timeline_fields)
+# Scrivi CSV timeline
+with open(timeline_csv_output, "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=valid_fields)
     writer.writeheader()
     writer.writerows(timeline_rows)
