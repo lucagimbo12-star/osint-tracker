@@ -32,7 +32,7 @@ jobs:
           GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
         run: python3 scripts/ai_agent.py || echo "AI Agent finished with warnings (continuing...)"
 
-      # FASE 2: Scarica i dati (anche quelli appena aggiornati dall'AI) e genera il sito
+      # FASE 2: Scarica i dati e genera il sito
       - name: 🔄 Download & Generate Data
         run: |
           python3 <<'EOF'
@@ -46,7 +46,6 @@ jobs:
           # --- CONFIGURAZIONE ---
           SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
           
-          # MAPPATURA COLONNE (Include i nuovi campi AI)
           COLUMN_MAPPING = {
               "latitude": "latitude", "lat": "latitude",
               "longitude": "longitude", "lon": "longitude", "long": "longitude",
@@ -58,7 +57,6 @@ jobs:
               "archived": "archived", "archivio": "archived",
               "verification": "verification", "verifica": "verification",
               "notes": "description", "note": "description",
-              # NUOVI CAMPI AI
               "description": "description", "descrizione": "description",
               "video": "video", "video_url": "video",
               "intensity": "intensity", "intensità": "intensity"
@@ -76,6 +74,10 @@ jobs:
           # Normalizzazione
           df.columns = df.columns.str.strip().str.lower()
           df.rename(columns=COLUMN_MAPPING, inplace=True)
+          
+          # --- FIX CRITICO: RIMUOVE COLONNE DUPLICATE ---
+          df = df.loc[:, ~df.columns.duplicated()]
+          
           df = df.replace({np.nan: None})
 
           # --- 1. GENERAZIONE EVENTS.GEOJSON (Mappa) ---
@@ -88,10 +90,11 @@ jobs:
 
               ver = row.get("verification", "not verified")
               
-              # Calcolo Intensity: Usa quella dell'AI se c'è, altrimenti default
+              # Calcolo Intensity
               try:
-                  if row.get("intensity"):
-                      intensity = float(row.get("intensity"))
+                  raw_intensity = row.get("intensity")
+                  if raw_intensity is not None and raw_intensity != "":
+                      intensity = float(raw_intensity)
                   else:
                       intensity = 0.7 if ver == "verified" else 0.2
               except:
@@ -105,8 +108,8 @@ jobs:
                   "link": row.get("link") or "",
                   "archived": row.get("archived") or "",
                   "verification": ver,
-                  "description": row.get("description") or "", # Descrizione AI
-                  "video": row.get("video") or "",             # Video AI
+                  "description": row.get("description") or "",
+                  "video": row.get("video") or "",
                   "intensity": intensity
               }
               
@@ -124,7 +127,6 @@ jobs:
           tl_events = []
           for _, row in df.iterrows():
               try:
-                  # Gestione date flessibile
                   d_str = str(row.get("date", ""))
                   if '/' in d_str:
                       parts = d_str.split('/')
@@ -135,11 +137,10 @@ jobs:
                       if len(parts) == 3: year, month, day = map(str.strip, parts)
                   else: continue
 
-                  # HTML per il popup della timeline
                   desc = row.get("description") or ""
                   html = f"Tipo: {row.get('type')}<br>Luogo: {row.get('location')}<br>Verifica: {row.get('verification')}"
                   if desc:
-                      html += f"<br><br><i>{desc[:100]}...</i>" # Anteprima descrizione
+                      html += f"<br><br><i>{desc[:100]}...</i>"
                   
                   tl_events.append({
                       "start_date": {"year": int(year), "month": int(month), "day": int(day)},
