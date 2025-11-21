@@ -3,9 +3,9 @@ import requests
 import sys
 
 # URL CSV Google Sheet (se vuoi aggiornamento automatico da Sheets)
-sheet_url = sys.argv[1]  # es: URL CSV Google Sheet
-geojson_output = sys.argv[2]  # es: events.geojson
-timeline_csv_output = sys.argv[3]  # nuovo: events_timeline.csv
+sheet_url = https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit?usp=sharing [1]  # es: URL CSV Google Sheet
+geojson_output = events.geojson[2]  # es: events.geojson
+timeline_csv_output = events_timeline.csv [3]  # nuovo: events_timeline.csv
 
 # Scarica dati
 r = requests.get(sheet_url)
