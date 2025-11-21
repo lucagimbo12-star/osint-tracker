@@ -8,7 +8,7 @@
       },
       "text": {
         "headline": "Deposito petrolifero di Serpukhov ZAO \"ros-trade\"",
-        "text": "Tipo: Drones<br>Luogo: Serpukhov, distretto di Serpukhov, villaggio Novoselki, regione di Mosca.<br>Verifica: not verified"
+        "text": "Tipo: Drones<br>Luogo: Serpukhov, distretto di Serpukhov, villaggio Novoselki, regione di Mosca.<br>Verifica: verified<br><br><i>Il 26 ottobre 2025, un deposito petrolifero a Serpukhov, nella regione di Mosca, ha preso fuoco dopo...</i>"
       },
       "type": "Drones",
       "date": "2025-10-26"
@@ -21,7 +21,7 @@
       },
       "text": {
         "headline": "Sottostazione elettrica PS 110 kV Â«RylskÂ»",
-        "text": "Tipo: Drones<br>Luogo: Rylsk, regione di Kursk.<br>Verifica: not verified"
+        "text": "Tipo: Drones<br>Luogo: Rylsk, regione di Kursk.<br>Verifica: verified<br><br><i>Un attacco aereo ha colpito la sottostazione elettrica PS 110 kV a Rylsk, causando blackout in diver...</i>"
       },
       "type": "Drones",
       "date": "2025-10-27"
@@ -34,7 +34,7 @@
       },
       "text": {
         "headline": "Deposito petrolifero",
-        "text": "Tipo: Drones<br>Luogo: Lugansk, Ucraina<br>Verifica: not verified"
+        "text": "Tipo: Drones<br>Luogo: Lugansk, Ucraina<br>Verifica: verified<br><br><i>Un attacco con droni ucraini ha colpito un deposito petrolifero a Starobilsk, Lugansk, provocando un...</i>"
       },
       "type": "Drones",
       "date": "2025-10-27"
@@ -47,7 +47,7 @@
       },
       "text": {
         "headline": "Deposito petrolifero",
-        "text": "Tipo: Drones<br>Luogo: Starobilsk, Ucraina<br>Verifica: not verified"
+        "text": "Tipo: Drones<br>Luogo: Starobilsk, Ucraina<br>Verifica: verified<br><br><i>Le forze ucraine hanno attaccato un deposito petrolifero a Starobilsk, causando un incendio signific...</i>"
       },
       "type": "Drones",
       "date": "2025-10-27"
@@ -60,7 +60,7 @@
       },
       "text": {
         "headline": "Raffineria di Novokuibyshevsk",
-        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Verifica: verified"
+        "text": "Tipo: Drones<br>Luogo: Novokuibyshevsk, Oblast di Samara<br>Verifica: verified<br><br><i>Il 2 agosto 2025, la raffineria di Novokuibyshevsk Ã¨ stata colpita da droni ucraini, causando gravi...</i>"
       },
       "type": "Drones",
       "date": "2025-08-02"

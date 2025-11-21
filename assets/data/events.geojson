@@ -15,12 +15,12 @@
         "date": "26/10/25",
         "type": "Drones",
         "location": "Serpukhov, distretto di Serpukhov, villaggio Novoselki, regione di Mosca.",
-        "link": "",
+        "link": "https://unn.ua/en/news/oil-depot-in-serpukhov-near-moscow-caught-fire-after-uav-strike",
         "archived": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 26 ottobre 2025, un deposito petrolifero a Serpukhov, nella regione di Mosca, ha preso fuoco dopo un presunto attacco con droni. Non si segnalano vittime. Sul posto circolano immagini dell'incendio.",
+        "video": "https://www.youtube.com/watch?v=GDmMOBA0Uxg",
+        "intensity": 0.8
       }
     },
     {
@@ -37,12 +37,12 @@
         "date": "27/10/25",
         "type": "Drones",
         "location": "Rylsk, regione di Kursk.",
-        "link": "",
+        "link": "https://ukrainetoday.org/a-substation-exploded-in-rylsk-kursk-oblast-three-regions-of-the-russian-federation-joined-the-power-outage-schedules/",
         "archived": "",
-        "verification": "not verified",
-        "description": "",
+        "verification": "verified",
+        "description": "Un attacco aereo ha colpito la sottostazione elettrica PS 110 kV a Rylsk, causando blackout in diverse localitÃ  e mancanza di riscaldamento in 17 edifici, come riportato dal governatore Starovoit.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.8
       }
     },
     {
@@ -59,12 +59,12 @@
         "date": "27/10/25",
         "type": "Drones",
         "location": "Lugansk, Ucraina",
-        "link": "",
+        "link": "https://www.bbc.com/news/live/cwyk75rek99t",
         "archived": "",
-        "verification": "not verified",
-        "description": "",
+        "verification": "verified",
+        "description": "Un attacco con droni ucraini ha colpito un deposito petrolifero a Starobilsk, Lugansk, provocando un ampio incendio. Il video dell'incidente Ã¨ stato geolocalizzato e mostra danni significativi alla struttura.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.8
       }
     },
     {
@@ -81,12 +81,12 @@
         "date": "27/10/25",
         "type": "Drones",
         "location": "Starobilsk, Ucraina",
-        "link": "",
+        "link": "https://www.bbc.com/news/live/cwyk75rek99t",
         "archived": "",
-        "verification": "not verified",
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno attaccato un deposito petrolifero a Starobilsk, causando un incendio significativo sulla linea ferroviaria. Il video dell'attacco Ã¨ stato geolocalizzato e confermato dai servizi speciali ucraini.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.8
       }
     },
     {
@@ -106,9 +106,9 @@
         "link": "https://www.reuters.com/business/energy/russias-kuibyshevsk-refinery-halted-operations-after-drone-attacks-sources-say-2025-08-29/",
         "archived": "https://archive.is/WN4WA",
         "verification": "verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.7
+        "description": "Il 2 agosto 2025, la raffineria di Novokuibyshevsk Ã¨ stata colpita da droni ucraini, causando gravi danni e l'interruzione completa delle operazioni. La situazione ha portato a un incendio esteso e alla compromissione significativa delle capacitÃ  produttive.",
+        "video": "https://www.youtube.com/watch?v=mGq2FFKCiWA",
+        "intensity": 0.8
       }
     },
     {
