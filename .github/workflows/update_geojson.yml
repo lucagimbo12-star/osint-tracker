@@ -1,15 +1,15 @@
-name: Update Data from Google Sheets
+name: AI Verification & Site Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Ogni 6 ore
-  workflow_dispatch:      # Manuale
+    - cron: '0 */6 * * *' # Esegue ogni 6 ore
+  workflow_dispatch:      # Esegue quando premi il bottone manuale
 
 permissions:
   contents: write
 
 jobs:
-  update-data:
+  ai-and-sync:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,9 +22,18 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pandas requests numpy
+        run: pip install pandas requests numpy gspread google-auth tavily-python openai
 
-      - name: Download and Process Data
+      # FASE 1: L'Agente AI controlla e aggiorna Google Sheets
+      - name: 🤖 Run AI Agent
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
+        run: python3 scripts/ai_agent.py || echo "AI Agent finished with warnings (continuing...)"
+
+      # FASE 2: Scarica i dati (anche quelli appena aggiornati dall'AI) e genera il sito
+      - name: 🔄 Download & Generate Data
         run: |
           python3 <<'EOF'
           import pandas as pd
@@ -37,142 +46,92 @@ jobs:
           # --- CONFIGURAZIONE ---
           SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
           
-          # Mappa dei nomi colonne (Colonna nel CSV -> Nome proprietà nel JSON)
-          # Aggiungi qui tutte le varianti possibili (tutto minuscolo)
           COLUMN_MAPPING = {
-              "latitude": "latitude",
-              "lat": "latitude",
-              "longitude": "longitude",
-              "lon": "longitude",
-              "long": "longitude",
-              "title": "title",
-              "titolo": "title",
-              "date": "date",
-              "data": "date",
-              "type": "type",
-              "type of attack": "type",
-              "tipo": "type",
-              "location": "location",
-              "luogo": "location",
-              "source": "link",
-              "fonte": "link",
-              "archived": "archived",
-              "archivio": "archived",
-              "verification": "verification",
-              "verifica": "verification",
-              "notes": "description",
-              "note": "description"
+              "latitude": "latitude", "lat": "latitude",
+              "longitude": "longitude", "lon": "longitude", "long": "longitude",
+              "title": "title", "titolo": "title",
+              "date": "date", "data": "date",
+              "type": "type", "type of attack": "type", "tipo": "type",
+              "location": "location", "luogo": "location",
+              "source": "link", "fonte": "link",
+              "archived": "archived", "archivio": "archived",
+              "verification": "verification", "verifica": "verification",
+              "notes": "description", "note": "description"
           }
 
-          print("🔄 Scaricamento dati da Google Sheets...")
+          print("🔄 Scaricamento CSV da Google Sheets...")
           try:
               response = requests.get(SHEET_URL)
               response.raise_for_status()
               df = pd.read_csv(io.StringIO(response.text))
-              print(f"✅ CSV scaricato. Colonne originali: {list(df.columns)}")
           except Exception as e:
-              print(f"❌ Errore scaricamento: {e}")
+              print(f"❌ Errore download: {e}")
               sys.exit(1)
 
-          # --- NORMALIZZAZIONE COLONNE ---
-          # 1. Pulisce i nomi delle colonne (strip spazi e lowercase)
+          # Normalizzazione
           df.columns = df.columns.str.strip().str.lower()
-          
-          # 2. Rinomina le colonne usando la mappa
           df.rename(columns=COLUMN_MAPPING, inplace=True)
-          print(f"✅ Colonne normalizzate: {list(df.columns)}")
-
-          # 3. Pulisce i dati NaN
           df = df.replace({np.nan: None})
 
-          # --- GENERAZIONE EVENTS.GEOJSON ---
+          # --- EVENTS.GEOJSON ---
           features = []
           for _, row in df.iterrows():
-              # Cerca latitudine/longitudine (gestisce se mancano)
               lat = row.get("latitude")
               lon = row.get("longitude")
               
-              if lat is None or lon is None:
-                  continue # Salta righe senza coordinate
+              if lat is None or lon is None: continue
 
-              try:
-                  verification = row.get("verification", "not verified")
-                  # Calcolo intensità
-                  intensity = 0.7 if verification == "verified" else 0.2
-                  
-                  # Mapping proprietà sicuro
-                  props = {
-                      "title": row.get("title") or "Evento",
-                      "date": str(row.get("date") or ""),
-                      "type": row.get("type") or "Drones",
-                      "location": row.get("location") or "",
-                      "link": row.get("link") or "",
-                      "archived": row.get("archived") or "",
-                      "verification": verification,
-                      "description": row.get("description") or "",
-                      "intensity": intensity
-                  }
+              ver = row.get("verification", "not verified")
+              intensity = 0.7 if ver == "verified" else 0.2
 
-                  features.append({
-                      "type": "Feature",
-                      "geometry": {
-                          "type": "Point",
-                          "coordinates": [float(lon), float(lat)]
-                      },
-                      "properties": props
-                  })
-              except Exception as e:
-                  print(f"⚠️ Errore riga: {e}")
-                  continue
+              props = {
+                  "title": row.get("title") or "Evento",
+                  "date": str(row.get("date") or ""),
+                  "type": row.get("type") or "Drones",
+                  "location": row.get("location") or "",
+                  "link": row.get("link") or "",
+                  "archived": row.get("archived") or "",
+                  "verification": ver,
+                  "description": row.get("description") or "",
+                  "intensity": intensity
+              }
+              features.append({
+                  "type": "Feature",
+                  "geometry": {"type": "Point", "coordinates": [float(lon), float(lat)]},
+                  "properties": props
+              })
 
           with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
               json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
-          print("✅ events.geojson generato.")
 
-          # --- GENERAZIONE EVENTS_TIMELINE.JSON ---
-          timeline_events = []
+          # --- EVENTS_TIMELINE.JSON ---
+          tl_events = []
           for _, row in df.iterrows():
               try:
-                  date_str = str(row.get("date", ""))
-                  # Gestione formati data vari (DD/MM/YY, YYYY-MM-DD)
-                  if '/' in date_str:
-                      parts = date_str.split('/')
-                      if len(parts) == 3:
-                          day, month, year = map(str.strip, parts)
-                          if len(year) == 2: year = "20" + year
-                  elif '-' in date_str:
-                      parts = date_str.split('-')
-                      if len(parts) == 3:
-                          year, month, day = map(str.strip, parts)
-                  else:
-                      continue 
+                  d_str = str(row.get("date", ""))
+                  if '/' in d_str:
+                      parts = d_str.split('/')
+                      if len(parts) == 3: day, month, year = map(str.strip, parts)
+                      if len(year) == 2: year = "20" + year
+                  elif '-' in d_str:
+                      parts = d_str.split('-')
+                      if len(parts) == 3: year, month, day = map(str.strip, parts)
+                  else: continue
 
-                  # HTML descrizione
-                  text_html = f"Tipo: {row.get('type') or 'Drones'}<br>"
-                  if row.get("location"): text_html += f"Luogo: {row['location']}<br>"
-                  if row.get("verification"): text_html += f"Verifica: {row['verification']}"
-
-                  timeline_events.append({
-                      "start_date": {
-                          "year": int(year),
-                          "month": int(month),
-                          "day": int(day)
-                      },
-                      "text": {
-                          "headline": row.get("title") or "Evento",
-                          "text": text_html
-                      },
-                      "group": row.get("type") or "Drones",
-                      "type": row.get("type") or "Drones", # Importante per i filtri
-                      "verification": row.get("verification"), # Importante per charts.js
-                      "date": f"{year}-{month.zfill(2)}-{day.zfill(2)}" # Formato ISO per charts.js
+                  html = f"Tipo: {row.get('type')}<br>Luogo: {row.get('location')}<br>Verifica: {row.get('verification')}"
+                  
+                  tl_events.append({
+                      "start_date": {"year": int(year), "month": int(month), "day": int(day)},
+                      "text": {"headline": row.get("title") or "Evento", "text": html},
+                      "type": row.get("type"),
+                      "date": f"{year}-{month.zfill(2)}-{day.zfill(2)}"
                   })
-              except Exception as e:
-                  continue
+              except: continue
 
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
-              json.dump({"events": timeline_events}, f, ensure_ascii=False, indent=2)
-          print(f"✅ events_timeline.json generato ({len(timeline_events)} eventi).")
+              json.dump({"events": tl_events}, f, ensure_ascii=False, indent=2)
+          
+          print("✅ Dati sito rigenerati con successo.")
           EOF
 
       - name: Commit and push updates
@@ -180,4 +139,4 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add assets/data/events.geojson assets/data/events_timeline.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Smart column mapping" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: AI + Data Refresh" && git push)
