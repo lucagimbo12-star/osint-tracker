@@ -8,8 +8,8 @@
       "latitude": 54.941428,
       "longitude": 37.0169,
       "verification": "not verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Sottostazione elettrica PS 110 kV «Rylsk»",
@@ -19,8 +19,8 @@
       "latitude": 51.565105,
       "longitude": 34.662964,
       "verification": "not verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Deposito petrolifero",
@@ -30,8 +30,8 @@
       "latitude": 48.512353,
       "longitude": 39.312842,
       "verification": "not verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Deposito petrolifero",
@@ -41,8 +41,8 @@
       "latitude": 49.289531,
       "longitude": 38.926362,
       "verification": "not verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Novokuibyshevsk",
@@ -53,7 +53,7 @@
       "longitude": 49.876177,
       "verification": "verified",
       "archived": "https://archive.is/WN4WA",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Novokuibyshevsk",
@@ -64,7 +64,7 @@
       "longitude": 49.876177,
       "verification": "verified",
       "archived": "https://archive.is/Fg00k",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Novokuibyshevsk",
@@ -75,7 +75,7 @@
       "longitude": 49.876177,
       "verification": "verified",
       "archived": "https://archive.is/YEEHQ",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Rjazan",
@@ -86,7 +86,7 @@
       "longitude": 39.7482438,
       "verification": "verified",
       "archived": "https://archive.is/1UgRn",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Rjazan",
@@ -97,7 +97,7 @@
       "longitude": 39.7482438,
       "verification": "verified",
       "archived": "https://archive.is/K5SuL",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Rjazan",
@@ -108,7 +108,7 @@
       "longitude": 39.7482438,
       "verification": "verified",
       "archived": "https://archive.is/uKkeK",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Afipsky",
@@ -119,7 +119,7 @@
       "longitude": 38.82194,
       "verification": "verified",
       "archived": "https://archive.is/2PZkP",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Afipsky",
@@ -130,7 +130,7 @@
       "longitude": 38.82194,
       "verification": "verified",
       "archived": "https://archive.is/fYfTg",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": " Raffineria di Afipsky",
@@ -141,7 +141,7 @@
       "longitude": 38.82194,
       "verification": "verified",
       "archived": "https://archive.is/08fSe",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -152,7 +152,7 @@
       "longitude": 45.93466,
       "verification": "verified",
       "archived": "https://archive.is/jaZPo",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -162,8 +162,8 @@
       "latitude": 51.46116,
       "longitude": 45.93466,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -174,7 +174,7 @@
       "longitude": 45.93466,
       "verification": "verified",
       "archived": "https://archive.is/M05xJ",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -184,8 +184,8 @@
       "latitude": 51.46116,
       "longitude": 45.93466,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -196,7 +196,7 @@
       "longitude": 45.93466,
       "verification": "verified",
       "archived": "https://archive.is/jl5a4",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Saratov",
@@ -207,7 +207,7 @@
       "longitude": 45.93466,
       "verification": "verified",
       "archived": "https://archive.is/um8wY",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Volgograd",
@@ -218,7 +218,7 @@
       "longitude": 44.62722,
       "verification": "verified",
       "archived": "https://archive.is/S7YV2",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Volgograd",
@@ -229,7 +229,7 @@
       "longitude": 44.62722,
       "verification": "verified",
       "archived": "https://archive.is/Qymln",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Volgograd",
@@ -240,7 +240,7 @@
       "longitude": 44.62722,
       "verification": "verified",
       "archived": "https://archive.is/Zs5Fv",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Syzran",
@@ -251,7 +251,7 @@
       "longitude": 48.40192,
       "verification": "verified",
       "archived": "https://archive.is/Qidnn",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Syzran",
@@ -261,8 +261,8 @@
       "latitude": 53.09368,
       "longitude": 48.40192,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Syzran",
@@ -273,7 +273,7 @@
       "longitude": 48.40192,
       "verification": "verified",
       "archived": "https://archive.is/UXcRR",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Novoshakhtinsk",
@@ -284,7 +284,7 @@
       "longitude": 39.851232,
       "verification": "verified",
       "archived": "https://archive.is/kSw2s",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Kuibyshev",
@@ -295,7 +295,7 @@
       "longitude": 50.06331,
       "verification": "verified",
       "archived": "https://archive.is/WN4WA",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Krasnodar",
@@ -306,7 +306,7 @@
       "longitude": 38.82194,
       "verification": "verified",
       "archived": "https://archive.is/UXcRR",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Ilsky",
@@ -316,8 +316,8 @@
       "latitude": 46.33291,
       "longitude": 38.93463,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Bashneft-Novoyl",
@@ -328,7 +328,7 @@
       "longitude": 56.077389,
       "verification": "verified",
       "archived": "https://archive.is/SVoZ0",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Bashneft-Novoyl",
@@ -339,7 +339,7 @@
       "longitude": 56.077389,
       "verification": "verified",
       "archived": "https://archive.is/BHQCJ",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Bashneft-Ufaneftkhim",
@@ -349,8 +349,8 @@
       "latitude": 54.883371,
       "longitude": 56.077389,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Kiriši",
@@ -360,8 +360,8 @@
       "latitude": 59.48362,
       "longitude": 32.0708,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Kiriši",
@@ -372,7 +372,7 @@
       "longitude": 32.0708,
       "verification": "verified",
       "archived": "https://archive.is/SAEYE",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria Gazprom Neftekhim Salavat",
@@ -383,7 +383,7 @@
       "longitude": 55.90512,
       "verification": "verified",
       "archived": "https://archive.is/85CGF",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria Gazprom Neftekhim Salavat",
@@ -393,8 +393,8 @@
       "latitude": 53.4012,
       "longitude": 55.90512,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Astrakhan",
@@ -404,8 +404,8 @@
       "latitude": 46.77502,
       "longitude": 48.11057,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Orsk",
@@ -415,8 +415,8 @@
       "latitude": 51.25948,
       "longitude": 58.52666,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Orsk",
@@ -426,8 +426,8 @@
       "latitude": 51.25948,
       "longitude": 58.52666,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
@@ -437,8 +437,8 @@
       "latitude": 56.10583,
       "longitude": 44.14389,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Lukoil - Nizhegorodnefteorgsintez, Kstovo",
@@ -449,7 +449,7 @@
       "longitude": 44.14389,
       "verification": "verified",
       "archived": "https://archive.is/iOSkv",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Orenburg",
@@ -459,8 +459,8 @@
       "latitude": 51.6541,
       "longitude": 54.7969,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Orenburg",
@@ -471,7 +471,7 @@
       "longitude": 54.7969,
       "verification": "verified",
       "archived": "https://archive.is/ooCeg",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Makhachkala",
@@ -482,7 +482,7 @@
       "longitude": 47.51263,
       "verification": "verified",
       "archived": "https://archive.is/NOBzS",
-      "notes": NaN
+      "notes": null
     },
     {
       "title": "Raffineria di Novospassky",
@@ -492,8 +492,8 @@
       "latitude": 53.14583,
       "longitude": 47.75833,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Mari",
@@ -503,8 +503,8 @@
       "latitude": 56.981907,
       "longitude": 47.72762,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Yaroslavl",
@@ -514,8 +514,8 @@
       "latitude": 57.54583,
       "longitude": 39.78944,
       "verification": "verified",
-      "archived": NaN,
-      "notes": NaN
+      "archived": null,
+      "notes": null
     },
     {
       "title": "Raffineria di Tuapse",
@@ -526,7 +526,7 @@
       "longitude": 39.09861,
       "verification": "verified",
       "archived": "https://archive.is/iaZmO",
-      "notes": NaN
+      "notes": null
     }
   ]
 }
