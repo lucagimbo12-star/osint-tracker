@@ -1,171 +1,358 @@
 /* ============================================
-   STYLE.CSS - VERSIONE PRO (ICONE & LEGENDA MOBILE)
+   STYLE.CSS - ACLED INTELLIGENCE DASHBOARD
    ============================================ */
 
-/* Base & Reset */
+/* --- 1. FONT E VARIABILI --- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@700&display=swap');
+
+:root {
+  --primary: #002060;      /* Navy Blue (Istituzionale) */
+  --primary-light: #2c4275; 
+  --secondary: #b71c1c;    /* Deep Red (Critico) */
+  --accent: #f57c00;       /* Orange (Alto) */
+  --bg-body: #f0f2f5;      /* Sfondo pagina */
+  --bg-surface: #ffffff;   /* Sfondo card */
+  --text-main: #212529;
+  --text-muted: #6c757d;
+  --border: #dfe3e8;
+}
+
+/* --- 2. RESET & BASE --- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
-  background: #f8f9fa;
-  color: #212529;
-  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  line-height: 1.5;
+  font-size: 14px;
+  overflow-x: hidden; /* Previene scroll orizzontale indesiderato */
 }
 
-/* --- LAYOUT GENERALE --- */
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* --- 3. HEADER (NAVBAR) --- */
 header {
-  background: linear-gradient(135deg, #002060 0%, #1a237e 100%); /* Navy Blue */
-  color: #fefefe;
+  background: linear-gradient(90deg, #001a4d 0%, #002060 100%);
+  color: white;
+  height: 60px;
   position: sticky;
   top: 0;
   z-index: 2000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-  height: 60px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
 }
 
 .header-content {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px; /* Wide layout */
   margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
 }
 
-header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: 0.5px; margin: 0; }
-header nav { display: flex; gap: 1.5rem; }
-header a {
-  color: #cfd8dc;
-  text-decoration: none;
+.brand h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+.brand span { color: #90caf9; font-weight: 300; }
+
+header nav { display: flex; gap: 20px; }
+header nav a {
+  color: #b0bec5;
   font-weight: 600;
   font-size: 0.9rem;
   transition: color 0.2s;
+  padding: 5px 0;
 }
-header a:hover { color: white; }
+header nav a:hover, header nav a.active {
+  color: white;
+  border-bottom: 2px solid var(--secondary);
+}
 
-/* --- DASHBOARD CONTAINER --- */
+/* --- 4. LAYOUT DASHBOARD (GRID) --- */
 .dashboard-container {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  height: calc(100vh - 60px);
+  grid-template-columns: 280px 1fr; /* Sidebar fissa | Contenuto fluido */
+  min-height: calc(100vh - 60px);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-/* --- SIDEBAR --- */
+/* --- 5. SIDEBAR FILTRI --- */
 .sidebar {
-  background: white;
-  border-right: 1px solid #dfe3e8;
-  padding: 1.5rem;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border);
+  padding: 20px;
+  height: calc(100vh - 60px);
   overflow-y: auto;
+  position: sticky;
+  top: 60px;
 }
 
 .sidebar-header {
-  display: flex; justify-content: space-between; align-items: center;
-  margin-bottom: 1.5rem; border-bottom: 2px solid #002060; padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary);
 }
-.sidebar-header h3 { color: #002060; font-size: 1.1rem; margin: 0; }
+.sidebar-header h3 { font-size: 1.1rem; color: var(--primary); font-weight: 700; }
 
-.filter-group { margin-bottom: 1.2rem; }
-.filter-group label { display: block; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.5rem; color: #333; }
-.filter-group input, .filter-group select {
-  width: 100%; padding: 8px; border: 1px solid #cfd8dc; border-radius: 4px; font-size: 0.9rem;
+.filter-group { margin-bottom: 15px; }
+.filter-group label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 5px;
 }
 
+.acled-input, .acled-select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  background: #f8f9fa;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  transition: border-color 0.2s;
+}
+.acled-input:focus, .acled-select:focus {
+  border-color: var(--primary);
+  outline: none;
+  background: white;
+}
+
+/* Date Range */
+.date-row { display: flex; gap: 5px; align-items: center; }
+.date-row input { flex: 1; }
+
+/* Pulsanti Sidebar */
 .btn-acled-primary {
-  width: 100%; background: #002060; color: white; border: none; padding: 10px;
-  border-radius: 4px; font-weight: 700; cursor: pointer; text-transform: uppercase;
-  margin-top: 1rem;
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
 }
-.btn-acled-primary:hover { background: #001540; }
+.btn-acled-primary:hover { background: #003380; }
 
-/* --- MAIN CONTENT --- */
+.btn-acled-secondary {
+  width: 100%;
+  background: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+.btn-acled-secondary:hover { background: #e3f2fd; }
+
+/* --- 6. MAIN CONTENT --- */
 .main-content {
-  padding: 1.5rem;
-  background: #f4f6f8;
+  padding: 20px;
   overflow-y: auto;
 }
 
 /* KPI Bar */
-.kpi-bar { display: flex; gap: 1.5rem; margin-bottom: 1.5rem; }
+.kpi-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
 .kpi-card {
-  background: white; padding: 1rem; border-radius: 4px; flex: 1;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #b71c1c;
+  background: var(--bg-surface);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border-left: 4px solid var(--secondary);
 }
-.kpi-label { display: block; font-size: 0.8rem; text-transform: uppercase; color: #6c757d; font-weight: 700; }
-.kpi-value { font-size: 1.8rem; font-weight: 700; color: #002060; }
+.kpi-label { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: block; margin-bottom: 5px; }
+.kpi-value { font-size: 1.8rem; font-weight: 700; color: var(--primary); }
 
-/* Map Wrapper */
+/* Mappa Container */
 .map-container-wrapper {
-  position: relative;
-  background: white;
+  background: var(--bg-surface);
   padding: 5px;
-  border: 1px solid #dfe3e8;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: relative;
+  height: 650px; /* Altezza fissa per layout stabile */
 }
-#map { height: 600px; width: 100%; background: #eef2f6; z-index: 1; }
+#map { width: 100%; height: 100%; border-radius: 4px; z-index: 1; background: #e0e0e0; }
 
-/* --- LEGEND MOBILE (FLOATING) --- */
+/* --- 7. MAPPA: CUSTOM MARKERS E CLUSTER --- */
+
+/* Marker Cluster (Stile Blu Navy/Azzurro coerente) */
+.marker-cluster-small {
+  background-color: rgba(144, 202, 249, 0.6); /* Azzurro chiaro */
+}
+.marker-cluster-small div {
+  background-color: rgba(33, 150, 243, 0.8);
+  color: white;
+}
+
+.marker-cluster-medium {
+  background-color: rgba(100, 181, 246, 0.6); /* Blu medio */
+}
+.marker-cluster-medium div {
+  background-color: rgba(25, 118, 210, 0.8);
+  color: white;
+}
+
+.marker-cluster-large {
+  background-color: rgba(21, 101, 192, 0.6); /* Blu scuro */
+}
+.marker-cluster-large div {
+  background-color: rgba(13, 71, 161, 0.8);
+  color: white;
+}
+
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 50%;
+}
+.marker-cluster div {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 50%;
+  font: 12px "Open Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Marker Singoli (Icone Centrate) */
+.custom-icon-marker {
+  background: transparent !important; /* Essenziale: rimuove sfondo default di Leaflet DivIcon */
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.custom-icon-marker:hover {
+  transform: scale(1.2); /* Effetto zoom al passaggio del mouse */
+  z-index: 1000 !important; /* Porta in primo piano */
+}
+
+/* Popup Leaflet (Stile ACLED) */
+.acled-popup {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 220px;
+}
+.acled-popup h5 {
+  margin: 0 0 5px 0;
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.acled-popup small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.acled-popup p {
+  font-size: 0.85rem;
+  color: #333;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+.btn-popup-action {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+}
+
+/* --- 8. FLOATING LEGEND (Legenda Mobile) --- */
 .floating-legend {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   margin-left: 10px;
+  margin-bottom: 25px;
   overflow: hidden;
-  transition: all 0.3s ease;
-  max-width: 40px; /* Chiusa */
-  max-height: 40px; /* Chiusa */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  max-width: 40px; /* Stato chiuso */
+  max-height: 40px; /* Stato chiuso */
 }
 
 .floating-legend.expanded {
-  max-width: 300px;
-  max-height: 600px;
+  max-width: 280px; /* Stato aperto */
+  max-height: 500px;
   border-radius: 8px;
 }
 
 .legend-toggle {
   width: 40px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background: #002060;
+  background: var(--primary);
   color: white;
-  font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
-
-.legend-toggle:hover { background: #00308F; }
+.legend-toggle:hover { background: var(--primary-light); }
 
 .legend-content {
   padding: 15px;
-  display: none; /* Nascosto se chiuso */
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s ease 0.1s; /* Ritardo per effetto smooth */
+  display: none; /* Nascosto per non occupare spazio nel layout chiuso */
 }
-
 .floating-legend.expanded .legend-content {
-  display: block;
   opacity: 1;
+  display: block;
 }
 
+.legend-section { margin-bottom: 15px; }
+.legend-section:last-child { margin-bottom: 0; }
 .legend-section h4 {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  color: #6c757d;
-  margin-bottom: 10px;
+  color: var(--text-muted);
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .legend-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
-  margin-bottom: 15px;
 }
 
 .legend-item {
@@ -173,70 +360,99 @@ header a:hover { color: white; }
   align-items: center;
   gap: 8px;
   font-size: 0.8rem;
-  color: #333;
+  color: #444;
 }
 
-/* Marker Preview in Legend */
-.legend-marker {
+.legend-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.legend-icon {
   width: 24px; height: 24px;
+  background: #546e7a;
+  color: white;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  color: white;
   font-size: 10px;
-  border: 1px solid #ccc;
 }
 
-/* --- CUSTOM ICON MARKER --- */
-.custom-icon-marker {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
-  color: white;
-  transition: transform 0.2s ease;
-}
-
-.custom-icon-marker:hover {
-  transform: scale(1.2);
-  z-index: 1000 !important;
-  border-color: #002060;
-}
-
-/* --- Charts Grid --- */
+/* --- 9. GRAFICI GRID --- */
 .charts-section {
+  margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  gap: 20px;
 }
+
 .chart-card {
-  background: white; padding: 1.5rem; border-radius: 4px;
-  border: 1px solid #dfe3e8; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  background: var(--bg-surface);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: 1px solid var(--border);
 }
-.chart-card h4 { color: #002060; margin-bottom: 1rem; font-size: 1rem; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+.chart-card h4 {
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+  color: var(--primary);
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
 .chart-wrapper { height: 300px; position: relative; }
 
-/* --- MODAL --- */
+/* --- 10. TIMELINE NARRATIVA --- */
+.timeline-section-wrapper {
+  margin-top: 25px;
+  background: var(--bg-surface);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+/* Override TimelineJS fonts */
+.tl-timeline { font-family: 'Open Sans', sans-serif !important; }
+.tl-headline-title { font-family: 'Merriweather', serif !important; color: var(--primary) !important; }
+
+/* --- 11. MODALE VIDEO --- */
 .modal-overlay {
-  display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(0,32,96, 0.9); z-index: 9999;
+  display: none;
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 32, 96, 0.9); /* Navy trasparente */
+  z-index: 3000;
   justify-content: center; align-items: center;
-}
-.modal-content {
-  background: white; padding: 25px; border-radius: 8px; width: 90%; max-width: 800px;
-  position: relative; border-top: 5px solid #b71c1c;
-}
-.close-modal {
-  position: absolute; top: 10px; right: 15px; font-size: 24px; cursor: pointer;
-}
-#modalVideoContainer iframe, #modalVideoContainer video {
-  width: 100%; aspect-ratio: 16/9; border: none; margin-top: 15px;
+  backdrop-filter: blur(4px);
 }
 
-/* Responsive */
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  position: relative;
+  border-top: 5px solid var(--secondary);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.close-modal {
+  position: absolute; top: 15px; right: 20px;
+  font-size: 24px; cursor: pointer; color: #555;
+}
+.close-modal:hover { color: black; }
+
+#modalVideoContainer {
+  background: black;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+#modalVideoContainer iframe, #modalVideoContainer video {
+  width: 100%; aspect-ratio: 16/9; border: none; display: block;
+}
+
+/* --- 12. RESPONSIVE --- */
 @media (max-width: 1024px) {
   .dashboard-container { grid-template-columns: 1fr; }
-  .sidebar { display: none; } /* In mobile nascondiamo la sidebar per semplicità o la rendiamo off-canvas */
+  .sidebar { display: none; } /* Nascondi sidebar su tablet/mobile (o implementa menu toggle) */
+  .map-container-wrapper { height: 500px; }
 }
