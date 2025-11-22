@@ -192,56 +192,39 @@
     </div>
   </section>
 
-  <section id="timeline-section">
-    <h2>📅 Timeline degli eventi</h2>
-    <div id="timeline" style="width:100%; height:650px;"></div>
-  </section>
+<section id="timeline-section">
+    <div class="about-content" style="max-width: 1400px;"> <h2>📅 Cronologia Eventi</h2>
+      
+      <div class="timeline-wrapper">
+        
+        <div class="timeline-toolbar">
+          <input type="text" id="tlSearch" placeholder="🔍 Cerca evento (es. 'Raffineria')...">
+          
+          <select id="tlCategoryFilter">
+            <option value="">Caricamento categorie...</option>
+          </select>
+          
+          <button id="tlReset" class="btn-secondary-small" style="margin:0;">Reset</button>
+          
+          <span id="tl-count">Caricamento dati...</span>
+        </div>
 
-  <section id="about-section">
-    <div class="about-content">
-      <h2>Metodologia e Fonti</h2>
-      <div class="methodology-grid">
-        <div class="method-card">
-          <h3>🔍 Geolocalizzazione</h3>
-          <p>Ogni evento è verificato con coordinate GPS precise tramite analisi satellite e fonti multiple</p>
-        </div>
-        <div class="method-card">
-          <h3>📰 Fonti OSINT</h3>
-          <p>Reuters, Kyiv Independent, Euromaidan Press, Moscow Times, Bloomberg e altre fonti verificabili</p>
-        </div>
-        <div class="method-card">
-          <h3>✓ Cross-check</h3>
-          <p>Ogni informazione è confermata da almeno due fonti indipendenti prima della pubblicazione</p>
-        </div>
-        <div class="method-card">
-          <h3>📊 Database Strutturato</h3>
-          <p>Schema JSON modulare con metadata completi: attore, target, impatto, affidabilità</p>
-        </div>
-        <div class="method-card">
-          <h3>🎯 Categorizzazione</h3>
-          <p>5 categorie principali: attacchi UA/RU su energia, militare, civili e transfrontalieri</p>
-        </div>
-        <div class="method-card">
-          <h3>⚡ Aggiornamento Real-time</h3>
-          <p>Database aggiornato quotidianamente con nuovi eventi verificati</p>
-        </div>
+        <div id="timeline-embed" style="width: 100%; height: 650px;"></div>
       </div>
+      
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Impact Atlas. Progetto OSINT indipendente. <a href="#">Disclaimer</a> | <a href="#">GitHub</a></p>
-  </footer>
-
-  <!-- Scripts -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  
   <script src="assets/js/map.js"></script>
   <script src="assets/js/charts.js"></script>
-
+  <script src="assets/js/timeline-manager.js"></script> </body>
+</html>
  <script>
     // Usa percorso relativo invece di assoluto
     var timeline = new TL.Timeline(
