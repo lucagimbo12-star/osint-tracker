@@ -4147,16 +4147,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro infrastruttura critica a Chernihiv",
         "date": "20/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://smnews.com.ua/en/12711-drony-voroha-atakuvaly-chernihiv-rosiiany-zavdaly-udaru-po-krytychniy-infrastrukturi/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 giugno 2025, Chernihiv Ã¨ stata colpita da droni russi in un attacco che ha generato esplosioni nella cittÃ . Le autoritÃ  hanno avvertito la popolazione di rimanere al sicuro. Non ci sono segnalazioni di vittime immediate.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -5687,16 +5687,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro edificio residenziale a Chernihiv",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-68833833",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Un attacco missilistico russo ha colpito un edificio di otto piani a Chernihiv, uccidendo almeno 18 persone e causando oltre 60 feriti, tra cui tre bambini.",
+        "video": "https://www.youtube.com/watch?v=MBHwEENbVqo",
+        "intensity": 1.0
       }
     },
     {
@@ -6919,16 +6919,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con droni contro infrastrutture a Chernihiv",
         "date": "28/06/24",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2024/6/28/russia-ukraine-war-list-of-key-events-day-854",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 28 giugno 2024, forze russe hanno condotto un attacco aereo con droni e artiglieria contro Chernihiv, colpendo depositi di carburante e linee di rifornimento in risposta agli attacchi ucraini. Circa 49 insediamenti sono stati devastati.",
+        "video": "https://www.youtube.com/watch?v=kiBJBOkgWeU",
+        "intensity": 1.0
       }
     },
     {
@@ -6941,16 +6941,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro edifici residenziali a Chernihiv",
         "date": "19/07/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, un attacco missilistico russo ha colpito un edificio residenziale a Chernihiv, causando 15 vittime e oltre 60 feriti, tra cui bambini. Questo attacco ha avuto luogo dopo un'incursione ucraina in Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -6963,16 +6963,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro impianti energetici a Chernihiv",
         "date": "26/07/24",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2024/7/26/russia-ukraine-war-list-of-key-events-day-882",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte tra il 25 e il 26 luglio 2024, la Russia ha colpito impianti energetici nelle regioni settentrionali di Chernihiv e Zhytomyr con droni, causando interruzioni nei rifornimenti elettrici. La maggior parte degli utenti ha riavuto l'energia successivamente.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -6985,16 +6985,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro infrastruttura a Chernihiv",
         "date": "16/08/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/russian-troops-plant-flag-at-border-in-chernihiv-oblast-border-guard-says-no-major-offensive-detected/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 16 agosto 2024, l'intelligence militare ucraina ha segnalato attacchi russi contro obiettivi nella regione di Chernihiv. L'uso di droni e bombardamenti ha danneggiato le infrastrutture locali, mentre l'esercito ucraino ha dovuto rafforzare le difese in risposta ai raid.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7007,16 +7007,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture militari a Chernihiv",
         "date": "23/08/24",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, le forze ucraine hanno intensificato gli attacchi con droni contro infrastrutture militari russe, con particolare attenzione ai servizi in corso nel Chernihiv, cercando di interrompere l'uso di armi da parte della Russia.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7029,16 +7029,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro quartiere residenziale a Kharkiv",
         "date": "30/08/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.russiamatters.org/news/russia-review/russia-review-aug-23-30-2024",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 30 agosto, attacchi aerei russi hanno colpito un blocco residenziale a Kharkiv, causando la morte di almeno quattro persone e ferendo 28 altre. La situazione rimane critica con segnalazioni di intensificazione dei bombardamenti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7051,16 +7051,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Cernihiv",
         "date": "18/10/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/russian-troops-plant-flag-at-border-in-chernihiv-oblast-border-guard-says-no-major-offensive-detected/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, forze russe hanno condotto un attacco missilistico a Chernihiv, colpendo infrastrutture civili. L'ombudsman ucraino ha segnalato 100 casi di esecuzioni di prigionieri di guerra ucraini da parte russa nell'attuale contesto di incremento delle ostilitÃ .",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7073,16 +7073,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture energetiche a Chernihiv",
         "date": "25/10/24",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-25-2024",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Le forze russe hanno colpito Chernihiv con droni, distruggendo depositi di carburante e infrastrutture energetiche cruciali per il supporto alle operazioni ucraine, in un'azione di rappresaglia contro attacchi precedenti.",
+        "video": "https://www.youtube.com/watch?v=kiBJBOkgWeU",
+        "intensity": 1.0
       }
     },
     {
@@ -7095,16 +7095,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro civili a Kyiv",
         "date": "18/01/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2025_%E2%80%93_31_May_2025)",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 gennaio 2025, un missile russo ha colpito Kyiv, causando la morte di quattro civili e ferendo altri tre. L'attacco segna un significativo aumento delle operazioni militari nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7117,16 +7117,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco terrestre contro forze ucraine a Chasiv Yar",
         "date": "25/01/25",
         "type": "Strategic developments",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-january-25-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 gennaio, le forze russe hanno condotto attacchi a terra nella direzione di Chasiv Yar, senza avanzamenti confermati. Le forze ucraine hanno distrutto diversi veicoli russi, mentre i milblogger russi segnalano avanzamenti in alcune aree.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7139,16 +7139,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro strutture militari a Chernihiv",
         "date": "15/03/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-march-15-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 15 marzo 2025, forze russe hanno ripreso le operazioni offensive nel settore di Borova, con rapporti di attacchi missilistici e offensivi limitati in direzioni strategiche. Un aumento dell'attivitÃ  militare ha portato a danni significativi e a una intensificazione dei combattimenti in tutta la regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7161,16 +7161,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro infrastrutture russe a Chernihiv",
         "date": "22/03/25",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainian-drones-and-missiles-target-putins-war-machine-inside-russia/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno intensificato la campagna di attacchi aerei contro obiettivi logistici e infrastrutture in Russia, mirata a ridurre la capacitÃ  di resistenza russa e compromettere la logistica dell'invasione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7183,16 +7183,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco a droni contro infrastrutture elettriche a Chernihiv",
         "date": "29/03/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/articles/cn8vrxjdd5go",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Un attacco russo con piÃ¹ di 100 droni Shahed e sei missili balistici ha colpito le strutture di generazione elettrica di Chernihiv, mettendo fuori uso l'intera cittÃ  e gran parte dell'area circostante.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7205,16 +7205,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture elettriche a Chernihiv",
         "date": "18/04/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/articles/cn8vrxjdd5go",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 18 aprile 2025, un attacco russo con oltre 100 droni e sei missili ha colpito le strutture elettriche di Chernihiv, lasciando la cittÃ  senza energia e causando 15 morti e diversi feriti.",
+        "video": "https://www.youtube.com/watch?v=MBHwEENbVqo",
+        "intensity": 1.0
       }
     },
     {
@@ -7227,16 +7227,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Sabotaggio contro reti di trasporto in Europa da parte della Russia",
         "date": "16/05/25",
-        "type": "Strategic developments",
+        "type": "Sabotage",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://tsn.ua/en/ato/russia-prepares-for-sabotage-in-europe-zhorin-reveals-next-stage-of-hybrid-war-2958869.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze armate ucraine avvertono di attacchi di sabotaggio russi mirati a interrompere l'invio di aiuti all'Ucraina, in particolare sulle reti di trasporto in Polonia, come risposta ai recenti incidenti con droni.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7249,16 +7249,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro posto di comando a Bakhmut",
         "date": "23/05/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-23-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 maggio, forze ucraine hanno colpito un posto di comando del 3Â° Corpo d'Armata russo a Bakhmut, danneggiando la struttura e interrompendo le operazioni di comando.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7271,16 +7271,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro ponti russi a Kursk",
         "date": "30/05/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2024/8/23/which-countries-weapons-is-ukraine-using-in-russia-incursion",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Le forze ucraine hanno utilizzato armi fornite dagli Stati Uniti per attaccare ponti russi sul fiume Seym, distruggendo completamente uno dei tre ponti e danneggiando gli altri due.",
+        "video": "https://www.youtube.com/watch?v=HxXTe3T1r9U",
+        "intensity": 1.0
       }
     },
     {
@@ -7293,16 +7293,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con armi chimiche contro forze ucraine a Chernihiv",
         "date": "27/06/25",
         "type": "Strategic developments",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-june-27-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze russe hanno utilizzato armi chimiche contro le forze ucraine e i civili a Chernihiv, violando la Convenzione sulle armi chimiche. Sono stati registrati 888 casi in maggio, confermati anche dall'OPCW.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7315,16 +7315,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro infrastrutture civili a Chernihiv",
         "date": "25/07/25",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-statement-escalating-use-explosive-weapons-populated-areas-and-its-devastating-impact-civilians-july-september-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, a Chernihiv, le forze russe hanno condotto attacchi aerei contro aree residenziali e infrastrutture civili, causando gravi danni ai civili e interrompendo operazioni umanitarie.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7337,16 +7337,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni su infrastrutture energetiche a Chernihiv",
         "date": "22/08/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.acleddata.com/update/ukraine-war-situation-update-16-22-august-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 22 agosto 2025, forze russe hanno lanciato un attacco aereo massiccio contro Chernihiv, colpendo depositi di carburante e infrastrutture logistiche ucraine, causando devastazione in oltre 49 insediamenti.",
+        "video": "https://www.youtube.com/watch?v=kiBJBOkgWeU",
+        "intensity": 1.0
       }
     },
     {
@@ -7359,16 +7359,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro edifici pubblici a Kiev",
         "date": "29/08/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.criticalthreats.org/analysis/ukraine-invasion-updates-august-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Sulla sera del 28 agosto, Kyiv ha subito un attacco missilistico russo, causando 21 morti e danneggiando gravemente edifici residenziali e diplomatici, inclusi quelli del British Council e dell'UE.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7381,16 +7381,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture civili a Chernihiv",
         "date": "24/10/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-28-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 24 ottobre 2025, droni russi hanno colpito Chernihiv, danneggiando le infrastrutture civili e il gas. Ã il settimo attacco a strutture di gas in ottobre.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7403,16 +7403,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco aereo contro infrastrutture civili a Chernihiv",
         "date": "19/03/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Siege_of_Chernihiv",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, le forze russe hanno bombardato diversi obiettivi a Chernihiv, causando ingenti danni e distruzione, in particolare al mercato e alla biblioteca regionale, nel contesto dell'assedio della cittÃ .",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7425,16 +7425,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco aereo contro Chernihiv",
         "date": "26/03/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.ukrinform.net/amp/rubric-ato/4060782-explosions-heard-near-chernihiv.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, le forze russe hanno attaccato Chernihiv causando esplosioni e danni alle infrastrutture, inclusi danni a una torre TV. I residenti hanno segnalato attacchi nella zona con esplosioni udivo chiaramente.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7447,16 +7447,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico contro infrastrutture a Chernihiv",
         "date": "18/03/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.nytimes.com/2023/08/19/world/europe/chernihiv-ukraine-russia-strike.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 marzo 2023, Chernihiv ha subito bombardamenti che hanno causato ingenti danni a edifici pubblici e infrastrutture, confermando le perdite civili e l'uso di missili russi contro obiettivi urbani.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7469,16 +7469,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico contro infrastruttura civile a Chernihiv",
         "date": "26/04/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/articles/cn8vrxjdd5go",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 aprile 2024, Chernihiv ha subito bombardamenti russi, colpendo strutture civili e causando blackout energetico nella cittÃ . Le infrastrutture sono state gravemente danneggiate, compromettendo i servizi essenziali per la popolazione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7491,16 +7491,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico contro infrastruttura energetica a Chernihiv",
         "date": "18/01/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.amnesty.org/en/latest/news/2025/10/russia-ukraine-blackout-in-chernihiv-exposes-russias-unlawful-attacks-on-civilian-infrastructure/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 3 gennaio 2025, un attacco missilistico russo ha colpito Chernihiv, causando un decesso e ferendo quattro persone. Questo attacco ha aggravato l'assenza di servizi essenziali in un contesto giÃ  critico per la popolazione civile.",
+        "video": "https://www.youtube.com/watch?v=6UigJv9hTpM",
+        "intensity": 1.0
       }
     },
     {
@@ -7513,16 +7513,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico contro infrastrutture civili a Chernihiv",
         "date": "25/04/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://tsn.ua/en/ukrayina/targeted-razing-of-chernihiv-region-which-areas-should-brace-themselves-2935052.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Forze russe hanno effettuato un attacco missilistico mirato contro Chernihiv, colpendo il centro cittÃ  e infrastrutture civili, compresi universitÃ  e teatri, causando danni significativi e vittime civili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7535,16 +7535,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Non-violent transfer of territory",
+        "title": "Incursione russa con spari a Slavutych vicino Chernihiv",
         "date": "26/03/22",
         "type": "Strategic developments",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-march-26",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, forze russe hanno fatto irruzione a Slavutych, sparando in aria per disperdere i residenti che protestavano, nel tentativo di stringere l'accerchiamento di Chernihiv.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -7557,16 +7557,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Abduction/forced disappearance",
+        "title": "Scomparsa forzata di civili a Chernihiv",
         "date": "19/03/22",
         "type": "Violence against civilians",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/War_crimes_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, l'Alto Commissario delle Nazioni Unite per i diritti umani ha riportato casi di detenzione arbitraria e scomparsa forzata di civili a Chernihiv, con rivelazioni di violazioni sistemiche nelle aree controllate dalle forze russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7579,16 +7579,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Abduction/forced disappearance",
+        "title": "Esecuzione sommaria di un civile a Nova Basan, Chernihiv",
         "date": "26/03/22",
         "type": "Violence against civilians",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/War_crimes_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 3 marzo 2022, soldati russi hanno sparato a un furgone civile a Nova Basan, ferendo un uomo e sommariamente eseguendone un altro. Questo evento si inserisce nel contesto delle violazioni dei diritti umani durante il conflitto in Ucraina.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7601,16 +7601,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Chernihiv",
         "date": "19/03/22",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.amnesty.org/en/latest/news/2022/03/ukraine-russian-dumb-bomb-air-strike-kills-civilians-in-chernihiv-new-investigation-and-testimony/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 16 marzo 2022, un attacco aereo russo a Chernihiv ha ucciso 18 civili e ferito 26, colpendo una zona affollata. L'attacco Ã¨ stato condannato come un possibile crimine di guerra.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7623,16 +7623,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Chernihiv",
         "date": "26/03/22",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/War_crimes_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, la cittÃ  di Chernihiv Ã¨ stata colpita da attacchi aerei russi, causando pesanti perdite tra i civili, giÃ  segnati da violenze sin dall'inizio dell'invasione russa del 24 febbraio 2022.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7645,16 +7645,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Sexual violence",
+        "title": "Violenza sessuale contro i civili a Chernihiv",
         "date": "19/03/22",
         "type": "Violence against civilians",
         "location": "Chernihiv, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.hrw.org/news/2022/04/03/ukraine-apparent-war-crimes-russia-controlled-areas",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Tra febbraio e marzo 2022, forze militari russe hanno perpetrato atti di violenza contro i civili a Chernihiv, inclusi casi di violenza sessuale, esecuzioni sommarie e saccheggio di beni. Le violazioni delle leggi di guerra sono state documentate da organizzazioni internazionali.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7667,16 +7667,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro cittÃ  di Chernivtsi",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://prm.ua/en/russians-attack-chernihiv-with-strike-drones-explosions-heard-in-the-city/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 ottobre 2022, forze russe hanno attaccato Chernivtsi utilizzando droni, causando esplosioni udite in cittÃ . I residenti hanno segnalato la presenza di droni e successivi suoni collegati alla difesa aerea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7689,16 +7689,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni e missili contro Chernivtsi",
         "date": "19/05/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/russian-drone-attacks-rock-ukrainian-cities-far-from-front-line-for-third-straight-night/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 maggio 2023, Chernivtsi Ã¨ stata colpita da droni e un missile russi, causando la morte di due persone e ferendo 26, incluso tre in condizioni gravi. Esplosioni hanno danneggiato edifici residenziali e veicoli.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7711,16 +7711,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro Chernivtsi, Ucraina",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/russian-drone-attacks-rock-ukrainian-cities-far-from-front-line-for-third-straight-night/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, droni russi hanno attaccato Chernivtsi, causando la morte di due persone e il ferimento di 26, tra cui tre in gravi condizioni. Esplosioni hanno danneggiato edifici e veicoli nella cittÃ .",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7733,16 +7733,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro Chernivtsi",
         "date": "16/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://abcnews.go.com/International/russian-strike-on-ukraine-overnight-600-drones/story?id=123697825",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Due persone sono state uccise e 26 ferite a Chernivtsi a causa di un attacco russo con droni e missili, con danni significativi a edifici residenziali e pubblici.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7755,16 +7755,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro infrastruttura civile a Chernivtsi",
         "date": "24/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://newsukraine.rbc.ua/news/russia-attacks-ukraine-with-drones-explosion-1761423131.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "La sera del 25 ottobre, forze russe hanno lanciato droni d'attacco su Chernivtsi, causando esplosioni e allarmi aerei in diverse regioni ucraine. Le forze aeree ucraine hanno abbattuto 72 droni quel giorno.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7777,16 +7777,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Conflitto tra forze russe e ucraine a Chernivtsi",
         "date": "20/05/22",
         "type": "Strategic developments",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-61036880",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Scontro tra forze russe e ucraine a Chernivtsi con attestazioni di vittime civili e attacchi a obiettivi militari. La situazione sta creando preoccupazioni per l'uso di armi strategiche da entrambe le parti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7799,16 +7799,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Esercitazione di missili strategici a Chernivtsi",
         "date": "21/10/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-22-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 ottobre 2022, forze russe hanno condotto test pre-pianificati di missili strategici, causando preoccupazioni per future aggressioni verso l'Ucraina nel contesto del conflitto in corso.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7821,16 +7821,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con HIMARS ai ponti russi sul fiume Seym a Kursk",
         "date": "19/05/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2024/8/23/which-countries-weapons-is-ukraine-using-in-russia-incursion",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 19 maggio 2023, l'Ucraina ha utilizzato armi fornite dagli Stati Uniti, in particolare i sistemi HIMARS, per attaccare i ponti russi sul fiume Seym a Kursk, distruggendo completamente uno dei tre ponti e danneggiando gli altri due.",
+        "video": "https://www.youtube.com/watch?v=ZIBjYNlPkvQ",
+        "intensity": 1.0
       }
     },
     {
@@ -7865,16 +7865,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture civili a Chernivtsi",
         "date": "18/07/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-statement-escalating-use-explosive-weapons-populated-areas-and-its-devastating-impact-civilians-july-september-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 9 luglio 2025, Chernivtsi Ã¨ stata colpita da un attacco con 728 droni che ha causato 5 morti e 4 feriti, colpendo infrastrutture energetiche e edifici residenziali.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7887,16 +7887,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco combinato di missili e droni contro Ucraina a Chernivtsi",
         "date": "25/07/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-25-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 luglio, forze russe hanno lanciato un attacco notturno combinato con missili e droni contro obiettivi in Ucraina, incluso Chernivtsi, colpendo infrastrutture civili e cercando di indebolire la resistenza ucraina.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7909,16 +7909,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro raffineria in Tambov e Bryansk",
         "date": "22/08/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-16-22-august-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 e 21 agosto 2025, droni ucraini hanno colpito raffinerie di petrolio in Russia, interrompendo il flusso di petrolio verso l'Europa e causando un aumento dei prezzi dei carburanti in Russia.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7931,16 +7931,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture in Ucraina",
         "date": "29/08/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.criticalthreats.org/analysis/ukraine-invasion-updates-august-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, le forze russe hanno lanciato un attacco missilistico su vasta scala contro l'Ucraina, utilizzando oltre 500 droni e missili. Le forze ucraine hanno risposto colpendo asset militari russi.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7953,16 +7953,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro navi della Flotta del Mar Nero a Sebastopoli",
         "date": "29/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Coast of Sevastopol, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/2022_drone_attack_on_the_Sevastopol_Naval_Base",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 29 ottobre 2022, droni e veicoli marini senza equipaggio uccisero nel porto di Sebastopoli, colpendo navi della Flotta del Mar Nero russa causando esplosioni udibili in tutta la cittÃ . Danni limitati alle unitÃ  navali.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -7975,16 +7975,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro installazioni militari a Sevastopol",
         "date": "22/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Coast of Sevastopol, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-march-22-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 22 marzo 2025, esplosioni hanno colpito Sevastopol, Crimea, a causa di droni ucraini che hanno attaccato obiettivi militari. Nessun danno significativo Ã¨ stato riportato dalle forze russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -7997,16 +7997,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro forze russe a Sebastopoli",
         "date": "31/05/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Coast of Sevastopol, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2024/5/31/russia-ukraine-war-list-of-key-events-day-826",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 31 maggio 2024, il Segretario di Stato USA Antony Blinken ha annunciato l'adattamento nelle politiche d'uso delle armi per l'Ucraina, mentre il Ministro della Difesa russo ha confermato avanzamenti territoriali. Attacchi ucraini hanno interrotto le linee di comunicazione russe in Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8019,16 +8019,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro infrastrutture navali a Sebastopoli",
         "date": "18/10/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Coast of Sevastopol, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66901227",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno lanciato attacchi militari aerei sulle infrastrutture navali a Sebastopoli, con danni significativi ai centri di comunicazione della Flotta del Mar Nero. Le operazioni ucraine hanno interrotto le linee di comunicazione russe nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8041,16 +8041,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con droni contro le forze russe a Chasiv Yar",
         "date": "25/01/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Coast of Sevastopol, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-january-25-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 gennaio 2025, le forze ucraine hanno distrutto quattro veicoli da combattimento per fanteria a Chasiv Yar durante un attacco meccanizzato, con l'impiego di droni per respingere le offensive russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8063,16 +8063,16 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture a Crimea",
         "date": "18/08/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.theguardian.com/world/live/2023/aug/19/russia-ukraine-war-live-putin-meets-military-leaders-in-rostov-on-don-russia-says-it-downed-ukrainian-missile-over-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 agosto 2023, un attacco missilistico ucraino ha colpito obiettivi in Crimea, danneggiando gravemente il sistema ferroviario e infliggendo perdite all'esercito russo in un'area strategica per il conflitto.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8085,16 +8085,16 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Offensiva militare russa a Avdiivka",
         "date": "20/10/23",
         "type": "Battles",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-20-2023",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 ottobre 2023, le forze russe hanno lanciato una rinnovata offensiva ad Avdiivka, registrando un avanzamento marginale nonostante le perdite consistenti in materiale e personale.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8107,16 +8107,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro deposito munizioni a Crimea",
         "date": "29/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, un attacco con droni ha colpito un deposito di munizioni russo, causando esplosioni e danni significativi, confermando la vulnerabilitÃ  delle difese aeree russe in Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8129,16 +8129,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro base aerea a Kirovske",
         "date": "19/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Ucraina ha effettuato un attacco notturno con droni sulla base aerea di Kirovske in Crimea, distruggendo elicotteri russi e un sistema di difesa aerea. Esplosioni secondarie sono continuate per tutta la notte.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8151,16 +8151,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort Foros in Crimea",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/ukraine-destroys-2-russian-transport-aircraft-radar-stations-in-crimea/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 agosto 2022, droni ucraini hanno colpito il resort di Foros in Crimea, causando la morte di tre persone e 16 feriti. Nello stesso giorno, sono stati distrutti due aerei Be-12 e un elicottero Mi-8 all'aeroporto di Kacha.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8173,16 +8173,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro obiettivi russi in Crimea",
         "date": "21/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/ukraine-war-latest-update-2025-10-21/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 ottobre 2022, forze ucraine hanno effettuato attacchi a lunga gittata con droni contro obiettivi russi in Crimea, causando esplosioni in diverse localitÃ . Ã stato confermato un attacco su strutture energetiche e industriali.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8195,16 +8195,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro la flotta del Mar Nero a Sevastopoli",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 28 ottobre 2022, un attacco con droni esplosivi ha colpito la sede della flotta del Mar Nero a Sevastopoli, causando feriti e annullamento di eventi celebrativi.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8217,16 +8217,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro il resort di Foros in Crimea",
         "date": "18/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.pravda.com.ua/eng/news/2025/06/13/7516905/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Domenica sera, droni ucraini hanno colpito il resort di Foros in Crimea, causando la morte di tre persone e 16 feriti. Sono stati mirati funzionari russi di alto profilo. Nella stessa giornata, distrutti due aerei Be-12 e un elicottero Mi-8 alla base aerea di Kacha.",
+        "video": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
+        "intensity": 1.0
       }
     },
     {
@@ -8239,16 +8239,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro depositi di munizioni a Crimea",
         "date": "25/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 marzo 2023, droni presumibilmente ucraini hanno colpito depositi di munizioni russi in Crimea, causando esplosioni significative. La zona Ã¨ stata evacuata e i sistemi di difesa aerea russi sono stati attivati in risposta.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8261,16 +8261,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro basi aeree nella Crimea orientale",
         "date": "31/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.themoscowtimes.com/2025/10/13/ukrainian-drone-strike-sets-fire-at-crimean-oil-depot-for-second-time-in-a-week-a90791",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte del 31 marzo 2023, segnalazioni di esplosioni e attacco di droni sono emerse da Simferopol e altre cittÃ  della Crimea. Le forze ucraine hanno lanciato attacchi contro basi aeree, causando danni e panico tra le forze russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8283,16 +8283,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco di droni contro obiettivi militari in Crimea",
         "date": "28/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 28 aprile 2023, droni ucraini hanno attaccato obiettivi militari nella Crimea occupata, colpendo infrastrutture chiave e causando danni significativi alle capacitÃ  operative russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8305,16 +8305,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro deposito munizioni a Crimea",
         "date": "14/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 14 luglio 2023, un attacco aereo ha colpito un deposito di munizioni russo in Crimea, causando esplosioni e evacuazioni nelle vicinanze. Gli attacchi sono attribuiti a drone della sicurezza ucraina.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8327,16 +8327,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort Foros a Crimea",
         "date": "21/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 luglio 2023, droni ucraini hanno colpito il resort di Foros in Crimea, provocando tre morti e sedici feriti. Il raid sembra aver mirato a funzionari russi di alto rango, danneggiando anche infrastrutture nei dintorni.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8349,16 +8349,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort di Foros in Crimea",
         "date": "28/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Droni ucraini hanno colpito il resort di Foros in Crimea, causando la morte di tre persone e 16 feriti. L'attacco mirava a funzionari russi di alto livello.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8371,16 +8371,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro obiettivi russi in Crimea",
         "date": "18/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 agosto 2023, si sono verificate esplosioni in Crimea, presumibilmente causate da attacchi droni ucraini su obiettivi russi. Testimoni hanno segnalato attivitÃ  di droni e operazioni di difesa aerea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8393,16 +8393,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro base militare a Perevalne",
         "date": "25/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cnn.com/europe/live-news/russia-ukraine-war-news-08-25-23",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 agosto 2023, attacchi di droni ucraini hanno colpito la Crimea, inclusa una base militare a Perevalne, con esplosioni segnalate. La Russia ha dichiarato di aver abbattuto 42 droni, ma alcuni hanno raggiunto i bersagli.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8415,16 +8415,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro deposito carburante a Feodosia",
         "date": "13/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.themoscowtimes.com/2025/10/13/ukrainian-drone-strike-sets-fire-at-crimean-oil-depot-for-second-time-in-a-week-a90791",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 13 ottobre 2023, forze ucraine hanno colpito un terminal petrolifero a Feodosia, Crimean, danneggiando serbatoi di carburante e causando incendi. Aksiyonov ha confermato l'attacco ma senza vittime segnalate.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8437,16 +8437,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro obiettivi militari a Sevastopol",
         "date": "20/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://mezha.net/eng/bukvy/drone-attacks-and-explosions-in-occupied-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 ottobre 2023, esplosioni e attacchi con droni hanno colpito obiettivi militari a Sevastopol, Crimea. Le forze ucraine hanno tentato di attaccare la base, ma le autoritÃ  russe hanno dichiarato di aver respinto gli attacchi e distrutto diversi droni.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8459,16 +8459,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco drone contro deposito munizioni in Crimea",
         "date": "27/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 ottobre 2023, esplosioni sono state segnalate in Crimea, presumibilmente causate da un attacco aereo con droni a un deposito di munizioni russo. Gli eventi in Crimea evidenziano la vulnerabilitÃ  delle difese aeree russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8481,16 +8481,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro basi militari in Crimea",
         "date": "27/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-rock-occupied-crimea-as-drone-attack-reportedly-sets-russian-ammo-depot-ablaze/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 gennaio 2024, diversi droni sono stati abbattuti in Crimea durante un attacco. Le forze ucraine hanno effettuato un bombardamento su obiettivi militari russi, ma non ci sono stati rapporti confermati su danni o vittime.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -8503,16 +8503,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro deposito munizioni a Crimea",
         "date": "16/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 16 marzo 2024, esplosioni hanno colpito un deposito di munizioni in Crimea. Le autoritÃ  russe riferiscono attacchi con droni, che hanno causato evacuazioni nei villaggi circostanti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8525,16 +8525,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro infrastrutture russe a Crimea",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 marzo 2024, droni ucraini hanno colpito obiettivi russi a Crimea, causando danni significativi al sistema ferroviario e a infrastrutture militari, inclusi aerei russi distrutti all'aeroporto di Kacha.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8547,16 +8547,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro il ponte di Crimea",
         "date": "19/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 aprile 2024, diverse esplosioni sono state segnalate in Crimea, in particolare intorno al ponte di Crimea, dove droni russi sono stati coinvolti in un attacco. Il traffico sul ponte Ã¨ stato interrotto per circa cinque ore.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8569,16 +8569,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort a Foros, Crimea",
         "date": "26/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 26 aprile 2024, droni ucraini hanno colpito il resort di Foros in Crimea, causando la morte di tre persone e 16 feriti, con obiettivi presumibilmente tra funzionari russi di alto profilo. Sono stati distrutti anche aerei russi presso la base aerea di Kacha.",
+        "video": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
+        "intensity": 1.0
       }
     },
     {
@@ -8591,16 +8591,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro obiettivi militari in Crimea",
         "date": "24/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/ukraine-destroys-2-russian-transport-aircraft-radar-stations-in-crimea/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 24 maggio 2024, una serie di attacchi con droni ha colpito infrastrutture militari in Crimea, mirati a laboratori UAV e attrezzature di guerra elettronica, provocando esplosioni significative e incendi.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8613,16 +8613,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro struttura militare a Crimea",
         "date": "31/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.kyivpost.com/post/51892",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno effettuato un attacco notturno con droni su strutture militari in Crimea, causando esplosioni e incendi visibili presso l'aeroporto militare di Kacha. Le operazioni hanno colpito obiettivi strategici russi nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8635,16 +8635,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro Sevastopol nella Crimea occupata",
         "date": "14/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/media-explosions-reported-across-occupied-crimea-2/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 14 giugno 2024, esplosioni segnalate in diverse aree di Sevastopol, Crimea, indicate come attacchi droni sui bersagli militari e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8657,16 +8657,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro aeroporto militare a Kirovske, Crimea",
         "date": "28/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 28 giugno 2024, l'esercito ucraino ha condotto un attacco con droni sull'aeroporto militare di Kirovske in Crimea, distruggendo elicotteri russi e un sistema di difesa aerea, mentre le forze russe hanno abbattuto oltre 40 droni.",
+        "video": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
+        "intensity": 1.0
       }
     },
     {
@@ -8679,16 +8679,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort a Foros, Crimea",
         "date": "19/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.pravda.com.ua/eng/news/2025/06/13/7516905/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, droni ucraini hanno attaccato il resort di Foros in Crimea, uccidendo tre persone e ferendone 16. In un'altra operazione, sono stati distrutti due aerei russi Be-12 e un elicottero Mi-8 presso la base aerea di Kacha.",
+        "video": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
+        "intensity": 1.0
       }
     },
     {
@@ -8701,16 +8701,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro resort Foros a Crimea",
         "date": "26/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.reuters.com/world/europe/ukraine-says-missile-forces-hit-russian-air-base-crimea-2024-07-26/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 26 luglio 2024, droni ucraini hanno colpito il resort Foros in Crimea, uccidendo tre persone e ferendone 16, con obiettivi di alti ufficiali russi. Sono state distrutte anche due aerei russi al Kacha Air Base.",
+        "video": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
+        "intensity": 1.0
       }
     },
     {
@@ -8723,16 +8723,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni su campi militari a Crimea",
         "date": "18/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.pravda.com.ua/eng/news/2025/06/13/7516905/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, esplosioni segnalate in diverse localitÃ  della Crimea, comprese Sevastopol e Simferopol, a seguito di attacchi con droni ucraini contro obiettivi russi. Droni avvistati e attacchi confermati.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8745,16 +8745,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro infrastrutture militari a Crimea",
         "date": "25/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 gennaio 2025, diversi attacchi con droni sono stati segnalati in Crimea, con esplosioni udite presso vari obiettivi, inclusi basi aeree e infrastrutture militari. Non ci sono dettagli ufficiali su danni o vittime.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8767,16 +8767,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro Sevastopol nella Crimea",
         "date": "22/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 22 marzo 2025 si sono verificate esplosioni a Sevastopol, Crimea, presumibilmente causate da un attacco di droni. Testimonianze locali segnalano suoni di esplosioni e interruzione del traffico marittimo. Le autoritÃ  russe non hanno commentato l'accaduto.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8789,16 +8789,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro basi militari a Kacha, Crimea",
         "date": "18/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.kyivpost.com/post/51892",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 aprile 2025, le Forze Armate ucraine hanno effettuato un attacco con droni su strutture militari russe nella Crimea occupata, distruggendo aerei anti-sottomarini e causando esplosioni al campo aereo di Kacha.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8811,16 +8811,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro obiettivi ucraini in Crimea",
         "date": "25/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-25-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte tra il 24 e il 25 aprile, le forze russe hanno lanciato 103 droni, di cui 41 abbattuti dalle forze ucraine. I colpi hanno provocato danni in varie localitÃ  ucraini e causato morti e feriti tra i civili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8833,16 +8833,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco drone contro deposito munizioni a Perevalne",
         "date": "16/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-rock-occupied-crimea-as-drone-attack-reportedly-sets-russian-ammo-depot-ablaze/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 16 maggio, un attacco con droni ha colpito un deposito di munizioni a Perevalne, Crimea, causando esplosioni e incendi. Le autoritÃ  russe hanno abbattuto diverse droni, ma non sono stati segnalati danni o vittime.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8855,16 +8855,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro infrastrutture russe a Crimea",
         "date": "20/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-june-24-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 giugno 2025, forze russe hanno condotto attacchi con droni contro obiettivi ucraini in Crimea, causano oltre 100 vittime civili. Le forze ucraine hanno intercettato 63 droni durante l'attacco.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8877,16 +8877,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro base aerea Kirovske in Crimea",
         "date": "27/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 giugno 2025, droni ucraini hanno colpito la base aerea di Kirovske in Crimea, distruggendo eliporti e sistemi di difesa aerea russi, causando una serie di esplosioni significative.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8899,16 +8899,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro deposito munizioni a Staryi Krym",
         "date": "18/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 luglio, un deposito di munizioni russo vicino a Staryi Krym ha subito un attacco che ha provocato un incendio e numerose esplosioni, costringendo all'evacuazione di quattro villaggi. Riferimenti indicano che l'attacco potrebbe essere stato effettuato con droni ucraini.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8921,16 +8921,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro il resort Foros in Crimea",
         "date": "25/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, droni ucraini hanno colpito il resort Foros in Crimea, causando la morte di tre persone e ferendone 16 durante un attacco mirato a funzionari russi. Ã stata confermata la distruzione di aerei anti-sommergibile russi nella stessa area.",
+        "video": "https://www.youtube.com/watch?v=_vsTl5fqCiQ",
+        "intensity": 1.0
       }
     },
     {
@@ -8943,16 +8943,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro posizioni ucraine in Crimea",
         "date": "15/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-28-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 15 agosto 2025, forze russe hanno intensificato gli attacchi aerei con droni contro posizioni ucraine in Crimea, segnalando una crescente attivitÃ  militare in preparazione di operazioni piÃ¹ ampie.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8965,16 +8965,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro aeroporto di Kirovske in Crimea",
         "date": "22/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.aljazeera.com/news/2025/6/28/ukraine-says-drones-destroyed-russias-helicopters-air-defences-in-crimea",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno effettuato un attacco con droni contro l'aeroporto di Kirovske in Crimea, distruggendo elicotteri russi e un sistema di difesa aerea, causando esplosioni e danni significativi.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -8987,16 +8987,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni e missili contro unitÃ  russe a Crimea",
         "date": "29/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.criticalthreats.org/analysis/ukraine-invasion-updates-august-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte tra il 29 e il 30 agosto 2025, forze ucraine hanno distrutto un radar S-300 presso l'aeroporto militare di Saki in Crimea, in risposta a un attacco russo che ha coinvolto droni e missili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9009,16 +9009,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni russi contro soccorritori a Kherson Oblast",
         "date": "17/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-17-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 17 ottobre, forze russe hanno effettuato un attacco in doppio colpo con droni durante i soccorsi dopo un primo attacco a Kherson Oblast. Nessun soccorritore Ã¨ rimasto ferito.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -9031,16 +9031,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco droni contro turbine eoliche a Kramatorsk",
         "date": "24/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-24-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 24 ottobre, le forze russe hanno effettuato un attacco con droni su una turbina eolica a Kramatorsk, intensificando le loro operazioni contro le infrastrutture ucraine in un contesto di attacchi regolari.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9053,16 +9053,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Esplosione di ordigni esplosivi improvvisati in Crimea",
         "date": "28/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Sabotage",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://counteriedreport.com/ukraine-1330-people-injured-by-mines-during-full-scale-war-including-135-children/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 28 gennaio 2023, diversi ordigni esplosivi, presumibilmente parte di una campagna di sabotaggio, sono esplosi in Crimea, causando danni e vittime. Sono stati segnalati un morto e vari feriti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
