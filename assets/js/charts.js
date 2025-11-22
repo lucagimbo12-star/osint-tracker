@@ -1,5 +1,5 @@
 // ============================================
-// CHARTS.JS - ANALYTICS SUITE
+// CHARTS.JS - ACLED ANALYTICS SUITE
 // ============================================
 
 let charts = {
@@ -8,55 +8,54 @@ let charts = {
   radar: null
 };
 
-let analyticsData = [];
+let allData = [];
 
-// Caricamento Dati
-async function initCharts() {
+// --- 1. CARICAMENTO DATI ---
+async function loadTimelineData() {
   try {
-    // Usiamo il JSON della timeline perché ha i dati ben formattati
+    // Usiamo il JSON della timeline che è già formattato bene dal backend
     const res = await fetch('assets/data/events_timeline.json');
     if(!res.ok) throw new Error("Dati timeline non disponibili");
     
     const json = await res.json();
     
-    // Normalizzazione dati
-    analyticsData = json.events.map(e => ({
+    // Normalizzazione per i grafici
+    allData = json.events.map(e => ({
       date: e.date, // YYYY-MM-DD
       dateObj: new Date(e.date),
-      type: e.type || 'Generico',
-      intensity: parseFloat(e.intensity || 0.2), // Fallback
-      group: e.group // Per filtri
+      type: e.type || 'Sconosciuto',
+      // Se l'AI non ha messo intensity, usiamo un fallback o cerchiamo di dedurlo
+      intensity: e.intensity ? parseFloat(e.intensity) : 0.2, 
+      group: e.group
     }));
 
-    console.log(`📊 Analytics: caricati ${analyticsData.length} record.`);
+    console.log(`📊 Analytics: caricati ${allData.length} record.`);
     
     // Prima renderizzazione
-    updateDashboard(analyticsData);
-    
-    // Popola dropdown filtri (chiamiamo funzione UI se esiste)
-    populateSelectFilter(analyticsData);
+    updateDashboard(allData);
+    populateFilters(allData);
 
   } catch (e) {
     console.error("Errore Charts:", e);
   }
 }
 
-// Funzione centrale di aggiornamento
+// --- 2. AGGIORNAMENTO DASHBOARD ---
 function updateDashboard(data) {
   renderTimelineChart(data);
   renderTypeChart(data);
   renderRadarChart(data);
 }
 
-// --- 1. GRAFICO TEMPORALE (Barre Verticali) ---
+// --- 3. GRAFICO TEMPORALE (Barre) ---
 function renderTimelineChart(data) {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) return;
 
-  // Aggregazione per Mese-Anno (più leggibile dei giorni singoli)
+  // Aggregazione per Mese (più pulito di giorno per giorno)
   const aggregated = {};
   data.forEach(e => {
-    const key = e.date.substring(0, 7); // "2025-10"
+    const key = e.date.substring(0, 7); // Prende "2025-10"
     aggregated[key] = (aggregated[key] || 0) + 1;
   });
 
@@ -72,9 +71,9 @@ function renderTimelineChart(data) {
       datasets: [{
         label: 'Eventi Mensili',
         data: values,
-        backgroundColor: '#002060', // ACLED Navy
+        backgroundColor: '#002060', // ACLED Navy Blue
         borderRadius: 4,
-        barPercentage: 0.6
+        barPercentage: 0.7
       }]
     },
     options: {
@@ -89,7 +88,7 @@ function renderTimelineChart(data) {
   });
 }
 
-// --- 2. GRAFICO A TORTA (Distribuzione Tipologie) ---
+// --- 4. GRAFICO A TORTA (Tipologie) ---
 function renderTypeChart(data) {
   const ctx = document.getElementById('typeDistributionChart');
   if (!ctx) return;
@@ -114,7 +113,7 @@ function renderTypeChart(data) {
           '#f57c00', // Orange
           '#fbc02d', // Yellow
           '#546e7a', // Blue Grey
-          '#78909c'  // Light Blue Grey
+          '#78909c'  // Light Blue
         ],
         borderWidth: 0
       }]
@@ -130,7 +129,7 @@ function renderTypeChart(data) {
   });
 }
 
-// --- 3. GRAFICO RADAR (Analisi Intensità) ---
+// --- 5. GRAFICO RADAR (Intensità Media) ---
 function renderRadarChart(data) {
   const ctx = document.getElementById('intensityRadarChart');
   if (!ctx) return;
@@ -141,8 +140,6 @@ function renderRadarChart(data) {
     const t = e.type || 'Sconosciuto';
     if (!stats[t]) stats[t] = { sum: 0, count: 0 };
     
-    // Usa l'intensità se presente nel JSON (la tua AI la genera)
-    // Se il JSON non ha il campo intensity esplicito nel nodo root, prova a calcolarlo o usa default
     let val = e.intensity;
     if (isNaN(val)) val = 0.2; 
     
@@ -160,9 +157,9 @@ function renderRadarChart(data) {
     data: {
       labels: labels,
       datasets: [{
-        label: 'Indice di Danno Medio',
+        label: 'Indice Danno Medio',
         data: values,
-        backgroundColor: 'rgba(183, 28, 28, 0.2)', // Red transparent
+        backgroundColor: 'rgba(183, 28, 28, 0.2)', // Rosso trasparente
         borderColor: '#b71c1c',
         pointBackgroundColor: '#b71c1c',
         pointBorderColor: '#fff'
@@ -177,35 +174,28 @@ function renderRadarChart(data) {
           grid: { color: '#eee' },
           suggestedMin: 0,
           suggestedMax: 1,
-          ticks: { display: false } // Nascondi numeri asse per pulizia
+          ticks: { display: false } 
         }
       },
-      plugins: {
-        legend: { display: false }
-      }
+      plugins: { legend: { display: false } }
     }
   });
 }
 
 // --- UTILS INTERFACCIA ---
-function populateSelectFilter(data) {
+function populateFilters(data) {
   const select = document.getElementById('chartTypeFilter');
   if (!select) return;
   
-  // Pulisci tranne la prima option
   select.innerHTML = '<option value="">Tutti gli eventi</option>';
-  
   const types = [...new Set(data.map(e => e.type))].sort();
   types.forEach(t => {
-    const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = t;
-    select.appendChild(opt);
+    if(t) select.innerHTML += `<option value="${t}">${t}</option>`;
   });
 }
 
-// Gestore Eventi Filtri Sidebar
-function setupFilters() {
+// Listener Filtri (Collegati alla Sidebar)
+function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
 
@@ -213,33 +203,25 @@ function setupFilters() {
     const start = document.getElementById('startDate').value;
     const end = document.getElementById('endDate').value;
     const type = document.getElementById('chartTypeFilter').value;
-    // Nota: i checkbox di intensità possono essere aggiunti qui
 
-    const filtered = analyticsData.filter(e => {
+    const filtered = allData.filter(e => {
       if (start && e.date < start) return false;
       if (end && e.date > end) return false;
       if (type && e.type !== type) return false;
       return true;
     });
 
-    console.log(`🔍 Filtri applicati. Rimasti: ${filtered.length}`);
     updateDashboard(filtered);
-    
-    // Se possibile, aggiorna anche la mappa (richiederebbe integrazione tra i due file)
-    // Per ora aggiorna i grafici che è il compito di questo file
   });
 
   // Reset
   document.getElementById('resetFilters')?.addEventListener('click', () => {
-    document.getElementById('startDate').value = '';
-    document.getElementById('endDate').value = '';
-    document.getElementById('chartTypeFilter').value = '';
-    updateDashboard(analyticsData);
+    updateDashboard(allData);
   });
 }
 
 // Avvio
 document.addEventListener('DOMContentLoaded', () => {
-  initCharts();
-  setupFilters();
+  loadTimelineData();
+  setupChartFilters();
 });
