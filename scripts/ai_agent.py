@@ -99,7 +99,7 @@ def main():
 
         print(f"📋 Righe da arricchire: {len(rows_to_process)}")
 
-        for row_idx, event in rows_to_process[:5]: # Max 5 per volta
+        for row_idx, event in rows_to_process[:100]:
             print(f"\n🔍 Elaborazione: {event.get('Title')}...")
             
             query = f"{event.get('Title')} {event.get('Location')} {event.get('Date')} footage video confirmed damage report"
@@ -130,10 +130,10 @@ def main():
                     worksheet.update_cell(row_idx, col_video, res.get('video_url'))
                     print(f"   🎥 Video trovato: {res.get('video_url')}")
                 
-                time.sleep(1.5) # Rispetto limiti API
+                time.sleep(3) # Rispetto limiti API
             else:
                 print(f"   ⚠️ Dati insufficienti (Confidence: {res.get('confidence')}%)")
-
+                time.sleep(1) # Anche se non trovi nulla, fai una piccola pausa
     except Exception as e:
         print(f"❌ ERRORE CRITICO: {e}")
         raise e
