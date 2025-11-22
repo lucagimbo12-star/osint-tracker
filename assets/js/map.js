@@ -1,77 +1,116 @@
 // ============================================
-// MAP.JS - PRO VERSION (VIDEO & AI DATA)
+// MAP.JS - DASHBOARD INTELLIGENCE VERSION
 // ============================================
 
-let map = L.map('map').setView([49.0, 32.0], 6); // Centrato sull'Ucraina
+let map = L.map('map', {
+  zoomControl: false // Spostiamo lo zoom se necessario o lo lasciamo default
+}).setView([49.0, 32.0], 6); // Focus Ucraina
+
+// Posiziona lo zoom in basso a destra per non coprire i controlli custom
+L.control.zoom({ position: 'bottomright' }).addTo(map);
 
 // --- LAYER SETUP ---
-const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19, attribution: '© OpenStreetMap'
-});
+const osmLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+}); // Uso CARTO Light per un look più pulito e professionale
+
 const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-  maxZoom: 19, attribution: '© Esri'
+  maxZoom: 19,
+  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });
 
+// Layer di default
 osmLayer.addTo(map);
 
+// Gruppi
 let eventsLayer = L.markerClusterGroup({ 
-  maxClusterRadius: 45, 
-  spiderfyOnMaxZoom: true 
+  maxClusterRadius: 40, 
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: false,
+  iconCreateFunction: function(cluster) {
+    // Cluster personalizzato stile ACLED (Blu Navy)
+    var childCount = cluster.getChildCount();
+    var c = ' marker-cluster-';
+    if (childCount < 10) { c += 'small'; }
+    else if (childCount < 100) { c += 'medium'; }
+    else { c += 'large'; }
+
+    return new L.DivIcon({ 
+      html: '<div><span>' + childCount + '</span></div>', 
+      className: 'marker-cluster' + c, 
+      iconSize: new L.Point(40, 40) 
+    });
+  }
 });
+
 let heatmapLayer = null;
-let bordersLayer = L.layerGroup();
+let allEvents = [];
 
 eventsLayer.addTo(map);
 
-// --- GESTIONE DATI ---
-let allEvents = [];
+// --- CONFIGURAZIONE COLORI (Stile Istituzionale) ---
+const impactColors = { 
+  'critical': '#b71c1c',  // Rosso Scuro (Deep Red)
+  'high': '#f57c00',      // Arancione
+  'medium': '#fbc02d',    // Giallo
+  'low': '#546e7a'        // Grigio Bluastro
+};
 
-const impactColors = { 'critical': '#dc3545', 'high': '#fd7e14', 'medium': '#ffc107', 'low': '#6c757d' };
-const intensityMap = { 'critical': 1.0, 'high': 0.7, 'medium': 0.4, 'low': 0.2 };
-
-// Helper: Determina impatto e intensità se mancanti
-function determineImpact(props) {
-  if (props.intensity) return props.intensity; // Se l'AI l'ha calcolato, usa quello
-  
-  const t = (props.title || '').toLowerCase();
-  const v = props.verification;
-  
-  if (t.includes('raffineria') || t.includes('refinery') || t.includes('deposito')) return 0.8;
-  if (v === 'verified') return 0.6;
-  return 0.2;
-}
-
-function getImpactLabel(val) {
-  if (val >= 0.8) return { label: 'CRITICO', color: impactColors.critical };
-  if (val >= 0.6) return { label: 'ALTO', color: impactColors.high };
-  if (val >= 0.4) return { label: 'MEDIO', color: impactColors.medium };
+// Helper per etichette
+function getImpactInfo(val) {
+  // Se l'intensità non c'è, default a 0.2
+  const v = val || 0.2;
+  if (v >= 0.8) return { label: 'CRITICO', color: impactColors.critical };
+  if (v >= 0.6) return { label: 'ALTO', color: impactColors.high };
+  if (v >= 0.4) return { label: 'MEDIO', color: impactColors.medium };
   return { label: 'BASSO', color: impactColors.low };
 }
 
-// --- POPUP & MODALE ---
-window.openModal = function(title, desc, videoUrl, sourceUrl) {
-  document.getElementById('modalTitle').textContent = decodeURIComponent(title);
-  document.getElementById('modalDesc').textContent = decodeURIComponent(desc) || "Nessuna descrizione dettagliata disponibile.";
+// --- GESTIONE MODALE VIDEO (Lightbox) ---
+window.openModal = function(titleEncoded, descEncoded, videoEncoded, sourceEncoded) {
+  // Decodifica i dati sicuri
+  const title = decodeURIComponent(titleEncoded);
+  const desc = decodeURIComponent(descEncoded);
+  const videoUrl = decodeURIComponent(videoEncoded);
+  const sourceUrl = decodeURIComponent(sourceEncoded);
+
+  // Popola la modale
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalDesc').textContent = desc || "Nessuna descrizione dettagliata disponibile.";
   
-  const sourceLink = document.getElementById('modalSourceLink');
-  sourceLink.href = decodeURIComponent(sourceUrl);
-  sourceLink.style.display = sourceUrl && sourceUrl !== 'null' ? 'inline-block' : 'none';
+  const sourceBtn = document.getElementById('modalSourceLink');
+  if (sourceUrl && sourceUrl !== 'null' && sourceUrl !== '') {
+    sourceBtn.href = sourceUrl;
+    sourceBtn.style.display = 'inline-flex';
+  } else {
+    sourceBtn.style.display = 'none';
+  }
   
   const container = document.getElementById('modalVideoContainer');
-  container.innerHTML = '';
+  container.innerHTML = ''; // Reset
 
+  // Logica Embed Video
   if (videoUrl && videoUrl !== 'null' && videoUrl !== '') {
-    const vid = decodeURIComponent(videoUrl);
-    if (vid.includes('youtube') || vid.includes('youtu.be')) {
-      let embed = vid.replace('watch?v=', 'embed/').replace('youtu.be/', 'www.youtube.com/embed/');
+    if (videoUrl.includes('youtube') || videoUrl.includes('youtu.be')) {
+      // YouTube Embed
+      let embed = videoUrl.replace('watch?v=', 'embed/').replace('youtu.be/', 'www.youtube.com/embed/');
+      // Rimuovi eventuali parametri extra url sporchi
+      if(embed.includes('&')) embed = embed.split('&')[0];
       container.innerHTML = `<iframe src="${embed}" frameborder="0" allowfullscreen></iframe>`;
-    } else if (vid.match(/\.(mp4|webm)$/i)) {
-      container.innerHTML = `<video controls src="${vid}" style="max-width:100%"></video>`;
+    } else if (videoUrl.match(/\.(mp4|webm|ogg)$/i)) {
+      // Video nativo
+      container.innerHTML = `<video controls src="${videoUrl}" autoplay muted></video>`;
     } else {
-      container.innerHTML = `<div style="padding:30px; text-align:center; color:white;">
-        <p>Video su piattaforma esterna</p>
-        <a href="${vid}" target="_blank" class="btn-primary">▶️ Guarda Video</a>
-      </div>`;
+      // Fallback link esterno (Twitter/X, Telegram, etc)
+      container.innerHTML = `
+        <div style="padding:40px; text-align:center; background:#f8f9fa; border:1px solid #dee2e6; border-radius:8px;">
+          <i class="fa-solid fa-video" style="font-size:30px; color:#546e7a; margin-bottom:10px;"></i>
+          <p style="color:#333; margin-bottom:15px;">Il video è ospitato su una piattaforma esterna.</p>
+          <a href="${videoUrl}" target="_blank" class="btn-acled-primary" style="text-decoration:none; display:inline-block;">
+            <i class="fa-solid fa-play"></i> Guarda Video
+          </a>
+        </div>`;
     }
     container.style.display = 'block';
   } else {
@@ -82,39 +121,42 @@ window.openModal = function(title, desc, videoUrl, sourceUrl) {
 };
 
 window.closeModal = function(e) {
+  // Chiudi se clicchi fuori o sulla X
   if (!e || e.target.id === 'videoModal' || e.target.classList.contains('close-modal')) {
     document.getElementById('videoModal').style.display = 'none';
-    document.getElementById('modalVideoContainer').innerHTML = '';
+    document.getElementById('modalVideoContainer').innerHTML = ''; // Stoppa video
   }
 };
 
+// --- CREAZIONE POPUP ---
 function createPopupContent(e) {
-  const info = getImpactLabel(e.intensity);
+  const info = getImpactInfo(e.intensity);
   
-  // Escape per sicurezza stringhe JS
-  const safeTitle = encodeURIComponent(e.title);
+  // Encoding per passare stringhe complesse (con virgolette) alle funzioni onclick
+  const safeTitle = encodeURIComponent(e.title || 'Evento');
   const safeDesc = encodeURIComponent(e.description || '');
   const safeVideo = encodeURIComponent(e.video || '');
   const safeSource = encodeURIComponent(e.link || '');
 
+  const hasVideo = (e.video && e.video !== 'null' && e.video !== '');
+
   return `
-    <div class="custom-popup-content" style="min-width: 280px;">
-      <div style="border-bottom: 3px solid ${info.color}; padding-bottom: 8px; margin-bottom: 10px;">
-        <strong style="font-size: 1.1em; display:block; color:#222;">${e.title}</strong>
-        <span style="background:${info.color}; color:white; font-size:0.7em; padding:2px 6px; border-radius:4px; text-transform:uppercase;">
-          ${info.label}
-        </span>
-        <span style="font-size:0.75em; color:#666; float:right;">${e.date}</span>
+    <div class="acled-popup">
+      <div class="popup-header" style="border-left: 4px solid ${info.color};">
+        <h5>${e.title}</h5>
+        <span class="popup-meta">${e.date} | <span style="color:${info.color}; font-weight:700;">${info.label}</span></span>
       </div>
       
-      <div style="font-size:0.9em; color:#444; margin-bottom:10px;">
-        ${e.description ? e.description.substring(0, 90) + '...' : 'Nessuna descrizione breve.'}
+      <div class="popup-body">
+        ${e.description ? e.description.substring(0, 120) + '...' : 'Nessuna descrizione.'}
       </div>
 
-      <button onclick="openModal('${safeTitle}', '${safeDesc}', '${safeVideo}', '${safeSource}')" 
-        style="width:100%; background:#45a29e; color:white; border:none; padding:8px; border-radius:4px; cursor:pointer; font-weight:600;">
-        ${e.video ? '🎥 Guarda Video & Dettagli' : '📄 Leggi Dettagli'}
-      </button>
+      <div class="popup-footer">
+        <button onclick="openModal('${safeTitle}', '${safeDesc}', '${safeVideo}', '${safeSource}')" 
+          class="btn-popup-action" style="background:${hasVideo ? '#002060' : '#546e7a'}">
+          ${hasVideo ? '<i class="fa-solid fa-film"></i> Guarda Video' : '<i class="fa-solid fa-file-lines"></i> Dettagli'}
+        </button>
+      </div>
     </div>
   `;
 }
@@ -122,11 +164,12 @@ function createPopupContent(e) {
 // --- CARICAMENTO DATI ---
 async function loadEventsData() {
   try {
-    // Prova a caricare prima il GeoJSON pulito
+    console.log('🔄 Caricamento dati mappa...');
     const res = await fetch('assets/data/events.geojson');
-    if (!res.ok) throw new Error('GeoJSON non trovato');
+    if (!res.ok) throw new Error('File GeoJSON non trovato');
     const data = await res.json();
     
+    // Mappatura dati pulita
     allEvents = data.features.map(f => ({
       ...f.properties,
       lat: f.geometry.coordinates[1],
@@ -134,75 +177,108 @@ async function loadEventsData() {
     }));
 
     updateMap(allEvents);
-    updateStats(allEvents);
+    updateKPIs(allEvents);
     initHeatmap(allEvents);
     
-    console.log(`✅ Caricati ${allEvents.length} eventi.`);
+    console.log(`✅ Mappa pronta: ${allEvents.length} eventi.`);
   } catch (err) {
-    console.error("Errore caricamento mappa:", err);
-    // Fallback su timeline se geojson fallisce
-    try {
-        await window.loadTimelineData(); // Funzione di charts.js come fallback
-    } catch(e) { console.log("Fallback fallito"); }
+    console.error("Errore critico mappa:", err);
+    // Fallback opzionale qui
   }
 }
 
 function updateMap(events) {
   eventsLayer.clearLayers();
+  
   events.forEach(e => {
-    const info = getImpactLabel(e.intensity || 0.2);
+    const info = getImpactInfo(e.intensity);
+    
+    // Marker circolare semplice e pulito
     const marker = L.marker([e.lat, e.lon], {
       icon: L.divIcon({
-        className: 'custom-marker',
-        html: `<div style="background:${info.color}; width:14px; height:14px; border-radius:50%; border:2px solid white; box-shadow:0 2px 5px rgba(0,0,0,0.3);"></div>`,
-        iconSize: [18, 18]
+        className: 'custom-dot-marker',
+        html: `<div style="
+          background-color: ${info.color};
+          width: 12px; height: 12px;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        "></div>`,
+        iconSize: [16, 16],
+        iconAnchor: [8, 8]
       })
     });
-    marker.bindPopup(createPopupContent(e));
+    
+    marker.bindPopup(createPopupContent(e), { maxWidth: 320 });
     eventsLayer.addLayer(marker);
   });
 }
 
+// --- HEATMAP ---
 function initHeatmap(events) {
   if (heatmapLayer) map.removeLayer(heatmapLayer);
   
-  const points = events.map(e => [e.lat, e.lon, (e.intensity || 0.2) * 1.5]); // Moltiplicatore per visibilità
+  // Pesiamo la heatmap in base all'intensità
+  const points = events.map(e => [e.lat, e.lon, (e.intensity || 0.2) * 2.0]); 
   
   heatmapLayer = L.heatLayer(points, {
-    radius: 30, blur: 20, maxZoom: 10,
-    gradient: { 0.2: 'blue', 0.4: 'lime', 0.6: 'yellow', 0.9: 'red' }
+    radius: 25,
+    blur: 15,
+    maxZoom: 10,
+    gradient: { 
+      0.2: '#90caf9', // Azzurro
+      0.4: '#ffeb3b', // Giallo
+      0.6: '#f57c00', // Arancio
+      0.9: '#b71c1c'  // Rosso sangue
+    }
   });
-  // Nota: Heatmap attivabile via checkbox HTML
 }
 
-// --- EXPORT E UTILS ---
-function updateStats(events) {
+// --- KPI & STATISTICHE ---
+function updateKPIs(events) {
+  // 1. Aggiorna conteggio totale
   document.getElementById('eventCount').innerText = events.length;
-  // Calcolo categorie
-  const counts = { critical: 0, high: 0, medium: 0, low: 0 };
-  events.forEach(e => {
-    const val = e.intensity || 0.2;
-    if (val >= 0.8) counts.critical++;
-    else if (val >= 0.6) counts.high++;
-    else if (val >= 0.4) counts.medium++;
-    else counts.low++;
-  });
   
-  const statsHTML = Object.entries(counts).map(([k, v]) => `
-    <div style="display:flex; justify-content:space-between; border-bottom:1px solid #eee; padding:4px 0;">
-      <span style="text-transform:capitalize">${k}</span> <strong>${v}</strong>
-    </div>
-  `).join('');
-  document.getElementById('categoryStats').innerHTML = statsHTML;
+  // 2. Aggiorna ultima data
+  if (events.length > 0) {
+    // Trova la data più recente (assumendo formato YYYY-MM-DD o compatibile)
+    const dates = events.map(e => new Date(e.date)).filter(d => !isNaN(d));
+    if (dates.length > 0) {
+      const maxDate = new Date(Math.max.apply(null, dates));
+      document.getElementById('lastUpdate').innerText = maxDate.toLocaleDateString('it-IT');
+    }
+  }
+
+  // 3. Aggiorna mini-tabella categorie (nella KPI bar o sidebar)
+  const catEl = document.getElementById('categoryStats');
+  if (catEl) {
+    const counts = { 'Critici': 0, 'Alti': 0, 'Medi': 0 };
+    events.forEach(e => {
+      const v = e.intensity || 0.2;
+      if (v >= 0.8) counts['Critici']++;
+      else if (v >= 0.6) counts['Alti']++;
+      else counts['Medi']++;
+    });
+
+    // Genera HTML compatto
+    catEl.innerHTML = Object.entries(counts).map(([k, v]) => `
+      <div style="font-size:0.8rem; color:#555; display:flex; justify-content:space-between;">
+        <span>${k}</span> <strong style="color:#002060">${v}</strong>
+      </div>
+    `).join('');
+  }
 }
 
-// Global functions per i toggle HTML
-window.toggleEventsLayer = (show) => show ? map.addLayer(eventsLayer) : map.removeLayer(eventsLayer);
-window.toggleHeatmapLayer = (show) => show ? map.addLayer(heatmapLayer) : map.removeLayer(heatmapLayer);
+// --- CONTROLLI ESTERNI (Toggle Layer) ---
+window.toggleHeatmapLayer = (show) => {
+  if(show) { map.addLayer(heatmapLayer); map.removeLayer(eventsLayer); }
+  else { map.addLayer(eventsLayer); map.removeLayer(heatmapLayer); }
+};
+
 window.toggleSatelliteLayer = (show) => {
-  if(show) { map.addLayer(satelliteLayer); map.removeLayer(osmLayer); } 
+  if(show) { map.addLayer(satelliteLayer); map.removeLayer(osmLayer); }
   else { map.addLayer(osmLayer); map.removeLayer(satelliteLayer); }
 };
 
-// Init
+// Avvio
 loadEventsData();
