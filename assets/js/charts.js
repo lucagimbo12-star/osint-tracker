@@ -1,102 +1,120 @@
 // ============================================
-// CHARTS.JS - ANALISI E STATISTICHE AVANZATE
+// CHARTS.JS - ANALYTICS SUITE
 // ============================================
 
-let timelineChart = null;
-let typeChart = null;
-let radarChart = null;
-let allData = [];
+let charts = {
+  timeline: null,
+  type: null,
+  radar: null
+};
 
-// Caricamento Dati per Grafici
-async function loadTimelineData() {
+let analyticsData = [];
+
+// Caricamento Dati
+async function initCharts() {
   try {
+    // Usiamo il JSON della timeline perché ha i dati ben formattati
     const res = await fetch('assets/data/events_timeline.json');
-    if(!res.ok) throw new Error("File timeline non trovato");
+    if(!res.ok) throw new Error("Dati timeline non disponibili");
     
     const json = await res.json();
-    allData = json.events.map(e => ({
-      date: e.date, // Formato YYYY-MM-DD
+    
+    // Normalizzazione dati
+    analyticsData = json.events.map(e => ({
+      date: e.date, // YYYY-MM-DD
       dateObj: new Date(e.date),
-      type: e.type || 'Unknown',
-      intensity: parseFloat(e.intensity) || 0.2, // Importante per il Radar
-      verification: e.verification || 'not verified'
+      type: e.type || 'Generico',
+      intensity: parseFloat(e.intensity || 0.2), // Fallback
+      group: e.group // Per filtri
     }));
 
-    console.log(`📊 Grafici: ${allData.length} eventi caricati.`);
-    updateAllCharts(allData);
-    populateFilters(allData);
+    console.log(`📊 Analytics: caricati ${analyticsData.length} record.`);
+    
+    // Prima renderizzazione
+    updateDashboard(analyticsData);
+    
+    // Popola dropdown filtri (chiamiamo funzione UI se esiste)
+    populateSelectFilter(analyticsData);
 
   } catch (e) {
     console.error("Errore Charts:", e);
   }
 }
 
-// Funzione Principale di Aggiornamento
-function updateAllCharts(data) {
+// Funzione centrale di aggiornamento
+function updateDashboard(data) {
   renderTimelineChart(data);
   renderTypeChart(data);
   renderRadarChart(data);
 }
 
-// 1. GRAFICO TIMELINE (Barre)
+// --- 1. GRAFICO TEMPORALE (Barre Verticali) ---
 function renderTimelineChart(data) {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) return;
 
-  // Aggregazione per data
-  const counts = {};
+  // Aggregazione per Mese-Anno (più leggibile dei giorni singoli)
+  const aggregated = {};
   data.forEach(e => {
-    counts[e.date] = (counts[e.date] || 0) + 1;
+    const key = e.date.substring(0, 7); // "2025-10"
+    aggregated[key] = (aggregated[key] || 0) + 1;
   });
-  
-  const sortedDates = Object.keys(counts).sort();
-  const values = sortedDates.map(d => counts[d]);
 
-  if (timelineChart) timelineChart.destroy();
+  const labels = Object.keys(aggregated).sort();
+  const values = labels.map(k => aggregated[k]);
 
-  timelineChart = new Chart(ctx, {
+  if (charts.timeline) charts.timeline.destroy();
+
+  charts.timeline = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: sortedDates.map(d => new Date(d).toLocaleDateString('it-IT', {day:'2-digit', month:'short'})),
+      labels: labels,
       datasets: [{
-        label: 'Frequenza Attacchi',
+        label: 'Eventi Mensili',
         data: values,
-        backgroundColor: 'rgba(69, 162, 158, 0.7)',
-        borderColor: '#45a29e',
-        borderWidth: 1
+        backgroundColor: '#002060', // ACLED Navy
+        borderRadius: 4,
+        barPercentage: 0.6
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
-      scales: { y: { beginAtZero: true } }
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, grid: { color: '#e0e0e0' } }
+      }
     }
   });
 }
 
-// 2. GRAFICO A TORTA (Distribuzione Tipi)
+// --- 2. GRAFICO A TORTA (Distribuzione Tipologie) ---
 function renderTypeChart(data) {
   const ctx = document.getElementById('typeDistributionChart');
   if (!ctx) return;
 
   const counts = {};
   data.forEach(e => {
-    let t = e.type.trim();
-    if(t === '') t = 'Sconosciuto';
+    const t = e.type || 'Sconosciuto';
     counts[t] = (counts[t] || 0) + 1;
   });
 
-  if (typeChart) typeChart.destroy();
+  if (charts.type) charts.type.destroy();
 
-  typeChart = new Chart(ctx, {
+  charts.type = new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: Object.keys(counts),
       datasets: [{
         data: Object.values(counts),
         backgroundColor: [
-          '#45a29e', '#66fcf1', '#1f2833', '#c5c6c7', '#dc3545', '#ffc107'
+          '#002060', // Navy
+          '#b71c1c', // Red
+          '#f57c00', // Orange
+          '#fbc02d', // Yellow
+          '#546e7a', // Blue Grey
+          '#78909c'  // Light Blue Grey
         ],
         borderWidth: 0
       }]
@@ -105,42 +123,49 @@ function renderTypeChart(data) {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { boxWidth: 12 } },
-        title: { display: true, text: 'Tipologia Attacchi' }
-      }
+        legend: { position: 'right', labels: { boxWidth: 12, font: { size: 11 } } }
+      },
+      cutout: '65%'
     }
   });
 }
 
-// 3. GRAFICO RADAR (Intensità Media per Tipo)
+// --- 3. GRAFICO RADAR (Analisi Intensità) ---
 function renderRadarChart(data) {
   const ctx = document.getElementById('intensityRadarChart');
   if (!ctx) return;
 
+  // Calcola intensità media per tipo
   const stats = {};
   data.forEach(e => {
-    let t = e.type.trim() || 'Sconosciuto';
+    const t = e.type || 'Sconosciuto';
     if (!stats[t]) stats[t] = { sum: 0, count: 0 };
-    stats[t].sum += (e.intensity || 0.2);
+    
+    // Usa l'intensità se presente nel JSON (la tua AI la genera)
+    // Se il JSON non ha il campo intensity esplicito nel nodo root, prova a calcolarlo o usa default
+    let val = e.intensity;
+    if (isNaN(val)) val = 0.2; 
+    
+    stats[t].sum += val;
     stats[t].count++;
   });
 
   const labels = Object.keys(stats);
   const values = labels.map(k => (stats[k].sum / stats[k].count).toFixed(2));
 
-  if (radarChart) radarChart.destroy();
+  if (charts.radar) charts.radar.destroy();
 
-  radarChart = new Chart(ctx, {
+  charts.radar = new Chart(ctx, {
     type: 'radar',
     data: {
       labels: labels,
       datasets: [{
-        label: 'Intensità Media (Danni)',
+        label: 'Indice di Danno Medio',
         data: values,
-        backgroundColor: 'rgba(220, 53, 69, 0.2)',
-        borderColor: '#dc3545',
-        pointBackgroundColor: '#dc3545',
-        fill: true
+        backgroundColor: 'rgba(183, 28, 28, 0.2)', // Red transparent
+        borderColor: '#b71c1c',
+        pointBackgroundColor: '#b71c1c',
+        pointBorderColor: '#fff'
       }]
     },
     options: {
@@ -151,57 +176,70 @@ function renderRadarChart(data) {
           angleLines: { color: '#eee' },
           grid: { color: '#eee' },
           suggestedMin: 0,
-          suggestedMax: 1
+          suggestedMax: 1,
+          ticks: { display: false } // Nascondi numeri asse per pulizia
         }
       },
-      plugins: { title: { display: true, text: 'Danno Medio per Arma' } }
+      plugins: {
+        legend: { display: false }
+      }
     }
   });
 }
 
-// --- FILTRI ---
-function populateFilters(data) {
-  const typeSelect = document.getElementById('chartTypeFilter');
-  if(!typeSelect) return;
+// --- UTILS INTERFACCIA ---
+function populateSelectFilter(data) {
+  const select = document.getElementById('chartTypeFilter');
+  if (!select) return;
+  
+  // Pulisci tranne la prima option
+  select.innerHTML = '<option value="">Tutti gli eventi</option>';
   
   const types = [...new Set(data.map(e => e.type))].sort();
-  typeSelect.innerHTML = '<option value="">Tutti i tipi</option>';
   types.forEach(t => {
-    if(t) typeSelect.innerHTML += `<option value="${t}">${t}</option>`;
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t;
+    select.appendChild(opt);
   });
 }
 
-// Listener Filtri
-function applyFilters() {
-  const start = document.getElementById('chartStartDate').value;
-  const end = document.getElementById('chartEndDate').value;
-  const type = document.getElementById('chartTypeFilter').value;
+// Gestore Eventi Filtri Sidebar
+function setupFilters() {
+  const btn = document.getElementById('applyFilters');
+  if (!btn) return;
 
-  const filtered = allData.filter(e => {
-    if (start && e.date < start) return false;
-    if (end && e.date > end) return false;
-    if (type && e.type !== type) return false;
-    return true;
+  btn.addEventListener('click', () => {
+    const start = document.getElementById('startDate').value;
+    const end = document.getElementById('endDate').value;
+    const type = document.getElementById('chartTypeFilter').value;
+    // Nota: i checkbox di intensità possono essere aggiunti qui
+
+    const filtered = analyticsData.filter(e => {
+      if (start && e.date < start) return false;
+      if (end && e.date > end) return false;
+      if (type && e.type !== type) return false;
+      return true;
+    });
+
+    console.log(`🔍 Filtri applicati. Rimasti: ${filtered.length}`);
+    updateDashboard(filtered);
+    
+    // Se possibile, aggiorna anche la mappa (richiederebbe integrazione tra i due file)
+    // Per ora aggiorna i grafici che è il compito di questo file
   });
 
-  updateAllCharts(filtered);
+  // Reset
+  document.getElementById('resetFilters')?.addEventListener('click', () => {
+    document.getElementById('startDate').value = '';
+    document.getElementById('endDate').value = '';
+    document.getElementById('chartTypeFilter').value = '';
+    updateDashboard(analyticsData);
+  });
 }
 
 // Avvio
 document.addEventListener('DOMContentLoaded', () => {
-  loadTimelineData();
-  
-  // Bind eventi filtri
-  ['chartStartDate', 'chartEndDate', 'chartTypeFilter'].forEach(id => {
-    const el = document.getElementById(id);
-    if(el) el.addEventListener('change', applyFilters);
-  });
-  
-  const reset = document.getElementById('resetChartFilters');
-  if(reset) reset.addEventListener('click', () => {
-    document.getElementById('chartStartDate').value = '';
-    document.getElementById('chartEndDate').value = '';
-    document.getElementById('chartTypeFilter').value = '';
-    updateAllCharts(allData);
-  });
+  initCharts();
+  setupFilters();
 });
