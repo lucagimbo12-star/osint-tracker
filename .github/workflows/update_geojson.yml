@@ -188,5 +188,22 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          
+          # Aggiunge i file generati
           git add assets/data/events.geojson assets/data/events_timeline.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: AI + Data Refresh" && git push)
+          
+          # Controlla se ci sono modifiche reali
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "Nessuna modifica rilevata, salto il commit."
+            exit 0
+          fi
+          
+          # Committa le modifiche
+          git commit -m "Auto-update: AI + Data Refresh"
+          
+          # --- FIX PER L'ERRORE "REJECTED" ---
+          # Scarica le ultime modifiche remote e riapplica il commit locale sopra di esse
+          git pull --rebase origin main
+          
+          # Ora il push funzionerà
+          git push origin main
