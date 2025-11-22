@@ -123,11 +123,12 @@ jobs:
               json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
           print(f"✅ events.geojson generato con {len(features)} eventi.")
 
-          # --- 2. GENERAZIONE EVENTS_TIMELINE.JSON (Grafici/Timeline) ---
+          # --- 2. GENERAZIONE EVENTS_TIMELINE.JSON (Con Media e Video) ---
           tl_events = []
           for _, row in df.iterrows():
               try:
                   d_str = str(row.get("date", ""))
+                  # ... (logica date identica a prima) ...
                   if '/' in d_str:
                       parts = d_str.split('/')
                       if len(parts) == 3: day, month, year = map(str.strip, parts)
@@ -137,23 +138,50 @@ jobs:
                       if len(parts) == 3: year, month, day = map(str.strip, parts)
                   else: continue
 
+                  # Testo HTML
                   desc = row.get("description") or ""
                   html = f"Tipo: {row.get('type')}<br>Luogo: {row.get('location')}<br>Verifica: {row.get('verification')}"
                   if desc:
-                      html += f"<br><br><i>{desc[:100]}...</i>"
+                      html += f"<br><br>{desc}"
                   
-                  tl_events.append({
+                  # Costruzione Evento
+                  event_obj = {
                       "start_date": {"year": int(year), "month": int(month), "day": int(day)},
-                      "text": {"headline": row.get("title") or "Evento", "text": html},
-                      "type": row.get("type"),
-                      "date": f"{year}-{month.zfill(2)}-{day.zfill(2)}"
-                  })
+                      "text": {
+                          "headline": row.get("title") or "Evento",
+                          "text": html
+                      },
+                      "group": row.get("type") or "Generale", # Raggruppa per tipo nella timeline
+                      "unique_id": str(row.name if hasattr(row, 'name') else ''), 
+                  }
+
+                  # Aggiunta Media (Video/Foto)
+                  video_url = row.get("video")
+                  if video_url:
+                      event_obj["media"] = {
+                          "url": video_url,
+                          "caption": row.get("source") or "Fonte verificata",
+                          "credit": "OSINT Source"
+                      }
+                  
+                  tl_events.append(event_obj)
               except: continue
 
+          # Avvolge in oggetto title opzionale per header timeline
+          final_json = {
+              "title": {
+                  "text": {
+                      "headline": "Impact Atlas Timeline",
+                      "text": "Cronologia interattiva degli eventi verificati."
+                  }
+              },
+              "events": tl_events
+          }
+
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
-              json.dump({"events": tl_events}, f, ensure_ascii=False, indent=2)
+              json.dump(final_json, f, ensure_ascii=False, indent=2)
           
-          print(f"✅ events_timeline.json generato con {len(tl_events)} eventi.")
+          print(f"✅ events_timeline.json generato con {len(tl_events)} eventi e media.")
           EOF
 
       - name: Commit and push updates
