@@ -263,5 +263,14 @@
       }, 1000);
     });
   </script>
+  <div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-content">
+    <span class="close-modal" onclick="closeModal(event)">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDesc"></p>
+    <div id="modalVideoContainer"></div>
+    <a id="modalSourceLink" href="#" target="_blank" class="btn-secondary">🔗 Vai alla fonte originale</a>
+  </div>
+</div>
 </body>
 </html>
