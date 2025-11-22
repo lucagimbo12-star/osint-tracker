@@ -10,7 +10,7 @@ import time
 # --- CONFIGURAZIONE ---
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit"
 CONFIDENCE_THRESHOLD = 85
-BATCH_SIZE = 100  # Aumenta questo numero (es. 100) per smaltire l'arretrato, poi rimettilo a 10
+BATCH_SIZE = 10  # Aumenta questo numero (es. 100) per smaltire l'arretrato, poi rimettilo a 10
 
 def setup_clients():
     scope = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
