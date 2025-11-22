@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impact Atlas - Conflict Tracker</title>
+  <title>Impact Atlas | Conflict Monitor</title>
   
-  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
@@ -14,206 +16,128 @@
 </head>
 <body>
 
-  <header>
-    <div class="header-content">
-      <h1>⚡ Impact Atlas</h1>
-      <nav>
-        <a href="#map-section">Mappa</a>
-        <a href="#timeline-section">Timeline</a>
-        <a href="#about-section">Metodologia</a>
-      </nav>
+  <header class="acled-header">
+    <div class="brand">
+      <h1>IMPACT<span class="highlight">ATLAS</span></h1>
+      <span class="subtitle">Global Conflict Monitor</span>
     </div>
+    <nav>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#methodology">Metodologia</a>
+      <a href="#data">Esporta Dati</a>
+      <a href="#" class="btn-login">Accedi</a>
+    </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Tracker Multi-Layer del Conflitto Ucraino</h2>
-      <p>Monitoraggio in tempo reale di attacchi energetici, militari e civili. Basato su fonti OSINT verificate.</p>
-      <button onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'});">
-        Esplora la mappa interattiva
-      </button>
-    </div>
-  </section>
+  <div class="dashboard-container">
+    
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h3><i class="fa-solid fa-filter"></i> Filtri Dati</h3>
+        <button id="resetFilters" class="btn-text">Reset</button>
+      </div>
 
-  <section id="map-section">
-    <div class="map-container">
+      <div class="filter-group">
+        <label>Periodo Temporale</label>
+        <div class="date-inputs">
+          <input type="date" id="startDate" class="acled-input">
+          <span class="separator">-</span>
+          <input type="date" id="endDate" class="acled-input">
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Tipologia Evento</label>
+        <select id="chartTypeFilter" class="acled-select">
+          <option value="">Tutti gli eventi</option>
+          </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Attore / Responsabile</label>
+        <select id="actorFilter" class="acled-select">
+          <option value="">Tutti gli attori</option>
+          <option value="Ukraine">Ucraina</option>
+          <option value="Russia">Russia</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Intensità Impatto</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" checked value="critical"> Critico <span class="dot red"></span></label>
+          <label><input type="checkbox" checked value="high"> Alto <span class="dot orange"></span></label>
+          <label><input type="checkbox" checked value="medium"> Medio <span class="dot yellow"></span></label>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <button id="applyFilters" class="btn-acled-primary">Aggiorna Mappa</button>
+        <button id="exportData" class="btn-acled-secondary"><i class="fa-solid fa-download"></i> CSV</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
       
-      <!-- Sidebar Filtri Avanzati -->
-      <aside class="filters-sidebar">
-        <h3>🎯 Filtri Avanzati</h3>
-        
-        <!-- Filtri Data -->
-        <div class="filter-group">
-          <label>📅 Data inizio</label>
-          <input type="date" id="startDate">
+      <div class="kpi-bar">
+        <div class="kpi-card">
+          <span class="kpi-label">Eventi Totali</span>
+          <span class="kpi-value" id="eventCount">0</span>
         </div>
-        
-        <div class="filter-group">
-          <label>📅 Data fine</label>
-          <input type="date" id="endDate">
+        <div class="kpi-card">
+          <span class="kpi-label">Ultimo Aggiornamento</span>
+          <span class="kpi-value" id="lastUpdate">-</span>
         </div>
-        
-        <!-- Filtro Categoria -->
-        <div class="filter-group">
-          <label>📂 Categoria</label>
-          <select id="categoryFilter">
-            <option value="">Tutte le categorie</option>
-            <option value="ukraine-strike-energy">🇺🇦 Attacchi UA → Energia RU</option>
-            <option value="ukraine-strike-military">🇺🇦 Attacchi UA → Militare RU</option>
-            <option value="russia-strike-energy">🇷🇺 Attacchi RU → Energia UA</option>
-            <option value="russia-strike-civilian">🇷🇺 Attacchi RU → Civili UA</option>
-            <option value="cross-border">⚡ Transfrontalieri</option>
-          </select>
-        </div>
-        
-        <!-- Filtro Attore -->
-        <div class="filter-group">
-          <label>🎭 Attore</label>
-          <select id="actorFilter">
-            <option value="">Tutti</option>
-            <option value="Ukraine">🇺🇦 Ucraina</option>
-            <option value="Russia">🇷🇺 Russia</option>
-          </select>
-        </div>
-        
-        <!-- Filtro Impatto -->
-        <div class="filter-group">
-          <label>💥 Livello Impatto</label>
-          <select id="impactFilter">
-            <option value="">Tutti i livelli</option>
-            <option value="critical">🔴 Critico</option>
-            <option value="high">🟠 Alto</option>
-            <option value="medium">🟡 Medio</option>
-            <option value="low">🟢 Basso</option>
-          </select>
-        </div>
-        
-        <button id="applyFilter" class="btn-primary">Applica filtri</button>
-        <button id="resetFilter" class="btn-secondary">Reset</button>
-        
-        <!-- Layer Controls -->
-        <div class="layer-controls" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
-          <h4 style="font-size: 1rem; margin-bottom: 1rem;">🗺️ Controlli Layer</h4>
-          
-          <label class="layer-checkbox">
-            <input type="checkbox" id="layerEventi" onchange="toggleEventsLayer(this.checked)" checked>
-            <span style="background: #45a29e;"></span>
-            Eventi
-          </label>
-          
-          <label class="layer-checkbox">
-            <input type="checkbox" id="layerHeatmap" onchange="toggleHeatmapLayer(this.checked)">
-            <span style="background: #dc3545;"></span>
-            Heatmap
-          </label>
-          
-          <label class="layer-checkbox">
-            <input type="checkbox" id="layerConfini" onchange="toggleBordersLayer(this.checked)">
-            <span style="background: #6c757d;"></span>
-            Confini
-          </label>
-          
-          <label class="layer-checkbox">
-            <input type="checkbox" id="layerSatellitare" onchange="toggleSatelliteLayer(this.checked)">
-            <span style="background: #1f2833;"></span>
-            Satellitare
-          </label>
-        </div>
-        
-        <!-- Legenda Heatmap -->
-        <div class="heatmap-legend" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
-          <h4 style="font-size: 0.95rem; margin-bottom: 1rem; color: #0b0c10;">🔥 Legenda Heatmap</h4>
-          <div style="background: linear-gradient(to right, #6c757d, #ffc107, #fd7e14, #dc3545); height: 12px; border-radius: 6px; margin-bottom: 8px;"></div>
-          <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #666;">
-            <span>Basso</span>
-            <span>Medio</span>
-            <span>Alto</span>
-            <span>Critico</span>
+        <div class="kpi-card" id="categoryStats">
           </div>
-        </div>
-        
-        <!-- Statistiche -->
-        <div class="stats">
-          <h4>📊 Statistiche</h4>
-          <p><strong>Eventi visualizzati:</strong> <span id="eventCount">0</span></p>
-          <p><strong>Ultimo aggiornamento:</strong> <span id="lastUpdate">-</span></p>
-          
-          <div id="categoryStats" style="margin-top: 1rem;"></div>
-        </div>
-        
-        <!-- Strumenti -->
-        <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #dee2e6;">
-          <h4 style="font-size: 1rem; margin-bottom: 0.8rem;">🛠️ Strumenti</h4>
-          <button id="exportData" class="btn-secondary" style="font-size: 0.85em; padding: 0.5rem;">
-            📥 Esporta CSV
-          </button>
-        </div>
-      </aside>
-      
-      <!-- Mappa -->
-      <div class="map-wrapper">
+      </div>
+
+      <div class="map-container-wrapper">
         <div id="map"></div>
         
-        <!-- Sezione Grafici Timeline -->
-        <div class="charts-section">
-          <h3>📊 Analisi Temporale</h3>
-          
-          <!-- Timeline Controls -->
-          <div class="timeline-controls">
-            <div class="timeline-filters">
-              <div class="filter-item">
-                <label>📅 Data inizio</label>
-                <input type="date" id="chartStartDate">
-              </div>
-              
-              <div class="filter-item">
-                <label>📅 Data fine</label>
-                <input type="date" id="chartEndDate">
-              </div>
-              
-              <div class="filter-item">
-                <label>🎯 Tipo evento</label>
-                <select id="chartTypeFilter">
-                  <option value="">Tutti i tipi</option>
-                </select>
-              </div>
-              
-              <button id="resetChartFilters" class="btn-secondary-small">Reset filtri</button>
-            </div>
-          </div>
-          
-          <!-- Canvas per Chart.js -->
-          <div class="chart-container">
-            <canvas id="timelineChart"></canvas>
-          </div>
+        <div class="map-overlay-controls">
+          <button onclick="toggleHeatmapLayer(true)" class="map-btn" title="Attiva Heatmap"><i class="fa-solid fa-fire"></i></button>
+          <button onclick="toggleSatelliteLayer(true)" class="map-btn" title="Satellite"><i class="fa-solid fa-satellite"></i></button>
         </div>
       </div>
-      
-    </div>
-  </section>
 
-<section id="timeline-section">
-    <div class="about-content" style="max-width: 1400px;"> <h2>📅 Cronologia Eventi</h2>
-      
-      <div class="timeline-wrapper">
-        
-        <div class="timeline-toolbar">
-          <input type="text" id="tlSearch" placeholder="🔍 Cerca evento (es. 'Raffineria')...">
-          
-          <select id="tlCategoryFilter">
-            <option value="">Caricamento categorie...</option>
-          </select>
-          
-          <button id="tlReset" class="btn-secondary-small" style="margin:0;">Reset</button>
-          
-          <span id="tl-count">Caricamento dati...</span>
+      <div class="charts-section">
+        <div class="chart-card">
+          <h4>Trend Temporale</h4>
+          <div class="chart-wrapper"><canvas id="timelineChart"></canvas></div>
         </div>
-
-        <div id="timeline-embed" style="width: 100%; height: 650px;"></div>
+        <div class="chart-card half">
+          <h4>Distribuzione per Tipo</h4>
+          <div class="chart-wrapper"><canvas id="typeDistributionChart"></canvas></div>
+        </div>
+        <div class="chart-card half">
+          <h4>Indice di Intensità</h4>
+          <div class="chart-wrapper"><canvas id="intensityRadarChart"></canvas></div>
+        </div>
       </div>
-      
+
+      <div class="timeline-section-wrapper">
+        <div class="section-header">
+          <h3>Cronologia Narrativa</h3>
+          <p>Analisi dettagliata degli eventi verificati nel tempo.</p>
+        </div>
+        <div id="timeline-embed" style="width: 100%; height: 600px;"></div>
+      </div>
+
+    </main>
+  </div>
+
+  <div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal(event)">&times;</span>
+      <div class="modal-header">
+        <h3 id="modalTitle"></h3>
+        <a id="modalSourceLink" href="#" target="_blank" class="source-badge">Fonte Originale <i class="fa-solid fa-external-link-alt"></i></a>
+      </div>
+      <p id="modalDesc"></p>
+      <div id="modalVideoContainer"></div>
     </div>
-  </section>
+  </div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
@@ -223,37 +147,6 @@
   
   <script src="assets/js/map.js"></script>
   <script src="assets/js/charts.js"></script>
-  <script src="assets/js/timeline-manager.js"></script> </body>
-</html>
- <script>
-    // Usa percorso relativo invece di assoluto
-    var timeline = new TL.Timeline(
-      "timeline",
-      "assets/data/events_timeline.json" 
-    );
-    
-    // Fix CSS Timeline - Forza altezze e font
-    window.addEventListener('load', function() {
-      setTimeout(function() {
-        const style = document.createElement('style');
-        style.innerHTML = `
-          .tl-timeline { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important; }
-          .tl-headline-title { font-size: 20px !important; line-height: 1.3 !important; }
-          .tl-text-content p { font-size: 14px !important; }
-          .tl-timemarker .tl-headline { font-size: 12px !important; }
-        `;
-        document.head.appendChild(style);
-      }, 1000);
-    });
-  </script>
-  <div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
-  <div class="modal-content">
-    <span class="close-modal" onclick="closeModal(event)">&times;</span>
-    <h3 id="modalTitle"></h3>
-    <p id="modalDesc"></p>
-    <div id="modalVideoContainer"></div>
-    <a id="modalSourceLink" href="#" target="_blank" class="btn-secondary">🔗 Vai alla fonte originale</a>
-  </div>
-</div>
+  <script src="assets/js/timeline-manager.js"></script>
 </body>
 </html>
