@@ -7843,16 +7843,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Chernivtsi",
         "date": "23/03/24",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Chernivtsi, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-march-23-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, le forze russe hanno condotto operazioni offensive per spingere le truppe ucraine fuori dalle loro posizioni a Chernivtsi. Non sono stati confermati avanzamenti significativi.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9075,16 +9075,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco di mine e esplosioni a Zaporizhia",
         "date": "18/03/23",
         "type": "Explosions/Remote violence",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-conflict-update-18-24-march-2023",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Numerose esplosioni, incluse mine, hanno causato vittime civili a Zaporizhia e nelle regioni circostanti, con un bilancio di almeno sei morti e 16 feriti. Le forze russe hanno attaccato anche infrastrutture civili in altre aree.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9097,16 +9097,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Esplosione di deposito munizioni a Crimea",
         "date": "16/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Sabotage",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.kyivindependent.com/media-explosions-reported-across-occupied-crimea-2/",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Un deposito di munizioni Ã¨ esploso in Crimea, attribuito a sabotaggio secondo il Ministero della Difesa russo. Due persone sono rimaste ferite e 2000 evacuate. Non ci sono conferme di coinvolgimento ucraino.",
+        "video": "https://www.youtube.com/watch?v=G1JCpdBt2as",
+        "intensity": 1.0
       }
     },
     {
@@ -9119,16 +9119,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Esplosioni da IED in Crimea",
         "date": "21/07/23",
         "type": "Explosions/Remote violence",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.explosionnearme.com/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 luglio 2023, sono state segnalate esplosioni nella Crimea, presumibilmente causate da esplosivi improvvisati (IED). Non sono disponibili dettagli sui danni o feriti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -9141,16 +9141,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco di sabotaggio contro deposito munizioni a Crimea",
         "date": "30/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Sabotage",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=G1JCpdBt2as",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 30 marzo 2024, un deposito di munizioni Ã¨ esploso in Crimea, con due feriti e 2000 evacuati. Le autoritÃ  russe hanno inizialmente attribuito l'esplosione a un incendio, ma ora parlano di sabotaggio. L'Ucraina non ha confermato il suo coinvolgimento.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9163,16 +9163,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco droni su deposito petrolifero a Feodosia",
         "date": "30/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/explosions-drones-reported-in-crimea-overnight/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte del 2 novembre, sono state segnalate esplosioni a Feodosia e nella regione di Kerch in Crimea, con residenti che hanno riferito di attivitÃ  di droni e operazioni di difesa aerea. Un incendio Ã¨ scoppiato vicino a un deposito di petrolio.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9185,16 +9185,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro deposito munizioni a Crimea",
         "date": "19/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 agosto 2022 si sono verificate esplosioni in un deposito di munizioni russo vicino a Staryi Krym. La causa Ã¨ ritenuta essere un attacco ucraino, che ha portato all'evacuazione di villaggi vicini.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9207,16 +9207,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro stazione ferroviaria a Chervonohvardiiske",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://newsukraine.rbc.ua/news/explosion-hits-crimea-railway-station-amid-1756194612.html",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 agosto 2022, esplosioni sono state segnalate alla stazione ferroviaria Urozhaina nel villaggio di Chervonohvardiiske, in Crimea, con centinaia di droni distrutti dalla difesa aerea russa.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9229,16 +9229,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro base navale russa a Sebastopoli",
         "date": "30/09/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 22 settembre 2022, l'Ucraina ha lanciato un attacco missilistico contro il quartier generale della Flotta del Mar Nero russa a Sebastopoli, causando 34 morti e oltre 100 feriti tra le fila russe. L'operazione ha segnato un significativo colpo contro le forze russe in Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9251,16 +9251,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro base aerea a Novofedorivka",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 14 ottobre 2022, una serie di esplosioni ha colpito la Crimea, una penisola occupata dalla Russia, in ripetuti attacchi aerei e missilistici, evidenziando la vulnerabilitÃ  delle difese russe. Le esplosioni hanno avuto origine da attacchi strategici contro obiettivi militari.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
