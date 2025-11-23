@@ -9273,16 +9273,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro nave a Sebastopoli",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 28 ottobre 2022, un attacco missilistico ucraino ha colpito obiettivi navali a Sebastopoli, causando esplosioni significative e danni al cacciatorpediniere Admiral Makarov. Circa 24 persone sono rimaste ferite.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9295,16 +9295,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi in Crimea",
         "date": "21/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://kyivindependent.com/ukraine-war-latest-explosions-fires-reported-in-russian-rear-occupied-sevastopol-in-alleged-coordinated-ukrainian-strikes/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2023 si sono verificate esplosioni in Crimea, attribuite a possibili attacchi missilistici ucraini contro obiettivi strategici russi, inclusa la risposta della difesa aerea russa che avrebbe intercettato bersagli aerei.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9317,16 +9317,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi navali a Sebastopoli",
         "date": "23/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 giugno 2023, l'Ucraina ha lanciato un attacco missilistico contro obiettivi navali e infrastrutture portuali a Sebastopoli, in Crimea. Questo attacco ha causato esplosioni significative, danni a una nave e a un sottomarino, e ha lasciato 24 feriti, secondo le autoritÃ  russe.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9339,16 +9339,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo contro infrastruttura civile in Crimea",
         "date": "30/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://acleddata.com/monitor/ukraine-conflict-monitor",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 30 giugno 2023, sono state segnalate esplosioni in Crimea, dove la Russia ha intensificato gli attacchi contro le infrastrutture ucraine. Gli eventi sono parte di un conflitto in corso che coinvolge obiettivi civili e militari.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9361,16 +9361,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco con droni contro infrastrutture navali a Crimea",
         "date": "14/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 14 luglio 2023, l'Ucraina ha effettuato un attacco con droni su obiettivi navali in Crimea, causando esplosioni significative e danni alle infrastrutture portuali, nonchÃ© innescando incendi in un cantiere navale a Sebastopoli.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9383,16 +9383,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro deposito munizioni a Krasnohvardiiske",
         "date": "21/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 luglio 2023, un deposito di munizioni in Crimea Ã¨ stato colpito da un attacco missilistico, causando esplosioni e l'evacuazione di uno dei villaggi circostanti. Questo attacco segna un significativo aumento delle operazioni offensive ucraine nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9405,16 +9405,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro nave russa nel Mar Nero",
         "date": "28/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 5 agosto 2023, un drone imbarcato ucraino ha gravemente danneggiato il tanker russo Sig nel Mar di Nero, a 17 km dal ponte di Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9427,16 +9427,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Esplosioni nella base aerea di Belbek a Sebastopoli",
         "date": "18/08/23",
         "type": "Explosions/Remote violence",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cnn.com/2023/08/18/politics/ukraine-crimea-focus-biden-administration",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 agosto 2023 sono state segnalate esplosioni intorno alla base aerea di Belbek, in Crimea, con fonti russe che fanno riferimento a possibili attacchi ucraini o difese aeree russe attive.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9449,16 +9449,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro base militare a Perevalne",
         "date": "25/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cnn.com/europe/live-news/russia-ukraine-war-news-08-25-23",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 agosto 2023, droni ucraini hanno colpito una base militare russa a Perevalne, Crimea, causando esplosioni e danni. Le autoritÃ  ucraine dichiarano di aver provocato dozzine di vittime. Questo Ã¨ il terzo giorno consecutivo di attacchi in Crimea.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9471,16 +9471,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro deposito carburante a Feodosia",
         "date": "13/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=KfAGtqMOmyA",
         "archived": "",
-        "verification": null,
-        "description": "",
-        "video": "",
-        "intensity": 0.2
+        "verification": "verified",
+        "description": "Il 13 ottobre, droni ucraini hanno colpito il piÃ¹ grande deposito di petrolio in Crimea a Feodosia, provocando esplosioni e incendi significativi, indebolendo le capacitÃ  logistiche russe nella regione.",
+        "video": "https://www.youtube.com/watch?v=KfAGtqMOmyA",
+        "intensity": 1.0
       }
     },
     {
