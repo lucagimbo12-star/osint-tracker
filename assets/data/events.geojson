@@ -9493,16 +9493,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico alle difese aeree russe a Crimea",
         "date": "27/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-62560041",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 ottobre, l'Ucraina ha colpito le difese aeree russe a Crimea con missili, distruggendo un sistema S-300 e causando 17 feriti tra soldati russi. Il Ministero della Difesa russo ha minimizzato i danni, ma confermato feriti.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9515,16 +9515,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi navali a Sebastopoli",
         "date": "20/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 gennaio 2024, l'Ucraina ha lanciato un attacco missilistico contro obiettivi navali a Sebastopoli, causando incendi e ferendo 24 persone. Le immagini satellitari confermano gravi danni.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9537,16 +9537,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro basi navali a Sebastopoli",
         "date": "27/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 27 gennaio 2024, l'Ucraina ha lanciato un massiccio attacco missilistico contro obiettivi navali a Sebastopoli, danneggiando diverse navi russe e causando esplosioni significative nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9559,16 +9559,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi navali a Crimea",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, l'Ucraina ha attaccato obiettivi navali e infrastrutture portuali in Crimea, causando esplosioni significative e feriti tra i civili. Questo attacco rappresenta un'importante escalation nel conflitto, con l'utilizzo di missili di tipo Storm Shadow.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9581,16 +9581,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture in Crimea",
         "date": "26/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Crimea_attacks",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 26 aprile 2024, sono state segnalate esplosioni in Crimea, probabilmente conseguenti a un attacco missilistico, interessando infrastrutture civili e militari locali.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9603,16 +9603,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro sottostazione elettrica a Sebastopoli",
         "date": "17/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.blackseanews.net/en/read/226359",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 17 maggio 2024, un attacco UAV ha colpito una sottostazione elettrica a Sebastopoli, causando esplosioni e interruzioni di corrente, coinvolgendo fino a 102 droni e rispondendo a attacchi russi nella regione.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9625,16 +9625,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi militari a Sevastopol",
         "date": "24/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.newsweek.com/explosions-crimea-atacms-missile-attack-s-400-1933649",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 24 maggio 2024, forze russe hanno lanciato uno dei piÃ¹ grandi attacchi combinati con droni e missili contro l'Ucraina, colpendo vari obiettivi tra cui Sevastopol in Crimea. La popolazione Ã¨ stata evacuata dalle aree colpite.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9647,16 +9647,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro obiettivi militari a Sevastopoli",
         "date": "31/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.newsweek.com/explosions-crimea-atacms-missile-attack-s-400-1933649",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno colpito la cittÃ  di Sevastopoli in Crimea con missili ATACMS, prendendo di mira obiettivi militari, tra cui un sistema S-400 e un radar di guida missilistica. Gli attacchi su Crimea sono aumentati durante la guerra in corso.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9669,16 +9669,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco droni contro obiettivi russi in Crimea",
         "date": "21/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=ghSZaO50G2M",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 giugno 2024, attacchi con droni da parte dell'Ucraina hanno colpito obiettivi militari nella Crimea occupata, causando esplosioni e danni a depositi di munizioni.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9691,16 +9691,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture in Crimea",
         "date": "28/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://acleddata.com/monitor/ukraine-conflict-monitor",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 28 giugno 2024, attacchi missilistici russi hanno colpito bersagli civili e infrastrutture in Crimea, aumentando il numero di vittime civili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
