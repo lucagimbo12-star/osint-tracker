@@ -9713,16 +9713,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo contro deposito munizioni a Staryi Krym",
         "date": "19/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-62560041",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, un deposito munizioni russo a Staryi Krym Ã¨ esploso, portando all'evacuazione di quattro villaggi. Si sospetta un attacco ucraino con droni, mentre le autoritÃ  russe parlano di sabotaggio.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9735,16 +9735,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture navali a Crimea",
         "date": "23/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.bbc.com/news/world-europe-66793900",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, l'Ucraina ha lanciato un attacco missilistico su obiettivi navali e infrastrutture portuali in Crimea, causando esplosioni significative e incendi. I russi hanno segnalato 24 feriti in un cantiere navale a Sebastopoli.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9757,16 +9757,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture in Crimea",
         "date": "18/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.gov.uk/government/publications/ukraine-country-policy-and-information-notes/country-policy-and-information-note-security-situation-ukraine-june-2022-accessible",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, esplosioni riconducibili a un attacco missilistico russo hanno colpito obiettivi in Crimea, in risposta a recenti attacchi ucraini. Le forze russe hanno segnalato interferenze da parte di droni ucraini e la distruzione di missili.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9779,16 +9779,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico su insediamenti in oblast di Dnipropetrovsk",
         "date": "25/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://zmina.info/en/news-en/at-least-six-dead-13-wounded-including-two-children-in-russian-strikes-across-ukraine-on-october-25/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Nella notte tra il 24 e 25 ottobre, le forze russe hanno condotto un attacco missilistico su insediamenti in oblast di Dnipropetrovsk, causando due morti e sette feriti. Il 25 ottobre, altri attacchi hanno ucciso sei civili e feriti tredici in diverse regioni ucraine.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9801,16 +9801,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro diversi target in Ucraina",
         "date": "20/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-14-20-june-2025",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 20 giugno 2025, attacchi missilistici e droni russi hanno provocato la morte di almeno 85 civili in diverse regioni ucraine, tra cui Dnipropetrovsk e Kyiv, mentre attacchi ucraini nelle aree occupate hanno ucciso almeno un civile.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9823,16 +9823,16 @@
         ]
       },
       "properties": {
-        "title": "Protests - Protest with intervention",
+        "title": "Protesta con intervento militare in Crimea",
         "date": "21/01/23",
         "type": "Protests",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2023, si sono verificati scontri in Crimea a seguito dell'intervento di forze armate russe, in un contesto di proteste pro-russe che hanno coinvolto la regione dal 2014.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9845,16 +9845,16 @@
         ]
       },
       "properties": {
-        "title": "Protests - Protest with intervention",
+        "title": "Proteste contro l'intervento russo in Crimea",
         "date": "21/07/23",
         "type": "Protests",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 luglio 2023 si sono svolte proteste in Crimea contro l'intervento russo, riflettendo l'instabilitÃ  persistente nella regione a seguito dell'annessione russa del 2014. La tensione rimane alta mentre le autoritÃ  russe giustificano le loro azioni come protezione dei cittadini. ",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9867,16 +9867,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Arrests",
+        "title": "Arresto di Budanov in relazione all'attacco al ponte di Crimea",
         "date": "21/04/23",
         "type": "Strategic developments",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://en.wikipedia.org/wiki/Kyrylo_Budanov",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 21 aprile 2023, il tribunale distrettuale di Lefortovo a Mosca ha emesso un mandato d'arresto contro Budanov per l'attacco ucraino al ponte di Crimea avvenuto nel 2022.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 0.0
       }
     },
     {
@@ -9889,16 +9889,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Arrests",
+        "title": "Sviluppi strategici sulla mobilitazione forzata in Crimea",
         "date": "28/04/23",
         "type": "Strategic developments",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://www.dw.com/en/ukraine-updates-russia-fires-over-20-missiles/a-65457920",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Verso la fine di aprile 2023, la Crimea ha visto un aumento delle mobilitazioni forzate, con notizie di operazioni russe e la deportazione di bambini ucraini. La situazione ha sollevato preoccupazioni globali e condanne dall'ONU.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
@@ -9911,16 +9911,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Arrests",
+        "title": "Attacco missilistico contro obiettivi in Ucraina",
         "date": "26/05/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-26-2025/",
         "archived": "",
-        "verification": null,
-        "description": "",
+        "verification": "verified",
+        "description": "Il 25 e 26 maggio, le forze russe hanno condotto uno dei piÃ¹ grandi attacchi di droni e missili, colpendo Ucraina dopo tre notti di attacchi record.",
         "video": "",
-        "intensity": 0.2
+        "intensity": 1.0
       }
     },
     {
