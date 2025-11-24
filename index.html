@@ -38,138 +38,88 @@
   <div class="dashboard-container">
     
     <aside class="sidebar">
-  <div class="sidebar-content">
-    <div class="sidebar-header">
-      <div class="sidebar-title"><i class="fa-solid fa-layer-group"></i> Filtri Dati</div>
-      <button id="resetFilters" class="btn-secondary" style="padding: 4px 8px; font-size: 0.7rem; border:none; color:var(--primary);">Reset</button>
+  
+  <div class="sidebar-header-wrapper">
+    <div class="sidebar-title">FILTRI OPERATIVI</div>
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <input type="text" id="textSearch" placeholder="Cerca evento, città o keyword...">
     </div>
+  </div>
 
-    <div class="filter-section">
-      <span class="filter-label">Finestra Temporale</span>
-      <div class="date-range-wrapper">
-        <input type="date" id="startDate" class="date-input-styled" placeholder="Da">
-        <i class="fa-solid fa-arrow-right-long date-separator"></i>
-        <input type="date" id="endDate" class="date-input-styled" placeholder="A">
+  <div class="sidebar-scroll-area">
+    
+    <div class="filter-block">
+      <label>Finestra Temporale</label>
+      <div class="date-group">
+        <input type="date" id="startDate" class="clean-input">
+        <span class="date-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <input type="date" id="endDate" class="clean-input">
       </div>
     </div>
 
-    <div class="filter-section">
-      <span class="filter-label">Tipologia Evento</span>
-      <div class="select-wrapper">
-        <select id="chartTypeFilter" class="acled-select">
-          <option value="">Tutti gli eventi</option>
+    <div class="filter-block">
+      <label>Categoria Evento</label>
+      <div class="custom-select">
+        <select id="chartTypeFilter" class="clean-input">
+          <option value="">Tutte le categorie</option>
           </select>
+        <i class="fa-solid fa-chevron-down select-arrow"></i>
       </div>
     </div>
 
-    <div class="filter-section">
-      <span class="filter-label">Attore / Responsabile</span>
-      <div class="select-wrapper">
-        <select id="actorFilter" class="acled-select">
+    <div class="filter-block">
+      <label>Attore / Responsabile</label>
+      <div class="custom-select">
+        <select id="actorFilter" class="clean-input">
           <option value="">Tutti gli attori</option>
           <option value="Ukraine">Ucraina</option>
           <option value="Russia">Russia</option>
-          <option value="Unknown">Non identificato</option>
+          <option value="Unknown">Sconosciuto / Altro</option>
         </select>
+        <i class="fa-solid fa-chevron-down select-arrow"></i>
       </div>
     </div>
 
-    <div class="filter-section">
-      <span class="filter-label">Livello di Minaccia</span>
-      <div class="chips-container">
+    <div class="filter-block">
+      <label>Livello di Minaccia</label>
+      <div class="toggle-container">
         
-        <label class="filter-chip">
+        <label class="toggle-card">
           <input type="checkbox" checked value="critical">
-          <div class="chip-content">
-            <div class="chip-label">
-              <span class="chip-dot" style="color: var(--accent-crit); background: var(--accent-crit);"></span>
-              CRITICO
-            </div>
-            <i class="fa-solid fa-check chip-check"></i>
+          <div class="card-content">
+            <span class="dot red"></span> Critico
           </div>
+          <i class="fa-solid fa-check check-icon"></i>
         </label>
 
-        <label class="filter-chip">
+        <label class="toggle-card">
           <input type="checkbox" checked value="high">
-          <div class="chip-content">
-            <div class="chip-label">
-              <span class="chip-dot" style="color: var(--accent-high); background: var(--accent-high);"></span>
-              ALTO
-            </div>
-            <i class="fa-solid fa-check chip-check"></i>
+          <div class="card-content">
+            <span class="dot orange"></span> Alto
           </div>
+          <i class="fa-solid fa-check check-icon"></i>
         </label>
 
-        <label class="filter-chip">
+        <label class="toggle-card">
           <input type="checkbox" checked value="medium">
-          <div class="chip-content">
-            <div class="chip-label">
-              <span class="chip-dot" style="color: var(--accent-med); background: var(--accent-med);"></span>
-              MEDIO
-            </div>
-            <i class="fa-solid fa-check chip-check"></i>
+          <div class="card-content">
+            <span class="dot yellow"></span> Medio
           </div>
+          <i class="fa-solid fa-check check-icon"></i>
         </label>
 
       </div>
     </div>
+
   </div>
 
-  <div class="sidebar-footer">
-    <button id="applyFilters" class="btn-primary">
-      <i class="fa-solid fa-filter"></i> Applica Filtri
-    </button>
-    <button id="exportData" class="btn-secondary">
-      <i class="fa-solid fa-file-csv"></i> Esporta Report
-    </button>
+  <div class="sidebar-actions">
+    <button id="applyFilters" class="action-btn primary">Applica Filtri</button>
+    <button id="exportData" class="action-btn ghost"><i class="fa-solid fa-download"></i> CSV</button>
   </div>
+
 </aside>
-
-      <div class="filter-group">
-        <label>Periodo Temporale</label>
-        <div class="date-inputs" style="display:flex; gap:5px; align-items:center;">
-          <input type="date" id="startDate" class="acled-input">
-          <span class="separator" style="color:var(--text-muted);">-</span>
-          <input type="date" id="endDate" class="acled-input">
-        </div>
-      </div>
-
-      <div class="filter-group">
-        <label>Tipologia Evento</label>
-        <select id="chartTypeFilter" class="acled-select">
-          <option value="">Tutti gli eventi</option>
-          </select>
-      </div>
-
-      <div class="filter-group">
-        <label>Attore / Responsabile</label>
-        <select id="actorFilter" class="acled-select">
-          <option value="">Tutti gli attori</option>
-          <option value="Ukraine">Ucraina</option>
-          <option value="Russia">Russia</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <label>Intensità Impatto</label>
-        <div class="checkbox-group" style="display:flex; flex-direction:column; gap:8px; margin-top:5px;">
-          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
-            <input type="checkbox" checked value="critical"> <span style="color:var(--accent-crit)">●</span> Critico
-          </label>
-          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
-            <input type="checkbox" checked value="high"> <span style="color:var(--accent-high)">●</span> Alto
-          </label>
-          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
-            <input type="checkbox" checked value="medium"> <span style="color:var(--accent-med)">●</span> Medio
-          </label>
-        </div>
-      </div>
-
-      <div class="sidebar-footer" style="margin-top:auto; padding-top:20px;">
-        <button id="applyFilters" class="btn-primary">Aggiorna Mappa</button>
-        <button id="exportData" class="btn-secondary"><i class="fa-solid fa-download"></i> CSV</button>
-      </div>
-    </aside>
 
     <main class="main-content">
       
