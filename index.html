@@ -41,16 +41,26 @@
   
   <div class="sidebar-header-wrapper">
     <div class="sidebar-title">FILTRI OPERATIVI</div>
+    
     <div class="search-box">
       <i class="fa-solid fa-magnifying-glass search-icon"></i>
-      <input type="text" id="textSearch" placeholder="Cerca evento, città o keyword...">
+      <input type="text" id="textSearch" placeholder="Cerca evento, città...">
+      
+      <div class="info-icon-wrapper" data-tooltip="Cerca nel titolo o nella descrizione dell'evento (es. 'Odessa', 'Drone'). Premi INVIO per cercare.">
+        <i class="fa-solid fa-circle-info"></i>
+      </div>
     </div>
   </div>
 
   <div class="sidebar-scroll-area">
     
     <div class="filter-block">
-      <label>Finestra Temporale</label>
+      <label>
+        Finestra Temporale
+        <span class="info-icon-wrapper" data-tooltip="Mostra solo eventi accaduti tra queste due date.">
+          <i class="fa-solid fa-circle-info"></i>
+        </span>
+      </label>
       <div class="date-group">
         <input type="date" id="startDate" class="clean-input">
         <span class="date-arrow"><i class="fa-solid fa-arrow-right"></i></span>
@@ -59,7 +69,12 @@
     </div>
 
     <div class="filter-block">
-      <label>Categoria Evento</label>
+      <label>
+        Categoria Evento
+        <span class="info-icon-wrapper" data-tooltip="Filtra per tipologia tattica (es. Esplosioni, Battaglie).">
+          <i class="fa-solid fa-circle-info"></i>
+        </span>
+      </label>
       <div class="custom-select">
         <select id="chartTypeFilter" class="clean-input">
           <option value="">Tutte le categorie</option>
@@ -69,43 +84,46 @@
     </div>
 
     <div class="filter-block">
-      <label>Attore / Responsabile</label>
+      <label>
+        Attori
+        <span class="info-icon-wrapper" data-tooltip="Seleziona la fazione principale coinvolta.">
+          <i class="fa-solid fa-circle-info"></i>
+        </span>
+      </label>
       <div class="custom-select">
         <select id="actorFilter" class="clean-input">
           <option value="">Tutti gli attori</option>
-          <option value="Ukraine">Ucraina</option>
-          <option value="Russia">Russia</option>
-          <option value="Unknown">Sconosciuto / Altro</option>
+          <option value="Ukrain">Ucraina (Forze Armate/Civili)</option>
+          <option value="Russi">Russia (Forze Armate/Wagner)</option>
         </select>
         <i class="fa-solid fa-chevron-down select-arrow"></i>
       </div>
     </div>
 
     <div class="filter-block">
-      <label>Livello di Minaccia</label>
+      <label>
+        Livello di Minaccia
+        <span class="info-icon-wrapper" data-tooltip="Filtra in base all'intensità stimata dell'impatto.">
+          <i class="fa-solid fa-circle-info"></i>
+        </span>
+      </label>
       <div class="toggle-container">
         
         <label class="toggle-card">
           <input type="checkbox" checked value="critical">
-          <div class="card-content">
-            <span class="dot red"></span> Critico
-          </div>
+          <div class="card-content"><span class="dot red"></span> Critico</div>
           <i class="fa-solid fa-check check-icon"></i>
         </label>
 
         <label class="toggle-card">
           <input type="checkbox" checked value="high">
-          <div class="card-content">
-            <span class="dot orange"></span> Alto
-          </div>
+          <div class="card-content"><span class="dot orange"></span> Alto</div>
           <i class="fa-solid fa-check check-icon"></i>
         </label>
 
         <label class="toggle-card">
           <input type="checkbox" checked value="medium">
-          <div class="card-content">
-            <span class="dot yellow"></span> Medio
-          </div>
+          <div class="card-content"><span class="dot yellow"></span> Medio</div>
           <i class="fa-solid fa-check check-icon"></i>
         </label>
 
