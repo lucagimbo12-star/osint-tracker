@@ -6276,10 +6276,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro infrastrutture energetiche in Crimea",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 15 agosto 2025, forze russe hanno lanciato un attacco missilistico e droni contro obiettivi in Ucraina, inclusa la Crimea. L'aviazione ucraina ha abbattuto 61 droni, ma i colpi hanno causato vittime civili significative."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "461"
     },
     {
@@ -6289,10 +6289,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco di partigiani contro infrastrutture russe in Crimea",
+        "text": "Tipo: Sabotage<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>A metÃ  agosto 2022, le forze ucraine hanno intensificato attacchi partigiani contro obiettivi russi in Crimea, inclusi attacchi a infrastrutture logistiche e basi aeree, contribuendo a destabilizzare la presenza russa nella regione."
       },
-      "group": "Strategic developments",
+      "group": "Sabotage",
       "unique_id": "462"
     },
     {
@@ -6302,10 +6302,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro infrastrutture energetiche in Crimea",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 26 agosto 2022, la Russia ha lanciato il piÃ¹ grande attacco missilistico dall'inizio dell'invasione, colpendo missilistici e droni contro infrastrutture energetiche in Ucraina, causando 7 morti e 47 feriti."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "463"
     },
     {
@@ -6315,10 +6315,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco droni contro infrastrutture militari a Crimea",
+        "text": "Tipo: Drone Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 14 ottobre 2022, forze ucraine hanno effettuato attacchi mirati su infrastrutture militari in Crimea, colpendo radar e aumentando la vulnerabilitÃ  russa nella regione. Esplosioni sono state segnalate vicino a Sevastopol."
       },
-      "group": "Strategic developments",
+      "group": "Drone Strike",
       "unique_id": "464"
     },
     {
@@ -6328,10 +6328,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco droni contro sistemi radar in Crimea",
+        "text": "Tipo: Drone Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 14 gennaio 2023, l'Ucraina ha condotto attacchi aerei contro i sistemi radar russi in Crimea, indebolendo la capacitÃ  di ottica di Mosca nella regione e aprendo la strada a future offensive ucraine."
       },
-      "group": "Strategic developments",
+      "group": "Drone Strike",
       "unique_id": "465"
     },
     {
@@ -6341,10 +6341,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro obiettivi russi a Crimea",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 25 marzo 2023, l'Ucraina ha lanciato un attacco missilistico contro obiettivi russi nella penisola di Crimea, evidenziando le crescenti capacitÃ  missilistiche di Kyiv mentre Russia continuava a bombardare l'Ucraina."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "466"
     },
     {
@@ -6354,10 +6354,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro sistemi ferroviari a Dzhankoi",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 20 marzo 2023, un attacco missilistico ucraino ha distrutto missili 'Kalibr-KN' trasportati da treno a Dzhankoi, Crimea, danneggiando gravemente il sistema ferroviario della regione."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "467"
     },
     {
@@ -6367,10 +6367,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro abitazioni a Uman",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 28 aprile 2023, attacchi missilistici russi hanno colpito diverse cittÃ  ucraine, incluso Uman, causando la morte di almeno 23 persone e numerosi feriti. Le forze ucraine hanno intercettato la maggior parte dei missili lanciati."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "468"
     },
     {
@@ -6380,10 +6380,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco droni contro forze russe in Crimea",
+        "text": "Tipo: Drone Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 19 maggio 2023, operazioni di attacco droni hanno colpito obiettivi russi in Crimea, compromettendo le capacitÃ  militari russe e aprendo la strada a ulteriori offensive ucraine."
       },
-      "group": "Strategic developments",
+      "group": "Drone Strike",
       "unique_id": "469"
     },
     {
@@ -6393,10 +6393,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Strategic developments - Disrupted weapons use",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico contro infrastrutture russe a Crimea",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>In Crimea, l'Ucraina ha colpito due navi da sbarco e infrastrutture della flotta russa del Mar Nero, causando danni significativi e intensificando l'offensiva marittima contro le forze russe."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "470"
     },
     {
