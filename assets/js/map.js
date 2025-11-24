@@ -1,25 +1,28 @@
 // ============================================
-// MAP.JS - SLATE & AMBER EDITION (Con Features Avanzate)
+// MAP.JS - SLATE & AMBER EDITION (High Performance)
 // ============================================
 
+// 1. Inizializzazione Mappa con Rendering GPU (preferCanvas)
 let map = L.map('map', {
   zoomControl: false,
-  preferCanvas: true,
+  preferCanvas: true, // <--- Performance Critical
   wheelPxPerZoomLevel: 120
 }).setView([48.5, 32.0], 6);
 
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-// Mappa Scura (CartoDB Dark Matter) per il tema Slate
+// Mappa Scura (CartoDB Dark Matter)
 const darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   maxZoom: 19,
   attribution: '&copy; CARTO'
 });
 darkLayer.addTo(map);
 
+// 2. Configurazione Cluster con "Chunked Loading" (Anti-Lag)
 let eventsLayer = L.markerClusterGroup({
-  chunkedLoading: true,
-  chunkInterval: 200,
+  chunkedLoading: true, // <--- Fondamentale per evitare il blocco del browser
+  chunkInterval: 200,   // Processa per 200ms
+  chunkDelay: 50,       // Riposa per 50ms
   maxClusterRadius: 45,
   spiderfyOnMaxZoom: true,
   iconCreateFunction: function(cluster) {
@@ -34,7 +37,7 @@ let eventsLayer = L.markerClusterGroup({
 });
 map.addLayer(eventsLayer);
 
-// --- CONFIGURAZIONE COLORI (Slate & Amber) ---
+// --- CONFIGURAZIONE COLORI ---
 const impactColors = {
   'critical': '#ef4444',  // Rosso
   'high':     '#f97316',  // Arancio
@@ -45,7 +48,7 @@ const impactColors = {
 const typeIcons = {
   'drone': 'fa-plane-up', 'missile': 'fa-rocket', 'artillery': 'fa-bomb',
   'energy': 'fa-bolt', 'fire': 'fa-fire', 'naval': 'fa-anchor',
-  'cultural': 'fa-landmark', 'eco': 'fa-leaf', // NUOVE CATEGORIE
+  'cultural': 'fa-landmark', 'eco': 'fa-leaf',
   'default': 'fa-crosshairs'
 };
 
@@ -66,9 +69,10 @@ function getIconClass(type) {
   return typeIcons.default;
 }
 
-// --- CARICAMENTO ---
+// --- CARICAMENTO DATI ---
 async function loadEventsData() {
   try {
+    // Assicurati che questo path sia corretto nella tua repo
     const res = await fetch('assets/data/events.geojson');
     const data = await res.json();
     
@@ -79,9 +83,10 @@ async function loadEventsData() {
     }));
 
     updateMap(events);
-    // initHeatmap(events); // Heatmap opzionale
-    document.getElementById('eventCount').innerText = events.length;
-  } catch (e) { console.error(e); }
+    if(document.getElementById('eventCount')) {
+        document.getElementById('eventCount').innerText = events.length;
+    }
+  } catch (e) { console.error("Errore caricamento dati:", e); }
 }
 
 function updateMap(events) {
@@ -94,6 +99,7 @@ function updateMap(events) {
     const size = (e.intensity || 0.2) >= 0.8 ? 34 : 26;
     const iconSize = Math.floor(size / 1.8);
 
+    // Creazione Marker Ottimizzata
     const marker = L.marker([e.lat, e.lon], {
       icon: L.divIcon({
         className: 'custom-icon-marker',
@@ -110,18 +116,17 @@ function updateMap(events) {
       })
     });
 
-    // Passiamo dati extra (confidence, images) alla funzione popup
     marker.bindPopup(createPopupContent(e));
     markers.push(marker);
   });
+  
+  // Aggiungi tutti i marker in una volta al cluster (Chunked Loading gestirà il resto)
   eventsLayer.addLayers(markers);
 }
 
-// --- POPUP & MODALE AVANZATA ---
+// --- POPUP & MODALE ---
 function createPopupContent(e) {
-  const safeTitle = encodeURIComponent(e.title);
-  const safeDesc = encodeURIComponent(e.description || '');
-  // Passiamo tutto l'oggetto evento codificato per gestire dati complessi come immagini e score
+  // Encoding sicuro per passare l'oggetto JSON nell'HTML
   const eventData = encodeURIComponent(JSON.stringify(e));
   const color = getColor(e.intensity);
 
@@ -139,17 +144,17 @@ function createPopupContent(e) {
   `;
 }
 
-// Funzione globale per aprire la modale ricca
+// Funzione Globale Modale
 window.openModal = function(eventJson) {
   const e = JSON.parse(decodeURIComponent(eventJson));
   
-  // 1. Popola Testi
+  // Testi
   document.getElementById('modalTitle').innerText = e.title;
   document.getElementById('modalDesc').innerText = e.description || "Nessun dettaglio disponibile.";
   document.getElementById('modalType').innerText = e.type;
   document.getElementById('modalDate').innerText = e.date;
   
-  // 2. Gestione Video/Media
+  // Video
   const vidCont = document.getElementById('modalVideoContainer');
   vidCont.innerHTML = '';
   if (e.video && e.video !== 'null') {
@@ -159,37 +164,35 @@ window.openModal = function(eventJson) {
     } else {
        vidCont.innerHTML = `<a href="${e.video}" target="_blank" class="btn-primary">Apri Media Esterno</a>`;
     }
+  } else {
+    vidCont.innerHTML = '<div style="padding:20px; text-align:center; color:#64748b;">Nessun media disponibile</div>';
   }
 
-  // 3. FEATURE: Juxtapose Slider (Time Travel)
-  // Se l'evento ha before_image e after_image (che dovrai aggiungere al CSV in futuro)
+  // Juxtapose Slider (Before/After)
   const sliderCont = document.getElementById('modalJuxtapose');
-  sliderCont.innerHTML = ''; // Reset
+  sliderCont.innerHTML = '';
   
-  // SIMULAZIONE PER DEMO (Rimuovi 'true ||' quando avrai i dati veri)
-  if (true || (e.before_img && e.after_img)) { 
-     // Usa immagini placeholder se mancano quelle reali, per mostrare la feature
-     const imgBefore = e.before_img || 'https://placehold.co/800x400/334155/ffffff?text=Immagine+Pre-Attacco';
-     const imgAfter = e.after_img || 'https://placehold.co/800x400/b45309/ffffff?text=Immagine+Post-Attacco';
-     
+  // Logica: Mostra slider solo se ci sono immagini before/after vere
+  // (Ho rimosso il "true ||" per uso reale, riabilitalo se vuoi testare con placeholder)
+  if (e.before_img && e.after_img) { 
      sliderCont.innerHTML = `
        <h4 style="color:white; margin:20px 0 10px;">Battle Damage Assessment (BDA)</h4>
        <div class="juxtapose-wrapper" onmousemove="updateSlider(event, this)">
-         <div class="juxtapose-img" style="background-image:url('${imgBefore}')"></div>
-         <div class="juxtapose-img after" style="background-image:url('${imgAfter}'); width:50%;"></div>
+         <div class="juxtapose-img" style="background-image:url('${e.before_img}')"></div>
+         <div class="juxtapose-img after" style="background-image:url('${e.after_img}'); width:50%;"></div>
          <div class="juxtapose-handle" style="left:50%"><div class="juxtapose-button"><i class="fa-solid fa-arrows-left-right"></i></div></div>
        </div>
      `;
   }
 
-  // 4. FEATURE: Confidence Score Chart
-  const conf = e.confidence || 85; // Default simulato se manca
+  // Chart JS (Reliability Score)
+  const conf = e.confidence || 85; 
   renderConfidenceChart(conf);
 
   document.getElementById('videoModal').style.display = 'flex';
 };
 
-// Logica Slider JS (Inline per semplicità)
+// Helper Slider
 window.updateSlider = function(e, wrapper) {
   const rect = wrapper.getBoundingClientRect();
   let pos = ((e.clientX - rect.left) / rect.width) * 100;
@@ -198,10 +201,14 @@ window.updateSlider = function(e, wrapper) {
   wrapper.querySelector('.juxtapose-handle').style.left = `${pos}%`;
 };
 
-// Logica Chart JS
+// Helper Chart JS
 let confChart = null;
 function renderConfidenceChart(score) {
-  const ctx = document.getElementById('confidenceChart').getContext('2d');
+  // Controllo sicurezza se elemento esiste
+  const ctxEl = document.getElementById('confidenceChart');
+  if(!ctxEl) return;
+
+  const ctx = ctxEl.getContext('2d');
   if(confChart) confChart.destroy();
   
   confChart = new Chart(ctx, {
@@ -216,6 +223,7 @@ function renderConfidenceChart(score) {
     },
     options: {
       responsive: true, cutout: '75%',
+      animation: false, // Disabilita animazione per performance modale
       plugins: { legend: { display: false }, tooltip: { enabled: false } }
     },
     plugins: [{
