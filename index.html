@@ -138,7 +138,31 @@
       <div id="modalVideoContainer"></div>
     </div>
   </div>
+<div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal(event)">&times;</span>
+      
+      <div class="modal-header">
+        <h3 id="modalTitle">Titolo Evento</h3>
+        <div class="modal-meta">
+          <span id="modalDate">Data</span>
+          <span id="modalType" class="modal-tag">Tipo</span>
+        </div>
+        
+        <div class="confidence-container">
+          <canvas id="confidenceChart"></canvas>
+          <div style="text-align:center; font-size:0.7rem; color:#94a3b8; margin-top:5px;">CONFIDENCE SCORE</div>
+        </div>
+      </div>
 
+      <p id="modalDesc" style="color:#cbd5e1; line-height:1.6; margin-bottom:20px; padding-right: 130px;"></p>
+      
+      <div id="modalVideoContainer"></div>
+      
+      <div id="modalJuxtapose"></div>
+
+    </div>
+  </div>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
