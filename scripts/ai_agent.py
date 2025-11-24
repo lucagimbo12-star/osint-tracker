@@ -10,7 +10,7 @@ import time
 # --- CONFIGURAZIONE ---
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit"
 CONFIDENCE_THRESHOLD = 85
-BATCH_SIZE = 10  # Aumenta questo numero (es. 100) per smaltire l'arretrato, poi rimettilo a 10
+BATCH_SIZE = 10  # Aumenta (es. 50) per smaltire l'arretrato, poi riporta a 10
 
 def setup_clients():
     scope = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
@@ -23,10 +23,10 @@ def setup_clients():
 
 def analyze_event_pro(openai, event, news_context):
     """
-    Super-Agente: Verifica, Rinomina e Classifica.
+    Super-Agente: Verifica, Rinomina e Classifica con le nuove categorie Impact Atlas 2.0.
     """
     prompt = f"""
-    Sei un analista di intelligence militare. 
+    Sei un analista di intelligence militare senior.
     Il tuo compito è pulire, strutturare e classificare un evento bellico basandoti sulle news trovate.
 
     DATI ORIGINALI:
@@ -39,14 +39,18 @@ def analyze_event_pro(openai, event, news_context):
 
     COMPITI:
     1. VERIFICA: L'evento è confermato? (Data e Luogo coincidono?)
-    2. NUOVO TITOLO (Fondamentale): Riscrivi il titolo in ITALIANO. Deve essere specifico e professionale.
-       Format: "TIPO ATTACCO + BERSAGLIO + CITTÀ". 
-       Esempio: "Attacco droni contro raffineria Rosneft a Tuapse". Max 10-12 parole.
-    3. CLASSIFICAZIONE: Scegli la categoria tattica esatta SOLO da questa lista:
-       ["Drone Strike", "Missile Strike", "Artillery", "Airstrike", "Sabotage", "Naval Strike", "Cyber Attack", "Unknown"].
-       Se il testo dice "esplosioni" ma c'erano droni, usa "Drone Strike".
-    4. INTENSITÀ: Stima danni da 0.1 (nulli) a 1.0 (catastrofici).
-    5. DESCRIZIONE: Riassunto tecnico dell'accaduto in italiano (max 300 caratteri).
+    2. NUOVO TITOLO: Riscrivi il titolo in ITALIANO. Format: "TIPO ATTACCO + BERSAGLIO + CITTÀ".
+       Esempio: "Attacco droni contro raffineria Rosneft a Tuapse". Max 10 parole.
+    3. CLASSIFICAZIONE (Cruciale): Scegli la categoria esatta SOLO da questa lista:
+       [
+         "Drone Strike", "Missile Strike", "Artillery", "Airstrike", "Sabotage", "Naval Strike",
+         "Energy Infrastructure", "Cultural Heritage", "Eco-Impact", "Cyber Attack", "Unknown"
+       ]
+       - Se colpiscono musei/chiese -> "Cultural Heritage"
+       - Se bruciano foreste/dighe -> "Eco-Impact"
+       - Se colpiscono sottostazioni/raffinerie -> "Energy Infrastructure"
+    4. INTENSITÀ: Stima danni da 0.1 (nulli) a 1.0 (catastrofici/vittime multiple).
+    5. DESCRIZIONE: Riassunto tecnico in italiano (max 300 caratteri).
     6. MEDIA: Cerca link a video/foto se presenti nel testo.
 
     RISPONDI SOLO IN JSON:
@@ -83,14 +87,12 @@ def main():
         headers = worksheet.row_values(1)
         data = worksheet.get_all_records()
         
-        # Mappa dinamica delle colonne (Trova gli indici corretti)
+        # Mappa dinamica delle colonne
         try:
-            # Colonne Standard
             col_title = headers.index('Title') + 1
             col_type = headers.index('Type') + 1
             col_ver = headers.index('Verification') + 1
             col_src = headers.index('Source') + 1
-            # Colonne Arricchimento (Assicurati che esistano nel foglio!)
             col_desc = headers.index('Description') + 1
             col_video = headers.index('Video') + 1
             col_int = headers.index('Intensity') + 1
@@ -103,10 +105,9 @@ def main():
         rows_to_process = []
         for i, row in enumerate(data):
             ver = str(row.get('Verification', '')).lower()
-            src = str(row.get('Source', ''))
-            # Processa se non verificato OPPURE se manca la descrizione (per aggiornare i vecchi)
+            # Processa se non verificato OPPURE se manca la descrizione (aggiornamento retroattivo)
             if (ver != 'verified') or (not row.get('Description')):
-                rows_to_process.append((i + 2, row)) # i+2 per header e 1-based index
+                rows_to_process.append((i + 2, row))
 
         print(f"📋 Righe in coda: {len(rows_to_process)}. Elaborazione di {BATCH_SIZE} eventi...")
 
@@ -114,8 +115,7 @@ def main():
             title_orig = event.get('Title', 'Evento')
             print(f"\n🔍 Analisi: {title_orig} ({event.get('Date')})")
             
-            # 1. Ricerca Web
-            query = f"{title_orig} {event.get('Location')} {event.get('Date')} war conflict ukraine russia confirmed"
+            query = f"{title_orig} {event.get('Location')} {event.get('Date')} war conflict ukraine russia confirmed footage"
             try:
                 search = tavily.search(query, search_depth="advanced", include_images=False, max_results=5)
                 context = "\n".join([f"- {r['content']} (Link: {r['url']})" for r in search['results']])
@@ -123,10 +123,8 @@ def main():
                 print(f"❌ Errore ricerca Tavily: {e}")
                 continue
 
-            # 2. Analisi AI
             res = analyze_event_pro(openai, event, context)
             
-            # 3. Aggiornamento Foglio
             if res.get('match') and res.get('confidence') >= CONFIDENCE_THRESHOLD:
                 print(f"   ✅ VERIFICATO! Tipo: {res.get('new_type')} | Int: {res.get('intensity')}")
                 
@@ -135,7 +133,7 @@ def main():
                 if res.get('best_link') and not event.get('Source'):
                     worksheet.update_cell(row_idx, col_src, res['best_link'])
                 
-                # SOVRASCRIVE TITOLO E TIPO (Pulizia Dati)
+                # SOVRASCRIVE TITOLO E TIPO (Cleaning)
                 if res.get('new_title') and len(res['new_title']) > 5:
                     worksheet.update_cell(row_idx, col_title, res['new_title'])
                 
@@ -150,8 +148,7 @@ def main():
                     worksheet.update_cell(row_idx, col_video, res.get('video_url'))
                     print(f"   🎥 Video aggiunto.")
                 
-                # Pausa tattica per limiti API Google
-                time.sleep(2.5)
+                time.sleep(2.5) # Rispetto limiti API
             else:
                 print(f"   ⚠️ Non verificato (Confidence: {res.get('confidence')}%)")
                 time.sleep(1)
