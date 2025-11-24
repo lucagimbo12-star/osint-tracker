@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impact Atlas | Conflict Monitor</title>
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
+  <link rel="preload" href="assets/data/events.geojson" as="fetch" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
@@ -17,7 +21,8 @@
 <body>
 
   <header class="acled-header">
-    <div class="header-content"> <div class="brand">
+    <div class="header-content">
+        <div class="brand">
           <h1>IMPACT<span>ATLAS</span></h1>
           <span class="subtitle" style="color:var(--text-muted); font-size:0.8rem; margin-left:10px;">Global Conflict Monitor</span>
         </div>
@@ -51,9 +56,7 @@
         <label>Tipologia Evento</label>
         <select id="chartTypeFilter" class="acled-select">
           <option value="">Tutti gli eventi</option>
-          <option value="explosions">Esplosioni</option>
-          <option value="violence">Violenza Politica</option>
-        </select>
+          </select>
       </div>
 
       <div class="filter-group">
@@ -95,7 +98,7 @@
         </div>
         <div class="kpi-card">
           <span class="kpi-label">Ultimo Aggiornamento</span>
-          <span class="kpi-value" id="lastUpdate" style="font-size:1.2rem;">24 Nov 2025</span>
+          <span class="kpi-value" id="lastUpdate" style="font-size:1.2rem;">Loading...</span>
         </div>
         <div class="kpi-card" id="categoryStats">
            <span class="kpi-label">Stato Sistema</span>
@@ -105,10 +108,6 @@
 
       <div class="map-container-wrapper">
         <div id="map"></div>
-        
-        <div class="map-overlay-controls" style="position:absolute; top:20px; right:20px; z-index:1000; display:flex; flex-direction:column; gap:10px;">
-          <button onclick="alert('Funzione Heatmap da implementare in JS')" class="btn-surface" style="background:var(--bg-surface); border:1px solid var(--border); color:white; padding:8px; border-radius:4px; cursor:pointer;" title="Heatmap"><i class="fa-solid fa-fire"></i></button>
-        </div>
       </div>
 
       <div class="charts-section">
@@ -170,15 +169,13 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   
+  <script src="assets/js/charts.js"></script>
   <script src="assets/js/map.js"></script>
   
   <script>
     function closeModal(event) {
-        // Chiudi solo se si clicca sull'overlay o sulla X, non dentro il contenuto
         if (event.target.id === 'videoModal' || event.target.classList.contains('close-modal')) {
             document.getElementById('videoModal').style.display = 'none';
-            
-            // Ferma i video iframe quando si chiude (altrimenti l'audio continua)
             const videoContainer = document.getElementById('modalVideoContainer');
             if(videoContainer) videoContainer.innerHTML = ''; 
         }
