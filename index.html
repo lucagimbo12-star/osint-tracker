@@ -38,10 +38,92 @@
   <div class="dashboard-container">
     
     <aside class="sidebar">
-      <div class="sidebar-header">
-        <h3><i class="fa-solid fa-filter"></i> Filtri Dati</h3>
-        <button id="resetFilters" class="btn-secondary" style="width:auto; padding:5px 10px; font-size:0.7rem;">Reset</button>
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <div class="sidebar-title"><i class="fa-solid fa-layer-group"></i> Filtri Dati</div>
+      <button id="resetFilters" class="btn-secondary" style="padding: 4px 8px; font-size: 0.7rem; border:none; color:var(--primary);">Reset</button>
+    </div>
+
+    <div class="filter-section">
+      <span class="filter-label">Finestra Temporale</span>
+      <div class="date-range-wrapper">
+        <input type="date" id="startDate" class="date-input-styled" placeholder="Da">
+        <i class="fa-solid fa-arrow-right-long date-separator"></i>
+        <input type="date" id="endDate" class="date-input-styled" placeholder="A">
       </div>
+    </div>
+
+    <div class="filter-section">
+      <span class="filter-label">Tipologia Evento</span>
+      <div class="select-wrapper">
+        <select id="chartTypeFilter" class="acled-select">
+          <option value="">Tutti gli eventi</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <span class="filter-label">Attore / Responsabile</span>
+      <div class="select-wrapper">
+        <select id="actorFilter" class="acled-select">
+          <option value="">Tutti gli attori</option>
+          <option value="Ukraine">Ucraina</option>
+          <option value="Russia">Russia</option>
+          <option value="Unknown">Non identificato</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <span class="filter-label">Livello di Minaccia</span>
+      <div class="chips-container">
+        
+        <label class="filter-chip">
+          <input type="checkbox" checked value="critical">
+          <div class="chip-content">
+            <div class="chip-label">
+              <span class="chip-dot" style="color: var(--accent-crit); background: var(--accent-crit);"></span>
+              CRITICO
+            </div>
+            <i class="fa-solid fa-check chip-check"></i>
+          </div>
+        </label>
+
+        <label class="filter-chip">
+          <input type="checkbox" checked value="high">
+          <div class="chip-content">
+            <div class="chip-label">
+              <span class="chip-dot" style="color: var(--accent-high); background: var(--accent-high);"></span>
+              ALTO
+            </div>
+            <i class="fa-solid fa-check chip-check"></i>
+          </div>
+        </label>
+
+        <label class="filter-chip">
+          <input type="checkbox" checked value="medium">
+          <div class="chip-content">
+            <div class="chip-label">
+              <span class="chip-dot" style="color: var(--accent-med); background: var(--accent-med);"></span>
+              MEDIO
+            </div>
+            <i class="fa-solid fa-check chip-check"></i>
+          </div>
+        </label>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-footer">
+    <button id="applyFilters" class="btn-primary">
+      <i class="fa-solid fa-filter"></i> Applica Filtri
+    </button>
+    <button id="exportData" class="btn-secondary">
+      <i class="fa-solid fa-file-csv"></i> Esporta Report
+    </button>
+  </div>
+</aside>
 
       <div class="filter-group">
         <label>Periodo Temporale</label>
