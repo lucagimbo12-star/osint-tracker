@@ -196,48 +196,85 @@ function populateFilters(data) {
   if(current) select.value = current;
 }
 
+// ============================================
+// LOGICA FILTRI AGGIORNATA
+// ============================================
+
 function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
 
-  // Rimuoviamo vecchi listener clonando l'elemento (hack veloce per evitare duplicati)
+  // Clone per rimuovere vecchi listener e evitare duplicazioni
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
+  // LISTENER SUL BOTTONE "APPLICA FILTRI"
   newBtn.addEventListener('click', () => {
+    
+    // 1. RECUPERO VALORI DAI NUOVI INPUT
     const start = document.getElementById('startDate').value;
     const end = document.getElementById('endDate').value;
     const type = document.getElementById('chartTypeFilter').value;
+    const actor = document.getElementById('actorFilter').value; // Nuovo filtro attore
+    const searchText = document.getElementById('textSearch').value.toLowerCase(); // Nuova ricerca testuale
 
+    // 2. RECUPERO CHECKBOX MINACCIA (Nuova struttura HTML)
+    // Seleziona solo gli input "checked" dentro il container .toggle-container
+    const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked'))
+                                   .map(cb => cb.value);
+
+    // 3. FILTRAGGIO DATI
     const filtered = allChartData.filter(e => {
+      
+      // A. Filtro Data
       if (start && e.date < start) return false;
       if (end && e.date > end) return false;
+
+      // B. Filtro Tipo
       if (type && e.type !== type) return false;
+
+      // C. Filtro Attore (controlla se il campo 'actor' esiste nel JSON, altrimenti lo ignora)
+      if (actor && e.actor && e.actor !== actor) return false;
+
+      // D. Filtro Testuale (Cerca in Titolo O Descrizione)
+      if (searchText) {
+        const title = (e.title || '').toLowerCase();
+        const desc = (e.description || '').toLowerCase();
+        if (!title.includes(searchText) && !desc.includes(searchText)) return false;
+      }
+
+      // E. Filtro Minaccia (Logica complessa per mappare numeri a categorie)
+      // Mappiamo l'intensità numerica (0.0 - 1.0) alle categorie delle checkbox
+      const intensity = parseFloat(e.intensity) || 0.2;
+      let category = 'low';
+      if (intensity >= 0.8) category = 'critical';
+      else if (intensity >= 0.6) category = 'high';
+      else if (intensity >= 0.4) category = 'medium';
+
+      // Se la categoria dell'evento NON è tra quelle spuntate, nascondi
+      if (checkedSeverities.length > 0 && !checkedSeverities.includes(category)) return false;
+
       return true;
     });
 
-    console.log(`Filtro applicato: ${filtered.length} eventi.`);
-    
-    // Aggiorna sia i grafici CHE la mappa (globale se accessibile, o solo grafici qui)
+    console.log(`🔍 Filtri applicati. Risultati trovati: ${filtered.length}`);
+
+    // 4. AGGIORNAMENTO UI
+    // Aggiorna Grafici
     updateDashboard(filtered);
     
-    // Se vogliamo aggiornare anche la mappa da qui, possiamo chiamare una funzione di map.js
-    if(window.updateMap) window.updateMap(filtered);
+    // Aggiorna Mappa (chiama la funzione globale in map.js)
+    if(window.updateMap) {
+      window.updateMap(filtered);
+    } else {
+      console.error("Funzione updateMap non trovata!");
+    }
   });
-  
-  // Reset Listener
-  const resetBtn = document.getElementById('resetFilters');
-  if(resetBtn) {
-     const newReset = resetBtn.cloneNode(true);
-     resetBtn.parentNode.replaceChild(newReset, resetBtn);
-     
-     newReset.addEventListener('click', () => {
-        document.getElementById('startDate').value = '';
-        document.getElementById('endDate').value = '';
-        document.getElementById('chartTypeFilter').value = '';
-        
-        updateDashboard(allChartData);
-        if(window.updateMap) window.updateMap(allChartData);
-     });
-  }
+
+  // LOGICA TASTO ENTER SULLA RICERCA (UX Improvement)
+  document.getElementById('textSearch')?.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      newBtn.click(); // Simula click su Applica
+    }
+  });
 }
