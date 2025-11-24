@@ -1,28 +1,27 @@
 // ============================================
-// MAP.JS - SLATE & AMBER EDITION (High Performance)
+// MAP.JS - SLATE & AMBER EDITION (Orchestrator)
 // ============================================
 
-// 1. Inizializzazione Mappa con Rendering GPU (preferCanvas)
+// 1. Inizializzazione Mappa con Rendering GPU
 let map = L.map('map', {
   zoomControl: false,
-  preferCanvas: true, // <--- Performance Critical
+  preferCanvas: true, // Performance Critical
   wheelPxPerZoomLevel: 120
 }).setView([48.5, 32.0], 6);
 
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-// Mappa Scura (CartoDB Dark Matter)
+// Mappa Scura
 const darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  maxZoom: 19,
-  attribution: '&copy; CARTO'
+  maxZoom: 19, attribution: '&copy; CARTO'
 });
 darkLayer.addTo(map);
 
-// 2. Configurazione Cluster con "Chunked Loading" (Anti-Lag)
+// 2. Cluster "Chunked"
 let eventsLayer = L.markerClusterGroup({
-  chunkedLoading: true, // <--- Fondamentale per evitare il blocco del browser
-  chunkInterval: 200,   // Processa per 200ms
-  chunkDelay: 50,       // Riposa per 50ms
+  chunkedLoading: true,
+  chunkInterval: 200,
+  chunkDelay: 50,
   maxClusterRadius: 45,
   spiderfyOnMaxZoom: true,
   iconCreateFunction: function(cluster) {
@@ -37,19 +36,15 @@ let eventsLayer = L.markerClusterGroup({
 });
 map.addLayer(eventsLayer);
 
-// --- CONFIGURAZIONE COLORI ---
+// --- CONFIG COLORI ---
 const impactColors = {
-  'critical': '#ef4444',  // Rosso
-  'high':     '#f97316',  // Arancio
-  'medium':   '#eab308',  // Giallo
-  'low':      '#64748b'   // Slate
+  'critical': '#ef4444', 'high': '#f97316', 'medium': '#eab308', 'low': '#64748b'
 };
 
 const typeIcons = {
   'drone': 'fa-plane-up', 'missile': 'fa-rocket', 'artillery': 'fa-bomb',
   'energy': 'fa-bolt', 'fire': 'fa-fire', 'naval': 'fa-anchor',
-  'cultural': 'fa-landmark', 'eco': 'fa-leaf',
-  'default': 'fa-crosshairs'
+  'cultural': 'fa-landmark', 'eco': 'fa-leaf', 'default': 'fa-crosshairs'
 };
 
 function getColor(val) {
@@ -69,27 +64,42 @@ function getIconClass(type) {
   return typeIcons.default;
 }
 
-// --- CARICAMENTO DATI ---
+// --- CORE: CARICAMENTO DATI UNIFICATO ---
 async function loadEventsData() {
   try {
-    // Assicurati che questo path sia corretto nella tua repo
+    // Scarica i dati UNA sola volta per tutta l'app
     const res = await fetch('assets/data/events.geojson');
+    if(!res.ok) throw new Error("Errore fetch GeoJSON");
     const data = await res.json();
     
+    // Appiattisce le proprietà per facilità d'uso
     const events = data.features.map(f => ({
       ...f.properties,
       lat: f.geometry.coordinates[1],
       lon: f.geometry.coordinates[0]
     }));
 
-    updateMap(events);
+    // 1. Aggiorna Mappa
+    window.updateMap(events);
+    
+    // 2. Aggiorna KPI Testuali
     if(document.getElementById('eventCount')) {
         document.getElementById('eventCount').innerText = events.length;
+        document.getElementById('lastUpdate').innerText = new Date().toLocaleDateString();
     }
+
+    // 3. PASSA I DATI AI GRAFICI (Invece di farli scaricare di nuovo)
+    if (typeof window.initCharts === 'function') {
+        window.initCharts(events);
+    } else {
+        console.warn("Charts.js non caricato o funzione initCharts mancante");
+    }
+
   } catch (e) { console.error("Errore caricamento dati:", e); }
 }
 
-function updateMap(events) {
+// Esposta globalmente per essere chiamata dai filtri di charts.js
+window.updateMap = function(events) {
   eventsLayer.clearLayers();
   const markers = [];
 
@@ -99,7 +109,6 @@ function updateMap(events) {
     const size = (e.intensity || 0.2) >= 0.8 ? 34 : 26;
     const iconSize = Math.floor(size / 1.8);
 
-    // Creazione Marker Ottimizzata
     const marker = L.marker([e.lat, e.lon], {
       icon: L.divIcon({
         className: 'custom-icon-marker',
@@ -120,13 +129,11 @@ function updateMap(events) {
     markers.push(marker);
   });
   
-  // Aggiungi tutti i marker in una volta al cluster (Chunked Loading gestirà il resto)
   eventsLayer.addLayers(markers);
-}
+};
 
 // --- POPUP & MODALE ---
 function createPopupContent(e) {
-  // Encoding sicuro per passare l'oggetto JSON nell'HTML
   const eventData = encodeURIComponent(JSON.stringify(e));
   const color = getColor(e.intensity);
 
@@ -144,17 +151,15 @@ function createPopupContent(e) {
   `;
 }
 
-// Funzione Globale Modale
+// Logica Modale (Invariata ma necessaria)
 window.openModal = function(eventJson) {
   const e = JSON.parse(decodeURIComponent(eventJson));
   
-  // Testi
   document.getElementById('modalTitle').innerText = e.title;
-  document.getElementById('modalDesc').innerText = e.description || "Nessun dettaglio disponibile.";
+  document.getElementById('modalDesc').innerText = e.description || "Nessun dettaglio.";
   document.getElementById('modalType').innerText = e.type;
   document.getElementById('modalDate').innerText = e.date;
   
-  // Video
   const vidCont = document.getElementById('modalVideoContainer');
   vidCont.innerHTML = '';
   if (e.video && e.video !== 'null') {
@@ -162,21 +167,16 @@ window.openModal = function(eventJson) {
        const embed = e.video.replace('watch?v=', 'embed/').split('&')[0];
        vidCont.innerHTML = `<iframe src="${embed}" frameborder="0" allowfullscreen style="width:100%; height:400px; border-radius:8px;"></iframe>`;
     } else {
-       vidCont.innerHTML = `<a href="${e.video}" target="_blank" class="btn-primary">Apri Media Esterno</a>`;
+       vidCont.innerHTML = `<a href="${e.video}" target="_blank" class="btn-primary">Media Esterno</a>`;
     }
-  } else {
-    vidCont.innerHTML = '<div style="padding:20px; text-align:center; color:#64748b;">Nessun media disponibile</div>';
   }
 
-  // Juxtapose Slider (Before/After)
+  // Juxtapose
   const sliderCont = document.getElementById('modalJuxtapose');
   sliderCont.innerHTML = '';
-  
-  // Logica: Mostra slider solo se ci sono immagini before/after vere
-  // (Ho rimosso il "true ||" per uso reale, riabilitalo se vuoi testare con placeholder)
   if (e.before_img && e.after_img) { 
      sliderCont.innerHTML = `
-       <h4 style="color:white; margin:20px 0 10px;">Battle Damage Assessment (BDA)</h4>
+       <h4 style="color:white; margin:20px 0 10px;">Battle Damage Assessment</h4>
        <div class="juxtapose-wrapper" onmousemove="updateSlider(event, this)">
          <div class="juxtapose-img" style="background-image:url('${e.before_img}')"></div>
          <div class="juxtapose-img after" style="background-image:url('${e.after_img}'); width:50%;"></div>
@@ -185,14 +185,13 @@ window.openModal = function(eventJson) {
      `;
   }
 
-  // Chart JS (Reliability Score)
+  // Chart
   const conf = e.confidence || 85; 
   renderConfidenceChart(conf);
 
   document.getElementById('videoModal').style.display = 'flex';
 };
 
-// Helper Slider
 window.updateSlider = function(e, wrapper) {
   const rect = wrapper.getBoundingClientRect();
   let pos = ((e.clientX - rect.left) / rect.width) * 100;
@@ -201,20 +200,16 @@ window.updateSlider = function(e, wrapper) {
   wrapper.querySelector('.juxtapose-handle').style.left = `${pos}%`;
 };
 
-// Helper Chart JS
 let confChart = null;
 function renderConfidenceChart(score) {
-  // Controllo sicurezza se elemento esiste
   const ctxEl = document.getElementById('confidenceChart');
   if(!ctxEl) return;
-
   const ctx = ctxEl.getContext('2d');
   if(confChart) confChart.destroy();
   
   confChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: ['Affidabilità', 'Incertezza'],
       datasets: [{
         data: [score, 100-score],
         backgroundColor: ['#f59e0b', '#334155'],
@@ -222,9 +217,8 @@ function renderConfidenceChart(score) {
       }]
     },
     options: {
-      responsive: true, cutout: '75%',
-      animation: false, // Disabilita animazione per performance modale
-      plugins: { legend: { display: false }, tooltip: { enabled: false } }
+      responsive: true, cutout: '75%', animation: false,
+      plugins: { tooltip: { enabled: false } }
     },
     plugins: [{
       id: 'text',
@@ -243,5 +237,5 @@ function renderConfidenceChart(score) {
   });
 }
 
-// Init
+// Start
 loadEventsData();
