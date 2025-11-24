@@ -5,28 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impact Atlas | Conflict Monitor</title>
   
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" />
+  
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
   <header class="acled-header">
-    <div class="brand">
-      <h1>IMPACT<span class="highlight">ATLAS</span></h1>
-      <span class="subtitle">Global Conflict Monitor</span>
+    <div class="header-content"> <div class="brand">
+          <h1>IMPACT<span>ATLAS</span></h1>
+          <span class="subtitle" style="color:var(--text-muted); font-size:0.8rem; margin-left:10px;">Global Conflict Monitor</span>
+        </div>
+        <nav>
+          <a href="#" class="active">Dashboard</a>
+          <a href="#methodology">Metodologia</a>
+          <a href="#data">Esporta Dati</a>
+          <a href="#" class="btn-primary" style="padding: 5px 15px;">Accedi</a>
+        </nav>
     </div>
-    <nav>
-      <a href="#" class="active">Dashboard</a>
-      <a href="#methodology">Metodologia</a>
-      <a href="#data">Esporta Dati</a>
-      <a href="#" class="btn-login">Accedi</a>
-    </nav>
   </header>
 
   <div class="dashboard-container">
@@ -34,14 +35,14 @@
     <aside class="sidebar">
       <div class="sidebar-header">
         <h3><i class="fa-solid fa-filter"></i> Filtri Dati</h3>
-        <button id="resetFilters" class="btn-text">Reset</button>
+        <button id="resetFilters" class="btn-secondary" style="width:auto; padding:5px 10px; font-size:0.7rem;">Reset</button>
       </div>
 
       <div class="filter-group">
         <label>Periodo Temporale</label>
-        <div class="date-inputs">
+        <div class="date-inputs" style="display:flex; gap:5px; align-items:center;">
           <input type="date" id="startDate" class="acled-input">
-          <span class="separator">-</span>
+          <span class="separator" style="color:var(--text-muted);">-</span>
           <input type="date" id="endDate" class="acled-input">
         </div>
       </div>
@@ -50,7 +51,9 @@
         <label>Tipologia Evento</label>
         <select id="chartTypeFilter" class="acled-select">
           <option value="">Tutti gli eventi</option>
-          </select>
+          <option value="explosions">Esplosioni</option>
+          <option value="violence">Violenza Politica</option>
+        </select>
       </div>
 
       <div class="filter-group">
@@ -64,16 +67,22 @@
 
       <div class="filter-group">
         <label>Intensità Impatto</label>
-        <div class="checkbox-group">
-          <label><input type="checkbox" checked value="critical"> Critico <span class="dot red"></span></label>
-          <label><input type="checkbox" checked value="high"> Alto <span class="dot orange"></span></label>
-          <label><input type="checkbox" checked value="medium"> Medio <span class="dot yellow"></span></label>
+        <div class="checkbox-group" style="display:flex; flex-direction:column; gap:8px; margin-top:5px;">
+          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
+            <input type="checkbox" checked value="critical"> <span style="color:var(--accent-crit)">●</span> Critico
+          </label>
+          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
+            <input type="checkbox" checked value="high"> <span style="color:var(--accent-high)">●</span> Alto
+          </label>
+          <label style="display:flex; align-items:center; gap:8px; color:white; font-weight:400;">
+            <input type="checkbox" checked value="medium"> <span style="color:var(--accent-med)">●</span> Medio
+          </label>
         </div>
       </div>
 
-      <div class="sidebar-footer">
-        <button id="applyFilters" class="btn-acled-primary">Aggiorna Mappa</button>
-        <button id="exportData" class="btn-acled-secondary"><i class="fa-solid fa-download"></i> CSV</button>
+      <div class="sidebar-footer" style="margin-top:auto; padding-top:20px;">
+        <button id="applyFilters" class="btn-primary">Aggiorna Mappa</button>
+        <button id="exportData" class="btn-secondary"><i class="fa-solid fa-download"></i> CSV</button>
       </div>
     </aside>
 
@@ -86,18 +95,19 @@
         </div>
         <div class="kpi-card">
           <span class="kpi-label">Ultimo Aggiornamento</span>
-          <span class="kpi-value" id="lastUpdate">-</span>
+          <span class="kpi-value" id="lastUpdate" style="font-size:1.2rem;">24 Nov 2025</span>
         </div>
         <div class="kpi-card" id="categoryStats">
-          </div>
+           <span class="kpi-label">Stato Sistema</span>
+           <span class="kpi-value" style="color:var(--primary); font-size:1.2rem;">ONLINE</span>
+        </div>
       </div>
 
       <div class="map-container-wrapper">
         <div id="map"></div>
         
-        <div class="map-overlay-controls">
-          <button onclick="toggleHeatmapLayer(true)" class="map-btn" title="Attiva Heatmap"><i class="fa-solid fa-fire"></i></button>
-          <button onclick="toggleSatelliteLayer(true)" class="map-btn" title="Satellite"><i class="fa-solid fa-satellite"></i></button>
+        <div class="map-overlay-controls" style="position:absolute; top:20px; right:20px; z-index:1000; display:flex; flex-direction:column; gap:10px;">
+          <button onclick="alert('Funzione Heatmap da implementare in JS')" class="btn-surface" style="background:var(--bg-surface); border:1px solid var(--border); color:white; padding:8px; border-radius:4px; cursor:pointer;" title="Heatmap"><i class="fa-solid fa-fire"></i></button>
         </div>
       </div>
 
@@ -117,9 +127,9 @@
       </div>
 
       <div class="timeline-section-wrapper">
-        <div class="section-header">
+        <div class="section-header" style="margin-bottom:20px;">
           <h3>Cronologia Narrativa</h3>
-          <p>Analisi dettagliata degli eventi verificati nel tempo.</p>
+          <p style="color:var(--text-muted);">Analisi dettagliata degli eventi verificati nel tempo.</p>
         </div>
         <div id="timeline-embed" style="width: 100%; height: 600px;"></div>
       </div>
@@ -130,47 +140,50 @@
   <div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
     <div class="modal-content">
       <span class="close-modal" onclick="closeModal(event)">&times;</span>
-      <div class="modal-header">
-        <h3 id="modalTitle"></h3>
-        <a id="modalSourceLink" href="#" target="_blank" class="source-badge">Fonte Originale <i class="fa-solid fa-external-link-alt"></i></a>
-      </div>
-      <p id="modalDesc"></p>
-      <div id="modalVideoContainer"></div>
-    </div>
-  </div>
-<div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
-    <div class="modal-content">
-      <span class="close-modal" onclick="closeModal(event)">&times;</span>
       
       <div class="modal-header">
-        <h3 id="modalTitle">Titolo Evento</h3>
-        <div class="modal-meta">
-          <span id="modalDate">Data</span>
-          <span id="modalType" class="modal-tag">Tipo</span>
+        <div style="flex-grow:1;">
+            <h3 id="modalTitle">Titolo Evento</h3>
+            <div class="modal-meta">
+            <span id="modalDate">Data</span>
+            <span id="modalType" class="modal-tag">Tipo</span>
+            </div>
         </div>
         
         <div class="confidence-container">
           <canvas id="confidenceChart"></canvas>
-          <div style="text-align:center; font-size:0.7rem; color:#94a3b8; margin-top:5px;">CONFIDENCE SCORE</div>
+          <div style="text-align:center; font-size:0.7rem; color:#94a3b8; margin-top:5px;">AFFIDABILITÀ</div>
         </div>
       </div>
 
-      <p id="modalDesc" style="color:#cbd5e1; line-height:1.6; margin-bottom:20px; padding-right: 130px;"></p>
+      <p id="modalDesc" style="color:#cbd5e1; line-height:1.6; margin-bottom:20px; padding-right: 130px; min-height:60px;"></p>
       
-      <div id="modalVideoContainer"></div>
+      <div id="modalVideoContainer" style="margin-bottom:20px;"></div>
       
       <div id="modalJuxtapose"></div>
 
     </div>
   </div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
   
   <script src="assets/js/map.js"></script>
-  <script src="assets/js/charts.js"></script>
-  <script src="assets/js/timeline-manager.js"></script>
+  
+  <script>
+    function closeModal(event) {
+        // Chiudi solo se si clicca sull'overlay o sulla X, non dentro il contenuto
+        if (event.target.id === 'videoModal' || event.target.classList.contains('close-modal')) {
+            document.getElementById('videoModal').style.display = 'none';
+            
+            // Ferma i video iframe quando si chiude (altrimenti l'audio continua)
+            const videoContainer = document.getElementById('modalVideoContainer');
+            if(videoContainer) videoContainer.innerHTML = ''; 
+        }
+    }
+  </script>
+
 </body>
 </html>
