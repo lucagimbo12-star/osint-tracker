@@ -27,22 +27,21 @@ Chart.defaults.color = THEME.text;
 Chart.defaults.scale.grid.color = THEME.grid;
 
 // --- 1. INIZIALIZZAZIONE (Chiamata da map.js) ---
-// Non scarichiamo più i dati qui. Li riceviamo dalla mappa.
 window.initCharts = function(events) {
   if (!events || events.length === 0) return;
 
   console.log(`📊 Charts: ricezione di ${events.length} eventi.`);
 
-  // Normalizzazione Dati (Se necessario, ma map.js passa già oggetti puliti)
-  allChartData = events.map(e => ({
-    date: e.date, 
-    type: e.type || 'Sconosciuto',
-    intensity: e.intensity ? parseFloat(e.intensity) : 0.2
-  }));
+  // CORREZIONE CRITICA: Salviamo l'intero oggetto evento (con lat, lon, title, ecc.)
+  // Non filtriamo più le proprietà qui, altrimenti la mappa non sa dove disegnare i punti.
+  allChartData = [...events]; 
 
+  // Aggiorniamo subito l'interfaccia
   updateDashboard(allChartData);
   populateFilters(allChartData);
-  setupChartFilters(); // Attiva i listener
+  
+  // Attiva i listener dei filtri
+  setupChartFilters(); 
 };
 
 // --- 2. AGGIORNAMENTO DASHBOARD ---
