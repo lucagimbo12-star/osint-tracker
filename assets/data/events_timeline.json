@@ -6141,8 +6141,8 @@
         "day": 18
       },
       "text": {
-        "headline": "Strategic developments - Arrests",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco terrestre contro forze ucraine a Avdiivka",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 18 agosto 2023, le forze ucraine hanno represso attacchi russi lungo la linea Avdiivka-Donetsk, senza avanzamenti significativi. La situazione resta critica con combattimenti attivi nelle zone circostanti."
       },
       "group": "Strategic developments",
       "unique_id": "451"
@@ -6154,8 +6154,8 @@
         "day": 17
       },
       "text": {
-        "headline": "Strategic developments - Arrests",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Arresti durante le trattative diplomatiche tra Ucraina e Russia a Crimea",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 17 ottobre 2025, si sono verificati sviluppi significativi dopo un colloquio telefonico tra i presidenti Trump e Putin. I colloqui per la risoluzione del conflitto in Ucraina proseguono in un contesto di arrestate tensioni e manovre militari in Crimea."
       },
       "group": "Strategic developments",
       "unique_id": "452"
@@ -6167,8 +6167,8 @@
         "day": 26
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Controllo militare russo in Crimea",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Nel febbraio 2014, forze militari russe senza insegne hanno preso il controllo strategico della Crimea, portando all'annessione non riconosciuta della regione da parte della Russia."
       },
       "group": "Strategic developments",
       "unique_id": "453"
@@ -6180,10 +6180,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco di gruppi di sabotaggio russi a Pokrovsk",
+        "text": "Tipo: Sabotage<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 20 ottobre 2023, forze russe hanno compiuto incursioni a Pokrovsk, uccidendo dei civili. Le forze ucraine hanno eliminato un gruppo di sabotatori e inflitto perdite significative ai russi."
       },
-      "group": "Strategic developments",
+      "group": "Sabotage",
       "unique_id": "454"
     },
     {
@@ -6193,11 +6193,16 @@
         "day": 27
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Avanzata russa contro forze ucraine a Pokrovsk",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 27 ottobre 2023, le forze russe hanno dichiarato di avanzare a Pokrovsk, cercando di distruggere un gruppo ucraino presumibilmente circondato. Si sono registrati scontri tra le forze russe e ucraine nella zona."
       },
       "group": "Strategic developments",
-      "unique_id": "455"
+      "unique_id": "455",
+      "media": {
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-27-2025/",
+        "caption": "Fonte verificata",
+        "credit": "OSINT Source"
+      }
     },
     {
       "start_date": {
@@ -6206,8 +6211,8 @@
         "day": 16
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Stabilizzazione della situazione nei territori occupati in Crimea",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 16 marzo 2024, le forze ucraine hanno stabilizzato la situazione nella direzione di Pokrovsk, mentre le forze russe hanno mostrato segnali di sovraccarico nelle comunicazioni a terra. AttivitÃ  russa crescente nelle regioni limitrofe."
       },
       "group": "Strategic developments",
       "unique_id": "456"
@@ -6219,10 +6224,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco droni contro civili a Belgorod",
+        "text": "Tipo: Drone Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 17 maggio 2024, droni ucraini hanno preso di mira civili nella provincia di Belgorod, causando la morte di sei persone. Gli attacchi mirano a esercitare pressione su infrastrutture russe."
       },
-      "group": "Strategic developments",
+      "group": "Drone Strike",
       "unique_id": "457"
     },
     {
@@ -6232,10 +6237,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco missilistico su Kharkiv",
+        "text": "Tipo: Missile Strike<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 31 maggio, le forze russe hanno bombardato Kharkiv, causando la morte di almeno cinque persone e ferendone piÃ¹ di due dozzine in attacchi missilistici."
       },
-      "group": "Strategic developments",
+      "group": "Missile Strike",
       "unique_id": "458"
     },
     {
@@ -6245,8 +6250,8 @@
         "day": 22
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Offensiva terrestre russa contro forze ucraine a Chasiv Yar",
+        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 22 marzo, le forze russe hanno richiesto veicoli motorizzati e proseguito le operazioni offensive nella direzione di Chasiv Yar senza avanzamenti significativi. Sono emerse anche segnalazioni non verificate di attacchi ucraini nella zona di Zapadne."
       },
       "group": "Strategic developments",
       "unique_id": "459"
@@ -6258,10 +6263,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Strategic developments - Change to group/activity",
-        "text": "Tipo: Strategic developments<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: None"
+        "headline": "Attacco russo contro forze ucraine a Uspenivka",
+        "text": "Tipo: Artillery<br>Luogo: Crimea, Europe, Ukraine<br>Verifica: verified<br><br>Il 18 aprile 2025, forze russe hanno attaccato le posizioni ucraine a Uspenivka e nelle aree circostanti, segnando un'intensificazione delle operazioni militari nella regione."
       },
-      "group": "Strategic developments",
+      "group": "Artillery",
       "unique_id": "460"
     },
     {
