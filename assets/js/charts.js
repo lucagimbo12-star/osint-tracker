@@ -1,22 +1,15 @@
 // ============================================
-// CHARTS.JS - MOTORE DI RICERCA POTENZIATO
+// CHARTS.JS - SEARCH ENGINE V3 (Synonyms & Smart Tags)
 // ============================================
 
 let charts = {
-  timeline: null,
-  type: null,
-  radar: null
+  timeline: null, type: null, radar: null
 };
 
-// DATA STORE GLOBALE
-// ORIGINAL_DATA conterrà i dati grezzi dal GeoJSON
 let ORIGINAL_DATA = []; 
 
 const THEME = {
-  primary: '#f59e0b',
-  secondary: '#0f172a',
-  text: '#94a3b8',
-  grid: '#334155',
+  primary: '#f59e0b', secondary: '#0f172a', text: '#94a3b8', grid: '#334155',
   palette: ['#f59e0b', '#ef4444', '#f97316', '#eab308', '#64748b', '#3b82f6']
 };
 
@@ -24,43 +17,80 @@ Chart.defaults.font.family = "'Inter', sans-serif";
 Chart.defaults.color = THEME.text;
 Chart.defaults.scale.grid.color = THEME.grid;
 
-// --- 1. INIZIALIZZAZIONE (Chiamata da map.js) ---
+// --- DIZIONARIO SINONIMI (Per risolvere Kiev/Kyiv) ---
+const CITY_SYNONYMS = {
+  'kiev': 'kyiv', 'kiew': 'kyiv',
+  'kharkov': 'kharkiv',
+  'odessa': 'odesa',
+  'lvov': 'lviv',
+  'nikolaev': 'mykolaiv',
+  'artemivsk': 'bakhmut',
+  'dnepropetrovsk': 'dnipro'
+};
+
+// --- INIZIALIZZAZIONE ---
 window.initCharts = function(events) {
   if (!events || events.length === 0) return;
 
-  console.log(`🚀 Sistema Pronto: ${events.length} eventi caricati.`);
+  // DEBUG: Stampa il primo evento per capire come si chiamano i campi nel tuo JSON
+  console.log("🔍 ESEMPIO DATO GREZZO:", events[0]);
 
-  // PRE-PROCESSAMENTO DATI (Fondamentale per la ricerca)
-  // Creiamo campi ottimizzati per la ricerca per non doverli calcolare ogni volta
-  ORIGINAL_DATA = events.map(e => ({
-    ...e,
-    // Campo di ricerca unificato (tutto minuscolo per facilitare i confronti)
-    _searchStr: `${e.title || ''} ${e.description || ''} ${e.actor || ''}`.toLowerCase(),
-    // Normalizziamo l'attore per sicurezza
-    _actorNorm: (e.actor || '').toLowerCase(),
-    // Normalizziamo l'intensità
-    _intensityNorm: parseFloat(e.intensity) || 0.2
-  }));
+  // PRE-PROCESSAMENTO AVANZATO
+  ORIGINAL_DATA = events.map(e => {
+    
+    // 1. Uniamo tutti i testi possibili per la ricerca testuale
+    // Controlliamo campi comuni nei GeoJSON (properties.actor1, properties.location, etc.)
+    const fullText = [
+      e.title, 
+      e.description, 
+      e.notes, 
+      e.location, 
+      e.city, 
+      e.actor1, 
+      e.actor2, 
+      e.assoc_actor_1
+    ].join(' ').toLowerCase();
 
-  // Avvio Dashboard
+    // 2. Assegnazione Fazione (Smart Tagging)
+    // Analizziamo il testo per capire chi è coinvolto, indipendentemente da come è scritto
+    let detectedSide = 'other';
+    const textForSide = (e.actor1 + ' ' + e.assoc_actor_1 + ' ' + e.actor).toLowerCase();
+
+    // Keywords Russia
+    if (textForSide.includes('russia') || textForSide.includes('wagner') || textForSide.includes('donetsk people') || textForSide.includes('luhansk people')) {
+      detectedSide = 'russia';
+    } 
+    // Keywords Ucraina
+    else if (textForSide.includes('ukrain') || textForSide.includes('kyiv') || textForSide.includes('zsu') || textForSide.includes('azov')) {
+      detectedSide = 'ukraine';
+    }
+
+    return {
+      ...e,
+      _searchStr: fullText,      // Testo completo per ricerca
+      _side: detectedSide,       // 'russia', 'ukraine', o 'other'
+      _intensityNorm: parseFloat(e.intensity || e.fatality_count || 0) > 0 ? 0.8 : 0.2 // Fallback se manca intensity
+    };
+  });
+
+  console.log(`🚀 Indicizzati ${ORIGINAL_DATA.length} eventi.`);
+
   updateDashboard(ORIGINAL_DATA);
   populateFilters(ORIGINAL_DATA);
   setupChartFilters();
 };
 
-// --- 2. LOGICA FILTRI (Il Nuovo Cervello) ---
+// --- MOTORE DI FILTRAGGIO ---
 function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
-
-  // Hack per rimuovere vecchi listener
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
-  // --- LISTENER CLICK ---
+  // Listener Click
   newBtn.addEventListener('click', executeFilter);
 
-  // --- LISTENER INVIO SU TEXT SEARCH ---
+  // Listener Enter
   const searchInput = document.getElementById('textSearch');
   if(searchInput) {
     const newSearch = searchInput.cloneNode(true);
@@ -72,20 +102,26 @@ function setupChartFilters() {
 }
 
 function executeFilter() {
-  console.log("🔍 Avvio Scansione Filtri...");
+  console.log("🔍 Avvio Filtro Intelligente...");
 
-  // 1. Lettura Input Utente
   const start = document.getElementById('startDate').value;
   const end = document.getElementById('endDate').value;
   const type = document.getElementById('chartTypeFilter').value;
-  const actorKeyword = document.getElementById('actorFilter').value.toLowerCase(); // es: "ukrain" o "russi"
-  const searchText = document.getElementById('textSearch').value.trim().toLowerCase();
+  const actorValue = document.getElementById('actorFilter').value; // 'russia', 'ukraine'
   
-  // Lettura Checkbox Minaccia
+  // Normalizzazione Ricerca Testuale (Gestione Sinonimi)
+  let rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
+  // Se l'utente scrive "Kiev", noi cerchiamo anche "Kyiv"
+  // Controlliamo se la parola cercata è nel dizionario sinonimi
+  let searchTerms = [rawSearch];
+  if (CITY_SYNONYMS[rawSearch]) {
+    searchTerms.push(CITY_SYNONYMS[rawSearch]); // Aggiungiamo il sinonimo alla ricerca
+  }
+
+  // Checkbox Minaccia
   const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked'))
                                  .map(cb => cb.value);
 
-  // 2. Filtraggio
   const filtered = ORIGINAL_DATA.filter(e => {
     
     // A. DATE
@@ -95,16 +131,14 @@ function executeFilter() {
     // B. TIPO
     if (type && e.type !== type) return false;
 
-    // C. ATTORE (Logica Fuzzy)
-    // Se l'utente ha selezionato "Russi", controlliamo se "_actorNorm" contiene "russi"
-    if (actorKeyword) {
-      if (!e._actorNorm.includes(actorKeyword)) return false;
-    }
+    // C. ATTORE (Usa il nostro _side calcolato)
+    if (actorValue && e._side !== actorValue) return false;
 
-    // D. RICERCA TESTUALE
-    if (searchText) {
-      // Cerca la parola ovunque (titolo, desc, attore)
-      if (!e._searchStr.includes(searchText)) return false;
+    // D. RICERCA TESTUALE (Con Sinonimi)
+    if (rawSearch) {
+      // Deve contenere ALMENO UNO dei termini (es. o "Kiev" o "Kyiv")
+      const match = searchTerms.some(term => e._searchStr.includes(term));
+      if (!match) return false;
     }
 
     // E. MINACCIA
@@ -112,35 +146,26 @@ function executeFilter() {
     if (e._intensityNorm >= 0.8) cat = 'critical';
     else if (e._intensityNorm >= 0.6) cat = 'high';
     else if (e._intensityNorm >= 0.4) cat = 'medium';
-
+    
     if (checkedSeverities.length > 0 && !checkedSeverities.includes(cat)) return false;
 
-    return true; // Passato
+    return true;
   });
 
-  console.log(`✅ Trovati: ${filtered.length} eventi.`);
-
-  // 3. Aggiornamento UI
+  console.log(`✅ Risultati: ${filtered.length}`);
   updateDashboard(filtered);
-  
-  if(window.updateMap) {
-    window.updateMap(filtered);
-  } else {
-    console.error("ERRORE: Funzione updateMap non trovata in map.js");
-  }
+  if(window.updateMap) window.updateMap(filtered);
 }
 
-// --- 3. RENDERING GRAFICI ---
+// --- RENDERING GRAFICI ---
 function updateDashboard(data) {
   renderTimelineChart(data);
   renderTypeChart(data);
   renderRadarChart(data);
-  
   const countEl = document.getElementById('eventCount');
   if(countEl) countEl.innerText = data.length;
 }
 
-// --- 4. GRAFICI (Standard) ---
 function renderTimelineChart(data) {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) return;
@@ -154,10 +179,7 @@ function renderTimelineChart(data) {
   if (charts.timeline) charts.timeline.destroy();
   charts.timeline = new Chart(ctx, {
     type: 'bar',
-    data: {
-      labels: labels,
-      datasets: [{ label: 'Eventi', data: labels.map(k => aggregated[k]), backgroundColor: THEME.primary, borderRadius: 4 }]
-    },
+    data: { labels: labels, datasets: [{ label: 'Eventi', data: Object.values(aggregated), backgroundColor: THEME.primary, borderRadius: 4 }] },
     options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { display: false } }, y: { beginAtZero: true, grid: { color: THEME.grid } } } }
   });
 }
@@ -178,11 +200,14 @@ function renderTypeChart(data) {
 function renderRadarChart(data) {
   const ctx = document.getElementById('intensityRadarChart');
   if (!ctx) return;
+  // Fallback radar vuoto se non ci sono dati
+  if(data.length === 0 && charts.radar) { charts.radar.data.datasets[0].data = []; charts.radar.update(); return; }
+  
   const stats = {};
   data.forEach(e => {
     const t = e.type || 'N/A';
     if (!stats[t]) stats[t] = { sum: 0, count: 0 };
-    stats[t].sum += (parseFloat(e.intensity)||0.2); stats[t].count++;
+    stats[t].sum += (e._intensityNorm); stats[t].count++;
   });
   const labels = Object.keys(stats);
   if (charts.radar) charts.radar.destroy();
@@ -192,11 +217,10 @@ function renderRadarChart(data) {
       labels: labels,
       datasets: [{ label: 'Intensità', data: labels.map(k => (stats[k].sum/stats[k].count).toFixed(2)), backgroundColor: 'rgba(245, 158, 11, 0.2)', borderColor: THEME.primary, pointBackgroundColor: THEME.primary }]
     },
-    options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false, backdropColor: 'transparent' } } }, plugins: { legend: { display: false } } }
+    options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false } } }, plugins: { legend: { display: false } } }
   });
 }
 
-// --- UTILS ---
 function populateFilters(data) {
   const select = document.getElementById('chartTypeFilter');
   if (!select) return;
