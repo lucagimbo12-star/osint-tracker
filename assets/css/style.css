@@ -80,15 +80,24 @@ header nav a.active, header nav a:hover { color: white; }
   min-height: calc(100vh - 64px);
 }
 
-/* --- SIDEBAR --- */
+/* --- SIDEBAR & CONTROL PANEL --- */
 .sidebar {
   background: var(--bg-surface);
   border-right: 1px solid var(--border);
-  padding: 24px;
+  display: flex;
+  flex-direction: column;
   height: calc(100vh - 64px);
-  overflow-y: auto;
   position: sticky;
   top: 64px;
+  z-index: 1000;
+  /* Ombra interna per staccare dalla mappa */
+  box-shadow: 4px 0 24px rgba(0,0,0,0.2);
+}
+
+.sidebar-content {
+  padding: 24px;
+  overflow-y: auto;
+  flex-grow: 1;
 }
 
 .sidebar-header {
@@ -96,40 +105,114 @@ header nav a.active, header nav a:hover { color: white; }
   margin-bottom: 24px; padding-bottom: 16px;
   border-bottom: 1px solid var(--border);
 }
-.sidebar-header h3 { font-size: 0.9rem; color: var(--text-main); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
 
-.filter-group { margin-bottom: 20px; }
-.filter-group label {
-  display: block; font-size: 0.75rem; font-weight: 600;
-  color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase;
+.sidebar-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem; 
+  color: var(--text-main); 
+  text-transform: uppercase; 
+  font-weight: 700;
+  display: flex; align-items: center; gap: 10px;
+}
+.sidebar-title i { color: var(--primary); }
+
+.filter-section { margin-bottom: 28px; }
+.filter-label {
+  display: block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em;
+  color: var(--text-muted); margin-bottom: 10px; text-transform: uppercase;
 }
 
-.acled-input, .acled-select {
-  width: 100%; padding: 10px;
+/* --- INPUT DATA MODERNI --- */
+.date-range-wrapper {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bg-body);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.date-range-wrapper:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.1);
+}
+.date-input-styled {
+  background: transparent; border: none; color: white;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.85rem;
+  width: 100%; cursor: pointer;
+  color-scheme: dark; /* Forza il calendario scuro su Chrome */
+}
+.date-input-styled:focus { outline: none; }
+.date-separator { color: var(--text-muted); font-size: 0.8rem; }
+
+/* --- SELECT CUSTOM --- */
+.select-wrapper { position: relative; }
+.acled-select {
+  width: 100%; padding: 12px 16px;
+  background: var(--bg-body);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  appearance: none; /* Rimuove freccia default */
+  cursor: pointer; transition: all 0.2s;
+}
+.acled-select:hover { border-color: var(--text-muted); }
+.acled-select:focus { border-color: var(--primary); outline: none; }
+/* Freccia Custom */
+.select-wrapper::after {
+  content: '\f107'; font-family: 'Font Awesome 6 Free'; font-weight: 900;
+  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+  color: var(--primary); pointer-events: none; font-size: 0.8rem;
+}
+
+/* --- FILTER CHIPS (CHECKBOX MODERNE) --- */
+.chips-container {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.filter-chip { cursor: pointer; user-select: none; }
+.filter-chip input { display: none; /* Nascondi checkbox reale */ }
+
+.chip-content {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px;
   background: var(--bg-body);
   border: 1px solid var(--border);
   border-radius: 6px;
-  color: white;
-  font-size: 0.9rem;
-}
-.acled-input:focus, .acled-select:focus {
-  border-color: var(--primary); outline: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Pulsanti */
-.btn-primary {
-  width: 100%; background: var(--primary); color: #0f172a;
-  border: none; padding: 12px; border-radius: 6px;
-  font-weight: 600; cursor: pointer; transition: all 0.2s;
-}
-.btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
+.chip-label { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-muted); }
+.chip-dot { width: 8px; height: 8px; border-radius: 50%; box-shadow: 0 0 5px currentColor; }
 
-.btn-secondary {
-  width: 100%; background: transparent; color: var(--text-muted);
-  border: 1px solid var(--border); padding: 10px; border-radius: 6px;
-  font-weight: 500; cursor: pointer; margin-top: 10px;
+/* Stati Attivi */
+.filter-chip input:checked + .chip-content {
+  background: rgba(30, 41, 59, 0.8); /* Leggermente più chiaro */
+  border-color: var(--text-muted);
 }
-.btn-secondary:hover { border-color: var(--text-muted); color: white; }
+.filter-chip:hover .chip-content { border-color: var(--text-muted); }
+
+/* Colori specifici quando attivi */
+.filter-chip input[value="critical"]:checked + .chip-content { border-color: var(--accent-crit); background: rgba(239, 68, 68, 0.1); }
+.filter-chip input[value="critical"]:checked + .chip-content .chip-label { color: white; }
+
+.filter-chip input[value="high"]:checked + .chip-content { border-color: var(--accent-high); background: rgba(249, 115, 22, 0.1); }
+.filter-chip input[value="high"]:checked + .chip-content .chip-label { color: white; }
+
+.filter-chip input[value="medium"]:checked + .chip-content { border-color: var(--accent-med); background: rgba(234, 179, 8, 0.1); }
+.filter-chip input[value="medium"]:checked + .chip-content .chip-label { color: white; }
+
+/* Check Icon (appare solo se selezionato) */
+.chip-check { opacity: 0; transform: scale(0.5); transition: all 0.2s; color: var(--text-main); }
+.filter-chip input:checked + .chip-content .chip-check { opacity: 1; transform: scale(1); }
+
+/* --- FOOTER SIDEBAR --- */
+.sidebar-footer {
+  padding: 24px;
+  border-top: 1px solid var(--border);
+  background: rgba(15, 23, 42, 0.5); /* Sfondo scuro per stacco */
+  backdrop-filter: blur(5px);
+  display: flex; flex-direction: column; gap: 10px;
+}
 
 /* --- MAIN CONTENT --- */
 .main-content { padding: 24px; overflow-y: auto; }
