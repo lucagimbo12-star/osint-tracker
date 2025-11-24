@@ -2,7 +2,7 @@
    STYLE.CSS - (SLATE & AMBER) - OPTIMIZED
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+/* NOTA: I Font sono ora caricati in index.html per performance migliori */
 
 :root {
   /* Palette Slate (Sfondi e Testi) */
@@ -14,6 +14,8 @@
   --primary: #f59e0b;      /* Amber 500 */
   --primary-hover: #d97706; /* Amber 600 */
   --accent-crit: #ef4444;  /* Red 500 */
+  --accent-high: #f97316;  /* Orange 500 */
+  --accent-med: #eab308;   /* Yellow 500 */
   
   /* Testo */
   --text-main: #f8fafc;    /* Slate 50 */
@@ -162,8 +164,7 @@ header nav a.active, header nav a:hover { color: white; }
   background: transparent !important; border: none !important;
   display: flex; align-items: center; justify-content: center;
   transition: transform 0.2s;
-  /* Ottimizzazione Rendering */
-  will-change: transform;
+  will-change: transform; /* Ottimizzazione GPU */
 }
 .custom-icon-marker:hover { transform: scale(1.2); z-index: 1000 !important; }
 
@@ -182,31 +183,6 @@ header nav a.active, header nav a:hover { color: white; }
   text-align: center; border-radius: 50%; font: 12px 'Inter', sans-serif; font-weight: 700;
   display: flex; align-items: center; justify-content: center; border: 2px solid rgba(255,255,255,0.1);
 }
-
-/* --- LEGENDA MOBILE --- */
-.floating-legend {
-  background: var(--bg-surface); border: 1px solid var(--border);
-  border-radius: 8px; margin-left: 15px; margin-bottom: 30px;
-  overflow: hidden; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  max-width: 44px; max-height: 44px;
-}
-.floating-legend.expanded { max-width: 300px; max-height: 600px; }
-
-.legend-toggle {
-  width: 44px; height: 44px; background: var(--bg-element); color: white;
-  display: flex; align-items: center; justify-content: center;
-  cursor: pointer; font-size: 1.2rem;
-}
-.legend-toggle:hover { background: var(--primary); color: #0f172a; }
-
-.legend-content { padding: 20px; opacity: 0; display: none; }
-.floating-legend.expanded .legend-content { opacity: 1; display: block; }
-
-.legend-section h4 {
-  font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted);
-  border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 12px;
-}
-.legend-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-main); margin-bottom: 8px; }
 
 /* --- CHARTS & TIMELINE --- */
 .charts-section {
@@ -284,5 +260,5 @@ header nav a.active, header nav a:hover { color: white; }
 @media (max-width: 1024px) {
   .dashboard-container { grid-template-columns: 1fr; }
   .sidebar { display: none; }
-  .confidence-container { display: none; } /* Nascondi chart su mobile */
+  .confidence-container { display: none; }
 }
