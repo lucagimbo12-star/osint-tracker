@@ -62,10 +62,9 @@ jobs:
           # NORMALIZZAZIONE COLONNE
           df.columns = df.columns.str.strip().str.lower()
           
-          # --- FIX GLOBALE NAN -> NULL ---
-          # Questa riga è la "Sterilizzazione": converte tutti i NaN di Pandas in None (Python)
-          # Quando salviamo il JSON, i None diventeranno automaticamente 'null', che è valido.
-          df = df.replace({np.nan: None})
+          # --- FIX GLOBALE: PULIZIA PROFONDA DATI ---
+          # Sostituisce tutti i NaN/Inf di Pandas/Numpy con None (che diventa null in JSON)
+          df = df.where(pd.notnull(df), None)
           
           def get_col(candidates):
               for c in candidates:
@@ -88,9 +87,20 @@ jobs:
               print("❌ Errore: Colonne coordinate non trovate.")
               sys.exit(1)
 
+          # Funzione Helper per Numeri Sicuri (Anti-Crash JSON)
+          def safe_float(val, default=0.2):
+              try:
+                  if val is None or val == "":
+                      return default
+                  f = float(val)
+                  if math.isnan(f) or math.isinf(f):
+                      return default
+                  return f
+              except:
+                  return default
+
           # CLASSIFICAZIONE ATTORI
           def classify_actor(row):
-              # Gestiamo il caso None convertendolo in stringa vuota per l'analisi
               desc_val = row.get(col_desc) or ""
               title_val = row.get(col_title) or ""
               loc_val = row.get(col_loc) or ""
@@ -114,7 +124,6 @@ jobs:
 
           for _, row in df.iterrows():
               try:
-                  # Se lat/lon sono None (ex NaN), saltiamo la riga
                   if row[col_lat] is None or row[col_lon] is None: continue
                   lat = float(row[col_lat])
                   lon = float(row[col_lon])
@@ -123,21 +132,11 @@ jobs:
               actor_code = classify_actor(row)
               stats[actor_code] += 1
 
-              # Pulizia campi testo (None diventa "")
               desc = str(row.get(col_desc) or "")
               loc = str(row.get(col_loc) or "")
               
-              # Calcolo Intensità Sicuro
-              # Se è None o stringa vuota, mettiamo default
-              try:
-                  raw_int = row.get(col_int)
-                  if raw_int is None or raw_int == "":
-                      intensity = 0.2
-                  else:
-                      intensity = float(raw_int)
-                      # Extra check matematico, anche se il replace globale dovrebbe aver risolto
-                      if math.isnan(intensity): intensity = 0.2
-              except: intensity = 0.2
+              # Utilizzo della funzione safe_float per l'intensità
+              intensity = safe_float(row.get(col_int), 0.2)
 
               props = {
                   "title": str(row.get(col_title) or "Evento"),
@@ -158,7 +157,9 @@ jobs:
               })
 
           with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
-              json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
+              # allow_nan=False garantisce che Python lanci un errore invece di creare un JSON corrotto,
+              # ma grazie a safe_float non dovremmo arrivarci.
+              json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2, allow_nan=False)
           print(f"✅ events.geojson: Generati {len(features)} eventi. Stats: {stats}")
 
           # GENERAZIONE TIMELINE
