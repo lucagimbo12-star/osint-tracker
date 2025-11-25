@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Scarica tutta la storia per evitare errori di sync
+          fetch-depth: 0 # Scarica tutta la storia per evitare conflitti
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,6 +45,7 @@ jobs:
           import requests
           import io
           import re
+          import math
 
           # CONFIGURAZIONE
           SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
@@ -60,6 +61,11 @@ jobs:
 
           # NORMALIZZAZIONE COLONNE
           df.columns = df.columns.str.strip().str.lower()
+          
+          # --- FIX GLOBALE NAN -> NULL ---
+          # Questa riga è la "Sterilizzazione": converte tutti i NaN di Pandas in None (Python)
+          # Quando salviamo il JSON, i None diventeranno automaticamente 'null', che è valido.
+          df = df.replace({np.nan: None})
           
           def get_col(candidates):
               for c in candidates:
@@ -84,8 +90,13 @@ jobs:
 
           # CLASSIFICAZIONE ATTORI
           def classify_actor(row):
-              text = str(row.get(col_desc, '')).lower() + " " + str(row.get(col_title, '')).lower()
-              loc = str(row.get(col_loc, '')).lower()
+              # Gestiamo il caso None convertendolo in stringa vuota per l'analisi
+              desc_val = row.get(col_desc) or ""
+              title_val = row.get(col_title) or ""
+              loc_val = row.get(col_loc) or ""
+              
+              text = (str(desc_val) + " " + str(title_val)).lower()
+              loc = str(loc_val).lower()
               
               if re.search(r'russian (force|army|missile|drone|shelling)|forces of rf|shahed|iskander|kalibr| FAB-\d+|kh-\d+', text):
                   return 'RUS'
@@ -103,28 +114,40 @@ jobs:
 
           for _, row in df.iterrows():
               try:
+                  # Se lat/lon sono None (ex NaN), saltiamo la riga
+                  if row[col_lat] is None or row[col_lon] is None: continue
                   lat = float(row[col_lat])
                   lon = float(row[col_lon])
-                  if pd.isna(lat) or pd.isna(lon): continue
               except: continue
 
               actor_code = classify_actor(row)
               stats[actor_code] += 1
 
-              desc = str(row.get(col_desc, '')) if pd.notna(row.get(col_desc)) else ""
-              loc = str(row.get(col_loc, '')) if pd.notna(row.get(col_loc)) else ""
-              try: intensity = float(row.get(col_int) or 0.2)
+              # Pulizia campi testo (None diventa "")
+              desc = str(row.get(col_desc) or "")
+              loc = str(row.get(col_loc) or "")
+              
+              # Calcolo Intensità Sicuro
+              # Se è None o stringa vuota, mettiamo default
+              try:
+                  raw_int = row.get(col_int)
+                  if raw_int is None or raw_int == "":
+                      intensity = 0.2
+                  else:
+                      intensity = float(raw_int)
+                      # Extra check matematico, anche se il replace globale dovrebbe aver risolto
+                      if math.isnan(intensity): intensity = 0.2
               except: intensity = 0.2
 
               props = {
-                  "title": str(row.get(col_title, 'Evento')),
-                  "date": str(row.get(col_date, '')),
-                  "type": str(row.get(col_type, 'General')),
+                  "title": str(row.get(col_title) or "Evento"),
+                  "date": str(row.get(col_date) or ""),
+                  "type": str(row.get(col_type) or "General"),
                   "location": loc,
-                  "link": str(row.get(col_link, '')),
-                  "verification": str(row.get(col_ver, 'not verified')),
+                  "link": str(row.get(col_link) or ""),
+                  "verification": str(row.get(col_ver) or "not verified"),
                   "description": desc,
-                  "video": str(row.get(col_video, '')),
+                  "video": str(row.get(col_video) or ""),
                   "intensity": intensity,
                   "actor_code": actor_code
               }
@@ -165,30 +188,19 @@ jobs:
           EOF
 
       # --- STEP 3: FORCE COMMIT (SOLUZIONE AL CONFLITTO) ---
-      # Usiamo 'reset --soft' per allinearci al server PRIMA di committare.
-      # Questo fa vincere sempre i file generati dall'Action.
       - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           
-          # Scarica lo stato attuale del branch remoto
           git fetch origin main
-          
-          # Sposta l'HEAD locale sul remoto, MA mantiene i file generati (events.geojson) nell'area di lavoro
           git reset --soft origin/main
-          
-          # Ora aggiungiamo i file (sovrascriveranno quelli remoti nel prossimo commit)
           git add assets/data/events.geojson assets/data/events_timeline.json
           
-          # Controlla se c'è qualcosa da committare
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai dati."
             exit 0
           fi
           
-          # Crea un nuovo commit pulito sopra l'ultimo commit remoto
-          git commit -m "Auto-update: Data Refresh & Actor Classification"
-          
-          # Push diretto (ora è sicuro perché siamo allineati)
+          git commit -m "Auto-update: Data Clean & Actor Fix"
           git push origin main
