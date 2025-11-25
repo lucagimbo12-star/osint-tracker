@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests numpy gspread google-auth tavily-python openai
 
-      # FASE 1: L'Agente AI controlla e aggiorna Google Sheets
+      # FASE 1: L'Agente AI controlla e aggiorna Google Sheets (Opzionale, se lo usi)
       - name: 🤖 Run AI Agent
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
@@ -44,8 +44,10 @@ jobs:
           import io
 
           # --- CONFIGURAZIONE ---
+          # Assicurati che il link sia corretto e pubblico (o gestito via token)
           SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
           
+          # MAPPATURA COLONNE (Da Intestazione Sheet -> A Nome Variabile Python)
           COLUMN_MAPPING = {
               "latitude": "latitude", "lat": "latitude",
               "longitude": "longitude", "lon": "longitude", "long": "longitude",
@@ -59,7 +61,9 @@ jobs:
               "notes": "description", "note": "description",
               "description": "description", "descrizione": "description",
               "video": "video", "video_url": "video",
-              "intensity": "intensity", "intensità": "intensity"
+              "intensity": "intensity", "intensità": "intensity",
+              # --- NUOVA COLONNA CRITICA PER I FILTRI ---
+              "actor_code": "actor_code", "codice attore": "actor_code", "actor code": "actor_code"
           }
 
           print("🔄 Scaricamento CSV da Google Sheets...")
@@ -71,13 +75,14 @@ jobs:
               print(f"❌ Errore download: {e}")
               sys.exit(1)
 
-          # Normalizzazione
+          # Normalizzazione Intestazioni (tutto minuscolo e senza spazi extra)
           df.columns = df.columns.str.strip().str.lower()
           df.rename(columns=COLUMN_MAPPING, inplace=True)
           
-          # --- FIX CRITICO: RIMUOVE COLONNE DUPLICATE ---
+          # Rimuove colonne duplicate se presenti
           df = df.loc[:, ~df.columns.duplicated()]
           
+          # Sostituisce NaN con None per compatibilità JSON
           df = df.replace({np.nan: None})
 
           # --- 1. GENERAZIONE EVENTS.GEOJSON (Mappa) ---
@@ -90,7 +95,7 @@ jobs:
 
               ver = row.get("verification", "not verified")
               
-              # Calcolo Intensity
+              # Calcolo Intensity (Fallback se vuoto)
               try:
                   raw_intensity = row.get("intensity")
                   if raw_intensity is not None and raw_intensity != "":
@@ -99,6 +104,13 @@ jobs:
                       intensity = 0.7 if ver == "verified" else 0.2
               except:
                   intensity = 0.2
+
+              # Gestione Actor Code (Fondamentale per i filtri)
+              actor_code = row.get("actor_code")
+              if actor_code:
+                  actor_code = str(actor_code).upper().strip()
+              else:
+                  actor_code = "UNK"
 
               props = {
                   "title": row.get("title") or "Evento",
@@ -110,7 +122,8 @@ jobs:
                   "verification": ver,
                   "description": row.get("description") or "",
                   "video": row.get("video") or "",
-                  "intensity": intensity
+                  "intensity": intensity,
+                  "actor_code": actor_code  # <--- INSERITO NEL GEOJSON
               }
               
               features.append({
@@ -123,12 +136,13 @@ jobs:
               json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
           print(f"✅ events.geojson generato con {len(features)} eventi.")
 
-          # --- 2. GENERAZIONE EVENTS_TIMELINE.JSON (Con Media e Video) ---
+          # --- 2. GENERAZIONE EVENTS_TIMELINE.JSON (TimelineJS) ---
           tl_events = []
           for _, row in df.iterrows():
               try:
                   d_str = str(row.get("date", ""))
-                  # ... (logica date identica a prima) ...
+                  # Parsing Data (YYYY-MM-DD o DD/MM/YYYY)
+                  year, month, day = "", "", ""
                   if '/' in d_str:
                       parts = d_str.split('/')
                       if len(parts) == 3: day, month, year = map(str.strip, parts)
@@ -136,38 +150,40 @@ jobs:
                   elif '-' in d_str:
                       parts = d_str.split('-')
                       if len(parts) == 3: year, month, day = map(str.strip, parts)
-                  else: continue
+                  else: continue # Salta se data invalida
 
-                  # Testo HTML
+                  # Testo HTML per la slide
                   desc = row.get("description") or ""
-                  html = f"Tipo: {row.get('type')}<br>Luogo: {row.get('location')}<br>Verifica: {row.get('verification')}"
+                  # Aggiungiamo il codice attore anche qui per riferimento
+                  act_code = str(row.get("actor_code") or "UNK").upper()
+                  
+                  html = f"<b>Tipo:</b> {row.get('type')}<br><b>Attore:</b> {act_code}<br><b>Luogo:</b> {row.get('location')}"
                   if desc:
                       html += f"<br><br>{desc}"
                   
-                  # Costruzione Evento
+                  # Oggetto Evento Timeline
                   event_obj = {
                       "start_date": {"year": int(year), "month": int(month), "day": int(day)},
                       "text": {
                           "headline": row.get("title") or "Evento",
                           "text": html
                       },
-                      "group": row.get("type") or "Generale", # Raggruppa per tipo nella timeline
+                      "group": row.get("type") or "Generale",
                       "unique_id": str(row.name if hasattr(row, 'name') else ''), 
                   }
 
-                  # Aggiunta Media (Video/Foto)
+                  # Media (Video/Foto)
                   video_url = row.get("video")
                   if video_url:
                       event_obj["media"] = {
                           "url": video_url,
-                          "caption": row.get("source") or "Fonte verificata",
+                          "caption": row.get("source") or "Fonte",
                           "credit": "OSINT Source"
                       }
                   
                   tl_events.append(event_obj)
               except: continue
 
-          # Avvolge in oggetto title opzionale per header timeline
           final_json = {
               "title": {
                   "text": {
@@ -181,7 +197,7 @@ jobs:
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
               json.dump(final_json, f, ensure_ascii=False, indent=2)
           
-          print(f"✅ events_timeline.json generato con {len(tl_events)} eventi e media.")
+          print(f"✅ events_timeline.json generato con {len(tl_events)} eventi.")
           EOF
 
       - name: Commit and push updates
@@ -189,21 +205,14 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           
-          # Aggiunge i file generati
           git add assets/data/events.geojson assets/data/events_timeline.json
           
-          # Controlla se ci sono modifiche reali
           if git diff --quiet && git diff --staged --quiet; then
             echo "Nessuna modifica rilevata, salto il commit."
             exit 0
           fi
           
-          # Committa le modifiche
-          git commit -m "Auto-update: AI + Data Refresh"
+          git commit -m "Auto-update: AI + Data Refresh + Actor Codes"
           
-          # --- FIX PER L'ERRORE "REJECTED" ---
-          # Scarica le ultime modifiche remote e riapplica il commit locale sopra di esse
           git pull --rebase origin main
-          
-          # Ora il push funzionerà
           git push origin main
