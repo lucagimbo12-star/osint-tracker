@@ -10769,15 +10769,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture energetiche in Crimea",
         "date": "25/10/24",
-        "type": "Strategic developments",
+        "type": "Energy Infrastructure",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-24-2025/",
+        "verification": "verified",
+        "description": "Il 25 ottobre 2025, le forze ucraine hanno condotto un attacco mirato contro un terminale petrolifero in Crimea, mirato a interrompere il finanziamento della guerra da parte di Mosca, di fronte a un'intensificazione delle offensive russe nel conflitto.",
+        "video": "https://www.youtube.com/watch?v=ZNKwBfHHZqE",
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11099,15 +11099,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco russo contro forze ucraine a Pokrovsk",
         "date": "15/08/25",
         "type": "Strategic developments",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-15-2025/",
+        "verification": "verified",
+        "description": "Le forze russe hanno avanzato posizioni a ovest di Novoekonomichne, mentre le truppe ucraine hanno ritirato elementi da Udachne. Si osservano anche attacchi russi coordinati ed il coinvolgimento di veicoli senza pilota da parte dell'Ucraina.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11121,15 +11121,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro infrastrutture militari in Crimea",
         "date": "22/08/25",
-        "type": "Strategic developments",
+        "type": "Energy Infrastructure",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-22-2025/",
+        "verification": "verified",
+        "description": "Il 22 agosto 2025, le forze ucraine hanno segnalato avanzamenti militari, con l'uso di droni e attacchi a obiettivi russi, incluso un raid che ha colpito le capacitÃ  di raffinazione petrolifera in Crimea, causando carenze di carburante nella regione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11143,15 +11143,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro sistema radar S-400 in Crimea",
         "date": "29/08/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.criticalthreats.org/analysis/ukraine-invasion-updates-august-2025",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, le forze ucraine hanno colpito un sistema radar Buyan-M dell'S-400 in Crimea, mentre le forze russe hanno lanciato una massiccia offensiva di droni e missili su piÃ¹ di 20 localitÃ  ucraine, causando danni significativi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11165,15 +11165,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastruttura petrolifera a Crimea",
         "date": "17/10/25",
-        "type": "Strategic developments",
+        "type": "Energy Infrastructure",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.iswresearch.com",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno colpito infrastrutture petrolifere russe in Crimea, provocando incendi e danneggiando numerosi serbatoi di carburante. L'uso di missili a lungo raggio ha ridotto il controllo russo sul Mar Nero.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11187,15 +11187,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco droni contro postazioni russe in Crimea",
         "date": "24/10/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-24-2025/",
+        "verification": "verified",
+        "description": "Il 24 ottobre, forze ucraine hanno condotto attacchi aerei con droni, colpendo stazioni radar e mezzi russi nel territorio occupato della Crimea, contribuendo a un aumento significativo delle perdite russe.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11209,15 +11209,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco droni contro resort a Crimea",
         "date": "25/08/23",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
+        "link": "https://www.aljazeera.com/news/2023/8/25/russia-ukraine-war-list-of-key-events-day-548",
+        "verification": "verified",
+        "description": "Il 25 agosto 2023, droni ucraini hanno colpito un resort in Crimea, provocando 2 morti e 15 feriti. L'attacco ha mirato a strutture utilizzate da importanti ufficiali russi, con danni significativi alle infrastrutture locali.",
+        "video": "https://www.youtube.com/watch?v=e1Jv4k3M1Js",
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11231,15 +11231,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco aereo contro edificio residenziale a Kharkiv",
         "date": "30/08/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/War_crimes_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
+        "verification": "verified",
+        "description": "Il 30 agosto 2024, un attacco aereo russo ha colpito un edificio residenziale a Kharkiv, causando la morte di sei persone, tra cui una ragazza di 14 anni, e ferendo 55. L'attacco ha sollevato forti condanne per crimini di guerra.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11253,15 +11253,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco droni contro serbatoi di carburante a Feodosia",
         "date": "18/10/24",
-        "type": "Strategic developments",
+        "type": "Energy Infrastructure",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
+        "link": "https://www.sky.com/news/story/in-full-europes-28-point-counter-proposal-to-us-russia-peace-plan-for-ukraine-13474575",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno colpito cinque serbatoi di carburante a Feodosia, causando un incendio massiccio. Questo attacco rappresenta una continuazione della strategia ucraina di colpire le infrastrutture militari e energetiche occupate dai russi in Crimea.",
+        "video": "https://www.youtube.com/watch?v=KfAGtqMOmyA",
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
@@ -11275,15 +11275,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco avanza militare russo a Pokrovsk",
         "date": "29/03/25",
         "type": "Strategic developments",
         "location": "Crimea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-march-29-2025/",
+        "verification": "verified",
+        "description": "Il 29 marzo 2025, forze russe hanno avanzato in direzione di Pokrovsk, supportate da veicoli corazzati, con combattimenti in corso contro le unitÃ  ucraine. Entrambi gli schieramenti hanno registrato avanzamenti e contrattacchi nella regione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UKR"
       }
     },
