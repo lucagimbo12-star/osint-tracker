@@ -13094,14 +13094,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Dnipro",
         "date": "18/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attacco aereo con droni russi ha colpito la cittÃ  di Dnipro, causando danni significativi a edifici civili e ferendo due persone. L'attacco ha colpito anche strutture mediali, evidenziando la vulnerabilitÃ  delle difese ucraine.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13115,14 +13115,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro comunitÃ  a Dnipropetrovsk",
         "date": "25/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Nella notte del 21 novembre 2025, attacchi con droni russi hanno colpito la regione di Dnipropetrovsk, causando un morto e due feriti. Le comunitÃ  di Vasilkiv e Pokrovska sono state le piÃ¹ colpite, con incendi e danni a infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13136,14 +13136,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro comunitÃ  a Dnipropetrovsk",
         "date": "15/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 agosto 2025, attacchi aerei russi con droni hanno colpito le comunitÃ  di Vasilkiv e Pokrovska a Dnipropetrovsk, causando la morte di una donna e ferendo due persone. Danni significativi a edifici privati e infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13157,14 +13157,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro comunitÃ  a Dnipropetrovsk",
         "date": "22/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 agosto 2025, attacchi aerei russi con droni hanno colpito la regione di Dnipropetrovsk, causando un morto e due feriti. Le comunitÃ  di Vasilkiv e Pokrovska sono state le principali aree colpite. Le forze aeree ucraine hanno intercettato diversi droni.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13178,14 +13178,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Drone Strike contro civili a Dnipropetrovsk",
         "date": "29/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 agosto, un attacco con droni russi ha colpito la regione di Dnipropetrovsk, causando la morte di due civili e ferendo tre persone. Sono stati utilizzati droni di tipo Shahed. Il bilancio include un uomo e una donna deceduti, e una donna di 50 anni ferita.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13199,14 +13199,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro comunitÃ  a Dnipropetrovsk",
         "date": "17/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 ottobre 2025, attacchi aerei russi hanno colpito le comunitÃ  di Vasilkiv e Pokrovska nel distretto di Synelnykove, causando la morte di una donna e ferendo due persone. L'attacco ha provocato danni significativi alle infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13220,14 +13220,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo e drone contro infrastrutture a Dnipropetrovsk",
         "date": "24/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno attaccato la regione di Dnipropetrovsk con droni e artiglieria, causando morti e feriti tra civili e militari. Sono stati distrutti 69 droni su 98 lanciati. Bilancio attuale: 4 morti e 20 feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13241,14 +13241,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Grenade",
+        "title": "Attacco aereo russo contro Dnipropetrovsk",
         "date": "25/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25-26 luglio, un attacco aereo russo ha colpito Dnipro e la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. L'attacco ha provocato incendi e danni estesi a strutture residenziali e industriali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13262,14 +13262,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco esplosivo remoto contro civili a Dnipropetrovsk",
         "date": "19/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Unknown",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 marzo 2022, esplosioni hanno colpito la regione di Dnipropetrovsk, causando feriti tra i civili. Le forze russe utilizzano ampiamente mine e esplosivi per ostacolare le operazioni militari, con un alto impatto sulla popolazione civile.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13283,14 +13283,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco esplosivo contro civili a Dnipropetrovsk",
         "date": "22/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Unknown",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 aprile 2022, un attacco esplosivo ha colpito Dnipropetrovsk, causando feriti tra i civili. Le forze russe continuano a utilizzare dispositivi esplosivi in aree civili, con un alto numero di vittime tra la popolazione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13304,14 +13304,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "20/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Nella notte del 21-22 maggio, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo, causando otto feriti e danni a edifici e infrastrutture. Le forze aeree ucraine hanno abbattuto 15 droni e 4 missili durante l'attacco.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13325,14 +13325,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "17/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 giugno 2022, forze russe hanno colpito Dnipro con missili, causando 16 morti e oltre 279 feriti, inclusi 27 bambini. Sono stati danneggiati anche treni e infrastrutture civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13346,14 +13346,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco con droni contro civili a Dnipropetrovsk",
         "date": "22/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 luglio 2022, attacchi russi con droni FPV e artiglieria hanno colpito la regione di Dnipropetrovsk, causando 2 morti e 5 feriti. Le comunitÃ  di Nikopol e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13367,14 +13367,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco con droni e artiglieria contro civili a Dnipropetrovsk",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 agosto 2022, attacchi russi con droni FPV e artiglieria hanno colpito la regione di Dnipropetrovsk, causando 2 morti e 5 feriti. Le esplosioni hanno danneggiato case e infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13388,14 +13388,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 ottobre 2022, attacchi missilistici russi hanno colpito Dnipropetrovsk, causando danni a case private e infrastrutture. Non sono stati riportati feriti. Le forze russe hanno intensificato le operazioni nella regione, mirando a obiettivi civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13409,14 +13409,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "21/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 aprile 2023, un attacco missilistico russo ha colpito Dnipropetrovsk, causando la morte di tre persone e ferendo 24. L'attacco ha danneggiato edifici residenziali e infrastrutture pubbliche.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13430,14 +13430,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco esplosivo contro civili a Dnipropetrovsk",
         "date": "13/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 gennaio 2024, attacchi russi nella regione di Dnipropetrovsk hanno causato feriti tra i civili e danni alle infrastrutture. Un attacco ha colpito il distretto di Nikopol, con una donna uccisa e cinque feriti. Le forze russe continuano a utilizzare armi esplosive.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13451,13 +13451,13 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco aereo contro infrastrutture residenziali a Dnipropetrovsk",
         "date": "27/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 gennaio, attacchi aerei russi hanno danneggiato edifici residenziali nel distretto di Samarskyi a Dnipropetrovsk. Non sono stati riportati feriti o morti.",
         "video": "",
-        "verification": "not verified",
+        "verification": "verified",
         "intensity": 0.2,
         "actor_code": "RUS"
       }
@@ -13472,14 +13472,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco missilistico contro civili a Kryvyi Rih",
         "date": "30/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 4 aprile, un attacco combinato di missili e droni russi ha colpito Kryvyi Rih, Dnipropetrovsk, causando 20 morti, tra cui 9 bambini, e 75 feriti. L'attacco evidenzia l'uso intensivo di armi esplosive contro obiettivi civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13493,14 +13493,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco esplosivo remoto a Dnipropetrovsk",
         "date": "29/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Unknown",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 marzo 2025, un attacco esplosivo remoto ha colpito Dnipropetrovsk, causando feriti tra i civili. Le informazioni sui dettagli delle armi utilizzate non sono disponibili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13514,14 +13514,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco con droni e artiglieria contro civili a Dnipropetrovsk",
         "date": "18/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 aprile 2025, attacchi russi con droni FPV e artiglieria hanno colpito diverse hromadas nel Dnipropetrovsk, causando 2 morti e 5 feriti tra i civili. Le forze russe continuano a infliggere danni e vittime nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13535,14 +13535,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco aereo e bombardamento contro Dnipro e Pavlograd",
         "date": "30/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 maggio 2025, la regione di Dnipropetrovsk ha subito un attacco massiccio con esplosioni segnalate a Dnipro e Pavlograd. Due persone sono state uccise e cinque ferite a causa dei bombardamenti russi. Armi utilizzate includono droni e artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13556,14 +13556,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "19/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 marzo 2022, Dnipro ha subito un attacco missilistico con X-101 da aerei Tu-95, causando danni a edifici civili. Almeno 16 feriti sono stati riportati, con diversi edifici danneggiati e incendi localizzati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13577,14 +13577,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "26/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 marzo 2022, Dnipro Ã¨ stata colpita da attacchi missilistici russi, causando feriti tra la popolazione civile. Le forze armate ucraine hanno intercettato alcuni missili, ma i danni a edifici residenziali sono stati significativi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13598,14 +13598,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "15/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 aprile 2022, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo, causando danni a edifici residenziali e infrastrutture. Non sono stati riportati feriti in questo specifico attacco, ma il contesto generale evidenzia un aumento delle violenze nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13619,14 +13619,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro aree civili a Dnipropetrovsk",
         "date": "22/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 aprile 2022, attacchi di artiglieria russa hanno colpito Dnipropetrovsk, causando la morte di due persone e ferendo cinque. Le infrastrutture civili hanno subito danni significativi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13640,14 +13640,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "29/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 aprile 2022, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando due morti e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk, Marhanets, Myrivska e Chervonohryhorivska sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13661,14 +13661,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "13/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 maggio 2022, un attacco missilistico russo ha colpito Dnipropetrovsk, causando la morte di almeno 19 persone e oltre 270 feriti, inclusi bambini. Le infrastrutture civili, tra cui scuole e ospedali, hanno subito danni significativi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13682,14 +13682,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro infrastrutture civili a Dnipropetrovsk",
         "date": "20/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 maggio 2022, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo che ha causato 16 feriti e danni a edifici e infrastrutture. Sono stati utilizzati missili X-101 lanciati da aerei Tu-95. Le forze aeree ucraine hanno intercettato 4 missili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13703,14 +13703,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "27/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 maggio 2022, attacchi russi con artiglieria e droni hanno colpito la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le hromadas di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13724,14 +13724,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo contro infrastrutture civili a Dnipropetrovsk",
         "date": "17/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 giugno 2022, un attacco aereo russo ha colpito Dnipropetrovsk, causando la morte di due civili e ferendo cinque persone. Diverse infrastrutture e abitazioni sono state danneggiate, con incendi segnalati in piÃ¹ comunitÃ .",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13745,14 +13745,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "24/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno 2022, un attacco missilistico russo ha colpito Dnipro, causando almeno 21 morti e oltre 300 feriti. Sono stati danneggiati edifici civili, tra cui una stazione ferroviaria e strutture pubbliche. Le armi utilizzate non sono specificate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13766,14 +13766,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "15/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 luglio 2022, un attacco di artiglieria russa ha colpito Dnipropetrovsk, causando la morte di quattro persone e ferendo 16. L'attacco ha mirato a infrastrutture strategiche, inclusi impianti industriali. Sono stati utilizzati droni e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13787,14 +13787,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "22/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 luglio 2022, la regione di Dnipropetrovsk Ã¨ stata colpita da un attacco di artiglieria russa, causando la morte di 2 persone e ferendo 5. L'attacco ha coinvolto droni FPV e sistemi di artiglieria, colpendo diverse comunitÃ  locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13808,14 +13808,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro ospedale a Kamianske",
         "date": "29/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 luglio, un attacco missilistico ha colpito l'ospedale di Kamianske, danneggiando il reparto maternitÃ  e causando la morte di due pazienti, tra cui una donna incinta. Ventidue civili sono rimasti feriti, interrompendo i servizi medici per giorni.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13829,14 +13829,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "19/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 agosto 2022, attacchi russi hanno colpito la regione di Dnipropetrovsk, causando la morte di due civili e ferendone cinque. Sono stati danneggiati edifici residenziali e infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13850,14 +13850,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 agosto 2022, Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni FPV, causando due morti e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets hanno subito danni significativi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13871,14 +13871,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "30/09/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 settembre 2022, un attacco missilistico russo ha colpito Dnipropetrovsk, causando diversi feriti e danni a edifici civili. Le forze russe hanno utilizzato missili per colpire obiettivi non strategici, con un bilancio di feriti non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13892,14 +13892,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 ottobre 2022, un attacco missilistico russo ha colpito Dnipropetrovsk, causando danni a edifici residenziali e ferendo diverse persone. Le forze ucraine hanno neutralizzato droni nemici nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13913,14 +13913,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture a Dnipropetrovsk",
         "date": "21/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 ottobre 2022, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo, causando danni a edifici e feriti. Le forze aeree ucraine hanno abbattuto diversi droni e missili durante l'attacco.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13934,14 +13934,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 ottobre 2022, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo che ha causato feriti e danni a edifici civili. Le forze russe hanno utilizzato missili, provocando gravi danni e ferendo diverse persone.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13955,14 +13955,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture a Dnipropetrovsk",
         "date": "14/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 gennaio 2023, le forze russe hanno lanciato attacchi missilistici nella regione di Dnipropetrovsk, causando danni a infrastrutture critiche e abitazioni. Non sono stati segnalati feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13976,14 +13976,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "21/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando 2 morti e 5 feriti. I colpi hanno interessato le comunitÃ  di Nikopol, Pokrovsk e Marhanets, con danni alle infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -13997,14 +13997,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro comunitÃ  a Dnipropetrovsk",
         "date": "28/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 gennaio 2023, attacchi russi hanno colpito la regione di Dnipropetrovsk, causando la morte di 4 persone e 17 feriti, tra cui bambini. Sono stati utilizzati missili e droni, danneggiando edifici e infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14018,14 +14018,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "18/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 marzo 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando 2 morti e 5 feriti. Gli attacchi hanno colpito diverse comunitÃ , tra cui Nikopol e Marhanets.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14039,14 +14039,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e droni contro infrastrutture civili a Dnipropetrovsk",
         "date": "25/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 marzo 2023, attacchi russi hanno colpito la regione di Dnipropetrovsk, causando la morte di una donna di 65 anni e ferendo otto persone, tra cui due bambini. Le forze russe hanno utilizzato missili e droni, danneggiando case e infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14060,14 +14060,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "31/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 marzo 2023, attacchi russi con artiglieria e droni nella regione di Dnipropetrovsk hanno causato due morti e cinque feriti. Le comunitÃ  di Mykolaiv e Nikopol sono state particolarmente colpite, con danni significativi alle infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14081,14 +14081,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro civili a Dnipropetrovsk",
         "date": "14/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 aprile, un attacco missilistico russo ha colpito Dnipropetrovsk, causando la morte di 2 persone e ferendone 5. L'attacco ha coinvolto missili X-101 lanciati da aerei Tu-95, con danni significativi a infrastrutture civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14102,14 +14102,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro civili a Dnipropetrovsk",
         "date": "21/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 aprile 2023, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo. Sono stati registrati almeno 5 morti e diversi feriti. I missili X-101 sono stati lanciati da aerei Tu-95, con un totale di otto razzi sparati, di cui quattro intercettati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14123,14 +14123,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "28/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 aprile 2023, l'esercito russo ha lanciato attacchi missilistici e droni sulla regione di Dnipropetrovsk, causando danni a infrastrutture critiche e abitazioni, senza segnalare vittime. Un attacco precedente ha causato un morto e undici feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14144,14 +14144,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "19/05/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 maggio 2023, attacchi di artiglieria e droni russi hanno colpito la regione di Dnipropetrovsk, causando la morte di due uomini e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk, Marhanets e altre sono state interessate. Danni a strutture civili sono stati segnalati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14165,14 +14165,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico X-101 contro strutture sanitarie a Dnipropetrovsk",
         "date": "26/05/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 maggio, un attacco missilistico russo ha colpito cliniche a Dnipropetrovsk, causando 4 morti e 30 feriti, tra cui bambini. Otto missili X-101 sono stati lanciati da aerei Tu-95, di cui quattro intercettati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14186,14 +14186,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "16/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 giugno 2023, Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando la morte di due civili e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14207,14 +14207,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro infrastrutture civili a Dnipro",
         "date": "23/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 giugno, un attacco missilistico russo ha colpito Dnipro, causando almeno 19 morti e oltre 270 feriti, tra cui bambini. Le infrastrutture colpite includono scuole, ospedali e abitazioni. L'attacco si Ã¨ verificato durante il giorno, aumentando il numero di vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14228,14 +14228,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco con artiglieria contro civili a Dnipropetrovsk",
         "date": "30/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 giugno 2023, un attacco di artiglieria ha colpito la regione di Dnipropetrovsk, causando la morte di due civili e cinque feriti, tra cui un uomo in condizioni gravi. L'attacco ha coinvolto droni e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14249,14 +14249,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "14/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 luglio 2023, attacchi russi con artiglieria e droni hanno colpito diverse comunitÃ  nel distretto di Nikopol, causando la morte di una donna e ferendo cinque persone. Le forze russe hanno effettuato oltre 60 colpi, danneggiando infrastrutture civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14270,14 +14270,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro edifici civili a Dnipropetrovsk",
         "date": "21/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 luglio 2023, un attacco missilistico russo ha colpito la regione di Dnipropetrovsk, causando feriti e danni a edifici civili. Le forze ucraine hanno abbattuto diversi droni nemici durante l'attacco.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14291,14 +14291,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico Kalibr contro infrastrutture civili a Dnipro",
         "date": "28/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 luglio 2023, un attacco missilistico russo ha colpito un'officina di riparazione auto a Dnipro, causando la morte di due civili e ferendo sette persone, tra cui un bambino di sei anni. Sono stati trovati frammenti di missile Kalibr sul luogo dell'esplosione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14312,14 +14312,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "18/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 agosto 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni FPV, causando la morte di due civili e cinque feriti. I colpi hanno colpito le comunitÃ  di Nikopol, Pokrovsk e Marhanets.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14333,14 +14333,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "25/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 agosto 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni FPV, causando due morti e cinque feriti. I colpi hanno interessato diverse comunitÃ , danneggiando infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14354,14 +14354,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro aree residenziali a Dnipropetrovsk",
         "date": "13/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 ottobre 2025, un attacco di artiglieria russa ha colpito Dnipropetrovsk, causando la morte di almeno quattro civili e ferendone piÃ¹ di dieci. Le forze russe hanno intensificato i bombardamenti in diverse regioni ucraine.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14375,14 +14375,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "20/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 ottobre 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni FPV, causando 16 feriti, di cui 4 in condizioni gravi. Le comunitÃ  di Pavlohrad e Nikopol sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14396,14 +14396,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "27/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 ottobre 2023, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni FPV, causando 2 morti e 5 feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14417,14 +14417,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "13/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 gennaio 2024, attacchi russi hanno colpito la regione di Dnipropetrovsk, causando la morte di due persone e ferendo cinque. Gli attacchi hanno coinvolto artiglieria e droni, con danni significativi alle infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14438,14 +14438,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco con droni contro infrastrutture civili a Dnipropetrovsk",
         "date": "20/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno attaccato la regione di Dnipropetrovsk con droni, causando incendi e danni alle infrastrutture. Una donna di 57 anni Ã¨ rimasta ferita e sono stati danneggiati edifici e linee elettriche.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14459,14 +14459,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "27/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 gennaio 2024, attacchi russi con artiglieria e droni hanno colpito la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le infrastrutture civili hanno subito danni significativi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14480,14 +14480,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro comunitÃ  di Dnipropetrovsk",
         "date": "16/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 marzo 2024, la regione di Dnipropetrovsk Ã¨ stata colpita da un attacco di artiglieria, causando feriti e danni a case. Le forze russe hanno utilizzato droni FPV e artiglieria, con incendi segnalati in diverse aree.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14501,14 +14501,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 marzo 2024, attacchi di artiglieria e droni russi hanno colpito diverse hromadas nella regione di Dnipropetrovsk, causando la morte di due persone e ferendo cinque. Le armi utilizzate includono droni FPV e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14522,14 +14522,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Nikopol",
         "date": "30/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 marzo 2024, un attacco di artiglieria ha colpito Nikopol, uccidendo due persone e ferendone cinque. Danni a strutture civili, inclusi un caffÃ¨ e negozi. Il governatore Lysak ha denunciato l'intensificarsi degli attacchi russi contro obiettivi civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14543,14 +14543,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro edifici residenziali a Dnipropetrovsk",
         "date": "19/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 aprile, un attacco missilistico russo ha colpito un edificio residenziale a Dnipropetrovsk, causando la morte di 3 persone e ferendo 24. Sono stati danneggiati diversi edifici pubblici e commerciali, con operazioni ferroviarie temporaneamente sospese.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14564,14 +14564,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "26/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 aprile 2024, attacchi russi con artiglieria e droni hanno colpito la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le hromadas di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14585,14 +14585,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "17/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 maggio 2024, un attacco di artiglieria russa ha colpito la regione di Dnipropetrovsk, causando la morte di due persone e ferendone cinque. L'attacco ha utilizzato droni FPV e sistemi di artiglieria, con oltre 60 colpi registrati nel distretto di Nikopol.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14606,14 +14606,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "24/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 maggio 2024, attacchi russi con artiglieria e droni hanno colpito Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le aree colpite includono Nikopol e Marhanets, con oltre 60 colpi registrati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14627,14 +14627,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "31/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 maggio 2024, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo con otto razzi X-101, causando 31 morti e 105 feriti, inclusi bambini. Quattro missili sono stati intercettati dalle forze di difesa aerea ucraine.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14648,14 +14648,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "14/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno 2024, un attacco missilistico russo ha colpito Dnipro, causando almeno 21 morti e oltre 300 feriti. Sono stati danneggiati edifici civili, scuole e strutture sanitarie. L'attacco ha utilizzato missili X-101 lanciati da aerei Tu-95.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14669,14 +14669,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "21/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno, un attacco missilistico russo ha colpito Dnipro, causando almeno 21 morti e oltre 300 feriti, tra cui 30 bambini. L'attacco ha danneggiato gravemente infrastrutture civili e un treno passeggeri.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14690,14 +14690,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro aree civili a Dnipro",
         "date": "28/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 giugno, Dnipro ha subito esplosioni in seguito a minacce di attacchi con bombe guidate. Il 24 giugno, un attacco missilistico russo ha causato 21 morti e 340 feriti, colpendo aree industriali e civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14711,14 +14711,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture a Dnipropetrovsk",
         "date": "19/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 luglio 2024, Dnipropetrovsk Ã¨ stata colpita da un attacco missilistico russo che ha danneggiato infrastrutture. I droni Shahed sono stati utilizzati, e sono stati segnalati incendi nelle aree circostanti. Non ci sono state vittime riportate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14732,14 +14732,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "26/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 luglio 2024, attacchi russi con artiglieria e droni hanno colpito la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14753,14 +14753,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "16/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 agosto 2024, attacchi russi con artiglieria e droni hanno colpito la regione di Dnipropetrovsk, causando 2 morti e 5 feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets sono state particolarmente colpite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14774,14 +14774,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e droni contro infrastrutture a Dnipropetrovsk",
         "date": "23/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 agosto 2024, l'esercito russo ha lanciato attacchi missilistici e con droni nella regione di Dnipropetrovsk, causando danni a infrastrutture critiche e abitazioni. Non sono stati segnalati morti, ma ci sono stati feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14795,14 +14795,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo contro infrastrutture civili a Dnipropetrovsk",
         "date": "30/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 agosto 2024, un attacco aereo russo ha colpito un edificio residenziale, una scuola e un parco giochi a Dnipropetrovsk, causando la morte di almeno sette persone e 97 feriti, tra cui 22 bambini. Sono stati utilizzati bombardamenti aerei guidati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14816,14 +14816,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "18/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 ottobre 2024, Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando due morti e cinque feriti. Le comunitÃ  di Nikopol, Pokrovsk e Marhanets hanno subito danni significativi alle infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14837,14 +14837,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro aree residenziali a Dnipro",
         "date": "25/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 ottobre, un attacco missilistico russo ha colpito un'area residenziale e un ospedale a Dnipro, causando la morte di quattro civili e ferendo diversi altri. L'attacco ha utilizzato missili e droni, contribuendo a un bilancio crescente di vittime nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14858,14 +14858,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "18/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 gennaio 2025, attacchi russi con artiglieria e droni hanno causato la morte di due civili e cinque feriti nella regione di Dnipropetrovsk. Le aree colpite includono Nikopol e Pokrovsk. Le forze russe hanno intensificato le operazioni nella regione, utilizzando UAV e sistemi d'artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14879,14 +14879,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "25/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 gennaio 2025, attacchi di artiglieria russa hanno colpito la regione di Dnipropetrovsk, causando la morte di due civili e ferendone cinque. Le armi utilizzate includono droni FPV e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14900,14 +14900,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e con droni contro infrastrutture civili a Dnipropetrovsk",
         "date": "15/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 marzo 2025, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi missilistici e droni, causando la morte di una donna di 65 anni e ferendo otto persone, tra cui due bambini. Sono stati distrutti edifici residenziali e infrastrutture civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14921,14 +14921,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e droni contro infrastrutture civili a Dnipropetrovsk",
         "date": "22/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 marzo 2025, attacchi russi con missili e droni hanno colpito la regione di Dnipropetrovsk, causando la morte di una donna di 65 anni e ferendo otto persone, tra cui due bambini. I danni hanno interessato abitazioni e infrastrutture critiche.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14942,14 +14942,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "29/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 marzo 2025, un attacco di artiglieria russa ha colpito la regione di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Le armi utilizzate includono droni FPV e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14963,14 +14963,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro il centro paramedico a Dnipropetrovsk",
         "date": "25/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 aprile, forze russe hanno colpito un centro paramedico a Pavlohrad, causando la morte di tre civili e ferendone diciotto. L'attacco ha utilizzato missili, contribuendo a un bilancio di vittime in aumento nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -14984,14 +14984,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria e droni contro civili a Dnipropetrovsk",
         "date": "16/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 maggio 2025, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi di artiglieria e droni, causando 2 morti e 5 feriti. I bersagli includevano le comunitÃ  di Nikopol, Pokrovsk e Marhanets. Le forze ucraine hanno risposto agli attacchi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15005,14 +15005,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro infrastrutture civili a Dnipropetrovsk",
         "date": "23/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 maggio 2025, un attacco missilistico russo ha colpito Dnipropetrovsk, causando 19 morti e oltre 270 feriti, inclusi bambini. L'attacco ha danneggiato gravemente scuole, ospedali e altre infrastrutture civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15026,14 +15026,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "30/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 maggio 2025, un attacco di artiglieria russa ha colpito diverse comunitÃ  nel distretto di Dnipropetrovsk, causando la morte di due persone e cinque feriti. Sono stati utilizzati droni FPV e sistemi di artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15047,14 +15047,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco d'artiglieria contro civili a Dnipropetrovsk",
         "date": "13/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 giugno 2025, attacchi d'artiglieria russi hanno colpito diverse hromadas nel distretto di Nikopol, causando la morte di due persone e cinque feriti. Sono stati utilizzati droni FPV e sistemi d'artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15068,14 +15068,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "20/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno 2025, un attacco missilistico russo ha colpito Dnipro, causando almeno 21 morti e oltre 300 feriti, inclusi bambini. L'attacco ha danneggiato gravemente infrastrutture civili, tra cui un treno passeggeri e edifici residenziali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15089,14 +15089,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro civili a Dnipropetrovsk",
         "date": "27/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 giugno 2025, attacchi missilistici russi hanno colpito Dnipropetrovsk, causando la morte di almeno 85 civili e ferendo numerosi altri. Le forze russe hanno utilizzato missili Iskander e droni FPV.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15110,14 +15110,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Dnipropetrovsk",
         "date": "18/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 luglio 2025, attacchi di artiglieria russa hanno ucciso due civili e ferito cinque persone nella regione di Dnipropetrovsk. Le forze russe hanno utilizzato droni e sistemi di artiglieria contro diverse hromadas, causando danni alle infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15131,14 +15131,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro civili a Dnipropetrovsk",
         "date": "25/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attacco missilistico russo ha colpito Dnipropetrovsk, causando la morte di almeno 35 civili. Le forze russe hanno intensificato gli attacchi contro aree residenziali, utilizzando missili e droni.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15152,14 +15152,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro il distretto di Dnipro",
         "date": "15/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 agosto, il distretto di Dnipro Ã¨ stato colpito da un attacco missilistico russo, causando un morto e diversi feriti. Le forze russe hanno utilizzato missili e droni, con oltre cinquanta attacchi registrati nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -15173,14 +15173,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco con droni e artiglieria contro Dnipropetrovsk",
         "date": "22/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Dnipropetrovsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 agosto 2025, la regione di Dnipropetrovsk Ã¨ stata colpita da attacchi nemici con droni FPV e artiglieria, causando due morti e cinque feriti. I comuni di Nikopol, Pokrovsk e Marhanets sono stati tra i bersagli principali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
