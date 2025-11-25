@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Scarica tutta la storia per evitare errori di sync
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,8 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests numpy gspread google-auth tavily-python openai
 
-      # --- STEP 1: AGENTE AI (SALVAGUARDATO) ---
-      # Esegue la verifica delle notizie come faceva prima
+      # --- STEP 1: AGENTE AI ---
       - name: 🤖 Run AI Agent
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
@@ -34,7 +35,6 @@ jobs:
         run: python3 scripts/ai_agent.py || echo "AI Agent finished with warnings (continuing...)"
 
       # --- STEP 2: GENERAZIONE DATI & CLASSIFICAZIONE ATTORI ---
-      # Questo script sostituisce quello vecchio. Scarica il CSV, calcola RUS/UKR e genera i JSON.
       - name: 🏭 Process Data & Classify Actors
         run: |
           python3 <<'EOF'
@@ -46,7 +46,7 @@ jobs:
           import io
           import re
 
-          # --- CONFIGURAZIONE ---
+          # CONFIGURAZIONE
           SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
           
           print("🔄 Scaricamento Database Completo...")
@@ -58,10 +58,9 @@ jobs:
               print(f"❌ CRITICAL ERROR: {e}")
               sys.exit(1)
 
-          # --- NORMALIZZAZIONE COLONNE ---
+          # NORMALIZZAZIONE COLONNE
           df.columns = df.columns.str.strip().str.lower()
           
-          # Helper per trovare colonne variabili
           def get_col(candidates):
               for c in candidates:
                   if c in df.columns: return c
@@ -83,26 +82,22 @@ jobs:
               print("❌ Errore: Colonne coordinate non trovate.")
               sys.exit(1)
 
-          # --- MOTORE DI CLASSIFICAZIONE (PYTHON SIDE) ---
+          # CLASSIFICAZIONE ATTORI
           def classify_actor(row):
               text = str(row.get(col_desc, '')).lower() + " " + str(row.get(col_title, '')).lower()
               loc = str(row.get(col_loc, '')).lower()
               
-              # 1. KEYWORDS ESPLICITE
               if re.search(r'russian (force|army|missile|drone|shelling)|forces of rf|shahed|iskander|kalibr| FAB-\d+|kh-\d+', text):
                   return 'RUS'
               if re.search(r'ukrainian (force|army|missile|drone)|zsu|uaf|himars|atacms|storm shadow|magura', text):
                   return 'UKR'
-              
-              # 2. GEOGRAFIA INVERSA
               if re.search(r'belgorod|kursk|voronezh|rostov|crimea|sevastopol|kerch|moscow|krasnodar|bryansk', loc):
                   return 'UKR'
               if re.search(r'kyiv|kiev|kharkiv|kharkov|odesa|odessa|lviv|dnipro|zaporizhzhia|vinnytsia|sumy|poltava', loc):
                   return 'RUS'
-
               return 'UNK'
 
-          # --- GENERAZIONE EVENTS.GEOJSON ---
+          # GENERAZIONE GEOJSON
           features = []
           stats = {'RUS': 0, 'UKR': 0, 'UNK': 0}
 
@@ -131,9 +126,8 @@ jobs:
                   "description": desc,
                   "video": str(row.get(col_video, '')),
                   "intensity": intensity,
-                  "actor_code": actor_code # <--- DATA GENERATO
+                  "actor_code": actor_code
               }
-
               features.append({
                   "type": "Feature",
                   "geometry": {"type": "Point", "coordinates": [lon, lat]},
@@ -142,11 +136,9 @@ jobs:
 
           with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
               json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
-          
-          print(f"✅ events.geojson: Generati {len(features)} eventi.")
-          print(f"📊 REPORT CLASSIFICAZIONE: {stats}")
+          print(f"✅ events.geojson: Generati {len(features)} eventi. Stats: {stats}")
 
-          # --- GENERAZIONE EVENTS_TIMELINE.JSON ---
+          # GENERAZIONE TIMELINE
           tl_events = []
           for feat in features:
               p = feat['properties']
@@ -158,219 +150,45 @@ jobs:
                   if len(year) == 2: year = "20" + year
 
                   html = f"<b>Tipo:</b> {p['type']}<br><b>Attore:</b> {p['actor_code']}<br><b>Luogo:</b> {p['location']}<br><br>{p['description']}"
-
                   tl_obj = {
                       "start_date": {"year": int(year), "month": int(month), "day": int(day)},
                       "text": { "headline": p['title'], "text": html },
                       "group": p['type']
                   }
-                  if p['video']:
-                       tl_obj['media'] = { "url": p['video'], "caption": "Fonte Video" }
-                  
+                  if p['video']: tl_obj['media'] = { "url": p['video'], "caption": "Fonte Video" }
                   tl_events.append(tl_obj)
               except: continue
 
           with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
               json.dump({"title":{"text":{"headline":"Timeline"}}, "events":tl_events}, f, ensure_ascii=False)
-          
           print(f"✅ events_timeline.json: Generati {len(tl_events)} slide.")
           EOF
 
+      # --- STEP 3: FORCE COMMIT (SOLUZIONE AL CONFLITTO) ---
+      # Usiamo 'reset --soft' per allinearci al server PRIMA di committare.
+      # Questo fa vincere sempre i file generati dall'Action.
       - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          
+          # Scarica lo stato attuale del branch remoto
+          git fetch origin main
+          
+          # Sposta l'HEAD locale sul remoto, MA mantiene i file generati (events.geojson) nell'area di lavoro
+          git reset --soft origin/main
+          
+          # Ora aggiungiamo i file (sovrascriveranno quelli remoti nel prossimo commit)
           git add assets/data/events.geojson assets/data/events_timeline.json
           
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "Nessuna modifica rilevata."
+          # Controlla se c'è qualcosa da committare
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica ai dati."
             exit 0
           fi
           
-          git commit -m "System Update: AI Verification + Python Actor Classification"
-          git pull --rebase origin main
+          # Crea un nuovo commit pulito sopra l'ultimo commit remoto
+          git commit -m "Auto-update: Data Refresh & Actor Classification"
+          
+          # Push diretto (ora è sicuro perché siamo allineati)
           git push origin main
-```
-
----
-
-### 2. FILE: `assets/js/charts.js` (Versione Finale Integrata)
-
-Questo file contiene tutte le funzioni grafiche (timeline, torta, radar), il dizionario dei sinonimi, e la logica ibrida per i filtri.
-
-```javascript
-// ============================================
-// CHARTS.JS - FINAL INTEGRATED VERSION
-// ============================================
-
-let charts = { timeline: null, type: null, radar: null };
-let ORIGINAL_DATA = []; 
-
-const THEME = {
-  primary: '#f59e0b', secondary: '#0f172a', text: '#94a3b8', grid: '#334155',
-  palette: ['#f59e0b', '#ef4444', '#f97316', '#eab308', '#64748b', '#3b82f6']
-};
-
-Chart.defaults.font.family = "'Inter', sans-serif";
-Chart.defaults.color = THEME.text;
-Chart.defaults.scale.grid.color = THEME.grid;
-
-const SYNONYMS = {
-  'kiev': 'kyiv', 'kharkov': 'kharkiv', 'odessa': 'odesa',
-  'russian federation': 'russia', 'rf': 'russia', 'moscow': 'russia',
-  'uaf': 'ukraine', 'zsu': 'ukraine'
-};
-
-// 1. INIZIALIZZAZIONE
-window.initCharts = function(events) {
-  if (!events || events.length === 0) return;
-
-  console.log(`📊 Dashboard Init: Elaborazione di ${events.length} eventi...`);
-
-  ORIGINAL_DATA = events.map(e => {
-    // Mega-Stringa per la ricerca testuale
-    let allValues = [];
-    for (const key in e) {
-      if (e.hasOwnProperty(key) && e[key]) {
-        const val = e[key];
-        if (typeof val === 'string') allValues.push(val.toLowerCase());
-        else if (typeof val === 'number') allValues.push(val.toString());
-      }
-    }
-    const megaString = allValues.join(' '); 
-
-    // Logica Ibrida Attore: Usa server (se presente) o calcola client-side
-    let code = e.actor_code;
-    if (!code || code === 'UNK') {
-        if (megaString.includes('russia') || megaString.includes('wagner') || megaString.includes(' dpr ')) {
-            code = 'RUS';
-        } else if (megaString.includes('ukrain') || megaString.includes(' uaf ') || megaString.includes(' zsu ')) {
-            code = 'UKR';
-        } else {
-            code = 'UNK';
-        }
-    }
-
-    return {
-      ...e,
-      _searchStr: megaString,
-      _actorCode: code,
-      _intensityNorm: parseFloat(e.intensity || 0.2)
-    };
-  });
-
-  updateDashboard(ORIGINAL_DATA);
-  populateFilters(ORIGINAL_DATA);
-  setupChartFilters();
-};
-
-// 2. FILTRAGGIO
-function setupChartFilters() {
-  const btn = document.getElementById('applyFilters');
-  if (!btn) return;
-  const newBtn = btn.cloneNode(true);
-  btn.parentNode.replaceChild(newBtn, btn);
-
-  newBtn.addEventListener('click', executeFilter);
-
-  document.getElementById('textSearch')?.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') executeFilter();
-  });
-}
-
-function executeFilter() {
-  const start = document.getElementById('startDate').value;
-  const end = document.getElementById('endDate').value;
-  const type = document.getElementById('chartTypeFilter').value;
-  const actorCode = document.getElementById('actorFilter').value;
-  const rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
-  
-  const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked')).map(cb => cb.value);
-
-  let searchTerms = [rawSearch];
-  if (SYNONYMS[rawSearch]) searchTerms.push(SYNONYMS[rawSearch]);
-
-  const filtered = ORIGINAL_DATA.filter(e => {
-    if (start && e.date < start) return false;
-    if (end && e.date > end) return false;
-    if (type && e.type !== type) return false;
-    if (actorCode && e._actorCode !== actorCode) return false;
-    if (rawSearch && !searchTerms.some(term => e._searchStr.includes(term))) return false;
-
-    let cat = 'low';
-    const val = e._intensityNorm;
-    if (val >= 0.8) cat = 'critical';
-    else if (val >= 0.6) cat = 'high';
-    else if (val >= 0.4) cat = 'medium';
-    if (checkedSeverities.length > 0 && !checkedSeverities.includes(cat)) return false;
-
-    return true;
-  });
-
-  console.log(`✅ Risultati filtrati: ${filtered.length}`);
-  updateDashboard(filtered);
-  if(window.updateMap) window.updateMap(filtered);
-}
-
-// 3. GRAFICI
-function updateDashboard(data) {
-  renderTimelineChart(data);
-  renderTypeChart(data);
-  renderRadarChart(data);
-  const countEl = document.getElementById('eventCount');
-  if(countEl) countEl.innerText = data.length;
-}
-
-function renderTimelineChart(data) {
-  const ctx = document.getElementById('timelineChart');
-  if(!ctx) return;
-  const counts = {};
-  data.forEach(e => { if(e.date) counts[e.date.substring(0, 7)] = (counts[e.date.substring(0, 7)]||0)+1; });
-  const labels = Object.keys(counts).sort();
-  if(charts.timeline) charts.timeline.destroy();
-  charts.timeline = new Chart(ctx, {
-    type: 'bar', data: { labels, datasets: [{ data: Object.values(counts), backgroundColor: THEME.primary, borderRadius: 4 }] },
-    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{display:false}, y:{grid:{color:THEME.grid}}} }
-  });
-}
-
-function renderTypeChart(data) {
-  const ctx = document.getElementById('typeDistributionChart');
-  if(!ctx) return;
-  const counts = {};
-  data.forEach(e => counts[e.type||'N/A'] = (counts[e.type||'N/A']||0)+1);
-  if(charts.type) charts.type.destroy();
-  charts.type = new Chart(ctx, { type:'doughnut', data:{labels:Object.keys(counts), datasets:[{data:Object.values(counts), backgroundColor: THEME.palette, borderWidth:0}]}, options:{cutout:'70%', plugins:{legend:{position:'right', labels:{color:THEME.text, boxWidth:10, font:{size:11}}}} } });
-}
-
-function renderRadarChart(data) {
-    const ctx = document.getElementById('intensityRadarChart');
-    if(!ctx) return;
-    if(data.length === 0) {
-        if(charts.radar) { charts.radar.data.datasets[0].data = []; charts.radar.update(); }
-        return;
-    }
-    const stats = {};
-    data.forEach(e => {
-        const t = e.type || 'N/A';
-        if (!stats[t]) stats[t] = { sum: 0, count: 0 };
-        stats[t].sum += e._intensityNorm; stats[t].count++;
-    });
-    const labels = Object.keys(stats);
-    const values = labels.map(k => (stats[k].sum / stats[k].count).toFixed(2));
-    if(charts.radar) charts.radar.destroy();
-    charts.radar = new Chart(ctx, {
-        type: 'radar',
-        data: { labels: labels, datasets: [{ label: 'Intensità', data: values, backgroundColor: 'rgba(245, 158, 11, 0.2)', borderColor: THEME.primary, pointBackgroundColor: THEME.primary }] },
-        options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false } } }, plugins: { legend: { display: false } } }
-    });
-}
-
-function populateFilters(data) {
-  const s = document.getElementById('chartTypeFilter');
-  if(!s) return;
-  const val = s.value;
-  s.innerHTML = '<option value="">Tutte le categorie</option>';
-  [...new Set(data.map(e=>e.type))].sort().forEach(t=> s.innerHTML += `<option value="${t}">${t}</option>`);
-  s.value = val;
-}
