@@ -8,9 +8,10 @@ import pandas as pd
 import time
 
 # --- CONFIGURAZIONE ---
+# Assicurati che lo Sheet sia condiviso con l'email del service account
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/edit"
 CONFIDENCE_THRESHOLD = 85
-BATCH_SIZE = 10  # Aumenta (es. 50) per smaltire l'arretrato, poi riporta a 10
+BATCH_SIZE = 100 
 
 def setup_clients():
     scope = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
@@ -23,53 +24,63 @@ def setup_clients():
 
 def analyze_event_pro(openai, event, news_context):
     """
-    Super-Agente: Verifica, Rinomina e Classifica con le nuove categorie Impact Atlas 2.0.
+    Super-Agente: Verifica, Rinomina e Calcola Intensità Dinamica.
     """
     prompt = f"""
-    Sei un analista di intelligence militare senior.
-    Il tuo compito è pulire, strutturare e classificare un evento bellico basandoti sulle news trovate.
+    Sei un analista di intelligence militare senior specializzato nel conflitto Ucraina-Russia.
+    Analizza i dati e le news fornite per compilare un report strutturato.
 
-    DATI ORIGINALI:
-    - Titolo Attuale: {event.get('Title', '')}
+    DATI INPUT:
+    - Titolo: {event.get('Title', '')}
     - Luogo: {event.get('Location', '')}
     - Data: {event.get('Date', '')}
 
-    NEWS TROVATE:
+    NEWS CONTESTUALI (SOURCES):
     {news_context}
 
-    COMPITI:
-    1. VERIFICA: L'evento è confermato? (Data e Luogo coincidono?)
-    2. NUOVO TITOLO: Riscrivi il titolo in ITALIANO. Format: "TIPO ATTACCO + BERSAGLIO + CITTÀ".
-       Esempio: "Attacco droni contro raffineria Rosneft a Tuapse". Max 10 parole.
-    3. CLASSIFICAZIONE (Cruciale): Scegli la categoria esatta SOLO da questa lista:
+    --- ISTRUZIONI OPERATIVE ---
+
+    1. VERIFICA DELLA FONTE:
+       Confronta data e luogo. Se le news parlano di un altro giorno o luogo, match = false.
+
+    2. RE-TITOLAZIONE (Stile Militare):
+       Usa italiano tecnico. Format: "TIPO ATTACCO + BERSAGLIO + CITTÀ".
+       Esempio: "Attacco missilistico Iskander contro infrastrutture energetiche a Kharkiv".
+
+    3. CLASSIFICAZIONE (Scegli UNA):
        [
          "Drone Strike", "Missile Strike", "Artillery", "Airstrike", "Sabotage", "Naval Strike",
          "Energy Infrastructure", "Cultural Heritage", "Eco-Impact", "Cyber Attack", "Unknown"
        ]
-       - Se colpiscono musei/chiese -> "Cultural Heritage"
-       - Se bruciano foreste/dighe -> "Eco-Impact"
-       - Se colpiscono sottostazioni/raffinerie -> "Energy Infrastructure"
-    4. INTENSITÀ: Stima danni da 0.1 (nulli) a 1.0 (catastrofici/vittime multiple).
-    5. DESCRIZIONE: Riassunto tecnico in italiano (max 300 caratteri).
-    6. MEDIA: Cerca link a video/foto se presenti nel testo.
 
-    RISPONDI SOLO IN JSON:
+    4. CALCOLO INTENSITÀ (0.1 - 1.0) - USA QUESTA RUBRICA RIGIDA:
+       - 0.1 - 0.3 (BASSA): Attacco intercettato/fallito, caduta detriti, nessun ferito, danni estetici (finestre rotte).
+       - 0.4 - 0.6 (MEDIA): Colpo a segno su edificio non strategico, feriti lievi, incendio locale, danni infrastrutturali riparabili.
+       - 0.7 - 0.8 (ALTA): Morti (1-10), infrastruttura energetica/industriale distrutta, blackout locale, ospedali/scuole colpiti.
+       - 0.9 - 1.0 (CRITICA): Strage (>10 morti), distruzione diga/centrale elettrica maggiore, rischio nucleare/chimico, distruzione totale quartiere.
+
+    5. DESCRIZIONE:
+       Riassunto in italiano (max 300 caratteri). Includi dettagli su armi usate (es. Shahed, S-300) e bilancio vittime se noto.
+
+    RISPONDI ESCLUSIVAMENTE IN JSON:
     {{
-        "match": true/false,
-        "confidence": 0-100,
-        "new_title": "Titolo riscritto...",
-        "new_type": "Categoria dalla lista...",
-        "description_it": "Riassunto...",
-        "video_url": "URL video o null",
+        "match": true,
+        "confidence": 90,
+        "new_title": "...",
+        "new_type": "...",
+        "description_it": "...",
+        "video_url": "URL o null",
         "intensity": 0.5,
-        "best_link": "URL fonte"
+        "best_link": "URL fonte migliore"
     }}
     """
+    
     try:
         response = openai.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
+            temperature=0.3 # Bassa temperatura per essere più analitico e meno creativo
         )
         return json.loads(response.choices[0].message.content)
     except Exception as e:
@@ -83,78 +94,94 @@ def main():
         sh = gc.open_by_url(SHEET_URL)
         worksheet = sh.get_worksheet(0)
         
-        # Legge intestazioni e dati
         headers = worksheet.row_values(1)
         data = worksheet.get_all_records()
         
-        # Mappa dinamica delle colonne
-        try:
-            col_title = headers.index('Title') + 1
-            col_type = headers.index('Type') + 1
-            col_ver = headers.index('Verification') + 1
-            col_src = headers.index('Source') + 1
-            col_desc = headers.index('Description') + 1
-            col_video = headers.index('Video') + 1
-            col_int = headers.index('Intensity') + 1
-        except ValueError as e:
-            print(f"❌ ERRORE COLONNE MANCANTI: {e}")
-            print("Aggiungi al foglio: Title, Type, Verification, Source, Description, Video, Intensity")
+        # Mappatura Colonne (Gestione errori se mancano intestazioni)
+        def get_col_index(name):
+            try: return headers.index(name) + 1
+            except: return None
+
+        col_map = {
+            'title': get_col_index('Title'),
+            'type': get_col_index('Type'),
+            'ver': get_col_index('Verification'),
+            'src': get_col_index('Source'),
+            'desc': get_col_index('Description'),
+            'vid': get_col_index('Video'),
+            'int': get_col_index('Intensity')
+        }
+
+        # Se mancano colonne fondamentali, stop.
+        if not col_map['title']: 
+            print("❌ Errore: Intestazioni non trovate nello Sheet.")
             return
 
-        # Cerca righe da processare
+        # Coda di lavoro
         rows_to_process = []
         for i, row in enumerate(data):
-            ver = str(row.get('Verification', '')).lower()
-            # Processa se non verificato OPPURE se manca la descrizione (aggiornamento retroattivo)
-            if (ver != 'verified') or (not row.get('Description')):
-                rows_to_process.append((i + 2, row))
+            # Logica: Processa se NON verificato OPPURE se l'intensità è vuota/0 (Retro-analisi)
+            is_verified = str(row.get('Verification', '')).lower() == 'verified'
+            has_intensity = str(row.get('Intensity', '')) != ''
+            
+            # Processiamo se non è verificato, o se è verificato ma manca l'intensità (per aggiornare i vecchi)
+            if not is_verified or (is_verified and not has_intensity):
+                rows_to_process.append((i + 2, row)) # +2 perché spreadsheet è 1-based e ha header
 
-        print(f"📋 Righe in coda: {len(rows_to_process)}. Elaborazione di {BATCH_SIZE} eventi...")
+        print(f"📋 Eventi da analizzare: {len(rows_to_process)}. Eseguo batch di {BATCH_SIZE}...")
 
         for row_idx, event in rows_to_process[:BATCH_SIZE]:
             title_orig = event.get('Title', 'Evento')
-            print(f"\n🔍 Analisi: {title_orig} ({event.get('Date')})")
+            print(f"\n🔍 Analisi: {title_orig}...")
             
-            query = f"{title_orig} {event.get('Location')} {event.get('Date')} war conflict ukraine russia confirmed footage"
+            # Query ottimizzata per OSINT
+            query = f"{title_orig} {event.get('Location')} {event.get('Date')} war conflict ukraine russia details casualties damages"
+            
             try:
-                search = tavily.search(query, search_depth="advanced", include_images=False, max_results=5)
-                context = "\n".join([f"- {r['content']} (Link: {r['url']})" for r in search['results']])
+                search = tavily.search(query, search_depth="advanced", include_images=False, max_results=4)
+                context = "\n".join([f"- {r['content']} (Fonte: {r['url']})" for r in search['results']])
             except Exception as e:
-                print(f"❌ Errore ricerca Tavily: {e}")
-                continue
+                print(f"⚠️ Tavily Error: {e}")
+                context = "Nessuna informazione aggiuntiva trovata."
 
+            # Chiamata AI
             res = analyze_event_pro(openai, event, context)
             
             if res.get('match') and res.get('confidence') >= CONFIDENCE_THRESHOLD:
-                print(f"   ✅ VERIFICATO! Tipo: {res.get('new_type')} | Int: {res.get('intensity')}")
+                print(f"   ✅ VERIFICATO | Int: {res.get('intensity')} | Tipo: {res.get('new_type')}")
                 
-                # Aggiorna Metadati Base
-                worksheet.update_cell(row_idx, col_ver, "verified")
+                # Aggiornamento Cella per Cella (per sicurezza)
+                updates = []
+                
+                # 1. Verifica e Fonte
+                worksheet.update_cell(row_idx, col_map['ver'], "verified")
                 if res.get('best_link') and not event.get('Source'):
-                    worksheet.update_cell(row_idx, col_src, res['best_link'])
+                    worksheet.update_cell(row_idx, col_map['src'], res['best_link'])
                 
-                # SOVRASCRIVE TITOLO E TIPO (Cleaning)
-                if res.get('new_title') and len(res['new_title']) > 5:
-                    worksheet.update_cell(row_idx, col_title, res['new_title'])
-                
-                if res.get('new_type') and res['new_type'] != "Unknown":
-                    worksheet.update_cell(row_idx, col_type, res['new_type'])
+                # 2. Titolo e Tipo (Cleaning)
+                if res.get('new_title'):
+                    worksheet.update_cell(row_idx, col_map['title'], res['new_title'])
+                if res.get('new_type'):
+                    worksheet.update_cell(row_idx, col_map['type'], res['new_type'])
 
-                # Scrive Arricchimenti
-                worksheet.update_cell(row_idx, col_desc, res.get('description_it', ''))
-                worksheet.update_cell(row_idx, col_int, res.get('intensity', 0.2))
+                # 3. Arricchimento (Descrizione e Intensità)
+                if col_map['desc']:
+                    worksheet.update_cell(row_idx, col_map['desc'], res.get('description_it', ''))
                 
-                if res.get('video_url'):
-                    worksheet.update_cell(row_idx, col_video, res.get('video_url'))
-                    print(f"   🎥 Video aggiunto.")
+                if col_map['int']:
+                    worksheet.update_cell(row_idx, col_map['int'], res.get('intensity', 0.2))
                 
-                time.sleep(2.5) # Rispetto limiti API
+                if col_map['vid'] and res.get('video_url'):
+                    worksheet.update_cell(row_idx, col_map['vid'], res.get('video_url'))
+                
+                time.sleep(1) # Rate limit gentile
             else:
-                print(f"   ⚠️ Non verificato (Confidence: {res.get('confidence')}%)")
+                print(f"   ⚠️ Bassa confidenza ({res.get('confidence')}%) o nessun match.")
+                # Opzionale: marcare come 'check_manual' se fallisce spesso
                 time.sleep(1)
 
     except Exception as e:
-        print(f"❌ ERRORE CRITICO: {e}")
+        print(f"❌ ERRORE CRITICO SCRIPT: {e}")
         raise e
 
 if __name__ == "__main__":
