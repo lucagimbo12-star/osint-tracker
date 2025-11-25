@@ -1,96 +1,128 @@
 // ============================================
-// CHARTS.JS - SEARCH ENGINE V3 (Synonyms & Smart Tags)
+// CHARTS.JS - ULTIMATE EDITION (Graphs + Smart Search)
 // ============================================
 
+// Oggetto per gestire le istanze dei grafici Chart.js
 let charts = {
-  timeline: null, type: null, radar: null
+  timeline: null,
+  type: null,
+  radar: null
 };
 
+// DATA STORE GLOBALE PROTETTO
+// Qui salviamo i dati grezzi normalizzati. Non viene mai modificato dai filtri.
 let ORIGINAL_DATA = []; 
 
+// CONFIGURAZIONE TEMA GRAFICO (Slate & Amber)
 const THEME = {
-  primary: '#f59e0b', secondary: '#0f172a', text: '#94a3b8', grid: '#334155',
-  palette: ['#f59e0b', '#ef4444', '#f97316', '#eab308', '#64748b', '#3b82f6']
+  primary: '#f59e0b',       // Amber 500
+  secondary: '#0f172a',     // Slate 900
+  text: '#94a3b8',          // Slate 400
+  grid: '#334155',          // Slate 700
+  palette: [
+    '#f59e0b', // Amber
+    '#ef4444', // Red
+    '#f97316', // Orange
+    '#eab308', // Yellow
+    '#64748b', // Slate
+    '#3b82f6'  // Blue
+  ]
 };
 
+// Configurazione Default Chart.js
 Chart.defaults.font.family = "'Inter', sans-serif";
 Chart.defaults.color = THEME.text;
 Chart.defaults.scale.grid.color = THEME.grid;
 
-// --- DIZIONARIO SINONIMI (Per risolvere Kiev/Kyiv) ---
-const CITY_SYNONYMS = {
+// --- DIZIONARIO SINONIMI (Per normalizzare città e fazioni) ---
+const SYNONYMS = {
+  // Città: Variante cercata -> Variante standard nel DB
   'kiev': 'kyiv', 'kiew': 'kyiv',
   'kharkov': 'kharkiv',
   'odessa': 'odesa',
-  'lvov': 'lviv',
   'nikolaev': 'mykolaiv',
+  'dnepropetrovsk': 'dnipro',
   'artemivsk': 'bakhmut',
-  'dnepropetrovsk': 'dnipro'
+  'lvov': 'lviv',
+  // Fazioni comuni
+  'russian federation': 'russia',
+  'moscow': 'russia',
+  'rf': 'russia',
+  'wagner': 'russia',
+  'uaf': 'ukraine',
+  'zsu': 'ukraine',
+  'kiev forces': 'ukraine'
 };
 
-// --- INIZIALIZZAZIONE ---
+// ============================================
+// 1. INIZIALIZZAZIONE & NORMALIZZAZIONE
+// ============================================
 window.initCharts = function(events) {
   if (!events || events.length === 0) return;
 
-  // DEBUG: Stampa il primo evento per capire come si chiamano i campi nel tuo JSON
-  console.log("🔍 ESEMPIO DATO GREZZO:", events[0]);
+  console.log(`📊 InitCharts: Avvio indicizzazione di ${events.length} eventi...`);
 
-  // PRE-PROCESSAMENTO AVANZATO
+  // PROCESSO "OMNIVORE": Normalizziamo i dati appena arrivano
   ORIGINAL_DATA = events.map(e => {
     
-    // 1. Uniamo tutti i testi possibili per la ricerca testuale
-    // Controlliamo campi comuni nei GeoJSON (properties.actor1, properties.location, etc.)
-    const fullText = [
-      e.title, 
-      e.description, 
-      e.notes, 
-      e.location, 
-      e.city, 
-      e.actor1, 
-      e.actor2, 
-      e.assoc_actor_1
-    ].join(' ').toLowerCase();
+    // A. COSTRUZIONE "MEGA-STRINGA" DI RICERCA
+    // Uniamo tutti i valori testuali dell'evento in una sola stringa per la ricerca full-text
+    let allValues = [];
+    for (const key in e) {
+      if (e.hasOwnProperty(key)) {
+        const val = e[key];
+        if (typeof val === 'string') allValues.push(val.toLowerCase());
+        else if (typeof val === 'number') allValues.push(val.toString());
+      }
+    }
+    const megaString = allValues.join(' '); // Es: "2024 kyiv explosion drone russia..."
 
-    // 2. Assegnazione Fazione (Smart Tagging)
-    // Analizziamo il testo per capire chi è coinvolto, indipendentemente da come è scritto
+    // B. RILEVAMENTO INTELLIGENTE FAZIONE (Smart Tagging)
+    // Assegniamo 'russia' o 'ukraine' basandoci sulle keyword trovate nel mega-testo
     let detectedSide = 'other';
-    const textForSide = (e.actor1 + ' ' + e.assoc_actor_1 + ' ' + e.actor).toLowerCase();
-
-    // Keywords Russia
-    if (textForSide.includes('russia') || textForSide.includes('wagner') || textForSide.includes('donetsk people') || textForSide.includes('luhansk people')) {
+    // Priorità alla Russia/Aggressore per attribuzione filtro
+    if (megaString.includes('russia') || megaString.includes('wagner') || megaString.includes(' dpr ') || megaString.includes(' lpr ')) {
       detectedSide = 'russia';
     } 
-    // Keywords Ucraina
-    else if (textForSide.includes('ukrain') || textForSide.includes('kyiv') || textForSide.includes('zsu') || textForSide.includes('azov')) {
+    else if (megaString.includes('ukrain') || megaString.includes(' zsu ') || megaString.includes(' uaf ') || megaString.includes(' azov ')) {
       detectedSide = 'ukraine';
     }
 
+    // C. NORMALIZZAZIONE INTENSITÀ
+    // Cerca intensity, o fatality_count, o mette default 0.2
+    const rawInt = parseFloat(e.intensity || e.fatality_count || 0.2);
+
     return {
-      ...e,
-      _searchStr: fullText,      // Testo completo per ricerca
-      _side: detectedSide,       // 'russia', 'ukraine', o 'other'
-      _intensityNorm: parseFloat(e.intensity || e.fatality_count || 0) > 0 ? 0.8 : 0.2 // Fallback se manca intensity
+      ...e, // Mantiene lat, lon, title, etc. originali
+      _searchStr: megaString,   // Campo ottimizzato ricerca testo
+      _side: detectedSide,      // Campo ottimizzato filtro attori
+      _intensityNorm: rawInt    // Campo ottimizzato grafici/filtro
     };
   });
 
-  console.log(`🚀 Indicizzati ${ORIGINAL_DATA.length} eventi.`);
+  console.log("✅ Dati normalizzati. Pronto.");
 
+  // Primo rendering (tutti i dati)
   updateDashboard(ORIGINAL_DATA);
   populateFilters(ORIGINAL_DATA);
   setupChartFilters();
 };
 
-// --- MOTORE DI FILTRAGGIO ---
+// ============================================
+// 2. MOTORE DI FILTRAGGIO (LOGICA FUZZY)
+// ============================================
 function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
+
+  // Hack per pulire vecchi listener
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
   // Listener Click
   newBtn.addEventListener('click', executeFilter);
 
-  // Listener Enter
+  // Listener Tasto Invio nella barra di ricerca
   const searchInput = document.getElementById('textSearch');
   if(searchInput) {
     const newSearch = searchInput.cloneNode(true);
@@ -102,131 +134,233 @@ function setupChartFilters() {
 }
 
 function executeFilter() {
-  console.log("🔍 Avvio Filtro Intelligente...");
+  console.log("🔍 Esecuzione Filtri...");
 
+  // 1. LETTURA INPUT UTENTE
   const start = document.getElementById('startDate').value;
   const end = document.getElementById('endDate').value;
   const type = document.getElementById('chartTypeFilter').value;
   const actorValue = document.getElementById('actorFilter').value; // 'russia', 'ukraine'
-  
-  // Normalizzazione Ricerca Testuale (Gestione Sinonimi)
-  let rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
-  // Se l'utente scrive "Kiev", noi cerchiamo anche "Kyiv"
-  // Controlliamo se la parola cercata è nel dizionario sinonimi
-  let searchTerms = [rawSearch];
-  if (CITY_SYNONYMS[rawSearch]) {
-    searchTerms.push(CITY_SYNONYMS[rawSearch]); // Aggiungiamo il sinonimo alla ricerca
-  }
+  const rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
 
-  // Checkbox Minaccia
+  // Recupero Checkbox (Toggle Cards)
   const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked'))
                                  .map(cb => cb.value);
 
+  // 2. PREPARAZIONE SINONIMI
+  // Se l'utente cerca "Kiev", aggiungiamo "Kyiv" alla lista di parole da cercare
+  let searchTerms = [rawSearch];
+  if (SYNONYMS[rawSearch]) {
+    searchTerms.push(SYNONYMS[rawSearch]);
+  }
+  // Ricerca inversa nei sinonimi (se cerco la parola chiave standard)
+  for (let key in SYNONYMS) {
+    if (SYNONYMS[key] === rawSearch) searchTerms.push(key);
+  }
+
+  // 3. CICLO DI FILTRAGGIO
   const filtered = ORIGINAL_DATA.filter(e => {
     
-    // A. DATE
+    // A. DATA
     if (start && e.date < start) return false;
     if (end && e.date > end) return false;
 
-    // B. TIPO
+    // B. CATEGORIA
     if (type && e.type !== type) return false;
 
-    // C. ATTORE (Usa il nostro _side calcolato)
+    // C. ATTORE (Smart Tag)
     if (actorValue && e._side !== actorValue) return false;
 
-    // D. RICERCA TESTUALE (Con Sinonimi)
+    // D. RICERCA TESTUALE (Full-Text su Mega-Stringa)
     if (rawSearch) {
-      // Deve contenere ALMENO UNO dei termini (es. o "Kiev" o "Kyiv")
+      // Controlla se ALMENO UNO dei termini (es. kiev O kyiv) è presente
       const match = searchTerms.some(term => e._searchStr.includes(term));
       if (!match) return false;
     }
 
-    // E. MINACCIA
+    // E. LIVELLO MINACCIA (Mapping da 0.0-1.0 a Categorie)
     let cat = 'low';
-    if (e._intensityNorm >= 0.8) cat = 'critical';
-    else if (e._intensityNorm >= 0.6) cat = 'high';
-    else if (e._intensityNorm >= 0.4) cat = 'medium';
-    
+    const val = e._intensityNorm;
+    if (val >= 0.8) cat = 'critical';
+    else if (val >= 0.6) cat = 'high';
+    else if (val >= 0.4) cat = 'medium';
+
+    // Se l'utente ha selezionato delle checkbox, e questa categoria non è tra quelle -> scarta
     if (checkedSeverities.length > 0 && !checkedSeverities.includes(cat)) return false;
 
-    return true;
+    return true; // Evento valido
   });
 
-  console.log(`✅ Risultati: ${filtered.length}`);
+  console.log(`✅ Risultati trovati: ${filtered.length}`);
+
+  // 4. AGGIORNAMENTO UI
   updateDashboard(filtered);
-  if(window.updateMap) window.updateMap(filtered);
+  
+  // Chiama la mappa (se esiste)
+  if(window.updateMap) {
+    window.updateMap(filtered);
+  } else {
+    console.warn("Funzione updateMap non trovata in map.js");
+  }
 }
 
-// --- RENDERING GRAFICI ---
+// ============================================
+// 3. GESTIONE GRAFICI (RENDERING)
+// ============================================
+
 function updateDashboard(data) {
   renderTimelineChart(data);
   renderTypeChart(data);
   renderRadarChart(data);
+  
+  // Aggiorna contatore Sidebar (se esiste)
   const countEl = document.getElementById('eventCount');
   if(countEl) countEl.innerText = data.length;
 }
 
+// --- GRAFICO A BARRE (Timeline) ---
 function renderTimelineChart(data) {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) return;
+
   const aggregated = {};
   data.forEach(e => {
     if(!e.date) return;
-    const key = e.date.substring(0, 7); 
+    const key = e.date.substring(0, 7); // YYYY-MM
     aggregated[key] = (aggregated[key] || 0) + 1;
   });
+
   const labels = Object.keys(aggregated).sort();
+  const values = labels.map(k => aggregated[k]);
+
   if (charts.timeline) charts.timeline.destroy();
+
   charts.timeline = new Chart(ctx, {
     type: 'bar',
-    data: { labels: labels, datasets: [{ label: 'Eventi', data: Object.values(aggregated), backgroundColor: THEME.primary, borderRadius: 4 }] },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { display: false } }, y: { beginAtZero: true, grid: { color: THEME.grid } } } }
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Eventi',
+        data: values,
+        backgroundColor: THEME.primary,
+        borderRadius: 4,
+        barPercentage: 0.6
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, grid: { color: THEME.grid } }
+      }
+    }
   });
 }
 
+// --- GRAFICO A CIAMBELLA (Tipologie) ---
 function renderTypeChart(data) {
   const ctx = document.getElementById('typeDistributionChart');
   if (!ctx) return;
+
   const counts = {};
-  data.forEach(e => { counts[e.type || 'N/A'] = (counts[e.type || 'N/A'] || 0) + 1; });
+  data.forEach(e => {
+    const t = e.type || 'Sconosciuto';
+    counts[t] = (counts[t] || 0) + 1;
+  });
+
   if (charts.type) charts.type.destroy();
+
   charts.type = new Chart(ctx, {
     type: 'doughnut',
-    data: { labels: Object.keys(counts), datasets: [{ data: Object.values(counts), backgroundColor: THEME.palette, borderWidth: 0 }] },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: THEME.text, boxWidth: 12 } } }, cutout: '70%' }
+    data: {
+      labels: Object.keys(counts),
+      datasets: [{
+        data: Object.values(counts),
+        backgroundColor: THEME.palette,
+        borderWidth: 0,
+        hoverOffset: 4
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right', labels: { color: THEME.text, boxWidth: 12, font: { size: 11 } } }
+      },
+      cutout: '70%'
+    }
   });
 }
 
+// --- GRAFICO RADAR (Intensità) ---
 function renderRadarChart(data) {
   const ctx = document.getElementById('intensityRadarChart');
   if (!ctx) return;
-  // Fallback radar vuoto se non ci sono dati
-  if(data.length === 0 && charts.radar) { charts.radar.data.datasets[0].data = []; charts.radar.update(); return; }
-  
+
+  // Gestione caso dati vuoti
+  if(data.length === 0) {
+    if(charts.radar) {
+       charts.radar.data.datasets[0].data = [];
+       charts.radar.update();
+    }
+    return;
+  }
+
   const stats = {};
   data.forEach(e => {
-    const t = e.type || 'N/A';
+    const t = e.type || 'Sconosciuto';
     if (!stats[t]) stats[t] = { sum: 0, count: 0 };
-    stats[t].sum += (e._intensityNorm); stats[t].count++;
+    // Usa il valore normalizzato _intensityNorm
+    stats[t].sum += e._intensityNorm;
+    stats[t].count++;
   });
+
   const labels = Object.keys(stats);
+  const values = labels.map(k => (stats[k].sum / stats[k].count).toFixed(2));
+
   if (charts.radar) charts.radar.destroy();
+
   charts.radar = new Chart(ctx, {
     type: 'radar',
     data: {
       labels: labels,
-      datasets: [{ label: 'Intensità', data: labels.map(k => (stats[k].sum/stats[k].count).toFixed(2)), backgroundColor: 'rgba(245, 158, 11, 0.2)', borderColor: THEME.primary, pointBackgroundColor: THEME.primary }]
+      datasets: [{
+        label: 'Intensità Media',
+        data: values,
+        backgroundColor: 'rgba(245, 158, 11, 0.2)',
+        borderColor: THEME.primary,
+        pointBackgroundColor: THEME.primary,
+        pointBorderColor: '#fff'
+      }]
     },
-    options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false } } }, plugins: { legend: { display: false } } }
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: {
+        r: {
+          angleLines: { color: THEME.grid },
+          grid: { color: THEME.grid },
+          pointLabels: { color: THEME.text, font: { size: 10 } },
+          suggestedMin: 0, suggestedMax: 1,
+          ticks: { display: false, backdropColor: 'transparent' }
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
   });
 }
 
+// --- UTILS: POPOLAMENTO SELECT ---
 function populateFilters(data) {
   const select = document.getElementById('chartTypeFilter');
   if (!select) return;
+  
   const currentVal = select.value;
   select.innerHTML = '<option value="">Tutte le categorie</option>';
+  
   const types = [...new Set(data.map(e => e.type))].sort();
-  types.forEach(t => { if(t) select.innerHTML += `<option value="${t}">${t}</option>`; });
+  types.forEach(t => {
+    if(t) select.innerHTML += `<option value="${t}">${t}</option>`;
+  });
+  
   select.value = currentVal;
 }
