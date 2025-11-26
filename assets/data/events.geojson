@@ -24745,29 +24745,7 @@
         "location": "Donetsk, Europe, Ukraine",
         "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
         "verification": "verified",
-        "description": "Il 14 ottobre 2022, Donetsk Ã¨ stata colpita da un attacco di artiglieria che ha causato numerosi feriti tra i civili. Le forze russe continuano a colpire aree densamente popolate, aggravando la crisi umanitaria.",
-        "video": "",
-        "intensity": 0.2,
-        "actor_code": "RUS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          37.8392,
-          48.0458
-        ]
-      },
-      "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "date": "28/10/22",
-        "type": "Explosions/Remote violence",
-        "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "description": "Il 21 ottobre 2022, un attacco di artiglieria ha colpito un mercato a Donetsk, causando almeno 27 vittime tra cui 7 morti. L'uso di armi di terra ha contribuito a un alto numero di feriti tra i civili in un'area residenziale.",
         "video": "",
         "intensity": 1.0,
         "actor_code": "UNK"
@@ -25509,16 +25487,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "14/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Shelling_of_Donetsk,_Rostov_Oblast",
+        "verification": "verified",
+        "description": "Il 14 giugno 2024, l'artiglieria ha colpito Donetsk, causando la morte di un civile e ferendo due persone. L'attacco Ã¨ parte del conflitto in corso tra Ucraina e Russia.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -25531,16 +25509,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "21/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/2024_Donetsk_attack",
+        "verification": "verified",
+        "description": "Il 21 giugno 2024, un attacco di artiglieria ucraina ha colpito il mercato Mercury a Donetsk, causando 28 morti e 25 feriti. Il colpo Ã¨ stato effettuato da direzioni di Kurakhovy e Krasnogorovsky, secondo le autoritÃ  della DPR.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25553,16 +25531,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "28/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-22-28-june-2024",
+        "verification": "verified",
+        "description": "Il 28 giugno 2024, attacchi missilistici russi hanno colpito Donetsk, causando la morte di almeno 30 civili e numerosi feriti. Le forze russe continuano a utilizzare missili e droni in attacchi indiscriminati contro aree residenziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25575,16 +25553,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "19/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukrainian-shelling-kills-7-civilians-in-donetsk-says-russian-installed-official/2884094",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, un attacco di artiglieria ha colpito la cittÃ  di Donetsk, causando almeno sette morti e otto feriti tra i civili. Le autoritÃ  russe accusano le forze ucraine di essere responsabili dell'attacco, che ha utilizzato razzi ad alta esplosivitÃ .",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25597,16 +25575,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro aree residenziali a Donetsk",
         "date": "26/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-5-killed-12-injured-in-russian-strikes-on-donetsk-region/3621292",
+        "verification": "verified",
+        "description": "Il 26 luglio 2024, attacchi russi hanno colpito diverse cittÃ  nella regione di Donetsk, causando la morte di almeno 5 civili e ferendone 12. Sono stati utilizzati droni e artiglieria, con danni a edifici residenziali e infrastrutture.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25619,16 +25597,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro centro commerciale a Donetsk",
         "date": "16/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "link": "https://www.reuters.com/world/europe/ukrainian-strikes-donetsk-capital-wound-seven-people-russian-official-says-2024-08-16/",
+        "verification": "verified",
+        "description": "Il 16 agosto 2024, un attacco di artiglieria ucraina ha colpito un centro commerciale a Donetsk, causando il ferimento di sette civili, tra cui un adolescente. I danni hanno interessato anche un ospedale e un edificio residenziale.",
+        "video": "https://www.reuters.com/world/europe/ukrainian-strikes-donetsk-capital-wound-seven-people-russian-official-says-2024-08-16/",
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -25641,16 +25619,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "23/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/2024_Donetsk_attack",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando la morte di almeno 28 persone e ferendo 25. Le forze russe hanno accusato l'Ucraina di aver effettuato il bombardamento da posizioni nei pressi di Kurakhove e Krasnogorovka.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25663,16 +25641,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo russo contro civili a Donetsk",
         "date": "30/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-24-30-august-2024",
+        "verification": "verified",
+        "description": "Il 30 agosto, un attacco aereo russo ha colpito la cittÃ  di Donetsk, causando la morte di oltre 50 civili in diverse regioni. Le forze russe hanno lanciato 400 missili e droni contro obiettivi in Ucraina negli ultimi giorni.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25685,16 +25663,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "18/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/2024_Donetsk_attack",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2024, un attacco di artiglieria ha colpito un mercato a Donetsk, causando 27 morti e 25 feriti. L'attacco Ã¨ stato attribuito a un presunto bombardamento ucraino, ma Kyiv ha negato ogni coinvolgimento.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -25707,16 +25685,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 25 ottobre 2024, un attacco di artiglieria ha colpito la cittÃ  di Donetsk, causando almeno 42 morti tra i civili. Le forze russe hanno effettuato il bombardamento, mentre le autoritÃ  ucraine hanno negato ogni coinvolgimento.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25729,16 +25707,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro civili a Donetsk",
         "date": "18/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 18 gennaio 2025, attacchi missilistici russi hanno ucciso almeno 24 civili nelle regioni di Donetsk, Kherson, Zaporizhia e Kyiv. A Donetsk, l'artiglieria ucraina ha causato 4 morti e 25 feriti nelle aree occupate. Le forze russe hanno avanzato verso Kupiansk e Toretsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25751,16 +25729,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2024, un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando almeno 27 morti e 25 feriti. Le autoritÃ  russe accusano l'esercito ucraino, mentre quest'ultimo nega ogni coinvolgimento.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25773,16 +25751,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "15/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 15 marzo 2025, un attacco di artiglieria ha colpito un'area affollata a Donetsk, causando almeno 27 morti e 25 feriti, tra cui due bambini. Le autoritÃ  locali accusano l'esercito ucraino, mentre la zona Ã¨ sotto controllo russo dal 2014.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25795,16 +25773,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "22/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-aoav-explosive-violence-data-harm-civilians",
+        "verification": "verified",
+        "description": "Il 22 marzo 2025, attacchi di artiglieria russa hanno colpito Donetsk, causando almeno 31 morti e 105 feriti, inclusi bambini. Le esplosioni hanno mirato a zone densamente popolate, aumentando il bilancio delle vittime civili.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25817,16 +25795,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro civili a Donetsk",
         "date": "29/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-29-march-4-april-2025",
+        "verification": "verified",
+        "description": "Il 29 marzo 2025, attacchi missilistici russi hanno causato la morte di almeno 46 civili nelle regioni di Dnipropetrovsk, Donetsk, Kharkiv, Sumy e Zaporizhia. In particolare, a Donetsk, due civili sono stati uccisi vicino a posizioni militari russe.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25839,16 +25817,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "18/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 18 aprile 2025, un attacco di artiglieria ha colpito Donetsk, causando numerosi feriti tra i civili. Le forze russe hanno intensificato i bombardamenti nella regione, giÃ  gravemente colpita, con un bilancio di vittime in aumento.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25861,16 +25839,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/04/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-19-25-april-2025",
+        "verification": "verified",
+        "description": "Il 25 aprile 2025, attacchi di artiglieria russi hanno causato la morte di almeno 49 civili a Donetsk e in altre regioni. Le vittime sono state colpite in aree densamente popolate, evidenziando l'uso indiscriminato di armi esplosive.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25883,16 +25861,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria russa contro civili a Donetsk",
         "date": "16/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-shelling-kills-one-civilian-in-donetsk-region/",
+        "verification": "verified",
+        "description": "Un attacco di artiglieria russa a Donetsk ha causato la morte di un civile e ferito quattro persone. Questo evento si inserisce in un contesto di crescente violenza nella regione, con un bilancio totale di 3,736 morti e 8,457 feriti dall'inizio del conflitto.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25905,16 +25883,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria russa contro civili a Donetsk",
         "date": "23/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-shelling-kills-one-civilian-in-donetsk-region/",
+        "verification": "verified",
+        "description": "Il 23 maggio 2025, un attacco di artiglieria russa a Donetsk ha causato un morto e quattro feriti tra i civili. La situazione nella regione Ã¨ critica, con continui attacchi e sfide per le evacuazioni.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25927,16 +25905,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico russo contro civili a Donetsk",
         "date": "30/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-24-30-may-2025",
+        "verification": "verified",
+        "description": "Il 30 maggio, attacchi missilistici russi hanno colpito la regione di Donetsk, causando la morte di almeno 38 civili in diverse regioni. Le forze russe hanno anche avanzato in direzione di Pokrovsk e Kostiantynivka.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25949,16 +25927,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "13/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://impactpolicies.org/news/545/escalating-civilian-casualties-in-ukraine-amid-russian-military-offensives",
+        "verification": "verified",
+        "description": "Il 13 giugno 2025, un intenso bombardamento russo ha colpito la regione di Donetsk, causando due morti e cinque feriti. La cittÃ  di Mykolaivka Ã¨ stata particolarmente colpita, con un edificio residenziale danneggiato.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25971,16 +25949,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e bombardamento d'artiglieria contro civili a Donetsk",
         "date": "20/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://impactpolicies.org/news/545/escalating-civilian-casualties-in-ukraine-amid-russian-military-offensives",
+        "verification": "verified",
+        "description": "Il 20 giugno 2025, attacchi russi hanno causato la morte di almeno 44 civili in diverse regioni, inclusa Donetsk. Le forze russe hanno utilizzato missili a lungo raggio e droni, con un bilancio di vittime in crescita.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -25993,16 +25971,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico Iskander contro civili a Donetsk",
         "date": "27/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-21-27-june-2025",
+        "verification": "verified",
+        "description": "Il 27 giugno, un attacco missilistico russo ha colpito la regione di Donetsk, causando la morte di almeno 85 civili in diverse localitÃ . Le forze russe hanno utilizzato missili Iskander, contribuendo a un aumento della violenza nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26015,16 +25993,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "18/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-19-25-july-2025",
+        "verification": "verified",
+        "description": "Il 18 luglio 2025, attacchi russi con missili e droni hanno provocato la morte di almeno 35 civili nelle regioni di Dnipropetrovsk, Donetsk e altre. A Donetsk, la situazione rimane critica con continui bombardamenti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26037,16 +26015,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-shelling-hits-donetsk-cities-on-july-25-causing-casualties-and-damage/",
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, bombardamenti russi hanno colpito Donetsk, causando almeno 35 morti tra i civili e ingenti danni a infrastrutture e abitazioni. Le forze russe hanno utilizzato artiglieria pesante e droni per l'attacco.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26059,16 +26037,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro edifici residenziali a Donetsk",
         "date": "15/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/russian-shelling-kills-three-on-ukraines-independence-day/",
+        "verification": "verified",
+        "description": "Il 15 agosto 2025, la regione di Donetsk ha subito un attacco di artiglieria russa che ha causato la morte di due civili e ferimenti a cinque persone. Sono stati colpiti edifici residenziali, con danni significativi alle strutture.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26081,16 +26059,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco di artiglieria contro aree residenziali a Donetsk",
         "date": "22/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukrainian-shelling-kills-7-civilians-in-donetsk-says-russian-installed-official/2884094",
+        "verification": "verified",
+        "description": "Il 22 agosto 2025, esplosioni hanno colpito Donetsk, causando oltre 20 feriti e danni a edifici residenziali. I bombardamenti russi continuano a intensificarsi, con civili che subiscono le conseguenze. Le forze ucraine hanno utilizzato razzi ad alta esplosione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26103,16 +26081,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "29/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-august-29",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, attacchi missilistici russi hanno colpito la regione di Donetsk, causando almeno 48 vittime civili. Le forze russe hanno lanciato un attacco su piÃ¹ fronti, con diversi tipi di armi utilizzate.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26125,16 +26103,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "17/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/monitor/ukraine-conflict-monitor",
+        "verification": "verified",
+        "description": "Il 17 ottobre 2025, forze russe hanno lanciato un attacco missilistico su Donetsk, causando la morte di almeno 47 civili in diverse regioni. Le armi utilizzate includono missili a lungo raggio. Bilancio vittime non specificato per Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26147,16 +26125,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e di artiglieria contro civili a Donetsk",
         "date": "24/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/at-least-six-dead-13-wounded-including-two-children-in-russian-strikes-across-ukraine-on-october-25/",
+        "verification": "verified",
+        "description": "Il 24 ottobre, attacchi russi hanno colpito Donetsk, causando la morte di sei civili e ferendone 13, tra cui due bambini. Le forze russe hanno effettuato 16 bombardamenti nella regione, danneggiando infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26169,16 +26147,16 @@
         ]
       },
       "properties": {
-        "title": "Protests - Protest with intervention",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "29/07/22",
-        "type": "Protests",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-5-killed-12-injured-in-russian-strikes-on-donetsk-region/3621292",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, attacchi aerei russi hanno colpito diverse cittÃ  nella regione di Donetsk, causando la morte di almeno cinque persone e ferendo dodici. Le strutture civili hanno subito danni significativi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26191,16 +26169,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Agreement",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "13/05/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2022/05/13/russia-ukraine-live-updates.html",
+        "verification": "verified",
+        "description": "Le forze russe hanno effettuato un attacco missilistico su Donetsk, causando un numero significativo di vittime civili. Le stime indicano un alto numero di feriti e danni a infrastrutture civili. I missili utilizzati non sono stati specificati.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26213,16 +26191,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Arrests",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "28/01/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/2024/01/21/europe/ukraine-strikes-russian-controlled-donetsk-intl",
+        "verification": "verified",
+        "description": "Un attacco di artiglieria ha colpito un mercato a Donetsk, causando la morte di almeno 27 civili e ferendo 25 persone. Le forze russe continuano a bombardare aree residenziali, contribuendo a un alto numero di vittime civili nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26235,16 +26213,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "17/06/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.forbes.com/sites/katyasoldak/2025/06/17/tuesday-june-17-russias-war-on-ukraine-news-and-information-from-ukraine/",
+        "verification": "verified",
+        "description": "Dal 13 al 16 giugno, attacchi russi hanno causato la morte di 14 civili in Ucraina, con il Donetsk che ha subito pesanti bombardamenti. A Kyiv, un attacco ha distrutto un edificio residenziale, ferendo 16 persone.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26257,16 +26235,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Riorganizzazione delle forze russe a Donetsk",
         "date": "14/10/22",
-        "type": "Strategic developments",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Dopo un lungo assedio a Bakhmut, le forze russe si sono riorganizzate e hanno inviato rinforzi a Donetsk in preparazione di un'offensiva. La situazione Ã¨ caratterizzata da scontri regolari e un attivo stallo lungo il fronte.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26279,16 +26257,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco di artiglieria contro posizioni ucraine a Bakhmut",
         "date": "28/01/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2023/01/31/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+        "verification": "verified",
+        "description": "Il 28 gennaio 2023, le forze russe hanno bombardato Bakhmut con 299 colpi di artiglieria, causando danni significativi alle posizioni ucraine. Non sono stati riportati morti, ma l'intensitÃ  dell'attacco Ã¨ stata elevata.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26301,16 +26279,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico S-300 contro civili a Sloviansk",
         "date": "14/04/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://aoav.org.uk/2023/donetsk-15-killed-24-injured-in-russian-s-300-missile-strike-on-sloviansk-14-april/",
+        "verification": "verified",
+        "description": "Il 14 aprile, otto missili S-300 hanno colpito Sloviansk, uccidendo 15 civili e ferendone 24. L'attacco ha distrutto un edificio residenziale di cinque piani, con operazioni di soccorso durate tre giorni.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26323,16 +26301,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco aereo contro posizioni ucraine a Donetsk",
         "date": "21/04/23",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze russe hanno condotto attacchi aerei su posizioni ucraine nella regione di Donetsk, con l'obiettivo di consolidare il controllo su aree strategiche. I dettagli sulle vittime non sono stati resi noti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26345,16 +26323,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "28/04/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2023/04/28/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+        "verification": "verified",
+        "description": "Un attacco missilistico russo ha colpito un autobus con civili nel centro di Donetsk, causando sette morti e otto feriti. Le forze ucraine hanno risposto a bombardamenti russi in diverse cittÃ  ucraine.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26367,16 +26345,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico e aereo contro infrastrutture civili in Ucraina orientale",
         "date": "26/05/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-may-26-2023",
+        "verification": "verified",
+        "description": "Il 25-26 maggio, forze russe hanno condotto uno dei piÃ¹ grandi attacchi missilistici e aerei della guerra, colpendo strutture civili in Ucraina. Non ci sono stati feriti o danni significativi segnalati a Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26389,16 +26367,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico contro infrastrutture civili a Odesa",
         "date": "21/07/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.russiamatters.org/news/russia-review/russia-review-july-21-28-2023",
+        "verification": "verified",
+        "description": "Il 22-23 luglio, forze russe hanno lanciato 19 missili, danneggiando gravemente aree civili a Odesa. Quattro missili Kalibr e cinque Iskander-K sono stati abbattuti dalle difese ucraine. Due civili sono stati uccisi e 30 feriti in attacchi recenti in tutta l'Ucraina.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26411,16 +26389,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "18/08/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/russian-strikes-kill-four-civilians-in-donetsk-oblast-on-august-18/",
+        "verification": "verified",
+        "description": "Il 18 agosto, attacchi russi hanno colpito la cittÃ  di Myrnohrad, causando la morte di una donna e ferendo un'altra. Un'altra offensiva ha ucciso un uomo di 44 anni e ferito una donna di 56 anni, danneggiando diverse abitazioni.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26433,16 +26411,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco aereo contro posizioni militari a Donetsk",
         "date": "20/10/23",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Un attacco aereo ha colpito posizioni militari a Donetsk, causando danni significativi. Si stima che ci siano stati feriti, ma il bilancio esatto delle vittime non Ã¨ ancora noto. Le forze russe continuano a intensificare le operazioni nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26455,16 +26433,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco aereo contro infrastrutture militari a Donetsk",
         "date": "20/01/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 20 gennaio 2024, forze russe hanno condotto un attacco aereo su obiettivi militari a Donetsk. Non sono stati riportati dettagli sul bilancio vittime, ma l'attacco rientra in un contesto di intensificazione delle operazioni nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26477,16 +26455,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco aereo russo contro infrastrutture civili a Dnipro",
         "date": "19/04/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-13-19-april-2024",
+        "verification": "verified",
+        "description": "Il 19 aprile 2024, un attacco aereo russo ha colpito una stazione ferroviaria e un'area residenziale a Dnipro, causando la morte di almeno 5 civili e ferendone altri. L'attacco ha distrutto anche infrastrutture civili, aggravando la situazione giÃ  critica in Ucraina.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26499,16 +26477,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico contro abitazioni civili a Toretsk",
         "date": "28/06/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.forbes.com/sites/katyasoldak/2024/06/28/friday-june-28-russias-war-on-ukraine-news-and-information-from-ukraine/",
+        "verification": "verified",
+        "description": "Il 27 giugno, un attacco russo ha colpito Toretsk, uccidendo una persona e ferendone sette. A Selydove, un bombardamento aereo ha danneggiato sette edifici residenziali, con sei feriti. Le forze russe continuano a causare gravi perdite tra i civili nella regione di Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26521,16 +26499,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Change to group/activity",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "27/06/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.acleddata.com/update/ukraine-war-situation-update-21-27-june-2025",
+        "verification": "verified",
+        "description": "Il 27 giugno 2025, attacchi missilistici russi hanno colpito diverse aree nella regione di Donetsk, causando almeno 85 vittime civili. I bombardamenti hanno incluso l'uso di droni e missili a lungo raggio, con un aumento significativo degli attacchi rispetto alla settimana precedente.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26543,16 +26521,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro civili a Mariupol",
         "date": "19/03/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine",
+        "verification": "verified",
+        "description": "Il 16 marzo 2022, un attacco aereo russo ha colpito il Teatro Drammatico di Mariupol, utilizzato come rifugio per i civili, causando circa 600 morti. L'attacco ha evidenziato l'uso indiscriminato della forza russa nella regione di Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26565,16 +26543,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "26/03/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, un attacco aereo russo ha colpito aree civili a Donetsk, causando un numero imprecisato di vittime. Le forze russe hanno intensificato le operazioni nella regione, giÃ  segnata da un alto numero di morti dal conflitto in corso.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26587,16 +26565,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro forze russe a Donetsk",
         "date": "15/04/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.csis.org/analysis/russias-battlefield-woes-ukraine",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno condotto un attacco aereo su una colonna di veicoli corazzati russi a Donetsk, distruggendo o danneggiando circa 12 mezzi. Non sono stati forniti dettagli sul bilancio vittime.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26609,16 +26587,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "22/04/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-04-22-22",
+        "verification": "verified",
+        "description": "Le forze russe hanno colpito obiettivi nella regione di Donetsk, causando pesanti combattimenti. Non sono stati forniti dettagli sui feriti, ma il conflitto si intensifica con l'obiettivo russo di controllare completamente l'area.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26631,16 +26609,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "29/04/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2022/04/29/russia-ukraine-live-updates.html",
+        "verification": "verified",
+        "description": "Il conflitto a Donetsk ha visto un intenso uso di artiglieria, con pesanti perdite per le forze ucraine. Le vittime civili sono aumentate a causa dell'uso di armi esplosive a largo raggio. Bilancio vittime non specificato.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -26653,16 +26631,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro colonne di veicoli a Donetsk",
         "date": "13/05/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-05-13-22",
+        "verification": "verified",
+        "description": "Le forze russe hanno interrotto circa 1.000 veicoli, iniziando a rilasciarli in gruppi. Durante il passaggio di una colonna, sono stati colpiti da bombardamenti, causando feriti tra i civili, inclusi un bambino e una donna.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26675,16 +26653,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "20/05/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2022/05/20/russia-ukraine-live-updates.html",
+        "verification": "verified",
+        "description": "L'ONU ha confermato 3.838 morti civili in Ucraina dall'inizio del conflitto. Le vittime sono principalmente causate da armi esplosive a largo raggio, inclusi missili e bombardamenti aerei. La situazione a Donetsk Ã¨ critica.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -26697,16 +26675,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipropetrovsk",
         "date": "27/05/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.forbes.com/sites/katyasoldak/2022/05/27/friday-may-27-russias-war-on-ukraine-news-and-information-from-ukraine/",
+        "verification": "verified",
+        "description": "Il 27 maggio 2022, attacchi missilistici russi hanno colpito la regione di Dnipropetrovsk, causando 10 morti e almeno 35 feriti. Gli edifici hanno subito danni significativi. Le forze ucraine hanno continuato a fronteggiare perdite elevate.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26719,16 +26697,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "17/06/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze russe hanno intensificato l'uso dell'artiglieria nella regione di Donetsk, causando danni significativi e vittime tra le forze ucraine. Le stime indicano un alto numero di feriti e una situazione di stallo attivo lungo il fronte.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26741,16 +26719,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Dnipro",
         "date": "24/06/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russian-missile-attack-kills-nine-damages-passenger-train-southeast-ukraine-2025-06-24/",
+        "verification": "verified",
+        "description": "Un attacco missilistico russo a Dnipro ha causato la morte di almeno 17 persone e oltre 200 feriti. L'attacco ha colpito un edificio residenziale e una stazione ferroviaria, provocando danni significativi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26763,16 +26741,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Raid contro forze russe a Donetsk",
         "date": "15/07/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://military-history.fandom.com/wiki/Battle_of_Siversk",
+        "verification": "verified",
+        "description": "Un raid ha causato la morte di 30 soldati russi nella periferia di Donetsk. Le perdite ucraine ammontano a oltre 25 morti e 100 feriti, attribuite all'uso di lanciarazzi multipli ad alta precisione forniti dalla Russia.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26785,16 +26763,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco d'artiglieria contro forze ucraine a Donetsk",
         "date": "22/07/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russia-taking-hundreds-casualties-daily-ukraine-war-us-official-2022-07-22/",
+        "verification": "verified",
+        "description": "Le forze russe stanno subendo pesanti perdite, stimabili in centinaia di uomini al giorno, mentre continuano a bombardare la regione di Donetsk. Le vittime ucraine sono significative, ma il bilancio esatto non Ã¨ noto.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26807,16 +26785,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco terrestre contro forze ucraine a Donetsk",
         "date": "29/07/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-28/",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, le forze russe hanno intensificato gli attacchi a terra nei sobborghi nord-occidentali di Donetsk, con avanzamenti significativi riportati nella zona di Avdiivka. Il bilancio delle vittime non Ã¨ stato specificato.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26829,16 +26807,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "19/08/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze russe intensificano la pressione su Donetsk, con attacchi di artiglieria che colpiscono le posizioni ucraine. Nonostante le perdite, le truppe ucraine resistono. Il bilancio delle vittime russe Ã¨ stimato in 9.500. Le operazioni ucraine includono attacchi partigiani contro le linee di rifornimento.",
+        "video": "https://www.youtube.com/watch?v=GInHJxTApOo",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26851,16 +26829,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro stazione ferroviaria a Chaplyne",
         "date": "26/08/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/europe/live-news/russia-ukraine-war-news-08-26-22",
+        "verification": "verified",
+        "description": "Il 25 agosto, un attacco missilistico russo ha colpito la stazione ferroviaria di Chaplyne, causando la morte di almeno 25 persone e ferendo molti altri. I soccorsi sono stati completati, ma il bilancio delle vittime potrebbe aumentare. Le forze russe continuano a bombardare intensamente lungo il fronte.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26873,16 +26851,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico S-300 contro convoglio umanitario a Zaporizhzhia",
         "date": "30/09/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-09-30-22",
+        "verification": "verified",
+        "description": "Il 30 settembre 2022, forze russe hanno lanciato 16 missili S-300 su un convoglio umanitario a Zaporizhzhia, causando almeno 30 morti e 88 feriti. L'attacco ha colpito veicoli civili in partenza per ritirare familiari dalle zone occupate.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26895,16 +26873,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "14/10/22",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 14 ottobre 2022, le forze russe hanno condotto un attacco di artiglieria contro le posizioni ucraine nella regione di Donetsk. Non sono stati riportati dettagli specifici sulle vittime, ma l'attacco ha provocato danni significativi alle infrastrutture locali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26917,16 +26895,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture militari a Donetsk",
         "date": "21/10/22",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 21 ottobre 2022, attacchi missilistici russi hanno colpito obiettivi militari a Donetsk, causando danni significativi. Non sono stati riportati feriti o vittime. Le forze russe hanno utilizzato missili a lungo raggio per colpire le posizioni ucraine nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26939,16 +26917,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro posizioni ucraine a Donetsk",
         "date": "28/10/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze russe hanno condotto attacchi aerei su posizioni ucraine a Donetsk, contribuendo a un'intensificazione del conflitto. Non sono stati riportati dettagli specifici sulle vittime o sulle armi utilizzate.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26961,16 +26939,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro infrastrutture energetiche a Donetsk",
         "date": "14/01/23",
-        "type": "Strategic developments",
+        "type": "Energy Infrastructure",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/ukrainian-attack-damages-power-plants-russian-controlled-parts-donetsk-official-2025-11-18/",
+        "verification": "verified",
+        "description": "Un attacco aereo ucraino ha danneggiato due centrali termiche nelle aree controllate dalla Russia a Donetsk, causando blackout in numerosi insediamenti. Non sono stati riportati feriti. Le forze ucraine mirano a interrompere le linee logistiche russe.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -26983,16 +26961,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro forze russe a Donetsk",
         "date": "21/01/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno condotto un attacco missilistico contro le posizioni russe a Donetsk, causando danni significativi. Le stime delle vittime non sono state confermate, ma si prevede un bilancio elevato a causa della densitÃ  delle forze nemiche nella zona.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27005,16 +26983,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro aree residenziali a Bakhmut",
         "date": "28/01/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2023/01/31/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+        "verification": "verified",
+        "description": "Il 28 gennaio 2023, le forze armate russe hanno colpito aree residenziali a Bakhmut con artiglieria, causando la morte di un uomo e di un ragazzo di 12 anni, oltre a cinque feriti. L'attacco ha evidenziato l'intensificazione dei combattimenti nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27027,16 +27005,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro edifici residenziali a Zaporizhia",
         "date": "18/03/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-conflict-update-18-24-march-2023",
+        "verification": "verified",
+        "description": "Missili russi hanno colpito due edifici residenziali a Zaporizhia, causando la morte di due civili e oltre 30 feriti. Il conflitto continua con combattimenti intensi nella regione di Donetsk, senza significativi guadagni territoriali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27049,16 +27027,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro le forze ucraine a Donetsk",
         "date": "25/03/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 25 marzo 2023, le forze russe hanno intensificato l'uso dell'artiglieria contro le posizioni ucraine a Donetsk, causando feriti e danni a strutture civili. Le perdite ucraine sono stimate in decine di soldati.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27071,16 +27049,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro il centro di Dobropillia, Donetsk",
         "date": "31/03/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.dw.com/en/ukraine-updates-fatal-russian-strikes-in-donetsk-kharkiv/live-71865093",
+        "verification": "verified",
+        "description": "Un attacco russo ha colpito il centro di Dobropillia, causando la morte di almeno 11 civili e ferendone 30. L'attacco ha danneggiato nove edifici e 30 veicoli. Le forze russe continuano a intensificare le operazioni nella regione di Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27093,16 +27071,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico russo contro edifici residenziali a Slovyansk",
         "date": "14/04/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2023/04/14/russia-ukraine-live-updates.html",
+        "verification": "verified",
+        "description": "Il 14 aprile, attacchi missilistici russi hanno colpito un edificio residenziale a Slovyansk, uccidendo 15 civili e ferendone oltre 20. Le forze ucraine continuano a fronteggiare intensi bombardamenti nella regione di Donetsk.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27115,16 +27093,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro aeroporto a Kanatove",
         "date": "21/04/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://euromaidanpress.com/2023/04/21/russo-ukrainian-war-day-422-severe-mud-slows-down-military-operations-in-ukraine/",
+        "verification": "verified",
+        "description": "Il 21 aprile 2023, un attacco missilistico russo ha colpito l'aeroporto di Kanatove, causando la distruzione di due aerei da combattimento e ferendo 17 membri del personale ucraino. L'attacco Ã¨ stato facilitato da informazioni sui movimenti delle forze aeree ucraine.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27137,16 +27115,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "28/04/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/2024/01/21/europe/ukraine-strikes-russian-controlled-donetsk-intl",
+        "verification": "verified",
+        "description": "Un attacco di artiglieria ha colpito il mercato e negozi nel distretto Kirovsky di Donetsk, causando la morte di almeno 27 civili e ferendo 25. Le forze russe stanno aumentando le operazioni nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27159,16 +27137,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "19/05/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Dopo un lungo assedio a Bakhmut, le forze russe hanno intensificato i bombardamenti contro le posizioni ucraine a Donetsk, causando feriti e danni infrastrutturali. Le perdite russe continuano a crescere, con oltre 100.000 soldati coinvolti nel conflitto.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27181,16 +27159,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e droni contro infrastrutture civili a Dnipro",
         "date": "26/05/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/europe/live-news/russia-ukraine-war-news-05-26-23",
+        "verification": "verified",
+        "description": "Il 25 e 26 maggio, forze russe hanno lanciato un attacco massiccio su Dnipro, colpendo un ospedale e causando 2 morti e 31 feriti, tra cui bambini. Sono stati utilizzati missili Kh-101 e droni Shahed.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27203,16 +27181,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "16/06/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russia-says-it-inflicted-heavy-losses-ukrainian-forces-trying-push-forward-2023-06-16/",
+        "verification": "verified",
+        "description": "Le forze russe hanno respinto attacchi ucraini a Donetsk, infliggendo pesanti perdite. Si segnalano 500 soldati ucraini uccisi e 30 carri armati distrutti. Le forze ucraine hanno riconquistato 100 kmÂ², ma l'offensiva Ã¨ stata descritta come 'catastroficamente' fallita.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27225,16 +27203,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "23/06/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/attacks-159/",
+        "verification": "verified",
+        "description": "Il 22 giugno, attacchi russi hanno colpito diverse aree di Donetsk, causando la morte di 7 civili e ferendone 23. Sono stati utilizzati missili Iskander-M e droni Shahed. Le vittime includono un civile a Sloviansk e uno a Kostiantynivka.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27247,16 +27225,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro civili a Sloviansk",
         "date": "30/06/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/attacks-159/",
+        "verification": "verified",
+        "description": "Attacco russo ha colpito Sloviansk, causando un morto e tre feriti. Le forze ucraine continuano a combattere contro le difese russe nel Donetsk, con avanzamenti lenti ma costanti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27269,16 +27247,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture energetiche a Donetsk",
         "date": "14/07/23",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/ukrainian-attack-damages-power-plants-russian-controlled-parts-donetsk-official-2025-11-18/",
+        "verification": "verified",
+        "description": "Kyiv ha intensificato gli attacchi missilistici contro impianti energetici nelle aree controllate dai russi a Donetsk, mirati a interrompere la logistica militare russa. Non sono stati riportati dettagli specifici sulle vittime.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27291,16 +27269,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "21/07/23",
-        "type": "Strategic developments",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze russe hanno intensificato l'uso dell'artiglieria contro le posizioni ucraine a Donetsk, causando danni e feriti. Le stime delle vittime ucraine variano, ma si segnalano colpi a segno su obiettivi strategici.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -27313,16 +27291,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco strategico contro assetti militari russi a Donetsk",
         "date": "28/07/23",
-        "type": "Strategic developments",
+        "type": "Sabotage",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.defence-ua.com/news/ukrainian_forces_conduct_strategic_strikes_on_russian_military_assets_in_donetsk_region_photos-11093.html",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno condotto attacchi coordinati per interrompere la logistica russa e neutralizzare un avanzato sistema di guerra elettronica nella regione di Donetsk. Non sono stati riportati dettagli sui feriti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
