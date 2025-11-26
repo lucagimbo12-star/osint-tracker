@@ -16,17 +16,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0 # Scarica tutta la storia per evitare conflitti di merge
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      # Installa le librerie necessarie per ENTRAMBI gli script
       - name: Install dependencies
         run: pip install pandas requests numpy gspread google-auth tavily-python openai
 
-      # --- STEP 1: AGENTE AI ---
+      # --- FASE 1: INTELLIGENZA ARTIFICIALE ---
+      # Lancia l'Agente AI (se presente) per verificare le news
       - name: 🤖 Run AI Agent
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
@@ -34,140 +36,21 @@ jobs:
           GCP_CREDENTIALS_JSON: ${{ secrets.GCP_CREDENTIALS_JSON }}
         run: python3 scripts/ai_agent.py || echo "AI Agent finished with warnings (continuing...)"
 
-      # --- STEP 2: GENERAZIONE DATI & CLASSIFICAZIONE ATTORI ---
-      - name: 🏭 Process Data & Classify Actors
-        run: |
-          python3 <<'EOF'
-          import pandas as pd
-          import json
-          import sys
-          import numpy as np
-          import requests
-          import io
-          import re
-          import math
+      # --- FASE 2: ELABORAZIONE DATI ---
+      # Lancia il nuovo script che hai appena creato
+      - name: 🏭 Process Data & Generate Site Files
+        run: python3 scripts/process_data.py
 
-          # 1. DOWNLOAD DATI
-          SHEET_URL = "https://docs.google.com/spreadsheets/d/1NEyNXzCSprGOw6gCmVVbtwvFmz8160Oag-WqG93ouoQ/export?format=csv"
-          print("🔄 Scaricamento Database...")
-          
-          try:
-              response = requests.get(SHEET_URL)
-              response.raise_for_status()
-              df = pd.read_csv(io.StringIO(response.text))
-          except Exception as e:
-              print(f"❌ CRITICAL ERROR: {e}")
-              sys.exit(1)
-
-          # 2. PULIZIA DATI (NAN -> None)
-          df.columns = df.columns.str.strip().str.lower()
-          df = df.where(pd.notnull(df), None)
-
-          # 3. MAPPATURA COLONNE
-          def get_col(candidates):
-              for c in candidates:
-                  if c in df.columns: return c
-              return None
-
-          col_lat = get_col(['latitude', 'lat'])
-          col_lon = get_col(['longitude', 'lon', 'long'])
-          col_title = get_col(['title', 'titolo'])
-          col_desc = get_col(['description', 'descrizione', 'notes', 'note'])
-          col_loc = get_col(['location', 'luogo', 'city'])
-          col_date = get_col(['date', 'data'])
-          col_type = get_col(['type', 'tipo', 'type of attack'])
-          col_video = get_col(['video', 'video_url'])
-          col_ver = get_col(['verification', 'verifica'])
-          col_int = get_col(['intensity', 'intensità'])
-          
-          if not col_lat or not col_lon:
-              print("❌ Errore: Coordinate mancanti.")
-              sys.exit(1)
-
-          # 4. FUNZIONE CLASSIFICAZIONE (Logica "Omnivore")
-          def classify_actor(row):
-              # Unisce tutto il testo utile
-              full_text = (str(row.get(col_desc) or "") + " " + str(row.get(col_title) or "")).lower()
-              loc = str(row.get(col_loc) or "").lower()
-              
-              # Regole Keywords (Priorità Alta)
-              if re.search(r'russian (force|army|missile|drone|shelling)|forces of rf|shahed|iskander|kalibr|kh-\d+|fab-\d+', full_text):
-                  return 'RUS'
-              if re.search(r'ukrainian (force|army|missile|drone)|zsu|uaf|himars|atacms|storm shadow|magura|bpla', full_text):
-                  return 'UKR'
-              
-              # Regole Geografiche (Priorità Bassa)
-              if re.search(r'belgorod|kursk|voronezh|rostov|crimea|sevastopol|kerch|moscow|krasnodar|bryansk', loc):
-                  return 'UKR' # Colpi in Russia = Attacco Ucraino
-              if re.search(r'kyiv|kiev|kharkiv|kharkov|odesa|odessa|lviv|dnipro|zaporizhzhia|vinnytsia|sumy|poltava|chernihiv', loc):
-                  return 'RUS' # Colpi in Ucraina = Attacco Russo
-
-              return 'UNK' # Default
-
-          # 5. GENERAZIONE LISTA FEATURES
-          features = []
-          stats = {'RUS': 0, 'UKR': 0, 'UNK': 0}
-
-          for _, row in df.iterrows():
-              try:
-                  if row[col_lat] is None or row[col_lon] is None: continue
-                  lat = float(row[col_lat])
-                  lon = float(row[col_lon])
-              except: continue
-
-              # >>> PUNTO CRITICO: ASSEGNAZIONE CODICE <<<
-              code = classify_actor(row)
-              stats[code] += 1
-
-              # Gestione Sicura Intensità
-              try:
-                  intensity = float(row.get(col_int) or 0.2)
-                  if math.isnan(intensity): intensity = 0.2
-              except: intensity = 0.2
-
-              props = {
-                  "title": str(row.get(col_title) or "Evento"),
-                  "date": str(row.get(col_date) or ""),
-                  "type": str(row.get(col_type) or "General"),
-                  "location": str(row.get(col_loc) or ""),
-                  "description": str(row.get(col_desc) or ""),
-                  "video": str(row.get(col_video) or ""),
-                  "verification": str(row.get(col_ver) or "not verified"),
-                  "intensity": intensity,
-                  "actor_code": code  # <--- SCRITTURA FORZATA NEL JSON
-              }
-
-              features.append({
-                  "type": "Feature",
-                  "geometry": {"type": "Point", "coordinates": [lon, lat]},
-                  "properties": props
-              })
-
-          # 6. SALVATAGGIO FILE
-          with open("assets/data/events.geojson", "w", encoding="utf-8") as f:
-              json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False, indent=2)
-          
-          print(f"✅ GEOJSON GENERATO: {len(features)} eventi.")
-          print(f"📊 DISTRIBUZIONE ATTORI: {stats}")
-          
-          # Verifica immediata del primo elemento
-          if len(features) > 0:
-              print(f"👀 CONTROLLO PRIMO EVENTO: {json.dumps(features[0]['properties']['actor_code'])}")
-
-          # Generazione Timeline (Dummy/Real)
-          # ... (Codice timeline semplificato per brevità, focus è sul fix mappa) ...
-          with open("assets/data/events_timeline.json", "w", encoding="utf-8") as f:
-               json.dump({"title":{}, "events":[]}, f) # Placeholder valido
-          EOF
-
-      # --- STEP 3: COMMIT FORZATO ---
+      # --- FASE 3: SALVATAGGIO ---
       - name: Commit and push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           
+          # Allineamento forzato per evitare conflitti
           git fetch origin main
           git reset --soft origin/main
+          
           git add assets/data/events.geojson assets/data/events_timeline.json
           
           if git diff --cached --quiet; then
@@ -175,5 +58,5 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Fix: Forced Actor Code Generation"
+          git commit -m "Auto-update: Data Refresh via Polyglot Script"
           git push origin main
