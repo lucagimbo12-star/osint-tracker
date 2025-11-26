@@ -19394,14 +19394,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro obiettivi militari russi a Donetsk",
         "date": "13/01/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 gennaio 2024, le forze ucraine hanno condotto un attacco missilistico su obiettivi militari russi a Donetsk, con un bilancio di vittime non confermato. L'operazione ha coinvolto missili a lungo raggio contro strutture militari nemiche.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19415,14 +19415,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata territoriale di attori non statali a Donetsk",
         "date": "16/03/24",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 marzo 2024, attori non statali hanno preso il controllo di territori a Donetsk, contribuendo al conflitto in corso. Le forze russe hanno subito ingenti perdite, con oltre 434.000 vittime nel 2024. La situazione rimane critica.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19436,14 +19436,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di insorti contro infrastrutture militari a Donetsk",
         "date": "19/04/24",
-        "type": "Battles",
+        "type": "Sabotage",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 aprile 2024, un gruppo di insorti ha attaccato un deposito militare a Donetsk, causando feriti tra le forze ucraine. Si stima che l'attacco abbia coinvolto armi leggere e razzi. Non sono stati forniti dettagli sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19457,14 +19457,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di insorti contro postazione militare a Donetsk",
         "date": "26/04/24",
-        "type": "Battles",
+        "type": "Sabotage",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 aprile 2024, un gruppo di 70-100 insorti ha attaccato un'armoria a Artemivsk, causando feriti tra le forze ucraine. Gli insorti hanno utilizzato armi leggere e lanciatori di razzi. Il bilancio delle vittime non Ã¨ noto.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19478,14 +19478,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro forze ucraine a Donetsk",
         "date": "24/05/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno inflitto pesanti perdite all'esercito ucraino a Donetsk, con oltre 445 soldati ucraini colpiti nelle ultime 24 ore. Sono stati distrutti veicoli e stazioni radar. Le perdite ucraine ammontano a oltre 225 soldati e diversi mezzi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19499,14 +19499,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze russe per il controllo del territorio a Donetsk",
         "date": "31/05/24",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 maggio 2024, le forze russe hanno dichiarato di aver acquisito ulteriori territori nella regione di Donetsk, con un bilancio di 880 kmÂ² conquistati nel 2024. L'intensificarsi delle operazioni ha portato a un aumento delle vittime civili e danni alle infrastrutture.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19520,14 +19520,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata meccanizzata russa contro forze ucraine a Donetsk",
         "date": "14/06/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 giugno 2024, forze russe hanno effettuato un'avanzata meccanizzata a Donetsk, conquistando Heorhiivka e infliggendo perdite significative alle forze ucraine, con 30 carri armati distrutti. I russi hanno utilizzato 28 veicoli corazzati durante l'operazione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19541,14 +19541,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro infrastrutture civili a Sloviansk e Kramatorsk",
         "date": "21/06/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 giugno 2024, attacchi aerei russi hanno colpito Sloviansk e Kramatorsk, causando un morto e diversi feriti. Le immagini mostrano gravi danni a edifici residenziali. Le forze russe continuano la loro avanzata nella regione di Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19562,14 +19562,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro aree residenziali a Toretsk",
         "date": "28/06/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 giugno, forze russe hanno colpito Toretsk, uccidendo una persona e ferendone sette. L'attacco ha danneggiato sette edifici residenziali e cinque abitazioni private, evidenziando l'intensificazione delle operazioni aeree nella regione di Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19583,14 +19583,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "19/07/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 luglio 2024, attacchi di artiglieria russa hanno colpito aree civili nella regione di Donetsk, causando la morte di cinque civili e il ferimento di tre. Le operazioni militari russe continuano a intensificarsi nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19604,15 +19604,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico e droni contro infrastrutture a Kharkiv e Kamianske",
         "date": "26/07/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Nella notte del 26 luglio, le forze russe hanno lanciato attacchi con missili balistici e droni Shahed su Kharkiv e Kamianske, causando la morte di una persona a Dnipro. Le perdite russe ammontano a 1.080 soldati in 24 ore.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -19625,14 +19625,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "16/08/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
-        "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "description": "Il 16 agosto, attacchi ucraini hanno colpito il distretto Petrovskiy di Donetsk, ferendo almeno 11 civili e danneggiando un centro commerciale, un ospedale e altre strutture. Le forze russe hanno continuato a bombardare la regione, causando ulteriori vittime.",
+        "video": "https://www.reuters.com/world/europe/ukrainian-strikes-donetsk-capital-wound-seven-people-russian-official-says-2024-08-16/",
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19646,14 +19646,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro insediamenti a Donetsk",
         "date": "23/08/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno continuato le operazioni offensive nella regione di Donetsk, occupando circa 10 insediamenti e causando almeno 31 vittime civili in diverse aree, tra cui Donetsk e Kharkiv, a causa di bombardamenti e attacchi aerei.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19667,14 +19667,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro infrastrutture civili a Sumy",
         "date": "30/08/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attacco aereo russo ha colpito una fabbrica a Sumy, causando la morte di due persone e ferendo almeno otto. L'attacco si inserisce in un contesto di intensificazione dei combattimenti nella regione di Donetsk, con forze russe che avanzano verso Pokrovsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19688,14 +19688,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "18/10/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 ottobre 2024, bombardamenti russi hanno colpito la regione di Donetsk, uccidendo almeno 15 civili. Le forze russe hanno avanzato in diverse direzioni, mentre le forze ucraine hanno riportato perdite in Horlivka.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19709,14 +19709,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze non statali per il controllo del territorio a Donetsk",
         "date": "25/10/24",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 ottobre 2024, le forze non statali hanno preso il controllo di territori a Donetsk, mentre le forze ucraine hanno ripreso posizioni a Chasiv Yar e Toretsk. Non sono stati riportati attacchi significativi in altre aree.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19730,14 +19730,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco offensivo russo contro posizioni ucraine a Donetsk",
         "date": "18/01/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 gennaio 2025, le forze russe hanno condotto attacchi offensivi nella direzione di Lyman, senza avanzamenti significativi. Gli scontri hanno interessato aree intorno a Terny e Novolyubivka, con un bilancio di feriti non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19751,14 +19751,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco coordinato contro infrastrutture energetiche a Donetsk",
         "date": "25/01/25",
-        "type": "Battles",
+        "type": "Energy Infrastructure",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 gennaio, forze russe hanno lanciato un attacco su infrastrutture energetiche in Ucraina, causando blackout in sette regioni. A gennaio 2025, 139 civili sono stati uccisi, con la maggior parte delle vittime vicino al fronte, in particolare a Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19772,14 +19772,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata territoriale delle forze non statali a Donetsk",
         "date": "15/03/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 marzo 2025, le forze non statali hanno conquistato territori a Donetsk, segnando un'importante avanzata nel conflitto. Le perdite ucraine continuano a crescere, con stime di oltre 400.000 morti e feriti. La situazione rimane critica.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19793,14 +19793,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro insediamenti a Donetsk",
         "date": "22/03/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 marzo 2025, forze russe hanno lanciato un attacco missilistico su insediamenti nella regione di Donetsk, causando danni significativi e vittime civili. Le forze ucraine hanno registrato perdite e la situazione rimane critica.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19814,14 +19814,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro civili a Donetsk",
         "date": "29/03/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attacco aereo russo ha colpito la regione di Donetsk, causando feriti tra i civili. Le forze russe hanno intensificato i bombardamenti nella zona, con un bilancio di almeno quattro civili uccisi e 36 feriti in tutta l'Ucraina nelle ultime 24 ore.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19835,15 +19835,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico Iskander contro aree civili a Kharkiv",
         "date": "18/04/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 aprile 2025, forze russe hanno lanciato un attacco missilistico con tre missili Iskander-M su un'area residenziale a Kharkiv, causando la morte di un civile e ferendo almeno 98 persone. L'attacco ha danneggiato 21 edifici e 40 case.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -19856,14 +19856,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Battaglia per il controllo territoriale a Donetsk",
         "date": "25/04/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attore non statale ha preso il controllo di un'area a Donetsk. Le forze russe hanno subito pesanti perdite, con oltre 21.000 soldati uccisi. La situazione rimane critica con significativi spostamenti di civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19877,14 +19877,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Riconquista di territorio da parte di attori non statali a Donetsk",
         "date": "16/05/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 maggio 2025, i lavoratori dell'acciaio di Metinvest, insieme a forze di polizia locali, hanno scacciato gli insorti dalla sede del governo a Donetsk. Gli insorti rimasti erano disarmati. La situazione rimane instabile con manifestazioni pro-Russia.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19898,14 +19898,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco a comando e controllo russo a Bakhmut",
         "date": "23/05/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 maggio, forze ucraine hanno colpito un posto di comando russo a Bakhmut, causando danni significativi. Non sono noti feriti o vittime. Le forze russe continuano a utilizzare veicoli civili per il trasporto di truppe.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19919,14 +19919,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro insediamenti a Donetsk",
         "date": "30/05/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 maggio 2025, forze russe hanno lanciato attacchi aerei su insediamenti nella regione di Donetsk, causando la morte di almeno 38 civili. Le forze russe hanno anche conquistato tre villaggi nella zona di Pokrovsk e Kostiantynivka.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19940,14 +19940,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro civili a Donetsk",
         "date": "13/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 giugno 2025, le forze russe hanno lanciato attacchi aerei nella provincia di Donetsk, causando la morte di almeno sei civili e ferendone 15. Gli attacchi hanno colpito aree residenziali, aggravando la crisi umanitaria nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19961,14 +19961,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro infrastrutture civili a Sloviansk",
         "date": "20/06/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 giugno 2025, attacchi missilistici russi hanno colpito Sloviansk, causando la morte di un civile e ferendo tre persone. Le immagini mostrano edifici gravemente danneggiati. Le forze russe continuano a guadagnare terreno nella regione di Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19982,14 +19982,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo russo contro civili a Kramatorsk",
         "date": "27/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 giugno 2025, attacchi aerei russi hanno colpito Kramatorsk, causando cinque morti e quattro feriti. Le forze russe hanno avanzato in Donetsk, catturando diversi insediamenti, mentre le perdite ucraine continuano a crescere.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20003,14 +20003,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro infrastrutture civili a Donetsk",
         "date": "18/07/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 luglio 2025, le forze russe hanno effettuato un attacco di artiglieria su Donetsk, causando diversi feriti tra i civili. Le vittime non sono state specificate, ma il conflitto ha giÃ  portato a oltre 49.000 vittime civili dall'inizio dell'invasione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20024,14 +20024,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre contro villaggi nel Donetsk",
         "date": "25/07/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno occupato quattro villaggi nella regione del Donetsk, causando la morte di almeno 35 civili a causa di bombardamenti. Le perdite russe ammontano a 22.381, mentre quelle ucraine sono di 9.374.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20045,14 +20045,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico e droni contro infrastrutture civili in Donetsk",
         "date": "15/08/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 agosto, forze russe hanno lanciato attacchi missilistici e droni, causando 37 morti tra i civili in diverse regioni, inclusi Donetsk e Dnipropetrovsk. Le forze ucraine hanno riconquistato parte del territorio, ma la situazione rimane critica.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20066,14 +20066,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata militare russa nel territorio di Donetsk",
         "date": "22/08/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 agosto 2025, le forze russe hanno dichiarato di aver catturato tre villaggi nella regione di Donetsk, con un guadagno territoriale di 48 miglia quadrate nella settimana precedente. Le perdite russe ammontano a circa 200.000 soldati dal gennaio 2025.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20087,14 +20087,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "29/08/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 agosto 2025, attacchi aerei russi hanno colpito la regione di Donetsk, causando diverse vittime civili. Sono stati utilizzati droni e missili, con almeno 47 morti segnalati in diverse cittÃ , tra cui Kyiv e Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20108,14 +20108,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze russe nella regione di Donetsk",
         "date": "17/10/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno guadagnato territorio nella regione di Donetsk, occupando sette villaggi. Le forze ucraine hanno riconquistato un insediamento. Il conflitto continua a causare gravi perdite da entrambe le parti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20129,14 +20129,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture a Donetsk",
         "date": "19/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 marzo 2022, attacco aereo russo ha colpito Donetsk, causando danni a edifici civili. Non sono stati riportati dettagli specifici sulle vittime. Le forze russe continuano a utilizzare droni e missili per attaccare aree urbane.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20150,14 +20150,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco missilistico Tochka-U contro civili a Donetsk",
         "date": "26/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 marzo 2022, un attacco missilistico Tochka-U ha colpito il centro di Donetsk, causando la morte di 21-23 civili e ferendo 36 persone. L'area era sotto occupazione russa. Le vittime includevano bambini.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20171,14 +20171,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "15/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 aprile 2022, attacco aereo russo ha colpito aree residenziali a Donetsk, causando diversi feriti. L'uso di droni e aerei Ã¨ aumentato nel conflitto, con un alto numero di vittime civili segnalate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20192,14 +20192,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "22/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
-        "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "description": "Il 22 aprile 2022, un attacco aereo ha colpito la cittÃ  di Donetsk, causando numerosi feriti tra i civili. Le forze armate russe sono state accusate di utilizzare missili a lungo raggio, contribuendo a un alto numero di vittime nella regione.",
+        "video": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20213,15 +20213,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture militari a Donetsk",
         "date": "29/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 aprile 2022, un attacco aereo ha colpito obiettivi militari a Donetsk, con l'uso di droni e missili. Le forze ucraine hanno mirato a distruggere una base di droni Shahed, causando danni significativi. Non sono stati riportati feriti tra i civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -20234,14 +20234,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture a Donetsk",
         "date": "13/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 maggio 2022, un attacco aereo con droni ha colpito obiettivi nella regione di Donetsk. Non sono stati riportati dettagli specifici sulle vittime, ma l'uso di droni indica un'operazione mirata. Bilancio vittime non noto.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20255,14 +20255,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture a Donetsk",
         "date": "20/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 maggio 2022, un attacco aereo con droni ha colpito Donetsk, causando danni significativi alle infrastrutture. Non sono stati riportati dettagli sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20276,14 +20276,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro civili a Donetsk",
         "date": "27/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 maggio 2022, un attacco aereo con droni ha colpito la cittÃ  di Donetsk, causando feriti tra i civili. Le autoritÃ  ucraine hanno denunciato l'attacco come un atto deliberato contro aree residenziali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20297,14 +20297,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro deposito munizioni a Donetsk",
         "date": "17/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
-        "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "description": "Nella notte del 17 giugno, droni hanno colpito un deposito di munizioni a Donetsk, causando esplosioni significative. Sono stati segnalati feriti, ma il bilancio esatto delle vittime non Ã¨ noto.",
+        "video": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20318,14 +20318,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture a Donetsk",
         "date": "24/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno 2022, un attacco aereo ha colpito Donetsk, causando danni significativi. Non sono stati riportati dettagli sui feriti o sul bilancio vittime. Le forze russe hanno intensificato le operazioni aeree nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20339,14 +20339,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture a Donetsk",
         "date": "15/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 luglio 2022, attacco aereo russo su Donetsk ha causato diversi danni a strutture civili. Non sono stati riportati dettagli specifici su vittime o armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20360,14 +20360,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro obiettivi militari a Donetsk",
         "date": "22/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 luglio 2022, attacchi aerei e droni hanno colpito obiettivi militari a Donetsk. Le forze russe hanno intensificato le operazioni, causando un aumento delle vittime civili. Non sono stati forniti dati specifici sulle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20381,14 +20381,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture militari a Donetsk",
         "date": "29/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 luglio 2022, attacchi aerei ucraini hanno colpito infrastrutture militari a Donetsk. Le forze ucraine hanno utilizzato droni e missili, mentre le forze russe hanno risposto con un attacco missilistico su un'unitÃ  di addestramento, causando vittime tra i soldati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20402,14 +20402,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture militari a Donetsk",
         "date": "19/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 agosto 2022, forze russe hanno lanciato attacchi aerei su Donetsk, colpendo obiettivi militari. I rapporti indicano che almeno 47 civili sono stati uccisi in attacchi in diverse regioni, inclusa Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20423,14 +20423,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 agosto 2022, attacco aereo su Donetsk ha causato danni a infrastrutture civili. Le forze russe hanno intensificato l'uso di armi esplosive in aree popolate, con un bilancio di vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20444,14 +20444,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture a Donetsk",
         "date": "30/09/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 settembre 2022, forze russe hanno lanciato attacchi aerei su Donetsk, colpendo infrastrutture civili. Non sono stati riportati dettagli specifici sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20465,14 +20465,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 ottobre 2022, un attacco aereo ha colpito Donetsk, causando la morte di tre persone e danneggiando edifici residenziali e strutture sociali. Le forze ucraine hanno rivendicato di aver abbattuto un gran numero di droni russi durante la notte.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20486,14 +20486,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro deposito munizioni a Donetsk",
         "date": "21/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
-        "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "description": "Il 21 ottobre 2022, esplosioni a Donetsk, probabilmente causate da un attacco aereo su un deposito di munizioni. Droni avvistati prima dell'attacco. Non sono noti i dettagli sui feriti o le vittime.",
+        "video": "https://militarnyi.com/en/news/drones-likely-strike-ammunition-depot-in-occupied-donetsk/",
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20507,14 +20507,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture a Donetsk",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 ottobre 2022, esplosioni a Donetsk suggeriscono un attacco aereo mirato. Droni sono stati avvistati sopra la cittÃ  prima delle esplosioni, che hanno colpito infrastrutture critiche. Non sono stati riportati feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20528,14 +20528,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "14/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 gennaio 2023, un attacco aereo russo ha colpito Donetsk, causando esplosioni e danni significativi. Non sono stati riportati dettagli specifici sulle vittime, ma l'evento rientra in un contesto di intensi bombardamenti in tutta l'Ucraina.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20549,14 +20549,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro aree civili a Donetsk",
         "date": "21/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2023, attacchi aerei russi hanno colpito aree civili a Donetsk, causando la morte di tre civili e ferendo 11 persone. Le forze russe continuano a colpire obiettivi non militari, intensificando le operazioni nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20570,14 +20570,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro aree residenziali a Donetsk",
         "date": "28/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 gennaio 2023, un attacco aereo russo ha colpito aree residenziali a Donetsk, causando danni a edifici e veicoli. Il governatore ha riportato 14 morti e diversi feriti. Le forze russe hanno utilizzato droni per attaccare obiettivi civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20591,14 +20591,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo e drone contro infrastrutture civili a Donetsk",
         "date": "18/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno colpito oltre 30 insediamenti nel Donetsk, causando danni a edifici residenziali e infrastrutture critiche. Quattro feriti segnalati a Kramatorsk, Pokrovsk e Bakhmut.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20612,14 +20612,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro aree residenziali a Donetsk",
         "date": "25/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 marzo 2023, un attacco aereo ha colpito aree residenziali a Donetsk, causando la morte di tre civili e ferendo undici persone. Le forze russe hanno utilizzato droni per colpire obiettivi strategici e civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20633,14 +20633,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro infrastrutture civili a Donetsk",
         "date": "31/03/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno colpito oltre 30 insediamenti a Donetsk con droni e artiglieria, causando danni a edifici residenziali e infrastrutture critiche. Quattro feriti segnalati nelle aree di Kramatorsk, Pokrovsk e Bakhmut.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20654,14 +20654,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "14/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 aprile 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20675,14 +20675,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "21/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 aprile 2023, un attacco aereo ha colpito obiettivi militari nella cittÃ  di Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20696,14 +20696,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "28/04/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 aprile 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20717,14 +20717,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "19/05/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 maggio 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili informazioni sul bilancio vittime o sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20738,14 +20738,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "26/05/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 maggio 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20759,14 +20759,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "16/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 giugno 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle vittime o sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20780,14 +20780,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "23/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 giugno 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20801,14 +20801,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "30/06/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 giugno 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20822,14 +20822,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "14/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 luglio 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono noti dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20843,14 +20843,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "21/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 luglio 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20864,14 +20864,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "28/07/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 luglio 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20885,14 +20885,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "18/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 agosto 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20906,14 +20906,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "25/08/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 agosto 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20927,14 +20927,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "13/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 ottobre 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20948,14 +20948,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "20/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Un attacco aereo ha colpito obiettivi militari a Donetsk il 20 ottobre 2023. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20969,14 +20969,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "27/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 ottobre 2023, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -20990,14 +20990,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "13/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 gennaio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21011,14 +21011,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "20/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 gennaio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21032,14 +21032,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "27/01/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 gennaio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21053,14 +21053,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "16/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 marzo 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21074,14 +21074,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 marzo 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21095,14 +21095,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "30/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 marzo 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili informazioni sul bilancio delle vittime o sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21116,14 +21116,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "19/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 aprile 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21137,14 +21137,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "26/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 aprile 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21158,14 +21158,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "17/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 maggio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21179,14 +21179,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "24/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 maggio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21200,14 +21200,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "31/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 maggio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21221,14 +21221,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "14/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 giugno 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21242,14 +21242,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "21/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 giugno 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21263,14 +21263,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "28/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 giugno 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21284,14 +21284,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "19/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 luglio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21305,14 +21305,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "26/07/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 luglio 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21326,14 +21326,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi a Donetsk",
         "date": "16/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 agosto 2024, un attacco aereo ha colpito la cittÃ  di Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21347,14 +21347,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "23/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 23 agosto 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21368,14 +21368,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "30/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 agosto 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle vittime o sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21389,14 +21389,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "18/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 ottobre 2024, un attacco aereo ha colpito obiettivi militari nella cittÃ  di Donetsk. Non sono stati riportati dettagli sulle armi utilizzate nÃ© sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21410,14 +21410,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "25/10/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 ottobre 2024, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sul bilancio vittime o sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21431,14 +21431,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "18/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 gennaio 2025, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono stati forniti dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21452,14 +21452,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "25/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 gennaio 2025, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -21473,14 +21473,14 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro obiettivi militari a Donetsk",
         "date": "15/03/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 marzo 2025, un attacco aereo ha colpito obiettivi militari a Donetsk. Non sono disponibili dettagli sulle armi utilizzate o sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
