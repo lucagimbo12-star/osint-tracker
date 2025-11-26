@@ -1,42 +1,18 @@
 // ============================================
-// MAP.JS - SLATE & AMBER EDITION (Orchestrator)
+// MAP.JS - IMPACT ATLAS (Con Time-Lapse & Heatmap)
 // ============================================
 
-// 1. Inizializzazione Mappa con Rendering GPU
-let map = L.map('map', {
-  zoomControl: false,
-  preferCanvas: true, // Performance Critical
-  wheelPxPerZoomLevel: 120
-}).setView([48.5, 32.0], 6);
+// --- CONFIGURAZIONE & VARIABILI GLOBALI ---
+let map;
+let eventsLayer; // Riferimento al Cluster Group
+let heatLayer = null; // Riferimento al livello Heatmap
+let isHeatmapMode = false; // Stato attuale visualizzazione
 
-L.control.zoom({ position: 'bottomright' }).addTo(map);
+// Gestione Dati
+window.globalEvents = [];          // Copia master di tutti i dati
+window.currentFilteredEvents = [];  // Sottoinsieme attualmente filtrato (dalla sidebar)
 
-// Mappa Scura
-const darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  maxZoom: 19, attribution: '&copy; CARTO'
-});
-darkLayer.addTo(map);
-
-// 2. Cluster "Chunked"
-let eventsLayer = L.markerClusterGroup({
-  chunkedLoading: true,
-  chunkInterval: 200,
-  chunkDelay: 50,
-  maxClusterRadius: 45,
-  spiderfyOnMaxZoom: true,
-  iconCreateFunction: function(cluster) {
-    var count = cluster.getChildCount();
-    var size = count < 10 ? 'small' : (count < 100 ? 'medium' : 'large');
-    return new L.DivIcon({
-      html: `<div><span>${count}</span></div>`,
-      className: `marker-cluster marker-cluster-${size}`,
-      iconSize: new L.Point(40, 40)
-    });
-  }
-});
-map.addLayer(eventsLayer);
-
-// --- CONFIG COLORI ---
+// Colori & Icone (MANTENUTI DAL CODICE ORIGINALE)
 const impactColors = {
   'critical': '#ef4444', 'high': '#f97316', 'medium': '#eab308', 'low': '#64748b'
 };
@@ -47,6 +23,225 @@ const typeIcons = {
   'cultural': 'fa-landmark', 'eco': 'fa-leaf', 'default': 'fa-crosshairs'
 };
 
+// 1. INIZIALIZZAZIONE MAPPA
+// (Rendering GPU preferito come nel codice originale)
+let initMap = function() {
+    map = L.map('map', {
+        zoomControl: false,
+        preferCanvas: true, 
+        wheelPxPerZoomLevel: 120
+    }).setView([48.5, 32.0], 6);
+
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    // Mappa Scura
+    const darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 19, attribution: '&copy; CARTO'
+    });
+    darkLayer.addTo(map);
+
+    // Configurazione Cluster (MANTENUTA)
+    eventsLayer = L.markerClusterGroup({
+        chunkedLoading: true,
+        chunkInterval: 200,
+        chunkDelay: 50,
+        maxClusterRadius: 45,
+        spiderfyOnMaxZoom: true,
+        iconCreateFunction: function(cluster) {
+            var count = cluster.getChildCount();
+            var size = count < 10 ? 'small' : (count < 100 ? 'medium' : 'large');
+            return new L.DivIcon({
+                html: `<div><span>${count}</span></div>`,
+                className: `marker-cluster marker-cluster-${size}`,
+                iconSize: new L.Point(40, 40)
+            });
+        }
+    });
+    // Si aggiunge subito alla mappa
+    map.addLayer(eventsLayer);
+};
+
+// 2. CARICAMENTO DATI UNIFICATO
+async function loadEventsData() {
+  try {
+    const res = await fetch('assets/data/events.geojson');
+    if(!res.ok) throw new Error("Errore fetch GeoJSON");
+    const data = await res.json();
+    
+    // Appiattisce le proprietà per facilità d'uso e aggiunge timestamp numerico
+    window.globalEvents = data.features.map(f => ({
+      ...f.properties,
+      lat: f.geometry.coordinates[1],
+      lon: f.geometry.coordinates[0],
+      timestamp: new Date(f.properties.date).getTime()
+    })).sort((a,b) => a.timestamp - b.timestamp); // Ordina per data (fondamentale per lo slider)
+
+    // Al caricamento iniziale, i dati filtrati coincidono con i globali
+    window.currentFilteredEvents = [...window.globalEvents];
+
+    // Setup iniziale dello Slider
+    setupTimeSlider(window.globalEvents);
+
+    // Renderizza Mappa
+    window.updateMap(window.globalEvents);
+    
+    // Aggiorna KPI Testuali (MANTENUTO)
+    if(document.getElementById('eventCount')) {
+        document.getElementById('eventCount').innerText = window.globalEvents.length;
+        document.getElementById('lastUpdate').innerText = new Date().toLocaleDateString();
+    }
+
+    // PASSA I DATI AI GRAFICI (MANTENUTO - Chiama charts.js)
+    if (typeof window.initCharts === 'function') {
+        window.initCharts(window.globalEvents);
+    } else {
+        console.warn("Charts.js non caricato o funzione initCharts mancante");
+    }
+
+  } catch (e) { console.error("Errore caricamento dati:", e); }
+}
+
+// 3. LOGICA RENDERING MAPPA (AGGIORNATA PER NUOVE FUNZIONALITÀ)
+// Questa funzione viene chiamata sia all'avvio, sia dai filtri della Sidebar (charts.js)
+window.updateMap = function(events) {
+  // Aggiorna il set di dati corrente su cui lavorerà lo slider
+  window.currentFilteredEvents = events;
+  
+  // Resetta lo slider alla posizione "LIVE" (fine) quando cambiano i filtri
+  resetSliderToMax();
+
+  // Esegue il rendering effettivo
+  renderInternal(events);
+};
+
+// Funzione interna che decide se disegnare Cluster o Heatmap
+function renderInternal(eventsToDraw) {
+    // 1. Pulisce tutto
+    eventsLayer.clearLayers();
+    if(heatLayer) map.removeLayer(heatLayer);
+
+    if(isHeatmapMode) {
+        // --- RENDERING HEATMAP ---
+        const heatPoints = eventsToDraw.map(e => [
+            e.lat, 
+            e.lon, 
+            (e.intensity || 0.5) * 2 // Moltiplicatore intensità visiva
+        ]);
+        
+        heatLayer = L.heatLayer(heatPoints, {
+            radius: 25,
+            blur: 15,
+            maxZoom: 10,
+            gradient: {0.4: 'blue', 0.6: '#00ff00', 0.8: 'yellow', 1.0: 'red'}
+        }).addTo(map);
+
+    } else {
+        // --- RENDERING CLUSTER (MANTENUTO LOGICA ORIGINALE) ---
+        const markers = [];
+        eventsToDraw.forEach(e => {
+            const color = getColor(e.intensity);
+            const iconClass = getIconClass(e.type);
+            const size = (e.intensity || 0.2) >= 0.8 ? 34 : 26;
+            const iconSize = Math.floor(size / 1.8);
+
+            const marker = L.marker([e.lat, e.lon], {
+            icon: L.divIcon({
+                className: 'custom-icon-marker',
+                html: `<div style="
+                background-color: ${color};
+                width: ${size}px; height: ${size}px;
+                border-radius: 50%;
+                border: 2px solid #1e293b;
+                box-shadow: 0 0 10px ${color}66;
+                display: flex; align-items: center; justify-content: center;
+                color: #1e293b;
+                "><i class="fa-solid ${iconClass}" style="font-size:${iconSize}px;"></i></div>`,
+                iconSize: [size, size]
+            })
+            });
+
+            marker.bindPopup(createPopupContent(e));
+            markers.push(marker);
+        });
+        eventsLayer.addLayers(markers);
+        map.addLayer(eventsLayer); // Assicura che il layer sia visibile
+    }
+    
+    // Aggiorna contatore KPI in tempo reale in base a cosa è mostrato sulla mappa
+    if(document.getElementById('eventCount')) {
+        document.getElementById('eventCount').innerText = eventsToDraw.length;
+    }
+}
+
+// 4. FUNZIONI NUOVE: SLIDER & TOGGLE
+function setupTimeSlider(allData) {
+    const slider = document.getElementById('timeSlider');
+    const startLabel = document.getElementById('sliderStartDate');
+    const display = document.getElementById('sliderCurrentDate');
+
+    if(!allData.length || !slider) return;
+
+    // Trova range date
+    const timestamps = allData.map(d => d.timestamp);
+    const minTime = Math.min(...timestamps);
+    const maxTime = Math.max(...timestamps);
+
+    slider.min = minTime;
+    slider.max = maxTime;
+    slider.value = maxTime;
+    slider.disabled = false;
+    
+    startLabel.innerText = new Date(minTime).toLocaleDateString();
+
+    // Listener Slider
+    slider.addEventListener('input', (e) => {
+        const selectedVal = parseInt(e.target.value);
+        
+        // Aggiorna Display Data
+        const d = new Date(selectedVal);
+        display.innerText = d.toLocaleDateString();
+
+        // Filtra sui dati correntemente attivi (window.currentFilteredEvents)
+        // Logica: Mostra tutto ciò che è accaduto PRIMA o DURANTE la data slider
+        const timeFiltered = window.currentFilteredEvents.filter(ev => ev.timestamp <= selectedVal);
+        
+        // Ridisegna senza resettare lo slider
+        renderInternal(timeFiltered);
+    });
+}
+
+function resetSliderToMax() {
+    const slider = document.getElementById('timeSlider');
+    if(slider && window.currentFilteredEvents.length > 0) {
+        // Trova il max timestamp tra gli eventi filtrati
+        const timestamps = window.currentFilteredEvents.map(e => e.timestamp);
+        const maxT = Math.max(...timestamps);
+        slider.value = slider.max; // Oppure maxT se vogliamo limitare al range filtrato
+        document.getElementById('sliderCurrentDate').innerText = "LIVE";
+    }
+}
+
+window.toggleVisualMode = function() {
+    isHeatmapMode = !isHeatmapMode;
+    const btn = document.getElementById('heatmapToggle');
+    const slider = document.getElementById('timeSlider');
+
+    // UI Update
+    if(isHeatmapMode) {
+        btn.classList.add('active');
+        btn.innerHTML = '<i class="fa-solid fa-circle-nodes"></i> Cluster';
+    } else {
+        btn.classList.remove('active');
+        btn.innerHTML = '<i class="fa-solid fa-layer-group"></i> Heatmap';
+    }
+
+    // Ricalcola cosa mostrare basandosi sullo slider attuale
+    const currentSliderVal = parseInt(slider.value);
+    const timeFiltered = window.currentFilteredEvents.filter(ev => ev.timestamp <= currentSliderVal);
+    renderInternal(timeFiltered);
+};
+
+// 5. HELPER COLORS & ICONS (MANTENUTI)
 function getColor(val) {
   const v = val || 0.2;
   if (v >= 0.8) return impactColors.critical;
@@ -64,75 +259,7 @@ function getIconClass(type) {
   return typeIcons.default;
 }
 
-// --- CORE: CARICAMENTO DATI UNIFICATO ---
-async function loadEventsData() {
-  try {
-    // Scarica i dati UNA sola volta per tutta l'app
-    const res = await fetch('assets/data/events.geojson');
-    if(!res.ok) throw new Error("Errore fetch GeoJSON");
-    const data = await res.json();
-    
-    // Appiattisce le proprietà per facilità d'uso
-    const events = data.features.map(f => ({
-      ...f.properties,
-      lat: f.geometry.coordinates[1],
-      lon: f.geometry.coordinates[0]
-    }));
-
-    // 1. Aggiorna Mappa
-    window.updateMap(events);
-    
-    // 2. Aggiorna KPI Testuali
-    if(document.getElementById('eventCount')) {
-        document.getElementById('eventCount').innerText = events.length;
-        document.getElementById('lastUpdate').innerText = new Date().toLocaleDateString();
-    }
-
-    // 3. PASSA I DATI AI GRAFICI (Invece di farli scaricare di nuovo)
-    if (typeof window.initCharts === 'function') {
-        window.initCharts(events);
-    } else {
-        console.warn("Charts.js non caricato o funzione initCharts mancante");
-    }
-
-  } catch (e) { console.error("Errore caricamento dati:", e); }
-}
-
-// Esposta globalmente per essere chiamata dai filtri di charts.js
-window.updateMap = function(events) {
-  eventsLayer.clearLayers();
-  const markers = [];
-
-  events.forEach(e => {
-    const color = getColor(e.intensity);
-    const iconClass = getIconClass(e.type);
-    const size = (e.intensity || 0.2) >= 0.8 ? 34 : 26;
-    const iconSize = Math.floor(size / 1.8);
-
-    const marker = L.marker([e.lat, e.lon], {
-      icon: L.divIcon({
-        className: 'custom-icon-marker',
-        html: `<div style="
-          background-color: ${color};
-          width: ${size}px; height: ${size}px;
-          border-radius: 50%;
-          border: 2px solid #1e293b;
-          box-shadow: 0 0 10px ${color}66;
-          display: flex; align-items: center; justify-content: center;
-          color: #1e293b;
-        "><i class="fa-solid ${iconClass}" style="font-size:${iconSize}px;"></i></div>`,
-        iconSize: [size, size]
-      })
-    });
-
-    marker.bindPopup(createPopupContent(e));
-    markers.push(marker);
-  });
-  
-  eventsLayer.addLayers(markers);
-};
-
-// --- POPUP & MODALE ---
+// 6. POPUP & MODALE (MANTENUTI ESATTAMENTE UGUALI)
 function createPopupContent(e) {
   const eventData = encodeURIComponent(JSON.stringify(e));
   const color = getColor(e.intensity);
@@ -151,7 +278,6 @@ function createPopupContent(e) {
   `;
 }
 
-// Logica Modale (Invariata ma necessaria)
 window.openModal = function(eventJson) {
   const e = JSON.parse(decodeURIComponent(eventJson));
   
@@ -237,5 +363,6 @@ function renderConfidenceChart(score) {
   });
 }
 
-// Start
+// START
+initMap();
 loadEventsData();
