@@ -17294,14 +17294,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "14/10/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 ottobre 2022, si sono verificati scontri armati a Donetsk tra forze ucraine e separatisti russi. Non sono disponibili dettagli specifici su armi utilizzate o bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17315,14 +17315,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "21/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 ottobre 2022, si sono verificati scontri armati a Donetsk tra le forze ucraine e i separatisti russi, con l'uso di artiglieria pesante. Non sono disponibili dati specifici sul bilancio delle vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17336,14 +17336,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "28/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 ottobre 2022, scontri armati si sono intensificati a Donetsk tra forze ucraine e separatisti russi, con bombardamenti e colpi d'artiglieria. Bilancio vittime non specificato, ma si segnala un aumento delle perdite civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17357,14 +17357,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "14/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 gennaio 2023, un attacco di artiglieria ha colpito un'area affollata a Donetsk, causando numerosi feriti e morti tra i civili. Le forze russe continuano a bombardare aree residenziali, aggravando la crisi umanitaria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17378,14 +17378,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "21/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2023, un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando la morte di almeno 27 civili e 25 feriti, inclusi due bambini. Le autoritÃ  russe hanno attribuito l'attacco all'esercito ucraino.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17399,14 +17399,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "28/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 gennaio 2023, un attacco di artiglieria russa ha colpito un'area residenziale a Donetsk, causando 14 morti e danni a edifici civili. Le forze russe hanno utilizzato armi pesanti, colpendo anche un ospedale.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17420,14 +17420,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco con munizioni a grappolo contro civili a Kostiantynivka",
         "date": "18/03/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 marzo 2023, forze russe hanno utilizzato munizioni a grappolo a Kostiantynivka, ferendo sei civili. Un attacco simile a Kramatorsk ha causato due morti e otto feriti. Le munizioni a grappolo continuano a rappresentare una minaccia per i civili nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17441,14 +17441,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/03/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 marzo 2023, un attacco di artiglieria ha colpito un'area affollata di Donetsk, causando numerosi feriti tra i civili. Le forze russe continuano a bombardare la cittÃ , giÃ  gravemente colpita da precedenti attacchi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17462,14 +17462,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e russe a Donetsk",
         "date": "31/03/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 marzo 2023, si sono verificati scontri tra le forze ucraine e quelle russe a Donetsk. Le forze russe hanno utilizzato artiglieria pesante, causando danni significativi e feriti tra le truppe ucraine.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17483,14 +17483,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "14/04/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 aprile 2023, si sono verificati scontri tra le forze ucraine e i separatisti russi a Donetsk. Le forze ucraine hanno respinto attacchi russi, con un bilancio di vittime non specificato. L'artiglieria Ã¨ stata utilizzata da entrambe le parti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17504,14 +17504,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e russe a Donetsk",
         "date": "21/04/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 aprile 2023, scontri tra forze ucraine e russe a Donetsk hanno causato la morte di due civili e il ferimento di nove. Le forze ucraine hanno lanciato contrattacchi, mentre i bombardamenti russi hanno colpito aree civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17525,14 +17525,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro il centro di Donetsk",
         "date": "28/04/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 aprile 2023, l'autoproclamata Repubblica Popolare di Donetsk ha riportato 9 morti, tra cui un bambino, a causa di un attacco di artiglieria ucraina nel centro di Donetsk. I feriti sono 16. Le forze ucraine hanno utilizzato proiettili da 155 mm.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17546,14 +17546,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "19/05/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 maggio 2023, scontri intensi si sono verificati a Donetsk tra forze russe e ucraine, con pesanti perdite da entrambe le parti. Le forze russe hanno subito circa 200.000 perdite dal 2025, mentre gli scontri continuano a causare vittime significative.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17567,15 +17567,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Donetsk",
         "date": "26/05/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 maggio 2023, forze russe hanno lanciato un attacco aereo su Donetsk, causando numerosi feriti tra i civili. Sono stati utilizzati droni Shahed e missili S-300. Il bilancio delle vittime non Ã¨ stato specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -17588,14 +17588,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e militari ucraini a Donetsk",
         "date": "16/06/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 giugno 2023 si sono verificati scontri armati tra forze russe e militari ucraini a Donetsk. Entrambe le parti hanno subito perdite, con regolari bombardamenti lungo il fronte. Le forze russe hanno continuato a negare il loro coinvolgimento diretto.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17609,14 +17609,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "23/06/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Intensi scontri tra le forze ucraine e russe a Donetsk, con l'uso di artiglieria pesante. Le forze ucraine hanno riportato avanzamenti incrementali, mentre le perdite russe sono stimate in centinaia di combattenti. Bilancio vittime non verificabile.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17630,14 +17630,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e russe a Donetsk",
         "date": "30/06/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Intensi scontri tra forze ucraine e russe nella regione di Donetsk, con avanzamenti ucraini in Bakhmut e Avdiivka. Danni significativi a infrastrutture civili e oltre 40 civili uccisi in vari attacchi russi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17651,14 +17651,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco esplosivo contro truppe russe a Velyki Kopani",
         "date": "14/07/23",
-        "type": "Battles",
+        "type": "Sabotage",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 luglio 2023, un agente del movimento ATESH ha fatto esplodere un deposito di camion occupato dalle forze russe a Velyki Kopani, causando la morte di 6 soldati russi e danneggiando 2 camion. L'attacco Ã¨ avvenuto in un contesto di scontri attivi nella regione di Donetsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17672,14 +17672,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "21/07/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 luglio 2023, si sono verificati scontri armati a Donetsk tra forze ucraine e separatisti russi. Le perdite ucraine sono stimate intorno al 20% delle attrezzature, con 70.000 morti e 120.000 feriti dall'inizio del conflitto.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17693,14 +17693,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e DPR a Donetsk",
         "date": "28/07/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 28 luglio 2023, scontri tra forze ucraine e DPR hanno causato un significativo numero di vittime. Le forze ucraine hanno subito attacchi di artiglieria, con un bilancio di almeno 12 soldati uccisi e diversi feriti. Le fonti segnalano un'intensificazione delle operazioni nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17714,14 +17714,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "18/08/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 agosto 2023, le forze ucraine hanno inflitto pesanti perdite alle forze russe, con 940 soldati eliminati e numerosi sistemi d'artiglieria distrutti. Le perdite totali russe dall'inizio del conflitto superano 1 milione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17735,14 +17735,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e russe a Donetsk",
         "date": "25/08/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 agosto 2023, scontri armati si sono intensificati a Donetsk, in particolare nelle aree di Bakhmut e Avdiivka. Le forze russe hanno continuato a colpire infrastrutture civili, causando un alto numero di vittime tra i civili, con oltre 120 morti in tutto il paese.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17756,14 +17756,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Pokrovsk",
         "date": "13/10/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 ottobre 2023, un attacco missilistico russo ha colpito Pokrovsk, Donetsk, causando la morte di un civile e oltre 20 feriti. Sono stati danneggiati diversi edifici amministrativi e residenziali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17777,14 +17777,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "20/10/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il Battlegroup Center russo ha inflitto oltre 445 perdite alle truppe ucraine, distruggendo veicoli blindati. Le forze ucraine hanno subito perdite di oltre 225 uomini e diversi mezzi. Attacchi mirati hanno colpito radar e depositi di munizioni.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17798,14 +17798,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "27/10/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 ottobre 2023, un attacco di artiglieria ha colpito un mercato a Donetsk, causando 27 morti e 25 feriti. L'area ha subito danni significativi, con immagini di devastazione e ricerca di familiari tra le macerie.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17819,14 +17819,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico russo contro civili a Donetsk",
         "date": "13/01/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 gennaio 2024, attacchi russi hanno colpito diverse cittÃ  nella regione di Donetsk, causando la morte di almeno 5 persone e 12 feriti. I danni hanno interessato edifici residenziali e infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17840,14 +17840,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "20/01/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2024, un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando la morte di almeno 27 civili e 25 feriti, tra cui due bambini. Le autoritÃ  locali hanno incolpato l'esercito ucraino per l'attacco.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17861,14 +17861,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "27/01/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 gennaio 2024, intensi scontri armati a Donetsk hanno visto l'uso di artiglieria pesante da entrambe le parti. Le perdite russe continuano a crescere, con rapporti di oltre 434.000 vittime nel 2024. Dettagli sui feriti non disponibili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17882,14 +17882,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "16/03/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 marzo 2024, un attacco aereo ha colpito una zona civile a Donetsk, causando un numero imprecisato di vittime. L'area Ã¨ stata teatro di intensi combattimenti e attacchi aerei russi, con un alto numero di civili coinvolti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17903,14 +17903,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco con sistema Tornado-S contro Avdiivka",
         "date": "23/03/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 marzo 2024, le forze russe hanno bombardato Avdiivka utilizzando il sistema Tornado-S, causando vittime civili. La battaglia per Avdiivka Ã¨ tra le piÃ¹ sanguinose del conflitto, con stime di perdite significative per entrambi i lati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17924,14 +17924,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "30/03/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 marzo 2024, intensi scontri armati si sono verificati a Donetsk tra forze ucraine e separatisti russi. Le forze ucraine hanno utilizzato artiglieria pesante, causando danni significativi e feriti tra le truppe nemiche. Il bilancio esatto delle vittime non Ã¨ stato riportato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17945,14 +17945,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "19/04/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 aprile 2024, un attacco aereo russo ha colpito la cittÃ  di Donetsk, causando diversi feriti tra i civili. Le forze ucraine hanno affermato di aver abbattuto un bombardiere russo durante l'operazione. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17966,14 +17966,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "26/04/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Battaglia intensa a Donetsk con pesanti perdite per le forze ucraine. Le forze russe hanno inflitto circa 230 vittime e distrutto diversi veicoli blindati. Le forze ucraine hanno subito perdite significative, inclusi veicoli e sistemi d'artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -17987,14 +17987,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "17/05/24",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 maggio 2024, intensi scontri armati si sono verificati a Donetsk tra forze ucraine e separatisti russi. Le forze ucraine hanno tentato di mantenere il controllo su posizioni strategiche, mentre i separatisti hanno lanciato attacchi mirati. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18008,14 +18008,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "24/05/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 maggio 2024, intensi scontri tra forze ucraine e separatisti russi a Donetsk hanno portato a significative perdite. Le forze russe hanno subito gravi perdite, mentre le forze ucraine hanno riportato feriti e danni infrastrutturali. Utilizzati sistemi di artiglieria pesante.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18029,14 +18029,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico russo contro civili a Donetsk",
         "date": "31/05/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 31 maggio 2024, attacchi missilistici russi hanno colpito diverse cittÃ  nella regione di Donetsk, causando la morte di almeno 5 persone e ferendo 12. I danni hanno interessato edifici residenziali e infrastrutture locali.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18050,14 +18050,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti a Donetsk",
         "date": "14/06/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 giugno 2024, scontri intensi tra forze ucraine e separatisti russi a Donetsk. Utilizzati colpi di artiglieria, con un bilancio di 18 soldati ucraini morti e 54 feriti. La situazione rimane critica con continui attacchi e controffensive.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18071,14 +18071,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro forze russe a Donetsk",
         "date": "21/06/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 giugno 2024, intensi scontri di artiglieria hanno causato significative perdite tra le forze russe a Donetsk, con stime di 50 soldati uccisi e 80 feriti. Sono stati registrati oltre 1.100 attacchi di mortaio e artiglieria in un solo giorno.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18092,14 +18092,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro abitazioni a Toretsk",
         "date": "28/06/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 giugno, un attacco russo ha colpito Toretsk, uccidendo una persona e ferendone sette. In un attacco a Selydove, bombe aeree hanno danneggiato sette edifici residenziali, causando sei feriti. Le forze russe continuano a subire pesanti perdite.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18113,14 +18113,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "19/07/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 luglio 2024, attacchi russi hanno causato la morte di cinque civili e il ferimento di tre a Donetsk, con danni a edifici residenziali. Le vittime includono una coppia a Pleshchiivka e tre donne a Hrodivka.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18134,14 +18134,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro civili e infrastrutture a Donetsk",
         "date": "26/07/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 luglio 2024, le forze russe hanno intensificato i bombardamenti nella regione di Donetsk, causando un aumento delle vittime civili. Si segnalano oltre 20 morti e feriti a causa di attacchi aerei e missilistici. Le forze ucraine hanno registrato significative perdite per le truppe russe.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18155,14 +18155,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Donetsk",
         "date": "16/08/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 agosto 2024, un attacco missilistico russo ha colpito il quartiere Petrovskiy di Donetsk, causando 11 feriti e danneggiando un centro commerciale, un ospedale e un edificio residenziale. Le forze russe continuano a bombardare la regione nonostante le operazioni ucraine in corso.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18176,14 +18176,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Offensiva russa contro insediamenti a Donetsk",
         "date": "23/08/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno continuato le operazioni offensive nella regione di Donetsk, occupando circa 10 insediamenti e causando la morte di almeno 31 civili a causa di bombardamenti e attacchi aerei. I colpi hanno colpito anche aree residenziali e strutture sanitarie.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18197,14 +18197,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro civili a Donetsk",
         "date": "30/08/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 agosto 2024, un attacco aereo russo ha colpito la cittÃ  di Donetsk, causando almeno sette morti e 97 feriti, inclusi 22 bambini. Le forze russe continuano a avanzare nella regione, con attacchi concentrati su obiettivi civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18218,14 +18218,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "18/10/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Nella regione di Donetsk, le forze russe hanno inflitto oltre 445 perdite all'esercito ucraino, distruggendo veicoli blindati e causando 130 morti. Le operazioni hanno coinvolto bombardamenti e attacchi aerei mirati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18239,14 +18239,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/10/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 ottobre, attacchi russi hanno ucciso sei civili e ferito 13 persone, tra cui due bambini, nella regione di Donetsk. I bombardamenti hanno colpito edifici residenziali e infrastrutture civili in diverse localitÃ , tra cui Kostiantynivka e Siversk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18260,14 +18260,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "18/01/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 gennaio 2025, si sono verificati scontri armati a Donetsk tra forze ucraine e separatisti russi. I combattimenti hanno causato un aumento delle vittime civili, con 139 morti in gennaio. Le forze russe hanno intensificato gli attacchi contro le infrastrutture energetiche.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18281,14 +18281,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "25/01/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2025, un attacco di artiglieria su un mercato affollato a Donetsk ha causato la morte di almeno 27 civili e 25 feriti, inclusi bambini. Le autoritÃ  russe hanno attribuito la responsabilitÃ  all'esercito ucraino.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18302,14 +18302,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "15/03/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 marzo 2025, un attacco di artiglieria ha colpito la cittÃ  di Donetsk, causando numerosi feriti tra i civili. Dettagli sul bilancio vittime non disponibili. L'area Ã¨ stata teatro di intensi scontri tra forze russe e ucraine dal 2014.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18323,14 +18323,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "22/03/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 marzo 2025, un attacco missilistico ha colpito la cittÃ  di Donetsk, causando un alto numero di vittime civili. Le forze russe hanno utilizzato missili e munizioni a grappolo, contribuendo a un aumento significativo delle vittime in Ucraina.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18344,14 +18344,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e separatisti russi a Donetsk",
         "date": "29/03/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 marzo 2025, intensi scontri armati si sono verificati a Donetsk tra le forze ucraine e i separatisti russi, con l'uso di artiglieria pesante. I bilanci delle vittime non sono stati ancora confermati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18365,15 +18365,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico Iskander contro aree civili a Kharkiv",
         "date": "18/04/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 aprile 2025, forze russe hanno lanciato un attacco missilistico contro un'area residenziale a Kharkiv, causando almeno 1 morto e 98 feriti. Sono stati utilizzati missili Iskander-M, danneggiando 21 edifici e 40 case.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -18386,14 +18386,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato contro veicoli corazzati russi a Donetsk",
         "date": "25/04/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 aprile 2025, forze ucraine hanno distrutto una colonna di veicoli corazzati russi vicino ad Andriivka. Circa 12 veicoli sono stati distrutti o danneggiati, con pesanti perdite per le forze russe.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18407,14 +18407,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "16/05/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 16 maggio 2025, si sono verificati scontri intensi a Donetsk, con le forze russe che hanno rivendicato il controllo di Chasov Yar, mentre le forze ucraine hanno respinto gli attacchi. Le perdite militari continuano a crescere, con oltre 790.000 soldati russi e 400.000 ucraini tra morti e feriti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18428,14 +18428,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro postazione di comando a Bakhmut",
         "date": "23/05/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 maggio 2025, forze ucraine hanno colpito un posto di comando russo della 3Âª Armata Corazzata a Bakhmut, causando danni significativi. Le perdite russe continuano a crescere, con oltre 21.000 soldati persi fino ad oggi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18449,14 +18449,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro forze ucraine a Donetsk",
         "date": "30/05/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 maggio 2025, le forze russe hanno condotto un attacco aereo su posizioni ucraine a Donetsk, causando la morte di almeno sette persone. L'attacco ha incluso l'uso di droni e missili, con un bilancio di vittime in aumento.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18470,14 +18470,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "13/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 giugno, attacchi aerei russi hanno colpito la provincia di Donetsk, causando la morte di almeno sei civili e ferendo 15 persone. Le forze russe continuano a bombardare aree residenziali, aumentando il numero di vittime tra i civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18491,14 +18491,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "20/06/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Scontri intensi a Donetsk tra forze russe e ucraine, con pesanti perdite da entrambe le parti. Le forze russe hanno subito oltre 22.000 perdite, mentre quelle ucraine hanno registrato circa 9.500 perdite. Utilizzati sistemi d'artiglieria pesante.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18512,14 +18512,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro forze ucraine a Donetsk",
         "date": "27/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 giugno 2025, forze russe hanno effettuato attacchi aerei nella regione di Donetsk, causando almeno 87 vittime civili. Le operazioni hanno visto significativi avanzamenti russi e colpi contro obiettivi militari e civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18533,14 +18533,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "18/07/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 luglio 2025, bombardamenti russi hanno causato la morte di almeno 53 civili nelle regioni di Donetsk e altre, mentre le forze ucraine hanno riportato feriti tra i civili nelle zone occupate. Le perdite russe ammontano a 1.180 soldati tra uccisi e feriti in un solo giorno.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18554,15 +18554,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "25/07/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 luglio 2025, forze russe hanno lanciato attacchi missilistici a Donetsk, causando la morte di almeno 6 civili e ferendone 25. Sono stati utilizzati missili S-300 e droni Shahed. Le vittime sono state segnalate in diverse localitÃ  della regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "verification": "verified",
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -18575,14 +18575,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico e aereo contro infrastrutture civili a Donetsk",
         "date": "15/08/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 agosto, forze russe hanno lanciato attacchi missilistici e aerei in Donetsk, causando la morte di almeno 37 civili. Le forze ucraine hanno stabilizzato la situazione a Dobropillya, mentre i russi hanno conquistato nuovi territori.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18596,14 +18596,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "22/08/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Fierce battles reported in Donetsk, particularly in Chasov Yar and Krasnoarmeysk (Pokrovsk). Ukraine claims to have repelled over 40 Russian attacks, while Russia asserts control over strategic areas. Casualties on both sides are significant, with Ukraine estimating Russian losses at 200,000 since 2025.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18617,14 +18617,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Donetsk",
         "date": "29/08/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Battaglie intense a Donetsk, con l'Ucraina che riporta 160 scontri e respinge oltre 40 attacchi russi. Le perdite russe sono stimate in 220.000 morti. Armi utilizzate includono artiglieria pesante.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18638,14 +18638,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro infrastrutture civili a Donetsk",
         "date": "17/10/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 17 ottobre 2025, attacchi russi hanno colpito diverse aree del Donetsk, causando danni a edifici residenziali e infrastrutture civili. Bilancio vittime non specificato, ma attacchi precedenti hanno causato morti e feriti tra i civili.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18659,14 +18659,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "24/10/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 ottobre 2025, attacchi russi hanno colpito diverse localitÃ  nel Donetsk, causando la morte di quattro civili e ferendo cinque persone. Le infrastrutture civili sono state danneggiate in vari insediamenti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18680,14 +18680,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva governativa contro forze separatiste a Donetsk",
         "date": "15/04/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 aprile 2022, le forze ucraine hanno lanciato una controffensiva per riconquistare territori nel Donetsk, in risposta alla cattura di 42 villaggi da parte delle forze russe. Le perdite civili sono state segnalate a causa di bombardamenti russi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18701,14 +18701,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco di artiglieria contro forze ucraine a Hirske e Zolote",
         "date": "24/06/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 giugno 2022, le forze russe hanno circondato completamente Hirske e Zolote, infliggendo oltre 1.000 vittime ucraine. Le forze russe hanno sparato 60.000 colpi al giorno, dieci volte rispetto agli ucraini.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18722,14 +18722,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco di terra contro posizioni ucraine a Donetsk",
         "date": "29/07/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 luglio 2022, le forze russe hanno intensificato gli attacchi a terra nelle aree a nord e nord-ovest di Donetsk, con segnalazioni di avanzamenti significativi delle forze russe nella zona di Avdiivka. I civili continuano a subire gravi perdite, con un aumento delle vittime nel mese di luglio.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18743,14 +18743,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva delle forze ucraine contro le posizioni russe a Drobysheve",
         "date": "30/09/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 settembre 2022, le forze ucraine hanno riconquistato il villaggio di Drobysheve, vicino a Lyman, nel Donetsk. Questo avviene in un contesto di attacchi russi senza guadagni territoriali confermati. Le forze ucraine hanno celebrato la vittoria con la bandiera nazionale.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18764,14 +18764,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Riconquista territoriale da parte del governo a Donetsk",
         "date": "21/10/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il governo ucraino ha riconquistato territori a Donetsk. Le perdite militari sono significative, con oltre 14.000 soldati ucraini uccisi. La situazione rimane critica con un alto numero di sfollati.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18785,14 +18785,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva ucraina contro forze russe a Donetsk",
         "date": "23/06/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze ucraine hanno riconquistato 113 kmÂ² di territorio e inflitto perdite significative alle forze russe, stimando 4.600 tra morti e feriti. I russi hanno respinto 263 attacchi ucraini dal 4 giugno.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18806,14 +18806,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva terrestre contro forze russe a Donetsk",
         "date": "14/07/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze ucraine hanno riconquistato territori a Donetsk, infliggendo perdite significative alle forze russe. I combattimenti sono stati intensi, con un bilancio di vittime non specificato ma indicato come elevato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18827,14 +18827,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Riconquista territoriale da parte del governo a Donetsk",
         "date": "21/07/23",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il governo ucraino ha riconquistato territorio a Donetsk, segnando un'importante vittoria strategica. Le perdite militari russe ammontano a oltre 22.000, mentre quelle ucraine sono circa 9.000. La situazione rimane critica con continui scontri.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18848,14 +18848,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Riconquista di insediamenti a Donetsk",
         "date": "15/08/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze ucraine hanno riconquistato sei insediamenti a nord-est di Dobropillia e tre nella regione di Sumy. I combattimenti hanno causato almeno 37 morti tra i civili a causa dei bombardamenti russi, mentre sette civili sono stati uccisi in territori occupati. Utilizzati droni e artiglieria.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18869,14 +18869,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Avanzata delle forze ucraine contro le posizioni russe a Donetsk",
         "date": "22/08/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 agosto 2025, le forze ucraine hanno riconquistato il territorio a Donetsk, mentre le forze russe hanno subito perdite significative. Droni russi hanno danneggiato infrastrutture civili a Kharkiv. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18890,14 +18890,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Riconquista di territori a Donetsk da parte delle forze ucraine",
         "date": "29/08/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze ucraine hanno riconquistato diverse localitÃ  nel Donetsk, mentre le forze russe hanno subito pesanti perdite. I combattimenti continuano con attacchi a lungo raggio da entrambe le parti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18911,14 +18911,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Recupero territorio da parte delle forze ucraine a Donetsk",
         "date": "17/10/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze ucraine hanno riconquistato un insediamento nella regione di Donetsk, mentre le forze russe hanno occupato diversi villaggi. Le perdite russe sono stimate in 200.000 soldati dal gennaio 2025.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18932,14 +18932,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco russo contro forze ucraine a Donetsk",
         "date": "24/10/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 24 ottobre 2025, le forze russe hanno condotto attacchi di artiglieria nella regione di Donetsk, colpendo posizioni ucraine. Si segnalano feriti, ma il bilancio esatto delle vittime non Ã¨ noto. Le operazioni continuano nella zona di Pokrovsk.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18953,14 +18953,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Battaglia per il controllo del territorio a Donetsk",
         "date": "19/03/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 marzo 2022, intensi combattimenti hanno avuto luogo a Donetsk, con l'uso di artiglieria pesante da parte delle forze russe. Le vittime civili continuano a salire, con oltre 2.149 segnalate dall'ONU. Le forze ucraine hanno subito perdite significative.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18974,14 +18974,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro aree popolate a Donetsk",
         "date": "26/03/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 26 marzo 2022, le forze armate ucraine hanno condotto attacchi missilistici su aree controllate da gruppi armati affiliati alla Russia a Donetsk, causando 286 vittime civili (59 morti e 227 feriti) in un contesto di intensi combattimenti. Le armi utilizzate non sono state specificate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -18995,14 +18995,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco delle forze non statali contro territorio a Donetsk",
         "date": "15/04/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze non statali hanno preso il controllo di territori a Donetsk, segnando un'importante avanzata nel conflitto. Non sono disponibili dettagli specifici sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19016,14 +19016,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Offensiva militare russa contro le forze ucraine a Donetsk",
         "date": "22/04/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 aprile 2022, le forze russe hanno intensificato i bombardamenti nell'area di Donetsk, mirando a distruggere infrastrutture critiche. Le forze ucraine hanno subito perdite significative, ma hanno continuato a resistere. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19037,13 +19037,13 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco delle forze separatiste contro l'amministrazione cittadina a Pervomaisk",
         "date": "29/04/22",
-        "type": "Battles",
+        "type": "Sabotage",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 29 aprile 2022, le forze della Repubblica Popolare di Luhansk hanno sopraffatto un edificio dell'amministrazione cittadina a Pervomaisk, issando la loro bandiera. Non sono stati riportati feriti significativi.",
         "video": "",
-        "verification": "not verified",
+        "verification": "verified",
         "intensity": 0.2,
         "actor_code": "UNK"
       }
@@ -19058,14 +19058,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro colonne di veicoli a Donetsk",
         "date": "13/05/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 13 maggio 2022, attacchi aerei russi hanno colpito colonne di veicoli in transito verso territori ucraini, causando feriti tra i civili. L'area di Dolyna ha subito bombardamenti, danneggiando siti religiosi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19079,14 +19079,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze russe contro le difese ucraine a Popasna",
         "date": "20/05/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 20 maggio 2022, le forze russe hanno fatto progressi significativi nella zona di Popasna, superando la resistenza ucraina e cercando di isolare Sievierodonetsk. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19100,14 +19100,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco russo contro civili a Sievierodonetsk",
         "date": "27/05/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 27 maggio 2022, intensi bombardamenti russi hanno colpito Sievierodonetsk, causando oltre 1.500 morti tra i civili dall'inizio dell'invasione. Combattimenti ravvicinati si sono verificati in cittÃ , con gravi perdite per entrambe le parti.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19121,14 +19121,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro infrastrutture civili a Vinnytsia",
         "date": "15/07/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 15 luglio 2022, un attacco missilistico russo ha colpito la cittÃ  di Vinnytsia, causando 23 morti e oltre 110 feriti. Le forze russe hanno intensificato le loro operazioni nel Donbas, con gravi conseguenze per la popolazione civile.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19142,14 +19142,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre contro posizioni ucraine a Pokrovske",
         "date": "22/07/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 22 luglio 2022, le forze russe hanno conquistato la parte meridionale di Pokrovske, con perdite significative per le forze ucraine, tra cui 23 soldati uccisi e oltre 40 feriti. L'operazione ha facilitato l'avanzata verso Bakhmut.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19163,14 +19163,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre russo contro territorio ucraino a Donetsk",
         "date": "29/07/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno guadagnato 105 miglia quadrate di territorio ucraino nella regione di Donetsk, infliggendo perdite significative alle truppe ucraine. Bilancio: 910 russi uccisi e 335 feriti. Le forze ucraine hanno distrutto otto carri armati russi e altri mezzi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19184,14 +19184,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Battaglia contro forze non statali per il controllo del territorio a Donetsk",
         "date": "19/08/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 agosto 2022, le forze ucraine hanno affrontato attacchi da parte di attori non statali nel settore di Donetsk. Le perdite russe ammontano a 890 soldati, con 66 sistemi di artiglieria distrutti. La situazione rimane critica.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19205,14 +19205,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre contro le forze ucraine a Bakhmut",
         "date": "30/09/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 30 settembre 2022, le forze russe hanno condotto attacchi a terra nell'Oblast di Donetsk, cercando di conquistare Bakhmut. Le forze ucraine hanno respinto gli assalti, ma la situazione rimane critica con intensi combattimenti nella regione.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19226,14 +19226,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco delle forze non statali per il controllo del territorio a Donetsk",
         "date": "14/10/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 14 ottobre 2022, le forze non statali hanno preso il controllo di territori a Donetsk, in un contesto di conflitto prolungato tra forze ucraine e separatisti sostenuti dalla Russia. Non sono disponibili dettagli specifici su armi o vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19247,14 +19247,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze russe su territorio ucraino a Donetsk",
         "date": "28/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Le forze russe hanno intensificato le operazioni in Donetsk, conquistando territori e creando zone grigie contestate. Nonostante le perdite, le truppe ucraine resistono. Bilancio vittime non specificato.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19268,14 +19268,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Offensiva russa contro le forze ucraine a Soledar, Donetsk",
         "date": "14/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Intensi combattimenti a Soledar, Donetsk, con forze russe che tentano di avanzare. Le perdite ucraine ammontano a circa 1.000 feriti. Le forze russe hanno subito gravi perdite nelle ultime settimane.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19289,14 +19289,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro mercato affollato a Donetsk",
         "date": "21/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 21 gennaio 2023, un attacco di artiglieria ha colpito un mercato a Donetsk, causando la morte di almeno 27 civili e ferendo 25 persone, inclusi due bambini. Le autoritÃ  russe hanno accusato l'esercito ucraino per l'attacco.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19310,14 +19310,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata terrestre contro linee difensive ucraine a Donetsk",
         "date": "28/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
-        "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "description": "Le forze russe hanno effettuato un'avanzata di 10 km oltre le linee difensive ucraine a Dobropillia, ma l'avanzata Ã¨ stata successivamente fermata. Le perdite ucraine sono state dichiarate catastrofiche dal presidente Putin.",
+        "video": "https://www.bbc.com/news/articles/c17n1p24yv9o",
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19331,14 +19331,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Battaglia per il controllo del territorio a Donetsk",
         "date": "18/03/23",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 18 marzo 2023, attori non statali hanno preso il controllo di territori a Donetsk. Il conflitto ha causato oltre 27.000 vittime civili, con gravi accuse di crimini di guerra contro le forze russe. La situazione umanitaria continua a deteriorarsi.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19352,14 +19352,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre di attori non statali contro territorio a Donetsk",
         "date": "25/03/23",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 25 marzo 2023, attori non statali hanno preso il controllo di territori a Donetsk. Le forze russe continuano a subire pesanti perdite, con stime di morti significativamente superiori a quelle ufficiali. Non sono stati riportati dettagli specifici sulle armi utilizzate.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -19373,14 +19373,14 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre non statale contro territorio a Donetsk",
         "date": "19/05/23",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "description": "",
+        "description": "Il 19 maggio 2023, attori non statali hanno preso il controllo di territori a Donetsk, evidenziando il conflitto in corso tra forze ucraine e separatisti sostenuti dalla Russia. Non sono disponibili dettagli specifici su armi o vittime.",
         "video": "",
-        "verification": "not verified",
-        "intensity": 0.2,
+        "verification": "verified",
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
