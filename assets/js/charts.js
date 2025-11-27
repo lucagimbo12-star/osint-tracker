@@ -1,5 +1,5 @@
 // ============================================
-// CHARTS.JS - FINAL FULL EDITION (Moment.js)
+// CHARTS.JS - FINAL SIDEBAR FIX
 // ============================================
 
 let charts = { timeline: null, type: null, radar: null };
@@ -33,6 +33,7 @@ window.initCharts = function(events) {
     }
     
     // Parsing Data con Moment (Identico a Map.js per coerenza)
+    // Se la data è già un numero (timestamp), moment lo accetta direttamente
     let m = moment(e.date);
     if(!m.isValid()) m = moment(e.date, ["DD/MM/YYYY", "DD-MM-YYYY", "DD.MM.YYYY"]);
     const ts = m.isValid() ? m.valueOf() : moment().valueOf();
@@ -42,10 +43,11 @@ window.initCharts = function(events) {
       _searchStr: searchParts.join(' '),
       _actorCode: (e.actor_code || 'UNK').toString().toUpperCase(),
       _intensityNorm: parseFloat(e.intensity || 0.2),
-      timestamp: ts
+      timestamp: ts // Timestamp numerico per filtri
     };
   });
 
+  // Ordina per data
   ORIGINAL_DATA.sort((a,b) => a.timestamp - b.timestamp);
   
   updateDashboard(ORIGINAL_DATA);
@@ -58,6 +60,7 @@ function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
   
+  // Clona bottone per pulire eventi precedenti
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
   newBtn.addEventListener('click', executeFilter);
@@ -75,17 +78,26 @@ function setupChartFilters() {
 }
 
 function executeFilter() {
-  const startVal = document.getElementById('startDate').value;
-  const endVal = document.getElementById('endDate').value;
+  // Input Utente
+  const startVal = document.getElementById('startDate').value; // Restituisce stringa YYYY-MM-DD
+  const endVal = document.getElementById('endDate').value;     // Restituisce stringa YYYY-MM-DD
   const type = document.getElementById('chartTypeFilter').value;
   const actorCode = document.getElementById('actorFilter').value; 
   const rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
   
   const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked')).map(cb => cb.value);
 
-  // Parsing date input sidebar (che restituisce YYYY-MM-DD)
-  const startTs = startVal ? moment(startVal).valueOf() : null;
-  const endTs = endVal ? moment(endVal).valueOf() : null;
+  // --- LOGICA TEMPORALE MOMENT.JS ---
+  // startOf('day') -> imposta 00:00:00 del giorno scelto -> Tutto ciò che succede DOPO l'inizio di quel giorno
+  // endOf('day') -> imposta 23:59:59 del giorno scelto -> Tutto ciò che succede PRIMA della fine di quel giorno
+  
+  const startTs = startVal ? moment(startVal).startOf('day').valueOf() : null;
+  const endTs = endVal ? moment(endVal).endOf('day').valueOf() : null;
+
+  // Debug: controlla in console cosa stiamo cercando
+  if(startVal || endVal) {
+      console.log(`📅 Filtro attivo: Dal ${startVal} (${startTs}) al ${endVal} (${endTs})`);
+  }
 
   let searchTerms = [rawSearch];
   if(rawSearch) {
@@ -94,18 +106,20 @@ function executeFilter() {
   }
 
   const filtered = ORIGINAL_DATA.filter(e => {
-    // Filtri Data
+    // A. Filtro Data (Logica DOPO / PRIMA)
+    // Se c'è una data di inizio, l'evento deve essere >= startTs
     if (startTs && e.timestamp < startTs) return false;
+    // Se c'è una data di fine, l'evento deve essere <= endTs
     if (endTs && e.timestamp > endTs) return false;
     
-    // Filtri Categoria/Attore
+    // B. Filtri Categoria/Attore
     if (type && e.type !== type) return false;
     if (actorCode && e._actorCode !== actorCode) return false;
     
-    // Filtro Ricerca
+    // C. Filtro Ricerca
     if (rawSearch && !searchTerms.some(term => e._searchStr.includes(term))) return false;
     
-    // Filtro Intensità
+    // D. Filtro Intensità
     let cat = 'low';
     if (e._intensityNorm >= 0.8) cat = 'critical';
     else if (e._intensityNorm >= 0.6) cat = 'high';
@@ -116,13 +130,15 @@ function executeFilter() {
     return true;
   });
 
+  console.log(`✅ Risultati filtrati: ${filtered.length}`);
+
   updateDashboard(filtered);
   
   // Sincronizza Mappa
   if(window.updateMap) window.updateMap(filtered);
 }
 
-// --- RENDER GRAFICI (ESPANSIONE COMPLETA) ---
+// --- RENDER GRAFICI ---
 
 function updateDashboard(data) {
   renderTimelineChart(data);
