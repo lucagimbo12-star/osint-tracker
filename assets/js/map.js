@@ -1,5 +1,5 @@
 // ============================================
-// MAP.JS - MOMENT.JS EDITION
+// MAP.JS - FINAL FULL EDITION (Moment.js + Modal Fix)
 // ============================================
 
 // --- CONFIGURAZIONE & VARIABILI GLOBALI ---
@@ -24,10 +24,13 @@ let initMap = function() {
     map = L.map('map', {
         zoomControl: false, preferCanvas: true, wheelPxPerZoomLevel: 120
     }).setView([48.5, 32.0], 6);
+
     L.control.zoom({ position: 'bottomright' }).addTo(map);
+
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19, attribution: '&copy; CARTO'
+        maxZoom: 19, attribution: '&copy; IMPACT ATLAS'
     }).addTo(map);
+
     eventsLayer = L.markerClusterGroup({
         chunkedLoading: true, maxClusterRadius: 45, spiderfyOnMaxZoom: true,
         iconCreateFunction: function(cluster) {
@@ -55,12 +58,12 @@ async function loadEventsData() {
       // Moment.js prova a leggere qualsiasi formato. 
       // Se fallisce, restituisce data odierna per non rompere la mappa.
       let m = moment(f.properties.date);
+      // Tentativo extra per formati italiani se il default fallisce
       if(!m.isValid()) {
-           // Prova formati italiani comuni forzando il parsing
            m = moment(f.properties.date, ["DD/MM/YYYY", "DD-MM-YYYY", "DD.MM.YYYY"]);
       }
       
-      const ts = m.isValid() ? m.valueOf() : moment().valueOf(); // Fallback a oggi se proprio non va
+      const ts = m.isValid() ? m.valueOf() : moment().valueOf(); // Fallback a oggi se nullo
 
       return {
           ...f.properties,
@@ -111,7 +114,9 @@ function renderInternal(eventsToDraw) {
         map.addLayer(eventsLayer);
     }
     
-    if(document.getElementById('eventCount')) document.getElementById('eventCount').innerText = eventsToDraw.length;
+    if(document.getElementById('eventCount')) {
+        document.getElementById('eventCount').innerText = eventsToDraw.length;
+    }
 }
 
 // --- SLIDER ---
@@ -156,16 +161,23 @@ window.toggleVisualMode = function() {
     isHeatmapMode = !isHeatmapMode;
     const btn = document.getElementById('heatmapToggle');
     const slider = document.getElementById('timeSlider');
-    if(isHeatmapMode) { btn.classList.add('active'); btn.innerHTML = '<i class="fa-solid fa-circle-nodes"></i> Cluster'; } 
-    else { btn.classList.remove('active'); btn.innerHTML = '<i class="fa-solid fa-layer-group"></i> Heatmap'; }
+    
+    if(isHeatmapMode) { 
+        btn.classList.add('active'); 
+        btn.innerHTML = '<i class="fa-solid fa-circle-nodes"></i> Cluster'; 
+    } else { 
+        btn.classList.remove('active'); 
+        btn.innerHTML = '<i class="fa-solid fa-layer-group"></i> Heatmap'; 
+    }
     
     const currentSliderVal = parseInt(slider.value);
     const timeFiltered = window.currentFilteredEvents.filter(ev => ev.timestamp <= currentSliderVal);
     renderInternal(timeFiltered);
 };
 
-// --- HELPERS ---
+// --- HELPERS MARKER ---
 function getColor(val) { const v = val || 0.2; if (v >= 0.8) return impactColors.critical; if (v >= 0.6) return impactColors.high; if (v >= 0.4) return impactColors.medium; return impactColors.low; }
+
 function getIconClass(type) { if (!type) return typeIcons.default; const t = type.toLowerCase(); for (const [key, icon] of Object.entries(typeIcons)) { if (t.includes(key)) return icon; } return typeIcons.default; }
 
 function createMarker(e) {
@@ -187,33 +199,111 @@ function createMarker(e) {
 function createPopupContent(e) {
   const eventData = encodeURIComponent(JSON.stringify(e));
   const color = getColor(e.intensity);
-  return `<div class="acled-popup" style="color:#334155;"><div style="border-left: 4px solid ${color}; padding-left: 10px; margin-bottom: 8px;"><h5 style="margin:0; font-weight:700; font-size:0.95rem;">${e.title}</h5><small style="color:#64748b;">${e.date} | ${e.type}</small></div><button onclick="openModal('${eventData}')" class="btn-primary" style="padding:6px; font-size:0.8rem; margin-top:5px;"><i class="fa-solid fa-expand"></i> Apri Dossier</button></div>`;
+  return `<div class="acled-popup" style="color:#334155;">
+    <div style="border-left: 4px solid ${color}; padding-left: 10px; margin-bottom: 8px;">
+        <h5 style="margin:0; font-weight:700; font-size:0.95rem;">${e.title}</h5>
+        <small style="color:#64748b;">${e.date} | ${e.type}</small>
+    </div>
+    <button onclick="openModal('${eventData}')" class="btn-primary" style="padding:6px; font-size:0.8rem; margin-top:5px;">
+        <i class="fa-solid fa-expand"></i> Apri Dossier
+    </button>
+  </div>`;
 }
 
-// ... Le funzioni openModal, updateSlider, renderConfidenceChart rimangono uguali al codice precedente ...
-// (Per brevità non le ricopio, assicurati di averle in fondo al file come prima)
+// --- LOGICA MODALE COMPLETA (RIPRISTINATA) ---
+
 window.openModal = function(eventJson) {
   const e = JSON.parse(decodeURIComponent(eventJson));
+  
   document.getElementById('modalTitle').innerText = e.title;
   document.getElementById('modalDesc').innerText = e.description || "Nessun dettaglio.";
   document.getElementById('modalType').innerText = e.type;
   document.getElementById('modalDate').innerText = e.date;
+  
   const vidCont = document.getElementById('modalVideoContainer');
   vidCont.innerHTML = '';
+  
+  // Gestione Video
   if (e.video && e.video !== 'null') {
-    if(e.video.includes('youtu')) { const embed = e.video.replace('watch?v=', 'embed/').split('&')[0]; vidCont.innerHTML = `<iframe src="${embed}" frameborder="0" allowfullscreen style="width:100%; height:400px; border-radius:8px;"></iframe>`; } else { vidCont.innerHTML = `<a href="${e.video}" target="_blank" class="btn-primary">Media Esterno</a>`; }
+    if(e.video.includes('youtu')) { 
+       const embed = e.video.replace('watch?v=', 'embed/').split('&')[0]; 
+       vidCont.innerHTML = `<iframe src="${embed}" frameborder="0" allowfullscreen style="width:100%; height:400px; border-radius:8px;"></iframe>`; 
+    } else { 
+       vidCont.innerHTML = `<a href="${e.video}" target="_blank" class="btn-primary">Media Esterno</a>`; 
+    }
   }
+
+  // Gestione Juxtapose (Before/After)
   const sliderCont = document.getElementById('modalJuxtapose');
   sliderCont.innerHTML = '';
   if (e.before_img && e.after_img) { 
-     sliderCont.innerHTML = `<h4 style="color:white; margin:20px 0 10px;">Battle Damage Assessment</h4><div class="juxtapose-wrapper" onmousemove="updateSlider(event, this)"><div class="juxtapose-img" style="background-image:url('${e.before_img}')"></div><div class="juxtapose-img after" style="background-image:url('${e.after_img}'); width:50%;"></div><div class="juxtapose-handle" style="left:50%"><div class="juxtapose-button"><i class="fa-solid fa-arrows-left-right"></i></div></div></div>`;
+     sliderCont.innerHTML = `
+       <h4 style="color:white; margin:20px 0 10px;">Battle Damage Assessment</h4>
+       <div class="juxtapose-wrapper" onmousemove="updateSlider(event, this)">
+         <div class="juxtapose-img" style="background-image:url('${e.before_img}')"></div>
+         <div class="juxtapose-img after" style="background-image:url('${e.after_img}'); width:50%;"></div>
+         <div class="juxtapose-handle" style="left:50%"><div class="juxtapose-button"><i class="fa-solid fa-arrows-left-right"></i></div></div>
+       </div>
+     `;
   }
-  const conf = e.confidence || 85; renderConfidenceChart(conf);
+
+  // Grafico Affidabilità
+  const conf = e.confidence || 85; 
+  renderConfidenceChart(conf);
+
   document.getElementById('videoModal').style.display = 'flex';
 };
-window.updateSlider = function(e, wrapper) { const rect = wrapper.getBoundingClientRect(); let pos = ((e.clientX - rect.left) / rect.width) * 100; pos = Math.max(0, Math.min(100, pos)); wrapper.querySelector('.after').style.width = `${pos}%`; wrapper.querySelector('.juxtapose-handle').style.left = `${pos}%`; };
-let confChart = null;
-function renderConfidenceChart(score) { const ctxEl = document.getElementById('confidenceChart'); if(!ctxEl) return; const ctx = ctxEl.getContext('2d'); if(confChart) confChart.destroy(); confChart = new Chart(ctx, { type: 'doughnut', data: { datasets: [{ data: [score, 100-score], backgroundColor: ['#f59e0b', '#334155'], borderWidth: 0 }] }, options: { responsive: true, cutout: '75%', animation: false, plugins: { tooltip: { enabled: false } } }, plugins: [{ id: 'text', beforeDraw: function(chart) { var width = chart.width, height = chart.height, ctx = chart.ctx; ctx.restore(); var fontSize = (height / 100).toFixed(2); ctx.font = "bold " + fontSize + "em Inter"; ctx.textBaseline = "middle"; ctx.fillStyle = "#f59e0b"; var text = score + "%", textX = Math.round((width - ctx.measureText(text).width) / 2), textY = height / 2; ctx.fillText(text, textX, textY); ctx.save(); } }] }); }
 
+window.updateSlider = function(e, wrapper) { 
+  const rect = wrapper.getBoundingClientRect(); 
+  let pos = ((e.clientX - rect.left) / rect.width) * 100; 
+  pos = Math.max(0, Math.min(100, pos)); 
+  wrapper.querySelector('.after').style.width = `${pos}%`; 
+  wrapper.querySelector('.juxtapose-handle').style.left = `${pos}%`; 
+};
+
+let confChart = null;
+function renderConfidenceChart(score) { 
+  const ctxEl = document.getElementById('confidenceChart'); 
+  if(!ctxEl) return; 
+  
+  const ctx = ctxEl.getContext('2d'); 
+  if(confChart) confChart.destroy(); 
+  
+  confChart = new Chart(ctx, { 
+    type: 'doughnut', 
+    data: { 
+      datasets: [{ 
+        data: [score, 100-score], 
+        backgroundColor: ['#f59e0b', '#334155'], 
+        borderWidth: 0 
+      }] 
+    }, 
+    options: { 
+      responsive: true, 
+      cutout: '75%', 
+      animation: false, 
+      plugins: { tooltip: { enabled: false } } 
+    }, 
+    plugins: [{ 
+      id: 'text', 
+      beforeDraw: function(chart) { 
+        var width = chart.width, height = chart.height, ctx = chart.ctx; 
+        ctx.restore(); 
+        var fontSize = (height / 100).toFixed(2); 
+        ctx.font = "bold " + fontSize + "em Inter"; 
+        ctx.textBaseline = "middle"; 
+        ctx.fillStyle = "#f59e0b"; 
+        var text = score + "%", 
+            textX = Math.round((width - ctx.measureText(text).width) / 2), 
+            textY = height / 2; 
+        ctx.fillText(text, textX, textY); 
+        ctx.save(); 
+      } 
+    }] 
+  }); 
+}
+
+// Start App
 initMap();
 loadEventsData();
