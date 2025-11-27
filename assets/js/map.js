@@ -23,6 +23,39 @@ const typeIcons = {
   'cultural': 'fa-landmark', 'eco': 'fa-leaf', 'default': 'fa-crosshairs'
 };
 
+// --- HELPER: PARSING DATA ROBUSTO (AGGIUNTO PER FIX) ---
+function parseDateToTimestamp(dateStr) {
+    if (!dateStr) return new Date().getTime();
+
+    // 1. GESTIONE FORMATO ITALIANO (DD/MM/YYYY)
+    if (dateStr.includes('/')) {
+        const parts = dateStr.split('/');
+        // Se abbiamo giorno/mese/anno
+        if (parts.length === 3) {
+            // Nota: in JS i mesi vanno da 0 (Gennaio) a 11 (Dicembre)
+            // parts[2] = anno, parts[1] = mese, parts[0] = giorno
+            return new Date(parts[2], parts[1] - 1, parts[0]).getTime();
+        }
+    }
+    
+    // 2. GESTIONE FORMATO TRATTINO (DD-MM-YYYY o YYYY-MM-DD)
+    if (dateStr.includes('-')) {
+        // Se inizia con l'anno (202X-...) è standard ISO
+        if (dateStr.trim().startsWith('202')) {
+            return new Date(dateStr).getTime();
+        } else {
+            // Altrimenti presumiamo sia DD-MM-YYYY
+            const parts = dateStr.split('-');
+            if (parts.length === 3) {
+                return new Date(parts[2], parts[1] - 1, parts[0]).getTime();
+            }
+        }
+    }
+
+    // 3. Fallback standard
+    return new Date(dateStr).getTime();
+}
+
 // 1. INIZIALIZZAZIONE MAPPA
 // (Rendering GPU preferito come nel codice originale)
 let initMap = function() {
@@ -73,7 +106,8 @@ async function loadEventsData() {
       ...f.properties,
       lat: f.geometry.coordinates[1],
       lon: f.geometry.coordinates[0],
-      timestamp: new Date(f.properties.date).getTime()
+      // MODIFICATO: Usa la funzione robusta parseDateToTimestamp
+      timestamp: parseDateToTimestamp(f.properties.date)
     })).sort((a,b) => a.timestamp - b.timestamp); // Ordina per data (fondamentale per lo slider)
 
     // Al caricamento iniziale, i dati filtrati coincidono con i globali
@@ -122,6 +156,9 @@ function renderInternal(eventsToDraw) {
 
     if(isHeatmapMode) {
         // --- RENDERING HEATMAP ---
+        // Verifica di sicurezza per Heatmap
+        if (typeof L.heatLayer === 'undefined') return;
+
         const heatPoints = eventsToDraw.map(e => [
             e.lat, 
             e.lon, 
@@ -181,14 +218,18 @@ function setupTimeSlider(allData) {
 
     if(!allData.length || !slider) return;
 
-    // Trova range date
-    const timestamps = allData.map(d => d.timestamp);
+    // Trova range date filtrando i NaN
+    const timestamps = allData.map(d => d.timestamp).filter(t => !isNaN(t) && t > 0);
+    
+    if (timestamps.length === 0) return;
+
     const minTime = Math.min(...timestamps);
     const maxTime = Math.max(...timestamps);
 
     slider.min = minTime;
     slider.max = maxTime;
     slider.value = maxTime;
+    slider.step = 86400000; // Step di 1 giorno
     slider.disabled = false;
     
     startLabel.innerText = new Date(minTime).toLocaleDateString();
@@ -214,10 +255,12 @@ function resetSliderToMax() {
     const slider = document.getElementById('timeSlider');
     if(slider && window.currentFilteredEvents.length > 0) {
         // Trova il max timestamp tra gli eventi filtrati
-        const timestamps = window.currentFilteredEvents.map(e => e.timestamp);
-        const maxT = Math.max(...timestamps);
-        slider.value = slider.max; // Oppure maxT se vogliamo limitare al range filtrato
-        document.getElementById('sliderCurrentDate').innerText = "LIVE";
+        const timestamps = window.currentFilteredEvents.map(e => e.timestamp).filter(t => !isNaN(t));
+        if (timestamps.length > 0) {
+             const maxT = Math.max(...timestamps);
+             slider.value = slider.max; 
+             document.getElementById('sliderCurrentDate').innerText = "LIVE";
+        }
     }
 }
 
