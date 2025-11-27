@@ -31713,15 +31713,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro strutture civili a Kharkiv",
         "date": "13/10/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://tsn.ua/en/ukrayina/devastating-strike-on-kharkiv-57-people-injured-damage-reported-photos-2933786.html",
+        "verification": "verified",
+        "description": "Il 13 ottobre, un attacco aereo russo ha colpito il distretto Saltivskyi di Kharkiv, causando 57 feriti tra i pazienti di una struttura medica e danni a veicoli e infrastrutture civili. Sono stati utilizzati ordigni FAB-250/500.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31735,15 +31735,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "20/10/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-army-strikes-kharkiv-on-october-24-infrastructure-damaged/",
+        "verification": "verified",
+        "description": "Il 20 ottobre 2023, un attacco aereo russo ha colpito Kharkiv, causando diversi feriti e danni significativi alle infrastrutture civili. Le forze russe hanno intensificato le operazioni nella regione, con un bilancio di almeno sei feriti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31757,15 +31757,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro terminale postale a Kharkiv",
         "date": "27/10/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/2023/10/22/europe/ukraine-kharkiv-russia-missile-strike-intl",
+        "verification": "verified",
+        "description": "Il 27 ottobre 2023, un attacco missilistico russo ha colpito un terminale postale nella regione di Kharkiv, causando la morte di almeno sei persone e ferendo 16. I missili sono stati lanciati dalla regione di Belgorod, vicino al confine ucraino.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31779,15 +31779,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro ospedali e infrastrutture civili a Kharkiv",
         "date": "13/01/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://tsn.ua/en/ukrayina/devastating-strike-on-kharkiv-57-people-injured-damage-reported-photos-2933786.html",
+        "verification": "verified",
+        "description": "Il 13 gennaio 2024, un attacco aereo russo ha colpito Kharkiv, causando 57 feriti, tra cui pazienti di un ospedale. Sono stati utilizzati ordigni FAB-250/500, danneggiando anche veicoli e strutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31801,15 +31801,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "20/01/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2024/01/23/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+        "verification": "verified",
+        "description": "Il 20 gennaio 2024, Kharkiv Ã¨ stata colpita da un attacco missilistico russo, causando sei morti e 73 feriti. I missili hanno danneggiato edifici residenziali e non residenziali. Le forze russe continuano a intensificare gli attacchi sulla cittÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31823,15 +31823,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "27/01/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Nella notte del 27 gennaio 2024, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato almeno tre morti e oltre 20 feriti, inclusi due bambini. L'attacco ha coinvolto missili e droni, danneggiando gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31845,15 +31845,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "16/03/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 16 marzo 2024, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato almeno tre morti e oltre 20 feriti, inclusi bambini. Sono stati utilizzati droni e missili, danneggiando edifici residenziali e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31867,15 +31867,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "23/03/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, Kharkiv ha subito un attacco aereo con droni e missili, causando almeno 3 morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Questo Ã¨ stato descritto come l'attacco piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31889,15 +31889,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro infrastrutture civili a Kharkiv",
         "date": "30/03/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 30 marzo 2024, Kharkiv Ã¨ stata colpita da un attacco aereo russo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato. Si tratta dell'attacco piÃ¹ potente dall'inizio dell'invasione russa nel 2022.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31911,15 +31911,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Kharkiv",
         "date": "19/04/24",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 19 aprile 2024, si sono verificati scontri tra forze russe e ucraine a Kharkiv, con pesanti perdite da entrambe le parti. Le forze russe hanno condotto raid aerei, mentre le truppe ucraine hanno risposto con missili anti-carro. Bilancio vittime non confermato.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31933,15 +31933,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro ospedale militare a Kharkiv",
         "date": "26/04/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 26 aprile 2024, un attacco aereo russo ha colpito un ospedale militare a Kharkiv, causando almeno 21 morti e 112 feriti. Le forze russe hanno condotto un raid dopo un bombardamento aereo sulla cittÃ , con pesanti scontri in corso.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31955,15 +31955,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico e aereo contro civili a Kharkiv",
         "date": "17/05/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2024/5/17/russian-strikes-kill-two-in-ukraines-kharkiv-as-moscow-steps-up-attacks",
+        "verification": "verified",
+        "description": "Il 17 maggio, attacchi missilistici e aerei russi su Kharkiv hanno causato la morte di quattro civili e oltre 30 feriti. L'offensiva russa nella regione ha portato a un aumento significativo degli scontri.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31977,15 +31977,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro ospedale militare a Kharkiv",
         "date": "24/05/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 24 maggio 2024, forze russe hanno condotto un attacco aereo su Kharkiv, colpendo un ospedale militare. Si segnalano almeno 21 morti e 112 feriti tra le forze ucraine. L'attacco Ã¨ avvenuto dopo un bombardamento aereo sulla cittÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31999,15 +31999,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro edifici residenziali a Kharkiv",
         "date": "31/05/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2024/5/31/at-least-three-killed-in-multiple-russian-attacks-on-kharkiv",
+        "verification": "verified",
+        "description": "Il 31 maggio 2024, missili russi hanno colpito un'area residenziale a Kharkiv, uccidendo almeno 9 civili e ferendone 15. L'intensificazione delle operazioni militari ha portato a un aumento delle vittime civili nella regione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32021,15 +32021,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "14/06/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 14 giugno 2024, Kharkiv Ã¨ stata colpita da un attacco aereo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un bambino. Circa 50 droni e diversi missili sono stati lanciati in 90 minuti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32043,15 +32043,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "21/06/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 21 giugno 2024, Kharkiv ha subito un attacco aereo massiccio con droni e missili, causando almeno tre morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Il sindaco ha descritto l'attacco come il piÃ¹ potente dall'inizio della guerra.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32065,15 +32065,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "28/06/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 28 giugno, Kharkiv Ã¨ stata colpita da un attacco aereo che ha causato la morte di almeno tre persone e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Sono stati utilizzati circa 50 droni e missili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32087,15 +32087,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture a Kharkiv",
         "date": "19/07/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/russian-attacks-kill-7-injure-25-in-ukraine-over-past-24-hours/",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, attacchi russi hanno colpito diverse regioni ucraine, causando almeno sette morti e 31 feriti. A Kharkiv non sono stati segnalati feriti, ma danni a infrastrutture sono stati riportati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32109,15 +32109,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo e missilistico contro civili a Kharkiv",
         "date": "26/07/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 26 luglio 2024, Kharkiv Ã¨ stata colpita da un massiccio attacco aereo e missilistico, con lanci di 9 missili e 206 droni. Almeno 3 morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32131,15 +32131,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro infrastrutture civili a Kharkiv",
         "date": "16/08/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.ukrinform.net/rubric-ato/4060303-strike-on-kharkiv-16-buildings-damaged-number-of-injured-climbs-to-46-including-two-children.html",
+        "verification": "verified",
+        "description": "Il 16 agosto, un attacco aereo russo ha colpito Kharkiv, causando 46 feriti, tra cui due bambini. Sono stati utilizzati droni e bombe guidate, danneggiando 16 edifici e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32153,15 +32153,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico e droni contro infrastrutture energetiche a Kharkiv",
         "date": "23/08/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/russian-attacks-kill-8-injure-67-hit-energy-infrastructure-in-ukraine-over-past-day/",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, attacchi russi hanno colpito la regione di Kharkiv, danneggiando infrastrutture energetiche e causando 13 feriti. Sono stati lanciati nove missili Iskander e 62 droni, con 12 droni e 5 missili che hanno colpito obiettivi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32175,15 +32175,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro edifici residenziali a Kharkiv",
         "date": "30/08/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/ukraine-war-latest-russian-troops-strike-kharkiv-killing-at-least-6-injuring-over-50/",
+        "verification": "verified",
+        "description": "Il 30 agosto 2024, un attacco russo ha colpito un edificio residenziale a Kharkiv, causando la morte di sette persone, tra cui una bambina, e ferendo 77 individui, inclusi 18 bambini. Le munizioni utilizzate sono state di tipo UMPB D-30.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32197,15 +32197,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "18/10/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, Kharkiv ha subito un attacco aereo con droni e missili. Almeno tre morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa nel 2022.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32219,15 +32219,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "25/10/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2024/10/25/russia-ukraine-war-list-of-key-events-day-973",
+        "verification": "verified",
+        "description": "Il 24 ottobre, le forze russe hanno colpito Kharkiv, danneggiando infrastrutture e causando feriti. Un attacco a un asilo ha provocato sei feriti. Il bilancio complessivo include un morto e nove feriti a Kupiansk.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32241,15 +32241,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "18/01/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2025/1/18/russia-ukraine-war-list-of-key-events-day-1059",
+        "verification": "verified",
+        "description": "Il 18 gennaio 2025, Kharkiv ha subito un attacco missilistico che ha causato la morte di almeno 4 civili e feriti. Le forze russe hanno intensificato gli attacchi contro le infrastrutture energetiche, causando blackout in diverse regioni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32263,15 +32263,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo su Kharkiv",
         "date": "25/01/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 25 gennaio 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato almeno 3 morti e oltre 20 feriti, inclusi un neonato e una ragazza di 14 anni. Sono stati lanciati 9 missili e 206 droni. Questo attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32285,15 +32285,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo e missilistico contro infrastrutture civili a Kharkiv",
         "date": "15/03/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 15 marzo 2025, Kharkiv ha subito un attacco massiccio con droni e missili, causando la morte di almeno 3 persone e ferendo oltre 20, tra cui un neonato. Le forze russe hanno lanciato 9 missili e 206 droni, causando danni significativi a edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32307,15 +32307,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro civili a Kharkiv",
         "date": "22/03/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 22 marzo 2025, un attacco aereo russo ha colpito Kharkiv, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa nel 2022.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32329,15 +32329,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo con droni contro civili a Kharkiv",
         "date": "29/03/25",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Nella notte del 29 marzo 2025, Kharkiv Ã¨ stata colpita da un massiccio attacco aereo russo con droni e missili, causando la morte di almeno 3 persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. Le forze russe hanno lanciato 206 droni e 9 missili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32351,15 +32351,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico Iskander contro aree civili a Kharkiv",
         "date": "18/04/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://kyivindependent.com/russian-ballistic-missile-attack-on-kharkiv-kills-1-injures-54/",
+        "verification": "verified",
+        "description": "Il 18 aprile 2025, forze russe hanno lanciato un attacco con missili Iskander-M su Kharkiv, causando la morte di un civile e ferendo almeno 98 persone. L'attacco ha danneggiato 21 edifici residenziali e un'impresa civile.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32373,15 +32373,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "25/04/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://thedefensepost.com/2025/11/24/russia-attack-ukraine-kharkiv/",
+        "verification": "verified",
+        "description": "Il 25 aprile 2025, un attacco aereo russo ha colpito Kharkiv, causando la morte di quattro civili e ferendone 17. L'attacco Ã¨ avvenuto mentre funzionari internazionali discutevano una proposta di pace per il conflitto in corso.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32395,15 +32395,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "16/05/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-10-16-may-2025",
+        "verification": "verified",
+        "description": "Il 16 maggio 2025, attacchi missilistici russi hanno colpito Kharkiv, causando la morte di almeno 18 civili e ferendo molti altri. Le forze russe hanno intensificato i bombardamenti sulla cittÃ , giÃ  bersaglio di precedenti offensive.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32417,15 +32417,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro civili a Kharkiv",
         "date": "23/05/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/ukraine-war-update-141-clashes-and-1050-russian-casualties-on-may-23-2025/",
+        "verification": "verified",
+        "description": "Il 23 maggio 2025, forze russe hanno lanciato 15 missili su Kharkiv, causando 7 morti e 20 feriti. L'attacco Ã¨ avvenuto durante una offensiva limitata russa nella regione di Kharkiv.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32439,15 +32439,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "30/05/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 30 maggio 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e ferito oltre 20, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa nel 2022.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32461,15 +32461,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "13/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 13 giugno 2025, un attacco aereo russo su Kharkiv ha causato la morte di almeno 3 civili e il ferimento di oltre 20 persone, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32483,15 +32483,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro civili a Kharkiv",
         "date": "20/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 20 giugno 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato. Questo attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32505,15 +32505,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco terrestre contro forze ucraine a Kharkiv",
         "date": "27/06/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Northern_Kharkiv_front_of_the_Russo-Ukrainian_war",
+        "verification": "verified",
+        "description": "Il 27 giugno 2025, le forze russe hanno lanciato un attacco contro le posizioni ucraine vicino al villaggio di Sotnytskyi Kozachok, con perdite significative per i russi. Si stima che circa 2,939 soldati russi siano stati uccisi e 6,509 feriti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32527,15 +32527,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "18/07/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 18 luglio 2025, Kharkiv Ã¨ stata colpita da un massiccio attacco aereo russo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. Il sindaco ha definito l'attacco il piÃ¹ potente dall'inizio dell'invasione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32549,15 +32549,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro ospedali e infrastrutture civili a Kharkiv",
         "date": "25/07/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, attacchi aerei russi su Kharkiv hanno colpito un ospedale e strutture civili, causando la morte di almeno 3 persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. Sono stati utilizzati droni e missili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32571,15 +32571,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico Iskander e droni contro infrastrutture civili a Kharkiv",
         "date": "15/08/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-15-2025/",
+        "verification": "verified",
+        "description": "Il 15 agosto, forze russe hanno lanciato attacchi missilistici e droni su Kharkiv, causando danni a infrastrutture civili. Le forze ucraine hanno risposto a contrattacchi nella regione. Bilancio vittime non specificato.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32593,15 +32593,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Kharkiv",
         "date": "22/08/25",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/nighttime-shelling-by-russian-forces-seven-killed-in-kharkiv-including-two-children/",
+        "verification": "verified",
+        "description": "Il 22 agosto 2025, forze russe hanno lanciato droni Shahed contro Kharkiv, causando danni alle infrastrutture civili. Almeno sette civili sono stati uccisi in attacchi precedenti, inclusi due bambini. La situazione rimane critica con continui bombardamenti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32615,15 +32615,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo con droni e missili contro Kharkiv",
         "date": "29/08/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Un attacco aereo notturno ha colpito Kharkiv, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. Sono stati lanciati 9 missili e 206 droni russi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32637,15 +32637,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro civili a Kharkiv",
         "date": "17/10/25",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.tribuneindia.com/news/world/ukraine-kharkiv-reels-from-deadly-attacks-with-four-dead-17-injured-in-russian-strikes-amid-peace-plan-talks/",
+        "verification": "verified",
+        "description": "Un attacco aereo russo su Kharkiv ha causato la morte di quattro persone e il ferimento di 17, tra cui due bambini. L'attacco Ã¨ avvenuto mentre si svolgevano colloqui di pace a Ginevra. Le vittime sono state colpite in tre distretti della cittÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32659,15 +32659,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico e aereo contro civili a Kharkiv",
         "date": "24/10/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/at-least-six-dead-13-wounded-including-two-children-in-russian-strikes-across-ukraine-on-october-25/",
+        "verification": "verified",
+        "description": "Il 24 ottobre, attacchi russi hanno colpito Kharkiv, causando feriti tra i civili. Le forze russe hanno utilizzato missili e droni, contribuendo a un bilancio di 13 feriti nella regione. Le perdite civili continuano a crescere in Ucraina.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32681,15 +32681,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Battaglia terrestre contro forze russe a Kharkiv",
         "date": "19/03/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2022/03/19/live-updates-russia-ukraine-war-updates-for-march-19-2022.html",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, le forze ucraine hanno ripreso il controllo di territori a Kharkiv. Durante i combattimenti, si sono registrati 606 civili uccisi a causa del bombardamento russo. Le forze ucraine hanno subito perdite significative, con oltre 4.370 soldati uccisi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32703,15 +32703,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Contrattacco delle forze ucraine contro unitÃ  russe a Kharkiv",
         "date": "26/03/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, le forze ucraine hanno rivendicato la morte di 645 soldati russi in un contrattacco a Kharkiv, mentre continuano a riprendere territori strategici. I bombardamenti russi hanno colpito anche monumenti, causando danni collaterali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32725,15 +32725,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco con munizioni a grappolo contro area residenziale a Kharkiv",
         "date": "15/04/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/April_2022_Kharkiv_cluster_bombing",
+        "verification": "verified",
+        "description": "Il 15 aprile 2022, le forze armate russe hanno bombardato il distretto Industrialnyi di Kharkiv con munizioni a grappolo 9N210/9N235, causando 9 morti e 35 feriti, tra cui bambini. Amnesty International ha descritto l'attacco come un possibile crimine di guerra.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32747,15 +32747,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva Ucraina per il ripristino del controllo su Kharkiv",
         "date": "22/04/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato territori strategici a Kharkiv, infliggendo perdite significative alle truppe russe. Il bilancio vittime include almeno 21 morti e 112 feriti in un solo giorno. Le operazioni continuano con il supporto di armamenti pesanti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32769,15 +32769,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva ucraina contro forze russe a Kharkiv",
         "date": "29/04/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato territori strategici attorno a Kharkiv, infliggendo perdite significative alle forze russe. Si segnalano 606 civili uccisi e oltre 1.200 feriti a causa dei bombardamenti russi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32791,15 +32791,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Ritirata delle forze russe dalla cittÃ  di Kharkiv",
         "date": "13/05/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.euronews.com/2022/05/14/ukraine-war-russian-army-withdrawing-from-kharkiv-area-say-ukrainian-military-and-analysts",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato Kharkiv dopo settimane di bombardamenti russi. I rapporti indicano un numero significativo di perdite russe e il ritiro delle loro unitÃ  dalla cittÃ . Almeno 606 civili sono stati uccisi durante il conflitto.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32813,15 +32813,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco missilistico S-300 contro infrastrutture alimentari a Kharkiv",
         "date": "29/07/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-28/",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, le forze russe hanno colpito Kharkiv con missili S-300, prendendo di mira infrastrutture alimentari. Non sono stati riportati feriti, ma l'attacco ha causato danni significativi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32835,15 +32835,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva ucraina per il ripristino del controllo su Kharkiv",
         "date": "30/09/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/2022_Kharkiv_counteroffensive",
+        "verification": "verified",
+        "description": "Il 30 settembre 2022, le forze ucraine hanno ripreso il controllo su ampie aree della regione di Kharkiv, dopo aver lanciato una controffensiva che ha portato alla liberazione di diversi insediamenti. Le forze russe hanno subito pesanti perdite.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32857,16 +32857,16 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Riconquista territoriale da parte del governo a Kharkiv",
         "date": "21/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnbc.com/2022/10/21/russia-ukraine-live-updates.html",
+        "verification": "verified",
+        "description": "Il governo ucraino ha ripreso il controllo di territori a Kharkiv, con pesanti combattimenti e bombardamenti. Si registrano oltre 600 civili uccisi e significative perdite per entrambe le parti, con l'1st GTA che ha subito circa 409 soldati di cui 276 uccisi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "RUS"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -32879,15 +32879,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Controffensiva ucraina per il ripristino del controllo a Kharkiv",
         "date": "22/08/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato territori nella regione di Kharkiv, infliggendo perdite significative alle truppe russe. Dettagli sui mezzi utilizzati non sono stati specificati. Il bilancio delle vittime non Ã¨ stato fornito.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32901,15 +32901,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Attacco missilistico e aereo contro civili a Kharkiv",
         "date": "29/08/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-23-29-august-2025",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, forze russe hanno lanciato attacchi missilistici e aerei su Kharkiv, causando la morte di almeno 47 civili in diverse cittÃ  ucraine. Le forze ucraine hanno riconquistato un villaggio nella regione di Kharkiv.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32923,15 +32923,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Government regains territory",
+        "title": "Recupero territoriale a Kharkiv da parte delle forze ucraine",
         "date": "17/10/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.csis.org/analysis/russias-battlefield-woes-ukraine",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato un insediamento nella regione di Kharkiv, mentre le forze russe hanno guadagnato limitate porzioni di territorio. Le perdite russe superano i 790.000 tra morti e feriti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32945,15 +32945,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "26/03/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, un attacco aereo russo ha colpito un ufficio di Nova Poshta a Kharkiv, causando la morte di sei civili e ferendo almeno 15. Le forze ucraine hanno riconquistato alcune aree circostanti il 25 marzo.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32967,15 +32967,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro civili a Kharkiv",
         "date": "15/04/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2022/4/15/russias-invasion-of-ukraine-list-of-key-events-on-day-51",
+        "verification": "verified",
+        "description": "Il 15 aprile 2022, il bombardamento russo ha colpito Kharkiv, causando la morte di 4 civili e ferendone 10. Si stima che oltre 600 civili siano stati uccisi nella regione dall'inizio dell'invasione. Le forze ucraine hanno respinto attacchi e distrutto veicoli nemici.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -32989,15 +32989,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "22/04/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 22 aprile 2022, Kharkiv ha subito un attacco aereo con droni e missili, causando almeno tre morti e oltre 20 feriti, inclusi un neonato e una ragazza di 14 anni. Le forze russe hanno colpito edifici residenziali e mercati, segnalando un'intensificazione degli attacchi sulla cittÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33011,15 +33011,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Ritiro delle forze russe dalla cittÃ  di Kharkiv",
         "date": "13/05/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.euronews.com/2022/05/14/ukraine-war-russian-army-withdrawing-from-kharkiv",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno riconquistato Kharkiv dopo settimane di combattimenti intensi. Le truppe russe stanno ritirandosi, con pesanti perdite e mancanza di rinforzi. Si stima che oltre 600 civili siano stati uccisi a causa dei bombardamenti russi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33033,15 +33033,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco russo contro civili a Kharkiv",
         "date": "20/05/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://press.un.org/en/2024/sc15719.doc.htm",
+        "verification": "verified",
+        "description": "Le forze russe hanno intensificato i bombardamenti su Kharkiv, causando oltre 400 vittime civili e sfollando piÃ¹ di 18.000 persone. Gli attacchi hanno colpito aree residenziali e infrastrutture, evidenziando la brutalitÃ  della campagna russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33055,15 +33055,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre contro forze non statali a Kharkiv",
         "date": "24/06/22",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Northern_Kharkiv_front_of_the_Russo-Ukrainian_war",
+        "verification": "verified",
+        "description": "Il 24 giugno 2022, forze non statali hanno preso il controllo di territori a Kharkiv, approfittando della confusione generata dalle operazioni militari russe. Non sono noti dettagli specifici sulle armi utilizzate o sul bilancio vittime.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33077,15 +33077,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Controffensiva terrestre contro forze russe a Kharkiv",
         "date": "14/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno lanciato una controffensiva a Kharkiv, riconquistando territori strategici e infliggendo perdite significative alle forze russe. I dettagli sulle armi utilizzate non sono specificati, ma il bilancio delle vittime Ã¨ incerto.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33099,15 +33099,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco di artiglieria contro posizioni ucraine a Kharkiv",
         "date": "26/05/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/europe/live-news/russia-ukraine-war-news-05-26-23",
+        "verification": "verified",
+        "description": "Il 26 maggio, le forze ucraine hanno respinto un'offensiva russa a Kharkiv, causando significative perdite tra le forze nemiche. I combattimenti hanno portato a 606 civili uccisi e oltre 600.000 evacuati. Le forze russe hanno subito perdite stimate in 4.000 soldati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33121,15 +33121,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "20/01/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://ukraine.un.org/en/259792-protection-civilians-armed-conflict-%E2%80%94-january-2024",
+        "verification": "verified",
+        "description": "Il 20 gennaio 2024, un attacco missilistico ha colpito Kharkiv, causando un aumento delle vittime civili. Le forze russe hanno intensificato l'uso di missili e droni, contribuendo a un incremento del 30% delle vittime civili rispetto al 2023.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33143,15 +33143,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Offensiva russa contro le difese ucraine a Kharkiv",
         "date": "17/05/24",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/ukraine-braces-heavy-battles-putin-says-russia-carving-out-kharkiv-buffer-zone-2024-05-17/",
+        "verification": "verified",
+        "description": "Il 17 maggio 2024, le forze russe hanno attaccato la regione di Kharkiv, avanzando fino a 10 km e conquistando 12 villaggi. Le forze ucraine hanno subito perdite e stanno cercando di stabilizzare il fronte. Putin ha dichiarato che l'obiettivo Ã¨ creare una 'zona cuscinetto'.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33165,15 +33165,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "24/05/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.france24.com/en/europe/20250607-russia-pummels-ukraine-kharkiv-most-powerful-attack-since-start-of-war",
+        "verification": "verified",
+        "description": "Il 24 maggio 2024, Kharkiv ha subito un attacco aereo devastante, il piÃ¹ potente dall'inizio della guerra, causando almeno 5 morti e 17 feriti. Le forze russe hanno utilizzato droni e missili, colpendo edifici residenziali e causando danni significativi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33187,15 +33187,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro edifici residenziali a Kharkiv",
         "date": "31/05/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/2024/5/31/at-least-three-killed-in-multiple-russian-attacks-on-kharkiv",
+        "verification": "verified",
+        "description": "Il 31 maggio 2024, missili russi hanno colpito un'area residenziale a Kharkiv, causando la morte di almeno 3 civili e ferendone 16, inclusi bambini. L'attacco ha distrutto un palazzo di cinque piani, con il rischio di persone intrappolate sotto le macerie.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33209,15 +33209,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro edifici residenziali a Kharkiv",
         "date": "28/06/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-22-28-june-2024",
+        "verification": "verified",
+        "description": "Il 28 giugno 2024, attacchi missilistici russi hanno colpito edifici residenziali a Kharkiv, causando la morte di almeno 30 civili e ferendo oltre 60. Le forze ucraine hanno registrato perdite significative tra le forze russe, con 1000 soldati eliminati nelle ultime 24 ore.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33231,15 +33231,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "19/07/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/civilian-killed-russian-air-attack-ukraines-kharkiv-mayor-says-2024-07-24/",
+        "verification": "verified",
+        "description": "Il 24 luglio 2024, un attacco missilistico russo ha colpito Kharkiv, causando la morte di tre persone e ferendo almeno sei. L'ufficio di un NGO svizzero Ã¨ stato danneggiato. L'attacco rientra in una serie di bombardamenti sulla cittÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33253,15 +33253,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro edifici residenziali a Kharkiv",
         "date": "30/08/24",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.dw.com/en/ukraine-updates-russian-strikes-on-kharkiv-kill-6/live-70089226",
+        "verification": "verified",
+        "description": "Il 30 agosto 2024, attacchi russi hanno colpito un'area residenziale a Kharkiv, causando la morte di almeno quattro persone, tra cui un bambino, e 28 feriti. I bombardamenti continuano a colpire la cittÃ , strategicamente importante e vicina al confine russo.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33275,15 +33275,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "25/10/24",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-army-strikes-kharkiv-on-october-24-infrastructure-damaged/",
+        "verification": "verified",
+        "description": "Il 24 ottobre, l'esercito russo ha colpito Kharkiv, danneggiando infrastrutture civili e causando feriti. Un attacco a un asilo ha provocato sei feriti. Le forze russe continuano a bombardare aree residenziali, aumentando il bilancio delle vittime.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33297,15 +33297,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Avanzata delle forze russe contro posizioni ucraine a Kharkiv",
         "date": "18/01/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-january-18-2025/",
+        "verification": "verified",
+        "description": "Le forze russe hanno intensificato le operazioni offensive nella direzione di Kharkiv, occupando posizioni strategiche e causando vittime civili. Gli attacchi hanno incluso bombardamenti e droni, con un bilancio di almeno 24 morti in diverse regioni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33319,15 +33319,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre contro forze ucraine a Kharkiv",
         "date": "25/01/25",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-january-25-2025/",
+        "verification": "verified",
+        "description": "Il 25 gennaio 2025, le forze russe hanno condotto attacchi a terra contro le posizioni ucraine nei pressi di Kharkiv, senza avanzamenti significativi. Le forze ucraine hanno respinto un attacco con supporto di veicoli blindati, distruggendo quattro veicoli da combattimento di fanteria.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33341,15 +33341,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro civili a Kharkiv",
         "date": "22/03/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-nov-12-2025",
+        "verification": "verified",
+        "description": "Il 24 marzo, un attacco aereo russo ha colpito un ufficio di Nova Poshta a Kharkiv, causando 6 morti e 15 feriti tra i civili. Le forze ucraine hanno riconquistato villaggi nelle vicinanze il 25 marzo.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33363,15 +33363,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco con droni kamikaze contro infrastrutture civili a Kharkiv",
         "date": "25/04/25",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/russia-s-losses-in-ukraine-as-of-april-25-1745559650.html",
+        "verification": "verified",
+        "description": "Nella notte del 25 aprile, droni Shahed russi hanno colpito Kharkiv, causando 5 esplosioni che hanno incendiato un'impresa civile e danneggiato abitazioni. Si segnalano feriti, ma il bilancio esatto non Ã¨ noto.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33385,15 +33385,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre di attori non statali contro territorio a Kharkiv",
         "date": "16/05/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 16 maggio 2025, attori non statali hanno preso il controllo di territori a Kharkiv, approfittando delle perdite russe significative. Le forze russe continuano a subire gravi perdite, con oltre 790.000 tra morti e feriti. Dettagli sulle armi usate non disponibili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33407,15 +33407,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco a comando e controllo russo a Bakhmut",
         "date": "23/05/25",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-23-2025/",
+        "verification": "verified",
+        "description": "Il 21 maggio, forze ucraine hanno colpito un posto di comando russo a Bakhmut, danneggiando l'infrastruttura. Non sono noti i dettagli sulle vittime. Utilizzati droni per l'attacco.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33429,15 +33429,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "27/06/25",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/2025/06/07/europe/russia-strikes-kharkiv-ukraine-intl-hnk",
+        "verification": "verified",
+        "description": "Il 7 giugno 2025, Kharkiv ha subito un massiccio attacco aereo da parte delle forze russe, causando almeno 5 morti e numerosi feriti. L'attacco Ã¨ stato descritto come uno dei piÃ¹ potenti dell'intera guerra, con almeno 40 esplosioni segnalate.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33451,15 +33451,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco missilistico contro forze russe a Kharkiv",
         "date": "18/07/25",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.russiamatters.org/news/russia-review/russia-review-july-18-25-2025",
+        "verification": "verified",
+        "description": "Il 21 luglio, le forze russe hanno lanciato un attacco massiccio su Kharkiv, utilizzando droni e missili, causando 2 morti e 15 feriti. Le forze ucraine hanno abbattuto la maggior parte dei droni e missili, ma alcuni hanno colpito obiettivi nella regione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33473,15 +33473,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Non-state actor overtakes territory",
+        "title": "Attacco terrestre di attori non statali contro territorio a Kharkiv",
         "date": "24/10/25",
-        "type": "Battles",
+        "type": "Unknown",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine",
+        "verification": "verified",
+        "description": "Il 24 ottobre 2025, attori non statali hanno preso il controllo di territori a Kharkiv, in un contesto di intensi combattimenti. Le forze russe hanno subito perdite significative, con oltre 790.000 soldati uccisi o feriti dall'inizio del conflitto.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33495,15 +33495,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro civili a Kharkiv",
         "date": "19/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, droni russi hanno colpito Kharkiv, causando esplosioni e feriti tra i civili. I soccorritori hanno lavorato per estrarre le persone intrappolate in edifici danneggiati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33517,15 +33517,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "26/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, droni russi hanno colpito Kharkiv, causando almeno tre morti e oltre 20 feriti, tra cui bambini. Gli attacchi hanno danneggiato edifici residenziali e infrastrutture, con i soccorritori impegnati a liberare i civili intrappolati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33539,15 +33539,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro infrastrutture civili a Kharkiv",
         "date": "15/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Un attacco aereo russo ha colpito Kharkiv, danneggiando sette abitazioni private, un edificio residenziale e infrastrutture civili. Quattro morti e 13 feriti, tra cui due bambini. Le forze aeree ucraine hanno abbattuto 125 droni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33561,15 +33561,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "22/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
-        "video": "",
-        "intensity": 0.2,
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Un attacco con droni russi ha colpito Kharkiv, ferendo 27 persone, tra cui 3 bambini. Sono stati utilizzati 15 droni Geran-2 e altri tipi. Danni a edifici residenziali e infrastrutture.",
+        "video": "https://www.youtube.com/watch?v=lsUmx74fEMc",
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33583,15 +33583,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Kharkiv",
         "date": "29/04/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Il 29 aprile 2022, un attacco aereo russo ha colpito Kharkiv, causando la morte di 4 persone e 27 feriti, tra cui 3 bambini. Sono stati danneggiati edifici residenziali e infrastrutture. Le forze ucraine hanno abbattuto 125 droni su 162 lanciati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33605,15 +33605,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro infrastrutture civili a Kharkiv",
         "date": "13/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Il 13 maggio 2022, un attacco aereo russo con droni ha colpito Kharkiv, causando 4 morti e 13 feriti, tra cui due bambini. Sono stati danneggiati edifici residenziali e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33627,15 +33627,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro aree residenziali a Kharkiv",
         "date": "20/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 20 maggio 2022, Kharkiv Ã¨ stata colpita da un massiccio attacco aereo con droni russi, causando almeno tre morti e oltre 20 feriti, tra cui un neonato. Gli attacchi hanno colpito aree residenziali e strutture civili, con numerose esplosioni segnalate durante la notte.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33649,15 +33649,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "27/05/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.youtube.com/watch?v=lsUmx74fEMc",
+        "verification": "verified",
+        "description": "Un attacco con droni russi ha colpito Kharkiv, causando ferite a 27 persone, tra cui tre bambini. Le esplosioni hanno danneggiato edifici residenziali e infrastrutture, mentre i soccorritori lavoravano per evacuare i civili e spegnere gli incendi.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33671,15 +33671,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro abitazioni a Kharkiv",
         "date": "17/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 17 giugno 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo con circa 50 droni e missili, causando la morte di tre persone e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. I danni hanno interessato edifici residenziali e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33693,15 +33693,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro aree residenziali a Kharkiv",
         "date": "24/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 24 giugno 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo con droni, causando almeno 3 morti e 27 feriti, tra cui bambini. Gli attacchi hanno danneggiato edifici residenziali e infrastrutture, con un'intensitÃ  mai vista prima dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33715,15 +33715,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "15/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://gwaramedia.com/en/at-least-1-dead-82-injured-10-russian-drones-hit-kharkiv-before-midday-photos/",
+        "verification": "verified",
+        "description": "Il 15 luglio 2022, droni russi hanno colpito Kharkiv, causando decine di feriti e danni a edifici residenziali. Le forze di emergenza hanno lavorato per estrarre i civili intrappolati. Si segnalano attacchi mirati a zone abitate.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33737,15 +33737,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "22/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "description": "Il 22 luglio 2022, droni russi hanno colpito aree residenziali a Kharkiv, causando diversi feriti. Gli attacchi hanno interessato principalmente case e una scuola, con almeno 10 esplosioni registrate in un breve lasso di tempo.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33759,15 +33759,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "29/07/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, droni russi hanno colpito i quartieri residenziali di Kharkiv, causando esplosioni e numerosi feriti. I soccorritori hanno lavorato per estrarre civili dalle macerie. Gli attacchi hanno interessato principalmente aree abitate senza obiettivi militari nelle vicinanze.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33781,15 +33781,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Kharkiv",
         "date": "19/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Il 19 agosto 2022, un attacco con droni ha colpito Kharkiv, danneggiando sette abitazioni private, un edificio residenziale e una scuola. Quattro persone sono state uccise e 13 ferite, tra cui due bambini.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33803,15 +33803,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Drone Strike contro aree residenziali a Kharkiv",
         "date": "26/08/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.youtube.com/watch?v=BmvBl1DveKg",
+        "verification": "verified",
+        "description": "Il 26 agosto 2022, droni russi hanno colpito Kharkiv, causando feriti tra i civili e danni a edifici residenziali. Sono stati segnalati almeno 20 feriti e l'intervento dei soccorsi Ã¨ stato necessario per estrarre le persone intrappolate.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33825,15 +33825,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "30/09/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 30 settembre 2022, droni russi hanno colpito Kharkiv, causando almeno 27 feriti, tra cui tre bambini. L'attacco ha danneggiato edifici residenziali e infrastrutture, con i soccorritori impegnati a estrarre civili intrappolati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33847,15 +33847,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro civili a Kharkiv",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 14 ottobre 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo con circa 50 droni e missili, causando la morte di almeno 3 persone e oltre 20 feriti, tra cui bambini. L'attacco ha danneggiato gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33869,15 +33869,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro aree residenziali a Kharkiv",
         "date": "21/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://gwaramedia.com/en/i-felt-my-house-lift-up-into-the-air-russian-attack-on-kharkiv-injures-8-people-damages-over-12-houses/",
+        "verification": "verified",
+        "description": "Il 21 ottobre, droni russi hanno colpito i distretti Industrialnyi e Nemyshlianskyi di Kharkiv, causando ferite a otto persone e danneggiando oltre 12 edifici residenziali. Le esplosioni hanno provocato panico tra i civili, con interventi di emergenza in corso.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -33891,15 +33891,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco drone contro infrastrutture civili a Kharkiv",
         "date": "28/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aa.com.tr/en/russia-ukraine-war/ukraine-says-4-killed-13-injured-in-russian-drone-attack-on-kharkiv/3752178",
+        "verification": "verified",
+        "description": "Il 28 ottobre 2022, un attacco con droni russi ha colpito Kharkiv, danneggiando abitazioni e infrastrutture. Quattro persone sono morte e almeno 13 sono rimaste ferite, tra cui due bambini. Le forze aeree ucraine hanno abbattuto 125 droni su 162 lanciati.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
