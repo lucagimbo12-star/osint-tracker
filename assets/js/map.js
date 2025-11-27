@@ -1,5 +1,5 @@
 // ============================================
-// MAP.JS - ULTIMATE DATE FIX EDITION
+// MAP.JS - MOMENT.JS EDITION
 // ============================================
 
 // --- CONFIGURAZIONE & VARIABILI GLOBALI ---
@@ -19,63 +19,14 @@ const typeIcons = {
   'cultural': 'fa-landmark', 'eco': 'fa-leaf', 'default': 'fa-crosshairs'
 };
 
-// --- FUNZIONE PARSING DATA "BLINDATA" ---
-function parseDateToTimestamp(dateStr) {
-    // 1. Se è nullo o vuoto, ritorna una data vecchia (1970) o oggi
-    if (!dateStr) return new Date().getTime(); 
-    
-    // 2. Converti in stringa e pulisci spazi
-    let cleanStr = dateStr.toString().trim();
-
-    // 3. Sostituisci PUNTI (.) con SLASH (/) -> Fix comune per date europee (24.02.2022)
-    cleanStr = cleanStr.replace(/\./g, '/');
-    
-    // 4. Sostituisci TRATTINI (-) con SLASH (/) per uniformare
-    cleanStr = cleanStr.replace(/-/g, '/');
-
-    // Ora la stringa sarà tipo "2022/02/24" oppure "24/02/2022" oppure "2022/02/24 12:00"
-
-    // Rimuoviamo l'orario se c'è (prendiamo solo la prima parte prima dello spazio o T)
-    cleanStr = cleanStr.split(' ')[0].split('T')[0];
-
-    const parts = cleanStr.split('/');
-
-    // 5. ANALISI FORMATO
-    if (parts.length === 3) {
-        let p1 = parseInt(parts[0]); // Giorno o Anno
-        let p2 = parseInt(parts[1]); // Mese
-        let p3 = parseInt(parts[2]); // Anno o Giorno
-
-        // CASO A: Inizia con l'Anno (YYYY/MM/DD) -> Es. 2022/02/24
-        if (p1 > 1900) {
-            return new Date(p1, p2 - 1, p3).getTime();
-        }
-        
-        // CASO B: Finisce con l'Anno (DD/MM/YYYY) -> Es. 24/02/2022
-        if (p3 > 1900) {
-            return new Date(p3, p2 - 1, p1).getTime();
-        }
-    }
-
-    // 6. Tentativo Standard Javascript (ISO)
-    const attempt = new Date(dateStr).getTime();
-    if (!isNaN(attempt)) return attempt;
-
-    // 7. FALLBACK DI EMERGENZA
-    // Se arriviamo qui, il formato è sconosciuto.
-    // Logghiamo l'errore per vederlo (premi F12 -> Console)
-    console.warn("⚠️ DATA NON RICONOSCIUTA:", dateStr, "-> Uso data odierna per non nasconderlo.");
-    return new Date().getTime(); 
-}
-
-// 1. INIZIALIZZAZIONE MAPPA
+// --- INIZIALIZZAZIONE MAPPA ---
 let initMap = function() {
     map = L.map('map', {
         zoomControl: false, preferCanvas: true, wheelPxPerZoomLevel: 120
     }).setView([48.5, 32.0], 6);
     L.control.zoom({ position: 'bottomright' }).addTo(map);
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19, attribution: '&copy; IMPACT ATLAS'
+        maxZoom: 19, attribution: '&copy; CARTO'
     }).addTo(map);
     eventsLayer = L.markerClusterGroup({
         chunkedLoading: true, maxClusterRadius: 45, spiderfyOnMaxZoom: true,
@@ -92,18 +43,25 @@ let initMap = function() {
     map.addLayer(eventsLayer);
 };
 
-// 2. CARICAMENTO DATI
+// --- CARICAMENTO DATI ---
 async function loadEventsData() {
   try {
     const res = await fetch('assets/data/events.geojson');
     if(!res.ok) throw new Error("Errore fetch GeoJSON");
     const data = await res.json();
     
-    // MAPPING DATI
+    // MAPPING CON MOMENT.JS
     window.globalEvents = data.features.map(f => {
-      // Processiamo la data con la nuova funzione BLINDATA
-      const ts = parseDateToTimestamp(f.properties.date);
+      // Moment.js prova a leggere qualsiasi formato. 
+      // Se fallisce, restituisce data odierna per non rompere la mappa.
+      let m = moment(f.properties.date);
+      if(!m.isValid()) {
+           // Prova formati italiani comuni forzando il parsing
+           m = moment(f.properties.date, ["DD/MM/YYYY", "DD-MM-YYYY", "DD.MM.YYYY"]);
+      }
       
+      const ts = m.isValid() ? m.valueOf() : moment().valueOf(); // Fallback a oggi se proprio non va
+
       return {
           ...f.properties,
           lat: f.geometry.coordinates[1],
@@ -112,14 +70,12 @@ async function loadEventsData() {
       };
     }).sort((a,b) => a.timestamp - b.timestamp);
 
-    // Debug: Controlliamo se abbiamo recuperato gli eventi
-    console.log("Totale eventi caricati:", window.globalEvents.length);
-    console.log("Esempio primo evento:", window.globalEvents[0]);
+    console.log("Totale eventi pronti:", window.globalEvents.length);
 
     window.currentFilteredEvents = [...window.globalEvents];
 
     setupTimeSlider(window.globalEvents);
-    window.updateMap(window.globalEvents); // Rendering iniziale
+    window.updateMap(window.globalEvents);
     
     if(document.getElementById('eventCount')) {
         document.getElementById('eventCount').innerText = window.globalEvents.length;
@@ -128,23 +84,13 @@ async function loadEventsData() {
 
     if (typeof window.initCharts === 'function') window.initCharts(window.globalEvents);
 
-  } catch (e) { console.error("Errore caricamento dati:", e); }
+  } catch (e) { console.error("Errore sistema:", e); }
 }
 
-// 3. LOGICA RENDERING
+// --- LOGICA RENDERING ---
 window.updateMap = function(events) {
-  // Sicurezza: ricalcoliamo il timestamp se manca (nel caso arrivi da charts.js grezzo)
-  window.currentFilteredEvents = events.map(e => {
-      if(!e.timestamp) {
-          return { ...e, timestamp: parseDateToTimestamp(e.date) };
-      }
-      return e;
-  }).sort((a,b) => a.timestamp - b.timestamp);
-  
-  // Resetta slider al massimo (LIVE)
+  window.currentFilteredEvents = events;
   resetSliderToMax();
-
-  // Renderizza
   renderInternal(window.currentFilteredEvents);
 };
 
@@ -165,13 +111,10 @@ function renderInternal(eventsToDraw) {
         map.addLayer(eventsLayer);
     }
     
-    // Aggiorna KPI
-    if(document.getElementById('eventCount')) {
-        document.getElementById('eventCount').innerText = eventsToDraw.length;
-    }
+    if(document.getElementById('eventCount')) document.getElementById('eventCount').innerText = eventsToDraw.length;
 }
 
-// 4. SLIDER E FILTRI
+// --- SLIDER ---
 function setupTimeSlider(allData) {
     const slider = document.getElementById('timeSlider');
     const startLabel = document.getElementById('sliderStartDate');
@@ -179,37 +122,23 @@ function setupTimeSlider(allData) {
 
     if(!allData.length || !slider) return;
 
-    // Filtra timestamp validi (escludi 0 o NaN se ce ne sono ancora)
-    const timestamps = allData.map(d => d.timestamp).filter(t => !isNaN(t) && t > 0);
-    
-    if (timestamps.length === 0) {
-        console.error("Nessuna data valida trovata per lo slider.");
-        return;
-    }
-
+    const timestamps = allData.map(d => d.timestamp).filter(t => t > 0);
     const minTime = Math.min(...timestamps);
     const maxTime = Math.max(...timestamps);
 
     slider.min = minTime;
     slider.max = maxTime;
-    slider.value = maxTime; // Default: LIVE
+    slider.value = maxTime;
     slider.disabled = false;
     
-    startLabel.innerText = new Date(minTime).toLocaleDateString();
-    // Imposta etichetta iniziale a "LIVE" o alla data massima
+    startLabel.innerText = moment(minTime).format('DD/MM/YYYY');
     display.innerText = "LIVE";
 
     slider.addEventListener('input', (e) => {
         const selectedVal = parseInt(e.target.value);
-        
-        // Se siamo vicini alla fine (max), mostra LIVE
-        if (selectedVal >= maxTime) {
-             display.innerText = "LIVE";
-        } else {
-             display.innerText = new Date(selectedVal).toLocaleDateString();
-        }
+        if (selectedVal >= maxTime) display.innerText = "LIVE";
+        else display.innerText = moment(selectedVal).format('DD/MM/YYYY');
 
-        // FILTRO PRINCIPALE
         const timeFiltered = window.currentFilteredEvents.filter(ev => ev.timestamp <= selectedVal);
         renderInternal(timeFiltered);
     });
@@ -218,13 +147,8 @@ function setupTimeSlider(allData) {
 function resetSliderToMax() {
     const slider = document.getElementById('timeSlider');
     if(slider && window.currentFilteredEvents.length > 0) {
-        const timestamps = window.currentFilteredEvents.map(e => e.timestamp).filter(t => !isNaN(t));
-        if (timestamps.length > 0) {
-            const maxT = Math.max(...timestamps);
-            slider.max = maxT; // Aggiorna max se i filtri hanno cambiato il range
-            slider.value = maxT; 
-            document.getElementById('sliderCurrentDate').innerText = "LIVE";
-        }
+        slider.value = slider.max; 
+        document.getElementById('sliderCurrentDate').innerText = "LIVE";
     }
 }
 
@@ -232,21 +156,15 @@ window.toggleVisualMode = function() {
     isHeatmapMode = !isHeatmapMode;
     const btn = document.getElementById('heatmapToggle');
     const slider = document.getElementById('timeSlider');
-
-    if(isHeatmapMode) {
-        btn.classList.add('active');
-        btn.innerHTML = '<i class="fa-solid fa-circle-nodes"></i> Cluster';
-    } else {
-        btn.classList.remove('active');
-        btn.innerHTML = '<i class="fa-solid fa-layer-group"></i> Heatmap';
-    }
-
+    if(isHeatmapMode) { btn.classList.add('active'); btn.innerHTML = '<i class="fa-solid fa-circle-nodes"></i> Cluster'; } 
+    else { btn.classList.remove('active'); btn.innerHTML = '<i class="fa-solid fa-layer-group"></i> Heatmap'; }
+    
     const currentSliderVal = parseInt(slider.value);
     const timeFiltered = window.currentFilteredEvents.filter(ev => ev.timestamp <= currentSliderVal);
     renderInternal(timeFiltered);
 };
 
-// 5. HELPERS
+// --- HELPERS ---
 function getColor(val) { const v = val || 0.2; if (v >= 0.8) return impactColors.critical; if (v >= 0.6) return impactColors.high; if (v >= 0.4) return impactColors.medium; return impactColors.low; }
 function getIconClass(type) { if (!type) return typeIcons.default; const t = type.toLowerCase(); for (const [key, icon] of Object.entries(typeIcons)) { if (t.includes(key)) return icon; } return typeIcons.default; }
 
@@ -272,6 +190,8 @@ function createPopupContent(e) {
   return `<div class="acled-popup" style="color:#334155;"><div style="border-left: 4px solid ${color}; padding-left: 10px; margin-bottom: 8px;"><h5 style="margin:0; font-weight:700; font-size:0.95rem;">${e.title}</h5><small style="color:#64748b;">${e.date} | ${e.type}</small></div><button onclick="openModal('${eventData}')" class="btn-primary" style="padding:6px; font-size:0.8rem; margin-top:5px;"><i class="fa-solid fa-expand"></i> Apri Dossier</button></div>`;
 }
 
+// ... Le funzioni openModal, updateSlider, renderConfidenceChart rimangono uguali al codice precedente ...
+// (Per brevità non le ricopio, assicurati di averle in fondo al file come prima)
 window.openModal = function(eventJson) {
   const e = JSON.parse(decodeURIComponent(eventJson));
   document.getElementById('modalTitle').innerText = e.title;
