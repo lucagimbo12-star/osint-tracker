@@ -1,5 +1,5 @@
 // ============================================
-// CHARTS.JS - PROFESSIONAL EDITION (Hard Coded Actors)
+// CHARTS.JS - SYNCED & SEARCH FIX EDITION
 // ============================================
 
 let charts = { timeline: null, type: null, radar: null };
@@ -22,6 +22,23 @@ const SYNONYMS = {
   'dnepropetrovsk': 'dnipro', 'lvov': 'lviv'
 };
 
+// --- HELPER: PARSING DATA (Identico a map.js per sincronia) ---
+function parseDateToTimestamp(dateStr) {
+    if (!dateStr) return new Date().getTime();
+    // Formato DD/MM/YYYY
+    if (dateStr.includes('/')) {
+        const parts = dateStr.split('/');
+        if (parts.length === 3) return new Date(parts[2], parts[1] - 1, parts[0]).getTime();
+    }
+    // Formato ISO o DD-MM-YYYY
+    if (dateStr.includes('-')) {
+        if (dateStr.trim().startsWith('202')) return new Date(dateStr).getTime();
+        const parts = dateStr.split('-');
+        if (parts.length === 3) return new Date(parts[2], parts[1] - 1, parts[0]).getTime();
+    }
+    return new Date(dateStr).getTime();
+}
+
 // ============================================
 // 1. INIZIALIZZAZIONE & LETTURA DATI
 // ============================================
@@ -29,43 +46,48 @@ window.initCharts = function(events) {
   if (!events || events.length === 0) return;
 
   console.log(`📊 InitCharts: Caricati ${events.length} eventi.`);
-  
-  // Debug veloce: controlliamo se actor_code esiste nel primo evento
-  console.log("🔍 Verifica Codice Attore (Primo Evento):", events[0].actor_code);
 
   ORIGINAL_DATA = events.map(e => {
     
-    // A. PREPARAZIONE RICERCA TESTUALE (Omnivore)
-    // Unisce tutti i testi per permettere la ricerca di città, note, ecc.
-    let allValues = [];
-    for (const key in e) {
-      if (e.hasOwnProperty(key)) {
-        const val = e[key];
-        if (typeof val === 'string') allValues.push(val.toLowerCase());
-        else if (typeof val === 'number') allValues.push(val.toString());
-      }
+    // A. PREPARAZIONE RICERCA TESTUALE (FIXED)
+    // Unisce tutti i valori in modo sicuro per la ricerca
+    let searchParts = [];
+    
+    // Scorre tutte le proprietà dell'evento
+    Object.values(e).forEach(val => {
+        if (val === null || val === undefined) return;
+        searchParts.push(String(val).toLowerCase());
+    });
+    
+    // Aggiunge anche versioni "pulite" dei sinonimi se presenti nel titolo
+    const titleLower = (e.title || '').toLowerCase();
+    for (const [key, val] of Object.entries(SYNONYMS)) {
+        if (titleLower.includes(val)) searchParts.push(key); // Se c'è 'kyiv', rendi trovabile 'kiev'
     }
-    const megaString = allValues.join(' '); 
+
+    const megaString = searchParts.join(' '); 
 
     // B. LETTURA CODICE ATTORE (HARD DATA)
-    // Leggiamo la colonna creata dallo script Google Sheet.
-    // Nota: A volte i convertitori GeoJSON mettono tutto minuscolo o usano underscore.
-    // Cerchiamo le varianti più comuni.
     let code = e.actor_code || e.Actor_Code || e.actorcode || 'UNK';
-    
-    // Sicurezza: forziamo maiuscolo (nel caso lo sheet abbia scritto 'rus')
     code = code.toString().toUpperCase();
 
-    // C. NORMALIZZAZIONE INTENSITÀ
+    // C. CALCOLO TIMESTAMP (Per filtri data coerenti con la mappa)
+    const ts = parseDateToTimestamp(e.date);
+
+    // D. NORMALIZZAZIONE INTENSITÀ
     const rawInt = parseFloat(e.intensity || e.fatality_count || 0.2);
 
     return {
       ...e,
-      _searchStr: megaString,   // Per la barra di ricerca
-      _actorCode: code,         // Per il filtro a tendina (RUS, UKR)
-      _intensityNorm: rawInt
+      _searchStr: megaString,   // Stringa di ricerca ottimizzata
+      _actorCode: code,         // Codice attore normalizzato
+      _intensityNorm: rawInt,   // Intensità
+      timestamp: ts             // Timestamp numerico per filtri
     };
   });
+
+  // Ordina per data (utile per i grafici)
+  ORIGINAL_DATA.sort((a,b) => a.timestamp - b.timestamp);
 
   updateDashboard(ORIGINAL_DATA);
   populateFilters(ORIGINAL_DATA);
@@ -73,21 +95,27 @@ window.initCharts = function(events) {
 };
 
 // ============================================
-// 2. MOTORE DI FILTRAGGIO (STRICT)
+// 2. MOTORE DI FILTRAGGIO (FIXED)
 // ============================================
 function setupChartFilters() {
   const btn = document.getElementById('applyFilters');
   if (!btn) return;
 
+  // Clona per rimuovere vecchi listener ed evitare duplicazioni
   const newBtn = btn.cloneNode(true);
   btn.parentNode.replaceChild(newBtn, btn);
 
   newBtn.addEventListener('click', executeFilter);
 
+  // Listener anche sulla casella di testo (Invio)
   const searchInput = document.getElementById('textSearch');
   if(searchInput) {
     const newSearch = searchInput.cloneNode(true);
     searchInput.parentNode.replaceChild(newSearch, searchInput);
+    
+    // Ricerca istantanea (opzionale: togliere 'input' se rallenta troppo)
+    newSearch.addEventListener('input', executeFilter); 
+    
     newSearch.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') executeFilter();
     });
@@ -96,38 +124,43 @@ function setupChartFilters() {
 
 function executeFilter() {
   // 1. INPUT UTENTE
-  const start = document.getElementById('startDate').value;
-  const end = document.getElementById('endDate').value;
+  const startVal = document.getElementById('startDate').value;
+  const endVal = document.getElementById('endDate').value;
   const type = document.getElementById('chartTypeFilter').value;
-  
-  // QUI LA MODIFICA CHIAVE: Leggiamo il codice esatto (es. "RUS")
   const actorCode = document.getElementById('actorFilter').value; 
-  
   const rawSearch = document.getElementById('textSearch').value.trim().toLowerCase();
+  
+  // Checkbox Livelli
   const checkedSeverities = Array.from(document.querySelectorAll('.toggle-container input:checked')).map(cb => cb.value);
 
-  // Sinonimi per ricerca testuale
-  let searchTerms = [rawSearch];
-  if (SYNONYMS[rawSearch]) searchTerms.push(SYNONYMS[rawSearch]);
-  for (let key in SYNONYMS) { if (SYNONYMS[key] === rawSearch) searchTerms.push(key); }
+  // Parsing date input sidebar a Timestamp per confronto corretto
+  const startTs = startVal ? new Date(startVal).getTime() : null;
+  const endTs = endVal ? new Date(endVal).getTime() : null;
 
-  // 2. FILTRAGGIO
+  // Preparazione termini ricerca (con sinonimi)
+  let searchTerms = [rawSearch];
+  if(rawSearch.length > 0) {
+      if (SYNONYMS[rawSearch]) searchTerms.push(SYNONYMS[rawSearch]);
+      // Cerca anche il contrario (se scrivo kyiv cerca kiev)
+      for (let key in SYNONYMS) { if (SYNONYMS[key] === rawSearch) searchTerms.push(key); }
+  }
+
+  // 2. FILTRAGGIO DATI
   const filtered = ORIGINAL_DATA.filter(e => {
     
-    // A. DATA
-    if (start && e.date < start) return false;
-    if (end && e.date > end) return false;
+    // A. DATA (Confronto Numerico = Sicuro)
+    if (startTs && e.timestamp < startTs) return false;
+    if (endTs && e.timestamp > endTs) return false;
 
     // B. CATEGORIA
     if (type && e.type !== type) return false;
 
-    // C. ATTORE (CONFRONTO DIRETTO CODICI)
-    // Se l'utente ha selezionato qualcosa (es. RUS)
-    // L'evento deve avere ESATTAMENTE quel codice.
+    // C. ATTORE
     if (actorCode && e._actorCode !== actorCode) return false;
 
-    // D. RICERCA TESTUALE
-    if (rawSearch) {
+    // D. RICERCA TESTUALE (Improved)
+    if (rawSearch.length > 0) {
+      // Deve contenere ALMENO UNO dei termini (es. kiev O kyiv)
       const match = searchTerms.some(term => e._searchStr.includes(term));
       if (!match) return false;
     }
@@ -144,11 +177,15 @@ function executeFilter() {
     return true;
   });
 
-  console.log(`✅ Risultati filtrati: ${filtered.length}`);
+  console.log(`✅ Filtro applicato. Input: "${rawSearch}". Trovati: ${filtered.length}`);
 
   // 3. UI UPDATE
   updateDashboard(filtered);
-  if(window.updateMap) window.updateMap(filtered);
+  
+  // Aggiorna la mappa passando i dati corretti (che ora hanno il timestamp!)
+  if(window.updateMap) {
+      window.updateMap(filtered);
+  }
 }
 
 // ============================================
@@ -158,6 +195,8 @@ function updateDashboard(data) {
   renderTimelineChart(data);
   renderTypeChart(data);
   renderRadarChart(data);
+  
+  // Aggiorna il contatore totale nella sidebar/header
   const countEl = document.getElementById('eventCount');
   if(countEl) countEl.innerText = data.length;
 }
@@ -165,9 +204,19 @@ function updateDashboard(data) {
 function renderTimelineChart(data) {
   const ctx = document.getElementById('timelineChart');
   if (!ctx) return;
+  
   const aggregated = {};
-  data.forEach(e => { if(!e.date) return; const key = e.date.substring(0, 7); aggregated[key] = (aggregated[key] || 0) + 1; });
+  data.forEach(e => { 
+      if(!e.timestamp) return; 
+      // Aggrega per Mese-Anno (es. 2023-05)
+      const d = new Date(e.timestamp);
+      // Formatta YYYY-MM
+      const key = d.toISOString().slice(0, 7); 
+      aggregated[key] = (aggregated[key] || 0) + 1; 
+  });
+  
   const labels = Object.keys(aggregated).sort();
+  
   if (charts.timeline) charts.timeline.destroy();
   charts.timeline = new Chart(ctx, {
     type: 'bar',
@@ -192,7 +241,12 @@ function renderTypeChart(data) {
 function renderRadarChart(data) {
   const ctx = document.getElementById('intensityRadarChart');
   if (!ctx) return;
-  if(data.length === 0 && charts.radar) { charts.radar.data.datasets[0].data = []; charts.radar.update(); return; }
+  // Gestione caso vuoto per evitare errori Chart.js
+  if(data.length === 0) { 
+      if(charts.radar) charts.radar.destroy(); 
+      return; 
+  }
+
   const stats = {};
   data.forEach(e => {
     const t = e.type || 'N/A';
@@ -203,17 +257,21 @@ function renderRadarChart(data) {
   if (charts.radar) charts.radar.destroy();
   charts.radar = new Chart(ctx, {
     type: 'radar',
-    data: { labels: labels, datasets: [{ label: 'Intensità', data: labels.map(k => (stats[k].sum/stats[k].count).toFixed(2)), backgroundColor: 'rgba(245, 158, 11, 0.2)', borderColor: THEME.primary, pointBackgroundColor: THEME.primary }] },
-    options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false } } }, plugins: { legend: { display: false } } }
+    data: { labels: labels, datasets: [{ label: 'Intensità Media', data: labels.map(k => (stats[k].sum/stats[k].count).toFixed(2)), backgroundColor: 'rgba(245, 158, 11, 0.2)', borderColor: THEME.primary, pointBackgroundColor: THEME.primary }] },
+    options: { responsive: true, maintainAspectRatio: false, scales: { r: { grid: { color: THEME.grid }, pointLabels: { color: THEME.text, font: { size: 10 } }, ticks: { display: false, backdropColor: 'transparent' } } }, plugins: { legend: { display: false } } }
   });
 }
 
 function populateFilters(data) {
   const select = document.getElementById('chartTypeFilter');
   if (!select) return;
+  
+  // Salva selezione corrente se c'è un refresh
   const currentVal = select.value;
   select.innerHTML = '<option value="">Tutte le categorie</option>';
-  const types = [...new Set(data.map(e => e.type))].sort();
-  types.forEach(t => { if(t) select.innerHTML += `<option value="${t}">${t}</option>`; });
+  
+  const types = [...new Set(data.map(e => e.type))].filter(t => t).sort();
+  types.forEach(t => { select.innerHTML += `<option value="${t}">${t}</option>`; });
+  
   select.value = currentVal;
 }
