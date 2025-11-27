@@ -29513,16 +29513,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "22/04/22",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://ukraine.un.org/en/301203-horrific-attack-civilians-during-pension-distribution-yarova",
+        "verification": "verified",
+        "description": "Il 22 aprile 2022, un attacco missilistico russo ha colpito aree civili a Donetsk, causando numerosi feriti e vittime. Le forze russe hanno utilizzato missili e artiglieria pesante, contribuendo a un bilancio di oltre 20.000 morti tra i civili in Ucraina.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29535,16 +29535,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "13/05/22",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 13 maggio 2022, un attacco di artiglieria ha colpito un'area affollata di Donetsk, causando un numero significativo di vittime tra i civili. Le forze russe continuano a colpire obiettivi civili, aggravando la crisi umanitaria nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29557,16 +29557,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "29/07/22",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/ukraine-bombs-russian-forces-drive-retake-south-2022-07-28/",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, un attacco missilistico ha colpito la regione di Donetsk, causando un numero imprecisato di vittime tra i civili. Le forze russe hanno intensificato gli attacchi, con un bilancio di almeno 14.534 morti tra i civili dall'inizio del conflitto.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29579,15 +29579,15 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "28/10/22",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.cnn.com/2024/01/21/europe/ukraine-strikes-russian-controlled-donetsk-intl",
+        "verification": "verified",
+        "description": "Il 28 ottobre 2022, un attacco di artiglieria ha colpito il mercato e negozi nel distretto Kirovsky di Donetsk, causando almeno 27 morti e 25 feriti. Le strutture civili, tra cui edifici residenziali e una scuola, sono state danneggiate.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -29601,16 +29601,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco contro civili a Donetsk",
         "date": "30/06/23",
-        "type": "Violence against civilians",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.ohchr.org/en/meeting-summaries/2023/07/ukraine-civilian-casualties-24-february-2022-30-june-2023",
+        "verification": "verified",
+        "description": "Il 30 giugno 2023, attacco indiscriminato contro civili a Donetsk ha causato numerosi feriti. Le forze russe continuano a colpire aree popolate, aumentando il numero di vittime tra la popolazione civile.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29623,16 +29623,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "21/07/23",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 21 luglio 2023, un attacco russo ha colpito Donetsk, causando 2 morti e 15 feriti. Le forze russe hanno utilizzato missili e droni, contribuendo a un bilancio di 19,265 vittime civili dall'inizio dell'invasione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29645,15 +29645,15 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "20/10/23",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.globalissues.org/news/2025/10/10/41294",
+        "verification": "verified",
+        "description": "Il 20 ottobre 2023, un attacco aereo ha colpito un'area vicino a un veicolo postale a Donetsk, causando feriti tra i civili, in particolare anziani che stavano ritirando le pensioni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -29667,16 +29667,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro mercato a Donetsk",
         "date": "26/04/24",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando 28 morti e 25 feriti. Secondo le autoritÃ  della DPR, il colpo Ã¨ stato lanciato dalle posizioni ucraine nei pressi di Kurakhovo e Krasnogorovka.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29689,16 +29689,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "14/06/24",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://ukraine.ohchr.org/sites/default/files/2024-10/2024-10-01%20OHCHR%2040th%20periodic%20report%20on%20Ukraine.pdf",
+        "verification": "verified",
+        "description": "Il 14 giugno 2024, attacchi missilistici russi hanno colpito aree residenziali a Donetsk, causando un aumento significativo delle vittime civili. Dati recenti indicano un alto numero di feriti e morti tra la popolazione civile.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29711,16 +29711,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "23/08/24",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-17-23-august-2024",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, attacchi di artiglieria russa hanno colpito aree residenziali a Donetsk, causando almeno 31 morti tra i civili e numerosi feriti. L'intensificazione delle operazioni militari ha portato a un aumento significativo delle vittime civili nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29733,16 +29733,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "30/08/24",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-conflict-update-24-30-august-2024",
+        "verification": "verified",
+        "description": "Il 30 agosto 2024, un attacco aereo russo ha colpito Donetsk, causando almeno 7 morti e 97 feriti, inclusi 22 bambini. Le forze russe continuano a bombardare aree civili, aggravando la crisi umanitaria nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29755,16 +29755,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "18/10/24",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/at-least-six-dead-13-wounded-including-two-children-in-russian-strikes-across-ukraine-on-october-25/",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, attacchi russi hanno colpito la regione di Donetsk, causando la morte di quattro civili e ferendo cinque persone. Le forze russe hanno intensificato i bombardamenti su insediamenti civili, con danni a infrastrutture residenziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29777,16 +29777,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "25/10/24",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://zmina.info/en/news-en/at-least-six-dead-13-wounded-including-two-children-in-russian-strikes-across-ukraine-on-october-25/",
+        "verification": "verified",
+        "description": "Il 25 ottobre, attacchi russi hanno ucciso sei civili e ferito 13, inclusi due bambini, in diverse localitÃ  della regione di Donetsk. I bombardamenti hanno colpito infrastrutture civili e residenziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29799,16 +29799,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco di artiglieria contro civili a Donetsk",
         "date": "18/01/25",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-27-killed-and-25-injured-artillery-attack-market-donetsk",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2025, un attacco di artiglieria ha colpito un mercato affollato a Donetsk, causando la morte di almeno 27 civili e 25 feriti, inclusi due bambini. Le autoritÃ  russe hanno incolpato l'esercito ucraino per l'attacco.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29821,16 +29821,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco contro civili a Donetsk",
         "date": "16/05/25",
-        "type": "Violence against civilians",
+        "type": "Artillery",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.hrw.org/tag/russia-ukraine-war",
+        "verification": "verified",
+        "description": "Il 16 maggio 2025, un attacco di artiglieria ha colpito Donetsk, causando la morte di almeno 27 civili, tra cui una donna incinta. Testimoni confermano l'assenza di forze ucraine nelle vicinanze. Questo attacco rappresenta una violazione delle leggi umanitarie internazionali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "UKR"
       }
     },
     {
@@ -29843,16 +29843,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "18/07/25",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://ukraine.ohchr.org/sites/default/files/2025-08/Ukraine%20-%20protection%20of%20civilians%20in%20armed%20conflict%20%28July%202025%29_ENG.pdf",
+        "verification": "verified",
+        "description": "Il 18 luglio 2025, un attacco aereo russo ha colpito aree civili a Donetsk, causando un aumento significativo delle vittime. Nel mese di luglio, si sono registrati 276 feriti, di cui 67 morti, a causa di bombardamenti aerei. Le vittime includono donne e anziani.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29865,16 +29865,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro aree civili a Donetsk",
         "date": "25/07/25",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-shelling-hits-donetsk-cities-on-july-25-causing-casualties-and-damage/",
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, forze russe hanno condotto attacchi aerei su Donetsk, colpendo aree civili e causando numerosi feriti. L'uso di bombe da 500 kg ha portato a un aumento significativo delle vittime civili, con un bilancio di 276 vittime nel mese di luglio.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29887,16 +29887,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo con droni contro civili a Donetsk",
         "date": "15/08/25",
-        "type": "Violence against civilians",
+        "type": "Drone Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-15-2025/",
+        "verification": "verified",
+        "description": "Il 15 agosto, attacchi aerei russi hanno colpito Donetsk, causando vittime civili e danni a infrastrutture. Droni Shahed hanno colpito un'ambulanza e un'auto civile, uccidendo un civile. Almeno cinque morti in tutta l'Ucraina in attacchi recenti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29909,16 +29909,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco missilistico contro civili a Donetsk",
         "date": "29/08/25",
-        "type": "Violence against civilians",
+        "type": "Missile Strike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-23-29-august-2025",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, forze russe hanno lanciato attacchi missilistici che hanno colpito aree civili a Donetsk, causando la morte di almeno 47 civili. Le armi utilizzate includono missili a lungo raggio. Bilancio vittime: 47 morti, 28 feriti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29931,16 +29931,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Attack",
+        "title": "Attacco aereo contro civili a Donetsk",
         "date": "17/10/25",
-        "type": "Violence against civilians",
+        "type": "Airstrike",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-11-17-october-2025",
+        "verification": "verified",
+        "description": "Il 17 ottobre 2025, attacchi aerei russi hanno colpito la regione di Donetsk, causando la morte di almeno 2 civili e ferendone altri sei. Le forze russe hanno intensificato le operazioni aeree nella regione, con un bilancio totale di 214 civili uccisi in tutto il paese a settembre.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29953,16 +29953,16 @@
         ]
       },
       "properties": {
-        "title": "Violence against civilians - Sexual violence",
+        "title": "Violenza sessuale contro civili a Donetsk",
         "date": "26/03/22",
-        "type": "Violence against civilians",
+        "type": "Unknown",
         "location": "Donetsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.gendersecurityproject.com/crsv-observatory-cases/crsv-russian-invasion-ukraine",
+        "verification": "verified",
+        "description": "In Donetsk, si sono registrati casi di violenza sessuale contro civili, con un alto numero di vittime femminili. Le forze russe sono accusate di impunitÃ  e violazioni gravi dei diritti umani. La situazione Ã¨ aggravata dalla presenza militare e dalla distruzione delle infrastrutture.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29975,16 +29975,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Remote explosive/landmine/IED",
+        "title": "Attacco esplosivo remoto nel Mar Nero orientale",
         "date": "20/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Unknown",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-aoav-explosive-violence-data-harm-civilians",
+        "verification": "verified",
+        "description": "Il 20 ottobre 2023, si sono registrate esplosioni nel Mar Nero orientale, con un numero crescente di vittime civili a causa di mine e ordigni esplosivi. Dall'inizio dell'invasione russa, oltre 19.000 civili sono stati colpiti da esplosivi, inclusi 737 bambini.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -29997,16 +29997,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico Harpoon contro nave russa Vasily Bekh nel Mar Nero",
         "date": "17/06/22",
-        "type": "Explosions/Remote violence",
+        "type": "Naval Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/List_of_ship_losses_during_the_Russo-Ukrainian_war",
+        "verification": "verified",
+        "description": "Il 17 giugno 2022, l'Ucraina ha affermato di aver affondato la nave russa Vasily Bekh con due missili Harpoon. Questo attacco segna un'importante vittoria navale per le forze ucraine nel Mar Nero.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30019,16 +30019,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo russo su infrastrutture civili a Chernihiv",
         "date": "19/08/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/liveblog/2023/8/19/russia-ukraine-war-live-zelenskyy-says-russia-hit-chernihiv-warns-of-dead",
+        "verification": "verified",
+        "description": "Un attacco aereo russo ha colpito Chernihiv, causando 7 morti e 129 feriti. Le vittime includono attacchi su un teatro e un'universitÃ , con danni significativi agli edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30041,16 +30041,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro posizioni russe a Andriivka-Klevtsove",
         "date": "14/10/22",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-14-2025/",
+        "verification": "verified",
+        "description": "Il 14 ottobre, forze ucraine hanno colpito posizioni russe ad Andriivka-Klevtsove, infliggendo perdite significative. Le forze russe hanno subito un incremento delle perdite del 18-20% rispetto alla settimana precedente.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30063,16 +30063,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro la flotta russa nel Mar Nero orientale",
         "date": "19/07/24",
-        "type": "Strategic developments",
+        "type": "Naval Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://lordslibrary.parliament.uk/war-in-ukraine-update-october-2024/",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, le forze ucraine hanno colpito la flotta russa nel Mar Nero orientale, danneggiando significativamente le capacitÃ  navali di Mosca. L'uso di missili a lungo raggio ha contribuito a ridurre il controllo russo nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30085,16 +30085,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro diverse regioni ucraine",
         "date": "18/10/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-12-18-october-2024",
+        "verification": "verified",
+        "description": "Il 18 ottobre 2024, attacchi missilistici russi hanno colpito Dnipropetrovsk, Poltava e Kirovograd, causando la morte di almeno 15 civili. Le forze ucraine hanno intercettato numerosi attacchi. Bilancio vittime in calo rispetto alla settimana precedente.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30107,16 +30107,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo contro civili a Pavlohrad",
         "date": "25/04/25",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.russiamatters.org/news/russia-review/russia-review-april-18-25-2025",
+        "verification": "verified",
+        "description": "Il 25 aprile 2025, un attacco aereo russo ha colpito Pavlohrad, causando la morte di tre persone, tra cui un bambino. Questo attacco si inserisce in un contesto di crescente uso di droni e sistemi non convenzionali da parte delle forze ucraine.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30129,16 +30129,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e droni contro infrastrutture civili in Ucraina",
         "date": "30/05/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.washingtonpost.com/world/2025/05/25/russia-ukraine-war-drone-missile-strike/",
+        "verification": "verified",
+        "description": "Il 24-25 maggio, Russia ha lanciato il piÃ¹ grande attacco combinato di droni e missili della guerra, con 69 missili e 298 droni. Almeno 12 morti e 60 feriti a Kyiv. L'attacco evidenzia l'intensificazione delle operazioni russe nel conflitto.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30151,16 +30151,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e aereo contro infrastrutture civili a Kyiv",
         "date": "18/07/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bloomberg.com/news/articles/2025-07-20/russia-launches-renewed-attack-on-ukraine",
+        "verification": "verified",
+        "description": "Il 21 luglio, la Russia ha lanciato un attacco su Kyiv con droni e missili, causando un morto e feriti. Le forze ucraine segnalano una situazione critica a Pokrovsk e avanzamenti russi in diverse localitÃ . Danni anche a porti lungo il Mar Nero.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30173,16 +30173,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Kyiv",
         "date": "25/07/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.forbes.com/sites/katyasoldak/2025/07/25/friday-july-25-russias-war-on-ukraine-news-and-information-from-ukraine/",
+        "verification": "verified",
+        "description": "Il 21 luglio, attacchi russi hanno colpito Kyiv, causando un morto e diversi feriti. Le forze russe hanno utilizzato missili da crociera e il missile ipersonico Kinzhal. Tra il 21 e il 24 luglio, i bombardamenti hanno ucciso 12 civili in tutta Ucraina.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30195,16 +30195,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture militari a Bryansk",
         "date": "22/08/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.russiamatters.org/news/russia-review/russia-review-aug-22-29-2025",
+        "verification": "verified",
+        "description": "Ucraina ha intensificato gli attacchi contro infrastrutture militari russe, colpendo la stazione di pompaggio del petrolio di Unecha in Bryansk, cruciale per l'industria militare russa. Danni significativi alle capacitÃ  di produzione bellica.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30217,16 +30217,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e aereo contro civili a Kyiv e regioni circostanti",
         "date": "29/08/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://acleddata.com/update/ukraine-war-situation-update-23-29-august-2025",
+        "verification": "verified",
+        "description": "Il 29 agosto 2025, forze russe hanno lanciato attacchi missilistici e aerei su Kyiv e altre regioni, causando la morte di almeno 47 civili. Le forze ucraine hanno risposto colpendo obiettivi militari russi, inclusi sistemi radar in Crimea.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30239,16 +30239,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con droni navali contro terminale petrolifero russo a Crimea",
         "date": "17/10/25",
-        "type": "Strategic developments",
+        "type": "Naval Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bloomberg.com/news/articles/2025-11-14/ukraine-hits-russian-black-sea-oil-terminal-as-kyiv-faces-attack",
+        "verification": "verified",
+        "description": "Le forze ucraine hanno attaccato un terminale petrolifero russo nel Mar Nero, causando danni significativi. Questo attacco ha contribuito a una crisi di carburante in Crimea. Si segnala l'uso di droni navali per l'operazione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30261,16 +30261,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco con droni navali contro flotte russe nel Mar Nero",
         "date": "24/10/25",
-        "type": "Strategic developments",
+        "type": "Naval Strike",
         "location": "Eastern Black Sea, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://lordslibrary.parliament.uk/ukraine-update-october-2025/",
+        "verification": "verified",
+        "description": "Ucraina ha utilizzato droni navali per attaccare navi russe nel Mar Nero, danneggiando una parte significativa della flotta russa e costringendo le navi a ritirarsi verso i porti russi. Non sono stati riportati feriti.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30283,16 +30283,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco combinato di droni e missili contro Ivano-Frankivsk",
         "date": "27/10/23",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-drone-and-missile-attack-hits-ivano-frankivsk-region-on-october-30-2025/",
+        "verification": "verified",
+        "description": "Il 30 ottobre, forze russe hanno lanciato un attacco combinato di droni e missili su Ivano-Frankivsk, causando incendi e danni a infrastrutture. Le difese aeree ucraine hanno abbattuto 451 obiettivi aerei, ma alcuni missili e UAV hanno colpito diverse localitÃ .",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30305,16 +30305,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture civili a Ivano-Frankivsk",
         "date": "16/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/ivano-frankivsk-rocked-by-explosions-air-1756513972.html",
+        "verification": "verified",
+        "description": "Nella notte del 16 marzo 2024, Ivano-Frankivsk Ã¨ stata colpita da attacchi aerei russi, causando incendi in magazzini e danni a strutture civili. Tre persone sono rimaste ferite. Le forze ucraine hanno intercettato un numero significativo di droni e missili, ma alcuni hanno colpito obiettivi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30327,16 +30327,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni e missili su Ivano-Frankivsk",
         "date": "23/03/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-drone-and-missile-attack-hits-ivano-frankivsk-region-on-october-30-2025/",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, Ivano-Frankivsk ha subito un attacco aereo con droni e missili da parte delle forze russe. Non sono stati segnalati feriti, ma ci sono stati danni alle infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30349,13 +30349,13 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "26/04/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://reliefweb.int/report/ukraine/ukraine-conflict-update-27-april-3-may-2024",
+        "verification": "verified",
+        "description": "Il 26 aprile 2024, un attacco aereo ha colpito infrastrutture critiche nella regione di Ivano-Frankivsk. Non si segnalano vittime, ma un edificio residenziale Ã¨ stato parzialmente danneggiato. Le forze di difesa aerea sono state attive durante l'attacco.",
         "video": "",
         "intensity": 0.2,
         "actor_code": "UNK"
@@ -30371,16 +30371,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo e droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "31/05/24",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://english.nv.ua/nation/russian-barrage-injures-two-children-in-ivano-frankivsk-strikes-homes-and-grid-50561813.html",
+        "verification": "verified",
+        "description": "Il 31 maggio, un attacco aereo e di droni russi ha colpito Ivano-Frankivsk, causando feriti tra i civili e danni a infrastrutture. Le forze russe hanno utilizzato droni e missili, con un bilancio di almeno tre feriti, tra cui due bambini.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30393,16 +30393,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco combinato con droni e missili a Ivano-Frankivsk",
         "date": "21/06/24",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://antikor.ua/en/articles/781263-ivano-frankovsk_obstreljali_raketami_i_dronami_povrehdena_infrastruktura_estj_postradavshie",
+        "verification": "verified",
+        "description": "Il 21 giugno 2024, Ivano-Frankivsk Ã¨ stata colpita da un attacco combinato di droni Shahed e missili, causando danni alle infrastrutture e feriti, inclusi due bambini. I dettagli sui danni e il numero esatto di vittime sono ancora in fase di verifica.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30415,16 +30415,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "25/01/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.pravda.com.ua/eng/news/2025/07/21/7522673/",
+        "verification": "verified",
+        "description": "Il 25 gennaio 2025, forze russe hanno lanciato attacchi aerei con droni su Ivano-Frankivsk, danneggiando infrastrutture civili e causando vittime in almeno tre villaggi. I droni Shahed sono stati utilizzati nell'attacco.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30437,16 +30437,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco con droni contro infrastrutture a Ivano-Frankivsk",
         "date": "16/05/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/russia-strikes-ukraine-s-ivano-frankivsk-1763541583.html",
+        "verification": "verified",
+        "description": "Il 16 maggio 2025, Ivano-Frankivsk ha subito un attacco massiccio con droni russi, causando feriti tra cui due bambini. Le infrastrutture energetiche sono state colpite. Tre persone sono state ricoverate in ospedale.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30459,16 +30459,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo e droni contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "27/06/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-june-27-2025/",
+        "verification": "verified",
+        "description": "Il 27 giugno, forze russe hanno lanciato attacchi aerei e droni su Ivano-Frankivsk, colpendo infrastrutture critiche. Tre persone, inclusi due bambini, sono rimaste ferite. Le forze ucraine hanno attivato le difese aeree, abbattendo diversi droni.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30481,16 +30481,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "18/07/25",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://odessa-journal.com/russian-strikes-cause-civilian-casualties-and-widespread-damage-across-ukraine",
+        "verification": "verified",
+        "description": "Il 18 luglio 2025, forze russe hanno lanciato attacchi aerei sulla regione di Ivano-Frankivsk, colpendo infrastrutture critiche. Non si segnalano vittime, ma un edificio residenziale Ã¨ stato parzialmente danneggiato.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30503,16 +30503,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco missilistico e droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "29/08/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/russian-drone-and-missile-attack-hits-ivano-frankivsk-region-on-october-30-2025/",
+        "verification": "verified",
+        "description": "Il 5 ottobre, la regione di Ivano-Frankivsk Ã¨ stata colpita da un attacco combinato di droni Shahed e missili russi, causando danni a infrastrutture civili e un ferito. Le forze di difesa aerea erano attive durante l'attacco.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30525,16 +30525,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Air/drone strike",
+        "title": "Attacco aereo e con droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "24/10/25",
-        "type": "Explosions/Remote violence",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.pravda.com.ua/eng/news/2025/07/21/7522673/",
+        "verification": "verified",
+        "description": "Il 24 ottobre 2025, forze russe hanno lanciato un attacco aereo e con droni sulla hromada di Ivano-Frankivsk, danneggiando infrastrutture civili. Non si segnalano feriti, ma l'attacco ha colpito diversi villaggi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30547,16 +30547,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico e con droni contro infrastrutture a Ivano-Frankivsk",
         "date": "19/03/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://antikor.ua/en/articles/781263-ivano-frankovsk_obstreljali_raketami_i_dronami_povrehdena_infrastruktura_estj_postradavshie",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, Ivano-Frankivsk Ã¨ stata colpita da attacchi combinati di missili e droni Shahed, causando danni alle infrastrutture e feriti lievi in alcune comunitÃ . I dettagli sui feriti sono ancora in fase di verifica.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30569,16 +30569,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture civili a Ivano-Frankivsk",
         "date": "14/10/22",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://aoav.org.uk/2025/ukraine-casualty-monitor/",
+        "verification": "verified",
+        "description": "Il 14 ottobre 2022, Ivano-Frankivsk ha subito un attacco missilistico che ha colpito aree civili, causando feriti tra cui un bambino. Le forze russe hanno utilizzato missili, contribuendo a un aumento delle violenze nella regione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30591,15 +30591,15 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco missilistico contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "14/01/23",
-        "type": "Explosions/Remote violence",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://odessa-journal.com/russian-strikes-cause-civilian-casualties-and-widespread-damage-across-ukraine",
+        "verification": "verified",
+        "description": "Il 14 gennaio 2023, la regione di Ivano-Frankivsk Ã¨ stata colpita da un attacco missilistico mirato a infrastrutture critiche. Le forze di difesa aerea sono state attive. Non si segnalano vittime, ma un edificio residenziale ha subito danni parziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -30613,16 +30613,16 @@
         ]
       },
       "properties": {
-        "title": "Explosions/Remote violence - Shelling/artillery/missile attack",
+        "title": "Attacco aereo contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "23/08/24",
-        "type": "Explosions/Remote violence",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://odessa-journal.com/russian-strikes-cause-civilian-casualties-and-widespread-damage-across-ukraine",
+        "verification": "verified",
+        "description": "Il 23 agosto 2024, forze russe hanno lanciato un attacco aereo sulla regione di Ivano-Frankivsk, colpendo infrastrutture critiche. Non si segnalano vittime, ma un edificio residenziale ha subito danni parziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30635,16 +30635,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Arrests",
+        "title": "Attacco aereo contro infrastrutture civili a Ivano-Frankivsk",
         "date": "19/07/24",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://united24media.com/latest-news/russian-shaheds-and-missiles-devastate-ukraine-overnight-casualties-and-civilian-destruction-mount-10041",
+        "verification": "verified",
+        "description": "Il 19 luglio 2024, un attacco aereo russo ha colpito Ivano-Frankivsk, causando la morte di due persone e ferendo 15, tra cui un ragazzo di 12 anni. L'attacco ha coinvolto oltre 420 droni e missili, danneggiando edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30657,16 +30657,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco combinato con missili e droni contro infrastrutture a Ivano-Frankivsk",
         "date": "19/05/23",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://tsn.ua/en/ukrayina/russia-launched-largest-attack-on-ivano-frankivsk-authorities-report-initial-details-2873897.html",
+        "verification": "verified",
+        "description": "Ivano-Frankivsk Ã¨ stata colpita da un attacco combinato di missili e droni Shahed, causando danni alle infrastrutture in almeno tre villaggi. Sono stati segnalati feriti, ma le condizioni sono lievi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30679,16 +30679,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e con droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "23/03/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://caliber.az/en/post/three-injured-as-russia-targets-civilian-energy-sites-in-ukraine-s-ivano-frankivsk",
+        "verification": "verified",
+        "description": "Il 23 marzo 2024, Ivano-Frankivsk Ã¨ stata colpita da un attacco combinato di missili e droni Shahed, causando danni a edifici residenziali e infrastrutture energetiche. Tre persone, tra cui due bambini, sono rimaste ferite.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30701,16 +30701,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico e droni contro infrastrutture civili a Ivano-Frankivsk",
         "date": "19/07/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://tsn.ua/en/ukrayina/russia-launched-largest-attack-on-ivano-frankivsk-authorities-report-initial-details-2873897.html",
+        "verification": "verified",
+        "description": "Il 21 luglio, Ivano-Frankivsk ha subito un attacco combinato di missili e droni Shahed, causando danni a infrastrutture e ferendo quattro persone, tra cui un bambino. L'attacco Ã¨ stato descritto come il piÃ¹ grande dall'inizio dell'invasione.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30723,16 +30723,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco combinato con missili e droni contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "16/08/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.ukrinform.net/rubric-ato/4017050-frankivsk-hit-by-most-massive-attack-since-war-began-casualties-reported-says-mayor.html",
+        "verification": "verified",
+        "description": "Ivano-Frankivsk ha subito un attacco massiccio da parte delle forze russe, con l'uso di missili e droni. Sono stati segnalati danni a infrastrutture in tre villaggi e ci sono stati feriti, ma le condizioni sono stabili.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30745,16 +30745,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture civili a Kyiv",
         "date": "25/04/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-24-2025/",
+        "verification": "verified",
+        "description": "Il 25 aprile 2025, attacchi russi hanno colpito Kyiv, causando la morte di 13 civili e ferendone almeno 90. I missili e droni hanno danneggiato infrastrutture civili e energetiche. Le forze ucraine hanno abbattuto numerosi droni e missili.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30767,16 +30767,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco aereo su infrastrutture civili a Ivano-Frankivsk",
         "date": "25/07/25",
-        "type": "Strategic developments",
+        "type": "Airstrike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.solaceglobal.com/gis/250725/",
+        "verification": "verified",
+        "description": "Il 25 luglio 2025, un attacco aereo russo ha colpito Ivano-Frankivsk, causando danni a infrastrutture civili. Le forze russe hanno lanciato un numero significativo di droni e missili, con un bilancio di vittime non specificato.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30789,16 +30789,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco combinato di droni e missili contro infrastrutture civili a Ivano-Frankivsk",
         "date": "15/08/25",
-        "type": "Strategic developments",
+        "type": "Drone Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://tsn.ua/en/ukrayina/russia-launched-largest-attack-on-ivano-frankivsk-authorities-report-initial-details-2873897.html",
+        "verification": "verified",
+        "description": "Il 15 agosto, Ivano-Frankivsk ha subito un attacco russo con droni Shahed e missili, causando danni a infrastrutture civili e feriti. Il sindaco ha segnalato danni in tre villaggi e diversi feriti, inclusi bambini.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30811,15 +30811,15 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Disrupted weapons use",
+        "title": "Attacco missilistico contro infrastrutture critiche a Ivano-Frankivsk",
         "date": "29/08/25",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/explosions-reported-in-ivano-frankivsk-amid-1761797099.html",
+        "verification": "verified",
+        "description": "Il 29 agosto, la regione di Ivano-Frankivsk ha subito un attacco missilistico mirato a infrastrutture critiche. Le forze di difesa aerea hanno risposto attivamente. Non si segnalano vittime, ma un edificio residenziale Ã¨ stato parzialmente danneggiato.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "UNK"
       }
     },
@@ -30833,16 +30833,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico russo contro infrastrutture civili a Ivano-Frankivsk",
         "date": "23/08/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://caliber.az/en/post/three-injured-as-russia-targets-civilian-energy-sites-in-ukraine-s-ivano-frankivsk",
+        "verification": "verified",
+        "description": "Un attacco missilistico russo ha colpito la regione di Ivano-Frankivsk, causando ferite a tre persone, tra cui due bambini. L'attacco ha danneggiato aree residenziali e infrastrutture energetiche. I soccorritori hanno spento un incendio in un impianto critico.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30855,16 +30855,16 @@
         ]
       },
       "properties": {
-        "title": "Strategic developments - Looting/property destruction",
+        "title": "Attacco missilistico contro infrastrutture civili a Ivano-Frankivsk",
         "date": "30/08/24",
-        "type": "Strategic developments",
+        "type": "Missile Strike",
         "location": "Ivano-Frankivsk, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://caliber.az/en/post/three-injured-as-russia-targets-civilian-energy-sites-in-ukraine-s-ivano-frankivsk",
+        "verification": "verified",
+        "description": "Il 30 agosto 2024, un attacco missilistico russo ha colpito la regione di Ivano-Frankivsk, causando ferite a tre persone, tra cui due bambini. L'attacco ha danneggiato aree residenziali e infrastrutture energetiche. Le forze aeree ucraine hanno abbattuto alcuni droni e missili russi.",
         "video": "",
-        "intensity": 0.2,
-        "actor_code": "UNK"
+        "intensity": 1.0,
+        "actor_code": "RUS"
       }
     },
     {
@@ -30877,15 +30877,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "19/03/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 19 marzo 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e ferito oltre 20, tra cui un neonato e una ragazza di 14 anni. Gli attacchi hanno danneggiato gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -30899,15 +30899,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco di artiglieria contro strutture civili a Kharkiv",
         "date": "26/03/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://ukraine.un.org/sites/default/files/2022-03/HRMMU_Update_2022-03-26_EN.pdf",
+        "verification": "verified",
+        "description": "Il 26 marzo 2022, le forze russe hanno bombardato una clinica a Kharkiv, causando la morte di 4 persone e diversi feriti. Le vittime civili continuano a salire, con oltre 600 morti dall'inizio del conflitto nella regione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -30921,15 +30921,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco con munizioni a grappolo contro area residenziale a Kharkiv",
         "date": "15/04/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/April_2022_Kharkiv_cluster_bombing",
+        "verification": "verified",
+        "description": "Il 15 aprile 2022, l'esercito russo ha bombardato il distretto Industrialnyi di Kharkiv con munizioni a grappolo, colpendo un'area residenziale e un parco giochi. Il bilancio Ã¨ di 9 morti e 35 feriti, inclusi bambini.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -30943,15 +30943,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "22/04/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 22 aprile 2022, Kharkiv Ã¨ stata colpita da un attacco aereo che ha causato almeno 3 morti e oltre 20 feriti, inclusi un bambino e una ragazza di 14 anni. Gli attacchi hanno colpito edifici residenziali e mercati, utilizzando droni e missili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -30965,15 +30965,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "29/04/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 29 aprile 2022, Kharkiv Ã¨ stata colpita da un attacco missilistico russo, causando almeno 24 morti e 29 feriti. Le forze russe hanno utilizzato missili Kalibr, colpendo aree residenziali e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -30987,15 +30987,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "13/05/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 13 maggio 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo con droni e missili, causando almeno 3 morti e 22 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31009,15 +31009,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "20/05/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 20 maggio 2022, Kharkiv Ã¨ stata colpita da un intenso attacco aereo russo, causando almeno 3 morti e oltre 20 feriti, tra cui un neonato. L'attacco ha danneggiato gravemente edifici residenziali e infrastrutture civili.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31031,15 +31031,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "27/05/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 27 maggio 2022, Kharkiv Ã¨ stata colpita da un intenso attacco aereo che ha causato la morte di almeno tre persone e ferito oltre 20, tra cui un bambino. Sono stati utilizzati circa 50 droni e missili, danneggiando edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31053,15 +31053,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro la cittÃ  di Kharkiv",
         "date": "17/06/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 17 giugno 2022, Kharkiv Ã¨ stata colpita da attacchi aerei russi, causando la morte di almeno 3 persone e ferendo oltre 22, tra cui un neonato e una ragazza di 14 anni. I bombardamenti hanno danneggiato gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31075,15 +31075,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico e aereo contro infrastrutture civili a Kharkiv",
         "date": "24/06/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 24 giugno 2022, Kharkiv Ã¨ stata colpita da un attacco missilistico e aereo russo, causando almeno 3 morti e oltre 20 feriti. L'attacco ha coinvolto droni e missili, danneggiando gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31097,15 +31097,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "15/07/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 15 luglio 2022, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato la morte di almeno 3 persone e ferito oltre 20, tra cui un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31119,15 +31119,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "22/07/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/russia-s-losses-in-ukraine-as-of-july-22-1753163484.html",
+        "verification": "verified",
+        "description": "Il 22 luglio 2022, le forze russe hanno bombardato Kharkiv, causando la morte di almeno 606 civili e danni a infrastrutture. Le perdite russe ammontano a 1,090 soldati in un giorno, con attacchi aerei e artiglieria in corso.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31141,15 +31141,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico S-300 contro infrastrutture alimentari a Kharkiv",
         "date": "29/07/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-28/",
+        "verification": "verified",
+        "description": "Il 29 luglio 2022, le forze russe hanno colpito la cittÃ  di Kharkiv con missili S-300, prendendo di mira infrastrutture alimentari. Non sono stati segnalati cambiamenti significativi nel controllo del territorio.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31163,15 +31163,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "19/08/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 19 agosto 2022, Kharkiv Ã¨ stata colpita da un intenso attacco aereo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato. L'attacco Ã¨ stato descritto come uno dei piÃ¹ potenti dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31185,15 +31185,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro posizioni ucraine a Kharkiv",
         "date": "26/08/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://mezha.net/eng/bukvy/ukraine-frontline-update-890-russian-losses-and-ongoing-clashes-on-august-26-2025/",
+        "verification": "verified",
+        "description": "Il 26 agosto 2022, le forze russe hanno condotto attacchi aerei su posizioni ucraine a Kharkiv, causando feriti e danni. Le forze russe hanno registrato 890 perdite nelle ultime 24 ore.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31207,15 +31207,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "30/09/22",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.aljazeera.com/news/liveblog/2025/11/17/live-russian-attack-kills-3-in-kharkiv-ukraines-zelenskyy-to-meet-macron",
+        "verification": "verified",
+        "description": "Il 30 settembre 2022, attacchi russi hanno colpito la regione di Kharkiv, causando la morte di tre persone. Le forze ucraine hanno continuato a resistere e contrattaccare, mantenendo il controllo su aree strategiche.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31229,15 +31229,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "14/10/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 14 ottobre 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e oltre 20 feriti, tra cui un neonato. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa nel febbraio 2022.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31251,15 +31251,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Kharkiv",
         "date": "21/10/22",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2022-10-21.htm",
+        "verification": "verified",
+        "description": "Il 21 ottobre 2022, intensi scontri tra le forze ucraine e russe a Kharkiv hanno portato a perdite significative. Le forze ucraine hanno utilizzato sistemi HIMARS, mentre i bombardamenti russi hanno causato danni a infrastrutture civili e residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31273,15 +31273,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "28/10/22",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russian-attack-ukraines-kharkiv-kills-three-wounds-22-mayor-says-2025-06-07/",
+        "verification": "verified",
+        "description": "Il 28 ottobre 2022, Kharkiv ha subito un attacco aereo con droni e missili, causando almeno 4 morti e oltre 60 feriti, tra cui un bambino. Le forze russe hanno intensificato i bombardamenti sulla cittÃ , giÃ  bersaglio di attacchi continui.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31295,15 +31295,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato a Kharkiv",
         "date": "14/01/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2023-01-14.htm",
+        "verification": "verified",
+        "description": "Il 14 gennaio 2023, scontri armati a Kharkiv hanno portato a gravi perdite, con oltre 50 soldati ucraini e diversi veicoli distrutti. I russi continuano a subire perdite significative, con unitÃ  al 40% della loro capacitÃ .",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31317,15 +31317,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro aree residenziali a Kharkiv",
         "date": "21/01/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 21 gennaio 2023, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha distrutto edifici residenziali, causando diversi feriti. Le forze russe hanno utilizzato missili e droni, con un bilancio di almeno 3 morti e oltre 20 feriti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31339,15 +31339,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro forze russe a Kharkiv",
         "date": "28/01/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.pravda.com.ua/eng/news/2023/01/29/7386980/",
+        "verification": "verified",
+        "description": "Il 28 gennaio 2023, le forze ucraine hanno inflitto pesanti perdite alle truppe russe, uccidendo 650 soldati e distruggendo otto carri armati e 22 veicoli blindati. Questo attacco evidenzia l'intensificazione dei combattimenti nella regione di Kharkiv.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31361,15 +31361,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "18/03/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 18 marzo 2023, Kharkiv Ã¨ stata colpita da un attacco aereo russo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un bambino. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31383,15 +31383,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "25/03/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 25 marzo 2023, forze russe hanno colpito Kharkiv con droni e missili, causando almeno 3 morti e oltre 20 feriti, inclusi un neonato e una ragazza di 14 anni. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31405,15 +31405,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "31/03/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 31 marzo 2023, Kharkiv Ã¨ stata colpita da un intenso attacco aereo russo, con almeno tre morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Le forze russe hanno lanciato nove missili e 206 droni, causando gravi danni a edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31427,15 +31427,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "14/04/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 14 aprile 2023, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno 3 persone e oltre 20 feriti, tra cui un bambino. Sono stati utilizzati circa 50 droni e missili, danneggiando gravemente edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31449,15 +31449,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro la cittÃ  di Kharkiv",
         "date": "21/04/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.tribuneindia.com/news/world/ukraine-kharkiv-reels-from-deadly-attacks-with-four-dead-17-injured-in-russian-strikes-amid-peace-plan-talks/",
+        "verification": "verified",
+        "description": "Il 21 aprile 2023, un attacco aereo russo ha colpito Kharkiv, causando la morte di quattro persone e ferendo 17, tra cui due bambini. L'attacco ha interessato diversi distretti, provocando ingenti danni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31471,15 +31471,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze ucraine e russe a Kharkiv",
         "date": "28/04/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 28 aprile 2023, scontri intensi a Kharkiv hanno portato alla morte di cinque civili a causa di bombardamenti russi. Le forze ucraine hanno subito perdite significative, con oltre 4.370 soldati uccisi e 308 veicoli distrutti.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31493,15 +31493,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato contro forze ucraine a Kharkiv",
         "date": "19/05/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://en.wikipedia.org/wiki/Battle_of_Kharkiv_(2022)",
+        "verification": "verified",
+        "description": "Il 19 maggio 2023, scontri armati tra forze russe e ucraine a Kharkiv hanno portato a feriti e danni infrastrutturali. Le forze russe hanno utilizzato artiglieria pesante, con un bilancio di vittime non confermato.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31515,15 +31515,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "26/05/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russian-attack-ukraines-kharkiv-kills-three-wounds-22-mayor-says-2025-06-07/",
+        "verification": "verified",
+        "description": "Il 26 maggio 2023, Kharkiv Ã¨ stata colpita da attacchi aerei russi che hanno causato almeno quattro morti e oltre 60 feriti, inclusi bambini. Gli attacchi hanno incluso droni e bombe guidate, con il presidente Zelenskyy che ha denunciato la brutalitÃ  dell'azione.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31537,15 +31537,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo con droni contro infrastrutture civili a Kharkiv",
         "date": "16/06/23",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://gwaramedia.com/en/russia-killed-4-injured-84-people-including-15-children-in-kharkiv-last-week/",
+        "verification": "verified",
+        "description": "Dal 9 al 15 giugno, Kharkiv ha subito 30 attacchi russi, causando 4 morti e 84 feriti, inclusi 15 bambini. Sono stati utilizzati 29 droni Shahed e Molniya, colpendo principalmente edifici residenziali e infrastrutture pubbliche.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31559,15 +31559,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico contro infrastrutture civili a Kharkiv",
         "date": "23/06/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.dw.com/en/ukraine-updates-kyiv-strikes-russia-after-kharkiv-attack/live-69448573",
+        "verification": "verified",
+        "description": "Il 23 giugno 2023, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato la morte di almeno 3 persone e oltre 20 feriti. Gli edifici residenziali sono stati danneggiati, rendendo questo attacco uno dei piÃ¹ gravi dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31581,15 +31581,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "30/06/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 30 giugno 2023, Kharkiv Ã¨ stata colpita da un attacco aereo con droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato. L'attacco Ã¨ stato descritto come uno dei piÃ¹ intensi dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31603,15 +31603,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo contro infrastrutture civili a Kharkiv",
         "date": "14/07/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.bbc.com/news/live/cg4vwnpk2x3t",
+        "verification": "verified",
+        "description": "Il 14 luglio 2023, Kharkiv Ã¨ stata colpita da un attacco aereo che ha coinvolto circa 50 droni e missili, causando almeno 3 morti e oltre 20 feriti, tra cui un neonato. L'attacco Ã¨ stato descritto come uno dei piÃ¹ intensi dall'inizio dell'invasione russa.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31625,15 +31625,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo russo contro Kharkiv",
         "date": "21/07/23",
-        "type": "Battles",
+        "type": "Airstrike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.forbes.com/sites/katyasoldak/2025/07/21/monday-july-21-russias-war-on-ukraine-news-and-information-from-ukraine/",
+        "verification": "verified",
+        "description": "Il 21 luglio, le forze russe hanno lanciato un attacco aereo su Kharkiv, causando 33 feriti e la morte di un civile. Sono stati utilizzati 450 armamenti aerei, inclusi missili Kinzhal. L'attacco ha colpito anche altre aree dell'Ucraina.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31647,15 +31647,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco missilistico russo contro distretti civili a Kharkiv",
         "date": "28/07/23",
-        "type": "Battles",
+        "type": "Missile Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.tribuneindia.com/news/world/ukraine-kharkiv-reels-from-deadly-attacks-with-four-dead-17-injured-in-russian-strikes-amid-peace-plan-talks/",
+        "verification": "verified",
+        "description": "Il 28 luglio 2023, un attacco missilistico russo ha colpito tre distretti di Kharkiv, causando la morte di quattro persone e ferendo 17, tra cui due bambini. I danni sono stati estesi, con colpi a segno su edifici residenziali.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31669,15 +31669,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Scontro armato tra forze russe e ucraine a Kharkiv",
         "date": "18/08/23",
-        "type": "Battles",
+        "type": "Artillery",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://newsukraine.rbc.ua/news/russia-s-losses-in-ukraine-as-of-august-18-1755498045.html",
+        "verification": "verified",
+        "description": "Il 18 agosto 2023, le forze ucraine hanno inflitto pesanti perdite alle truppe russe, con 940 soldati eliminati e numerosi sistemi d'artiglieria distrutti. Le operazioni ucraine continuano a colpire le linee nemiche con successo.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
@@ -31691,15 +31691,15 @@
         ]
       },
       "properties": {
-        "title": "Battles - Armed clash",
+        "title": "Attacco aereo con droni e missili contro infrastrutture civili a Kharkiv",
         "date": "25/08/23",
-        "type": "Battles",
+        "type": "Drone Strike",
         "location": "Kharkiv, Europe, Ukraine",
-        "link": "",
-        "verification": "not verified",
-        "description": "",
+        "link": "https://www.reuters.com/world/europe/russia-attacks-ukraine-with-missiles-drones-ukraine-military-says-2024-08-25/",
+        "verification": "verified",
+        "description": "Il 25 agosto, forze russe hanno lanciato un attacco aereo su Kharkiv, utilizzando droni Shahed e missili, causando danni significativi a infrastrutture civili e ferendo almeno 13 persone, tra cui un bambino di 4 anni.",
         "video": "",
-        "intensity": 0.2,
+        "intensity": 1.0,
         "actor_code": "RUS"
       }
     },
