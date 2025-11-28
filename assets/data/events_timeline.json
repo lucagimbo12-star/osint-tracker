@@ -19616,10 +19616,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Air/drone strike",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro obiettivi militari a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 ottobre 2025, un attacco aereo ha colpito obiettivi militari a Kharkiv. Non sono stati riportati dettagli sulle armi utilizzate o sul bilancio delle vittime."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -19628,10 +19628,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi improvvisati contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 marzo 2022, esplosioni causate da ordigni esplosivi improvvisati hanno colpito aree civili a Kharkiv, causando feriti e danni materiali. Non sono stati forniti dettagli specifici sulle armi utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19640,10 +19640,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi improvvisati a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 marzo 2022, esplosioni causate da ordigni esplosivi improvvisati (IED) hanno colpito la cittÃ  di Kharkiv. Non sono stati riportati dettagli su vittime o danni significativi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19652,10 +19652,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 15 aprile 2022, esplosioni causate da ordigni esplosivi improvvisati (IED) sono state segnalate a Kharkiv. Non sono disponibili informazioni sul bilancio vittime o sui danni specifici."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19664,10 +19664,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi remoti a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 aprile 2022, esplosioni causate da esplosivi remoti sono state segnalate a Kharkiv. Non sono disponibili dettagli specifici sulle vittime o sulle armi utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19676,10 +19676,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 aprile 2022, esplosioni causate da esplosivi remoti hanno colpito Kharkiv. Non sono disponibili dettagli sulle vittime o sulle armi utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19688,10 +19688,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 maggio 2022, esplosioni causate da esplosivi remoti hanno colpito Kharkiv. Non sono disponibili dettagli sulle vittime o sulle armi utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19700,10 +19700,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi improvvisati a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 maggio 2022, esplosioni causate da esplosivi improvvisati sono state segnalate a Kharkiv. Non sono disponibili dettagli sul bilancio vittime o sulle armi specifiche utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19712,10 +19712,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 giugno 2022, esplosioni causate da ordigni esplosivi improvvisati (IED) hanno colpito la cittÃ  di Kharkiv. Non sono disponibili dettagli sul bilancio vittime o sulle armi specifiche utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19724,10 +19724,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi remoti a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 15 luglio 2022, esplosioni causate da ordigni esplosivi improvvisati (IED) sono state segnalate a Kharkiv. Non sono disponibili dettagli sul bilancio vittime o sulle armi specifiche utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19736,10 +19736,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 luglio 2022, esplosioni causate da esplosivi remoti hanno colpito la cittÃ  di Kharkiv. Non sono disponibili dettagli sulle vittime o sulle armi utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -19748,10 +19748,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi improvvisati contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 luglio 2022, esplosioni causate da ordigni esplosivi improvvisati hanno colpito aree civili a Kharkiv. Non sono disponibili dettagli sul bilancio vittime o sulle armi specifiche utilizzate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
