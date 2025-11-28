@@ -20048,10 +20048,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 ottobre 2023, esplosioni a Kharkiv hanno causato danni a edifici civili e ferito diversi residenti. Le forze russe hanno utilizzato bombe volanti, danneggiando anche un'attivitÃ  commerciale. La regione Ã¨ gravemente contaminata da ordigni esplosivi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -20060,10 +20060,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco droni contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco aereo russo ha colpito Kharkiv, causando la morte di quattro persone e ferendo 13, tra cui due bambini. Sono stati danneggiati edifici residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -20072,10 +20072,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni e missili contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 16 marzo 2024, Kharkiv Ã¨ stata colpita da un attacco aereo che ha coinvolto circa 50 droni e missili, causando la morte di almeno 3 persone e ferendo oltre 46, tra cui bambini. Gli edifici residenziali sono stati gravemente danneggiati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20084,10 +20084,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 marzo 2024, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Quattro bombe aeree hanno danneggiato edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20096,10 +20096,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 aprile 2024, un attacco russo con missili S-300 ha colpito Kharkiv, causando 19 morti e 65 feriti. Tre edifici residenziali e vari veicoli sono stati danneggiati. Il bilancio delle vittime Ã¨ in aumento."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20108,10 +20108,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 31 maggio 2024, attacchi missilistici russi hanno colpito Kharkiv, causando la morte di almeno 3 persone e 16 feriti, tra cui bambini e un medico. I danni sono ingenti, con diversi piani di un edificio residenziale distrutti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20120,10 +20120,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro un ipermarket a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 14 giugno 2024, un attacco aereo ha colpito un ipermarket a Kharkiv, causando 19 morti e almeno 65 feriti. Le forze russe hanno utilizzato bombe aeree, colpendo un'area affollata."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20132,10 +20132,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 giugno 2024, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha coinvolto circa 50 droni e 4 bombe guidate, causando la morte di almeno 3 persone e ferendo oltre 38, tra cui un neonato e una ragazza di 14 anni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20144,10 +20144,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 28 giugno 2024, Kharkiv Ã¨ stata colpita da un attacco aereo con droni e missili. Almeno 3 morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco ha danneggiato edifici residenziali e infrastrutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20156,10 +20156,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 luglio 2024, Kharkiv Ã¨ stata colpita da un attacco missilistico russo, causando sei feriti, tra cui quattro operatori dei servizi di emergenza. Le esplosioni hanno danneggiato edifici civili e causato incendi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20168,10 +20168,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 agosto 2024, Kharkiv Ã¨ stata colpita da un attacco aereo che ha coinvolto circa 50 droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. I danni hanno colpito edifici residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20180,10 +20180,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 agosto 2024, un attacco aereo russo ha colpito un edificio residenziale a Kharkiv, causando la morte di almeno sette persone, tra cui un bambino, e ferendo 97 individui. Sono stati utilizzati ordigni guidati lanciati da aerei dalla regione di Belgorod."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20192,10 +20192,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro il distretto Industrialnyi a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 ottobre 2024, la Russia ha lanciato un attacco aereo sul distretto Industrialnyi di Kharkiv, causando almeno 8 feriti e danni a oltre 12 abitazioni. Le armi utilizzate potrebbero includere bombe a guida aerea."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20204,10 +20204,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 gennaio 2025, forze russe hanno colpito il distretto Industrialnyi di Kharkiv con sei bombe guidate, causando feriti tra i civili e danni a strutture industriali. Almeno dieci persone sono rimaste ferite, una in condizioni critiche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20216,10 +20216,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 gennaio 2025, le forze russe hanno condotto un attacco aereo su Kharkiv, causando la morte di due civili e danneggiando oltre 60 abitazioni. Questo attacco fa parte di un aumento generale della violenza contro i civili nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20228,10 +20228,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 marzo 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni. Si tratta dell'attacco piÃ¹ potente dalla piena invasione russa nel 2022."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20240,10 +20240,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 aprile 2025, un attacco missilistico russo ha colpito Kharkiv, causando la morte di un uomo e ferendo almeno 112 persone, tra cui nove bambini. L'attacco ha danneggiato gravemente edifici residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20252,10 +20252,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 aprile 2025, un attacco aereo russo ha colpito Kharkiv, causando 27 feriti, tra cui tre bambini. Le strutture residenziali e le infrastrutture civili sono state danneggiate. Le autoritÃ  ucraine hanno denunciato l'attacco come un bersaglio deliberato di aree civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20264,10 +20264,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro il mercato Epicentr a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 maggio 2025, un attacco aereo russo ha colpito il mercato Epicentr a Kharkiv, causando 19 morti e 65 feriti. L'attacco ha provocato un incendio esteso e ha colpito un'area affollata."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20276,10 +20276,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 maggio 2025, Kharkiv Ã¨ stata colpita da un attacco aereo con droni e missili, causando la morte di almeno 3 persone e ferendo oltre 20, tra cui un neonato. L'attacco Ã¨ stato descritto come uno dei piÃ¹ intensi dall'inizio dell'invasione russa."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20288,10 +20288,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 giugno 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato almeno 3 morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Sono stati utilizzati circa 50 droni e missili in un attacco intenso."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20300,10 +20300,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 giugno 2025, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco ha coinvolto circa 50 droni e missili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20312,10 +20312,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro ospedale a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 luglio 2025, un attacco aereo russo ha colpito l'Ospedale Regionale di Tubercolosi No. 3 a Kharkiv, causando un morto e sei feriti. L'arma utilizzata Ã¨ stata una bomba a guida aerea."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20324,10 +20324,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 agosto 2025, attacchi aerei russi hanno colpito Kharkiv, causando sei morti e 25 feriti, tra cui due bambini. I danni hanno interessato edifici residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20336,10 +20336,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 ottobre 2025, a Kharkiv, si sono registrati 47.063 casi di violenza esplosiva, con 42.569 civili tra le vittime. Le mine e gli ordigni esplosivi hanno colpito duramente la popolazione, con un numero crescente di feriti e morti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -20348,10 +20348,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco aereo su Kharkiv ha causato la morte di sei persone, tra cui un bambino, e ferito oltre una dozzina di civili. Le forze russe hanno colpito un edificio residenziale, con possibilitÃ  di persone intrappolate sotto le macerie."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20360,10 +20360,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 marzo 2022, bombardamenti russi su Kharkiv hanno causato almeno 606 morti tra i civili. Colpiti edifici residenziali e monumenti, con danni significativi alle infrastrutture. Le forze ucraine hanno riconquistato alcune aree nei giorni precedenti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -20372,10 +20372,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con munizioni a grappolo contro area residenziale a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 15 aprile 2022, l'esercito russo ha lanciato bombe a grappolo 9N210/9N235 nel distretto Industrialnyi di Kharkiv, colpendo un'area residenziale e un parco giochi. Sono stati registrati 9 morti e 35 feriti, tra cui bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -20384,10 +20384,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e bombardamento aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 aprile 2022, Kharkiv Ã¨ stata colpita da un attacco aereo combinato, con l'uso di missili balistici e droni kamikaze. Sono stati segnalati piÃ¹ di 20 attacchi, causando danni a edifici residenziali e ferendo numerosi civili, tra cui bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20396,10 +20396,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e bombardamento a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 aprile 2022, Kharkiv Ã¨ stata colpita da un intenso attacco missilistico e bombardamenti, causando almeno 3 morti e oltre 20 feriti, tra cui un neonato. L'attacco ha danneggiato 20 edifici residenziali e un'istituzione educativa."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20408,10 +20408,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Lebyazhe, Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 maggio 2022, un attacco di artiglieria russo ha ferito 4 civili, tra cui un ragazzo di 15 anni, nel villaggio di Lebyazhe. Sono stati danneggiati edifici residenziali e infrastrutture critiche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -20420,10 +20420,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 20 maggio 2022, un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno sette persone e ferendo oltre una dozzina di civili. Le esplosioni hanno danneggiato edifici e infrastrutture, inclusi i servizi ferroviari."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20432,10 +20432,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 maggio 2022, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato la morte di almeno 606 civili e numerosi feriti. Le forze russe hanno utilizzato droni e missili, colpendo edifici residenziali e infrastrutture chiave."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20444,10 +20444,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 giugno 2022, Kharkiv Ã¨ stata colpita da un attacco aereo che ha coinvolto oltre 50 droni e missili, causando la morte di almeno tre persone e ferendo oltre 20, tra cui un neonato e una ragazza di 14 anni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20456,10 +20456,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 giugno 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha coinvolto circa 50 droni e 4 bombe guidate, causando 3 morti e oltre 52 feriti, tra cui bambini. L'attacco Ã¨ stato descritto come il piÃ¹ potente dall'inizio dell'invasione russa."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20468,10 +20468,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 15 luglio 2022, Kharkiv Ã¨ stata colpita da attacchi missilistici russi, causando almeno 606 morti tra i civili. Sono stati utilizzati missili balistici e droni, con danni significativi a edifici pubblici e residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20480,10 +20480,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 luglio 2022, Kharkiv Ã¨ stata colpita da attacchi missilistici russi, causando la morte di almeno 606 civili e danni significativi a infrastrutture e abitazioni. Le forze russe hanno utilizzato missili balistici e droni, con segnalazioni di esplosioni in diverse aree della cittÃ ."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20492,10 +20492,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 luglio 2022, forze russe hanno lanciato un attacco missilistico S-300 su Kharkiv, colpendo infrastrutture civili e causando danni significativi. Il bilancio delle vittime non Ã¨ stato specificato, ma l'attacco ha provocato feriti tra i civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20504,10 +20504,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 agosto 2022, attacchi missilistici russi hanno colpito edifici residenziali a Kharkiv, causando almeno 3 morti e diversi feriti, tra cui bambini. Le forze russe hanno utilizzato missili per colpire aree densamente popolate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20516,10 +20516,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 agosto 2022, attacchi missilistici russi hanno colpito Balakliia, Kharkiv, causando la morte di 3 persone e ferendo 10, tra cui 3 bambini. I missili utilizzati sono ancora in fase di identificazione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20528,10 +20528,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 settembre 2022, attacchi di artiglieria russa hanno colpito aree residenziali a Kharkiv, causando la morte di almeno 606 civili e danneggiando edifici pubblici. Le forze ucraine hanno subito perdite significative, mentre i russi hanno registrato circa 276 morti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -20540,10 +20540,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro abitazioni civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 14 ottobre 2022, un attacco missilistico russo ha colpito il centro di Kharkiv, danneggiando gravemente edifici residenziali e causando feriti tra i civili, inclusi adolescenti. Le autoritÃ  locali hanno segnalato incendi e distruzione di veicoli."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20552,10 +20552,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 ottobre, l'esercito russo ha colpito i distretti Industrialnyi e Nemyshlianskyi di Kharkiv con sei bombe a guida, causando ferimenti a otto persone e danneggiando oltre 12 abitazioni. Le indagini sono in corso."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20564,10 +20564,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 28 ottobre 2022, Kharkiv Ã¨ stata colpita da attacchi missilistici russi, causando danni a edifici residenziali e infrastrutture. Almeno 606 civili sono stati uccisi durante i combattimenti per la cittÃ ."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20576,10 +20576,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 14 gennaio 2023, Kharkiv Ã¨ stata colpita da attacchi missilistici russi, causando la distruzione di un blocco di appartamenti e diversi feriti. I residenti segnalano esplosioni forti e danni estesi, con molte persone senza elettricitÃ  e riscaldamento."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20588,10 +20588,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 gennaio 2023, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato danni a edifici residenziali e industriali, con due feriti. Le forze ucraine hanno abbattuto 21 missili su 41 lanciati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20600,10 +20600,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 gennaio 2024, un attacco missilistico russo ha colpito Kharkiv, causando 6 morti e 73 feriti. Le strutture civili sono state danneggiate, con un'intensificazione delle operazioni di soccorso. L'attacco Ã¨ stato condannato come un attacco deliberato contro aree civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20612,10 +20612,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 marzo, Kharkiv ha subito bombardamenti russi che hanno colpito edifici residenziali nei distretti Slobidskyi e Moskovskyi, causando la morte di un civile e numerosi feriti. Danni significativi a infrastrutture e edifici culturali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -20624,10 +20624,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 marzo, attacchi missilistici russi hanno colpito Kharkiv, causando danni a edifici residenziali e ferendo almeno 10 civili. Le forze russe hanno intensificato i bombardamenti, colpendo anche punti di distribuzione umanitaria."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20636,10 +20636,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 31 marzo 2023, attacchi missilistici russi hanno colpito Kharkiv, causando la morte di almeno 3 persone e ferendo 16. Tra i feriti, ci sono anche bambini e un medico. I missili hanno distrutto un edificio residenziale di cinque piani."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20648,10 +20648,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro edifici residenziali a Sloviansk",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 14 aprile 2023, forze russe hanno lanciato otto missili S-300 su Sloviansk, colpendo un edificio residenziale e causando 15 morti, tra cui un bambino, e 24 feriti. L'intensificazione dei bombardamenti ha colpito anche Kharkiv, con un attacco aereo che ha causato 14 morti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20660,10 +20660,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico con munizioni a grappolo contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 aprile 2023, un attacco missilistico ha colpito il distretto Osnovianskyi di Kharkiv, causando la morte di un uomo di 79 anni e ferendo almeno 60 persone, tra cui bambini. Sono stati utilizzati missili balistici con munizioni a grappolo."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20672,10 +20672,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 28 aprile, un attacco missilistico russo ha colpito Kharkiv, causando la morte di 3 persone e 62 feriti. Sono stati lanciati 23 missili, di cui 21 intercettati. Le vittime includono civili colpiti in abitazioni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20684,10 +20684,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro il centro di Balakliia a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 maggio 2023, attacchi missilistici russi hanno colpito Balakliia, Kharkiv, causando la morte di 3 persone e ferendo 10, tra cui 3 bambini. Le forze russe continuano a bombardare aree civili in Ucraina."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20696,10 +20696,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 maggio 2023, Kharkiv Ã¨ stata colpita da un attacco missilistico che ha danneggiato edifici residenziali e infrastrutture. Sono stati utilizzati missili balistici e droni Shahed. Il bilancio provvisorio riporta almeno 10 feriti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20708,10 +20708,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 16 giugno 2023, attacchi missilistici russi hanno colpito Kharkiv, causando la morte di almeno 3 persone e ferendo 10, tra cui 3 bambini. Le forze russe hanno utilizzato missili per colpire aree residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20720,10 +20720,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni e missili contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Nella notte del 23 giugno, Kharkiv Ã¨ stata colpita da un massiccio attacco aereo con circa 50 droni e 4 bombe guidate, causando la morte di almeno 3 persone e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20732,10 +20732,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 giugno 2023, un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno sette persone e ferendo oltre una dozzina di altri. Sono stati utilizzati missili balistici e droni, danneggiando gravemente edifici residenziali e strutture della ferrovia."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20744,10 +20744,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 14 luglio 2023, un attacco missilistico russo ha colpito Kharkiv, causando danni a edifici residenziali e ferendo 13 persone, tra cui bambini. Le forze ucraine hanno intercettato la maggior parte dei droni e missili lanciati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20756,10 +20756,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo e di droni contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 luglio 2023, Kharkiv Ã¨ stata colpita da un attacco aereo e di droni russi, causando danni a 20 edifici residenziali e ferendo 82 persone. L'attacco ha utilizzato droni e missili, con esplosioni che hanno devastato aree civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -20768,10 +20768,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro il centro di Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 28 luglio 2023, due missili russi hanno colpito il centro di Kharkiv, causando la morte di una persona e ferendo almeno otto, tra cui bambini. I danni hanno interessato edifici residenziali e veicoli. I soccorsi sono in corso."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20780,10 +20780,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 agosto 2023, attacchi missilistici russi hanno colpito la regione di Kharkiv, causando la morte di almeno 3 persone, tra cui 3 bambini, e ferendo 10 individui. Le autoritÃ  locali segnalano possibili ulteriori vittime sotto le macerie."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20792,10 +20792,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro insediamenti civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 agosto, attacchi russi hanno colpito 42 insediamenti nella regione di Kharkiv, causando 6 morti e 25 feriti, tra cui 2 bambini. Danni significativi a edifici residenziali e infrastrutture. Le forze russe hanno utilizzato missili per l'attacco."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20804,10 +20804,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro strutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 ottobre, un attacco aereo russo ha colpito il distretto di Saltivskyi a Kharkiv, causando 57 feriti tra i pazienti di una struttura medica. Sono stati utilizzati ordigni FAB-250/500, danneggiando anche veicoli e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20816,10 +20816,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 ottobre, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato otto feriti e danni a oltre 12 edifici. Le esplosioni hanno interessato i distretti Industrialnyi e Nemyshlianskyi, con l'uso di bombe a guida. Il bilancio delle vittime include anche un comandante ucciso."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20828,10 +20828,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro il centro cittÃ  di Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 ottobre 2023, Kharkiv Ã¨ stata colpita da due attacchi missilistici russi, causando la morte di un civile e ferendo almeno otto persone, tra cui bambini. I danni hanno interessato edifici residenziali e veicoli."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20840,10 +20840,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 gennaio 2024, Kharkiv Ã¨ stata colpita da un attacco missilistico russo che ha causato numerosi feriti e danni a edifici residenziali. Le difese aeree ucraine hanno intercettato solo una parte dei missili. Bilancio vittime non specificato."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20852,10 +20852,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 20 gennaio 2024, Kharkiv Ã¨ stata colpita da un attacco missilistico russo con S-300, causando danni a oltre 100 edifici residenziali. Le autoritÃ  hanno riportato almeno 6 morti e 73 feriti in attacchi successivi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20864,10 +20864,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco missilistico ha colpito Kharkiv, causando almeno 17 feriti, tra cui due donne gravemente ferite. I missili hanno danneggiato oltre 10 edifici, tra cui un ex centro medico. Le forze russe hanno utilizzato missili S-300 e Iskander."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20876,10 +20876,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro area industriale a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 20 marzo 2024, un attacco missilistico russo ha colpito un'area industriale a Kharkiv, causando almeno 3 morti e 17 feriti, tra cui bambini. I soccorritori sono ancora alla ricerca di persone intrappolate sotto le macerie."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20888,10 +20888,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro il centro di Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 marzo 2024, un attacco missilistico russo ha colpito il centro di Kharkiv, causando la morte di un civile e ferendo almeno otto persone, tra cui un ragazzo di 14 anni. I missili utilizzati hanno danneggiato edifici residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20900,10 +20900,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 marzo 2024, attacchi missilistici russi hanno colpito Kharkiv, causando 19 morti e 65 feriti. Le forze russe hanno utilizzato droni Shahed e missili S-300. La situazione Ã¨ critica a causa dei danni alle infrastrutture energetiche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20912,10 +20912,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 aprile 2024, due missili S-300 hanno colpito Kharkiv, danneggiando edifici residenziali e ferendo sei persone. L'attacco ha distrutto finestre e danneggiato veicoli, ma non ha causato danni significativi alle aree residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20924,10 +20924,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 aprile 2024, un attacco missilistico russo ha colpito Kharkiv, causando 19 morti e 65 feriti. Sono stati utilizzati missili S-300, danneggiando edifici residenziali e infrastrutture locali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20936,10 +20936,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 maggio 2024, attacchi missilistici russi hanno colpito Kharkiv, causando 19 morti e 65 feriti. Le forze russe intensificano le operazioni nella regione, mirando a creare una zona cuscinetto."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20948,10 +20948,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro un ipermercato a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 maggio 2024, un attacco missilistico russo ha colpito un ipermercato a Kharkiv, causando 19 morti e 65 feriti. L'attacco ha provocato incendi estesi e danni significativi all'infrastruttura. Le forze russe hanno utilizzato bombe aeree UMPB D30-SN."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20960,10 +20960,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 31 maggio 2024, un attacco missilistico russo ha colpito un'area residenziale a Kharkiv, causando la morte di almeno 9 civili e ferendone 15. I missili hanno distrutto un edificio di cinque piani, intrappolando residenti sotto le macerie."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -20972,10 +20972,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e bombardamento a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 giugno 2024, Kharkiv Ã¨ stata colpita da un attacco aereo massiccio, con oltre 50 droni e missili lanciati. Tre morti e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. Gli edifici residenziali sono stati gravemente danneggiati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20984,10 +20984,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 giugno 2024, Kharkiv Ã¨ stata colpita da un intenso attacco aereo con circa 50 droni, 4 bombe aeree guidate e 1 missile. Tre morti e oltre 20 feriti, tra cui un bambino di un mese e una ragazza di 14 anni. Danni significativi a edifici residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -20996,10 +20996,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 28 giugno 2024, un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno 7 persone e oltre 52 feriti, tra cui bambini. Le forze russe hanno utilizzato piÃ¹ di 700 bombe guidate nel mese di giugno, con un impatto devastante sulla popolazione civile."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21008,10 +21008,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno sette persone e ferendo oltre una dozzina. Le forze russe hanno effettuato almeno 15 attacchi, mirati a infrastrutture civili. Il bilancio potrebbe aumentare con due dispersi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21020,10 +21020,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e bombardamento a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 luglio, Kharkiv Ã¨ stata colpita da un attacco missilistico e bombardamenti aerei russi, causando almeno 7 morti e oltre 17 feriti, tra cui un bambino. Sono stati utilizzati missili balistici e bombe aeree guidate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21032,10 +21032,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro il centro di Balakliia a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 16 agosto 2024, attacchi missilistici russi hanno colpito Balakliia, Kharkiv, uccidendo 3 persone e ferendone 10, tra cui 3 bambini. Le autoritÃ  locali segnalano possibili ulteriori vittime non ancora confermate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21044,10 +21044,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico Iskander contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 6 agosto 2024, un attacco missilistico russo con un missile Iskander ha colpito un'area residenziale a Kharkiv, causando la morte di un civile e ferendo 12 persone, tra cui un neonato. Le strutture danneggiate includono una clinica medica."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21056,10 +21056,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 agosto 2024, un attacco aereo russo ha colpito un'area residenziale a Kharkiv, causando la morte di sei civili, tra cui una ragazza di 14 anni, e ferendo oltre 55 persone. L'attacco ha provocato incendi e danni significativi agli edifici."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -21068,10 +21068,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico KAB contro infrastrutture a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 ottobre, l'esercito russo ha lanciato due attacchi missilistici KAB sull'Industriale di Kharkiv, causando danni alle infrastrutture. Almeno 3 morti e 10 feriti, inclusi bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21080,10 +21080,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 24 ottobre, le forze russe hanno colpito Kharkiv con cinque bombe aeree guidate, danneggiando edifici civili e ferendo almeno sei persone, tra cui una donna di 69 anni. I danni hanno interessato anche un'azienda locale."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -21092,10 +21092,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 gennaio 2025, un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno 24 civili in diverse regioni, tra cui Kharkiv. Le forze ucraine hanno intercettato vari attacchi, ma i danni alle abitazioni sono stati significativi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21104,10 +21104,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 gennaio 2025, un attacco missilistico russo ha colpito il distretto Osnovianskyi di Kharkiv, causando la morte di un civile e ferendo oltre 60 persone. Sono stati utilizzati missili balistici con munizioni a grappolo, danneggiando gravemente 20 edifici residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21116,10 +21116,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco missilistico russo ha colpito la cittÃ  di Balakliya, nella regione di Kharkiv, causando la morte di almeno 3 persone e ferendo 13, inclusi 4 bambini. Gli edifici residenziali e le auto sono stati danneggiati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21128,10 +21128,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 marzo 2025, un attacco missilistico russo ha colpito Kharkiv, causando feriti tra i civili. Sono stati utilizzati cinque ordigni aerei, con danni a magazzini e veicoli. Un'indagine preliminare Ã¨ stata avviata per crimine di guerra."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21140,10 +21140,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Attacco notturno con droni russi su Kharkiv ha causato 2 morti e oltre 35 feriti, tra cui 5 bambini. L'attacco ha danneggiato edifici residenziali e veicoli nel centro cittÃ ."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -21152,10 +21152,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 aprile 2025, un attacco missilistico russo ha colpito Kharkiv, causando la morte di un uomo e ferendo almeno 112 persone, tra cui nove bambini. I missili utilizzati erano presumibilmente dotati di munizioni a grappolo, danneggiando gravemente edifici residenziali e strutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21164,10 +21164,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e bombardamento a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 25 aprile 2025, Kharkiv Ã¨ stata colpita da un attacco missilistico e bombardamenti che hanno causato la morte di 19 persone e il ferimento di almeno 65. Le forze russe hanno utilizzato droni e missili in un'offensiva limitata nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21176,10 +21176,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro il mercato Epicentr a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 16 maggio 2025, un attacco missilistico ha colpito il mercato Epicentr a Kharkiv, causando 19 morti e 65 feriti. Sono state utilizzate bombe aeree UMPB D30-SN, provocando un incendio esteso di 13.000 mq."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21188,10 +21188,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 23 maggio 2025, attacchi missilistici russi su Kharkiv hanno causato 19 morti e 65 feriti. Le forze russe hanno utilizzato droni e missili, colpendo aree residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21200,10 +21200,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 30 maggio 2025, attacchi missilistici russi hanno colpito Kharkiv, causando la morte di almeno 19 civili e ferendone 65. Le forze russe hanno intensificato le operazioni nella regione, utilizzando missili e droni. La situazione rimane critica."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21212,10 +21212,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 giugno 2025, un attacco missilistico russo ha colpito Kharkiv, causando la morte di almeno 85 civili in diverse regioni, tra cui Kharkiv. Le forze russe hanno utilizzato missili e droni, infliggendo gravi danni alle infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21224,10 +21224,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e droni contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 20 giugno 2025, Kharkiv Ã¨ stata colpita da un attacco massiccio con circa 50 droni e missili, causando almeno 3 morti e oltre 20 feriti, tra cui un neonato. L'attacco ha danneggiato gravemente edifici residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -21236,10 +21236,14 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro aree civili a Kharkiv",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Un attacco con droni russi ha colpito la cittÃ  di Kharkiv, causando ferite a 27 persone, tra cui tre bambini. L'attacco ha danneggiato edifici residenziali e infrastrutture, costringendo i civili a cercare riparo."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike",
+      "media": {
+        "url": "https://www.youtube.com/watch?v=lsUmx74fEMc",
+        "caption": "Fonte Video"
+      }
     },
     {
       "start_date": {
