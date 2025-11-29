@@ -24856,10 +24856,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Air/drone strike",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo e drone contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 agosto 2025, forze russe hanno attaccato Kherson con droni e artiglieria, ferendo sette persone, tra cui un bambino. Sono stati utilizzati droni Shahed per colpire aree residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24868,10 +24868,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Air/drone strike",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 17 ottobre, attacchi russi con droni hanno colpito infrastrutture civili a Kherson, causando danni significativi. Non ci sono stati feriti tra i soccorritori. Le forze russe hanno utilizzato droni FPV, aumentando il numero di vittime civili nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24880,10 +24880,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Air/drone strike",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 24 ottobre, attacchi russi con droni hanno colpito Kherson, causando la morte di tre persone e 29 feriti, tra cui tre bambini. Un uomo di 59 anni Ã¨ stato ferito il 25 ottobre da un ordigno lanciato da un drone."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24892,10 +24892,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Grenade",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro infrastrutture energetiche a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 luglio 2024, forze russe hanno attaccato Kherson con droni, danneggiando sei edifici residenziali e causando incendi. L'attacco ha lasciato decine di migliaia di persone senza energia elettrica."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24904,10 +24904,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 marzo 2022, un attacco russo ha causato la morte di 4 persone e il ferimento di 10, con esplosivi utilizzati in aree civili. Le vittime includono un uomo di 83 anni e due donne. L'uso di armi esplosive ha provocato danni significativi a edifici residenziali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -24916,10 +24916,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicoli civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 aprile 2022, un attacco russo con droni ha colpito un'auto civile nel distretto di Korabelny a Kherson, causando ferite a due persone. Altri attacchi hanno danneggiato edifici e infrastrutture nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24928,10 +24928,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina contro civili a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 maggio 2022, un uomo di 58 anni Ã¨ rimasto ferito a causa di un'esplosione di mina nel distretto Korabelnyi di Kherson. Un altro incidente ha coinvolto un ragazzo di 17 anni con amputazione traumatica. La regione Ã¨ gravemente colpita da mine e ordigni esplosivi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -24940,10 +24940,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 maggio 2022, attacco russo con esplosivi ha causato 3 morti e 22 feriti, tra cui bambini. Le vittime hanno subito gravi lesioni da esplosivi. Le forze russe continuano a colpire aree civili in Kherson."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -24952,10 +24952,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 17 giugno 2022, un attacco con droni russi ha colpito Kherson, causando un morto e un ferito. Le forze russe hanno utilizzato droni per lanciare esplosivi su aree residenziali, contribuendo a un bilancio di vittime in aumento nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24964,10 +24964,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Nella regione di Kherson, attacchi russi hanno causato tre morti e cinque feriti, tra cui un bambino. Sono stati utilizzati droni per lanciare esplosivi su abitazioni e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -24976,10 +24976,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi remoti contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 luglio 2022, attacco russo con esplosivi remoti a Kherson ha causato 3 morti e 22 feriti, tra cui bambini. Le forze russe hanno utilizzato artiglieria e droni, colpendo edifici residenziali e strutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -24988,10 +24988,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un attacco con droni ha colpito la cittÃ  di Kherson, causando la morte di una persona e ferendo altre. Si segnalano danni a case private e strutture agricole. Le vittime includono un uomo ucciso da un'esplosione e un ragazzo ferito da una mina."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25000,10 +25000,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 agosto 2022, un attacco di artiglieria russa ha colpito la regione di Kherson, causando 3 morti e 22 feriti, tra cui bambini. I feriti hanno subito traumi cranici e ferite da esplosione. Le vittime sono state ricoverate in ospedale e trattate in ambulatorio."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25012,10 +25012,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 settembre 2022, un drone russo ha lanciato un dispositivo esplosivo su una strada di Kherson, ferendo due residenti locali. Questo attacco si inserisce nel contesto di un'intensificazione della violenza nella regione, con diversi incidenti di esplosivi registrati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25024,10 +25024,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 ottobre 2022, un attacco con droni ha colpito la cittÃ  di Kherson, causando la morte di una persona e il ferimento di un'altra. Le forze russe hanno utilizzato droni per lanciare esplosivi su aree popolate, contribuendo a un bilancio di vittime crescente nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25036,10 +25036,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con bombe a guida contro strutture civili a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 ottobre 2022, Kherson Ã¨ stata colpita da bombe a guida, causando un morto e diversi feriti. I danni hanno interessato edifici residenziali e strutture civili. Le forze russe hanno anche lanciato un bombardamento di artiglieria per ostacolare i soccorsi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -25048,10 +25048,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 ottobre 2022, forze russe hanno attaccato Kherson con artiglieria e droni, causando feriti tra i civili. Due residenti sono stati colpiti da un dispositivo esplosivo lanciato da un drone. Danni a edifici e veicoli sono stati segnalati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25060,10 +25060,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 gennaio 2023, un attacco di artiglieria a Kherson ha causato la morte di un uomo e il ferimento di un altro. Il bombardamento ha colpito aree residenziali, danneggiando anche strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25072,10 +25072,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro veicolo civile a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 gennaio 2023, un attacco russo con drone ha colpito un'auto civile a Kherson, causando ferite a due persone. Danni anche a edifici e infrastrutture nella zona. Quattro civili sono stati uccisi e undici feriti in attacchi recenti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25084,10 +25084,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro veicolo civile a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 gennaio 2023, un attacco russo ha colpito un'auto civile a Kherson, causando ferite a due persone. Inoltre, diversi edifici e veicoli sono stati danneggiati. Il bilancio include quattro morti e undici feriti in attacchi recenti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25096,10 +25096,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 marzo 2023, un attacco di artiglieria ha causato un morto e un ferito a Kherson. Altri attacchi con droni hanno provocato vittime a Novovorontsovka e Bilozerka, con danni a strutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25108,10 +25108,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 marzo 2023, un drone russo ha lanciato un dispositivo esplosivo su una strada di Kherson, ferendo due residenti. L'attacco Ã¨ avvenuto dopo un bombardamento di artiglieria nella mattinata."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25120,10 +25120,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 31 marzo 2023, un attacco aereo con droni ha colpito civili a Kherson, causando un morto e un ferito. Le forze russe hanno utilizzato droni per attaccare veicoli civili, contribuendo all'aumento delle vittime tra i civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25132,10 +25132,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mine contro civili a Kherson",
+        "text": "<b>Tipo:</b> Sabotage<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 aprile 2023, un uomo Ã¨ stato ferito da una mina russa a Kherson. Incidenti simili hanno coinvolto anche un ragazzo di 17 anni, gravemente ferito. La presenza di mine rappresenta un grave pericolo per i civili nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Sabotage"
     },
     {
       "start_date": {
@@ -25144,10 +25144,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicolo civile a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 aprile 2023, le forze russe hanno attaccato un'auto civile nel distretto Korabelny di Kherson, causando ferite a due persone. Inoltre, il bombardamento ha danneggiato edifici e infrastrutture locali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25156,10 +25156,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo contro punto di assistenza medica a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un attacco di artiglieria ha colpito un punto di assistenza medica a Kherson, causando la morte di un paramedico di 32 anni e di un uomo di 70 anni. Le esplosioni sono avvenute a 100 metri dall'edificio principale dell'amministrazione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25168,10 +25168,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 maggio 2023, un attacco con droni russi ha colpito un'auto civile a Kherson, causando ferite a un uomo di 73 anni e a una donna di 48 anni. Le vittime hanno riportato contusioni e traumi cranici. Il bilancio complessivo di vittime civili nella regione Ã¨ in aumento."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25180,10 +25180,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 maggio 2023, le forze russe hanno attaccato un'auto civile a Kherson, causando ferite a due persone. In totale, quattro civili sono morti e 22 sono stati feriti a causa di bombardamenti russi nella regione, inclusi attacchi con droni e artiglieria."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25192,10 +25192,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 giugno 2023, le forze russe hanno attaccato un'auto civile a Kherson con un drone, causando ferite a due persone. Inoltre, un uomo Ã¨ esploso su una mina russa, evidenziando il pericolo delle mine nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25204,10 +25204,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mine antiuomo contro ambulanze a Kherson",
+        "text": "<b>Tipo:</b> Sabotage<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Due ambulanze sono state colpite da mine antiuomo a Kherson, causando danni ai veicoli ma senza vittime. Un civile Ã¨ stato ferito da un attacco con droni. Le forze russe continuano a disseminare mine PFM-1 nella cittÃ ."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Sabotage"
     },
     {
       "start_date": {
@@ -25216,10 +25216,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni e mine antiuomo contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un uomo di 49 anni Ã¨ stato ferito da un attacco con droni e mine antiuomo 'Petal' a Kherson. Ã in condizioni moderate. Le forze russe continuano a minare la cittÃ , causando feriti tra i civili e operatori di emergenza."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25228,10 +25228,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 luglio 2023, attacchi russi con droni hanno causato la morte di un uomo e ferite a un'altra persona a Kherson. Altri attacchi in Novovorontsovka e Bilozerka hanno portato a ulteriori vittime civili. Danni significativi a edifici e infrastrutture."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25240,10 +25240,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicoli civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 luglio 2023, le truppe russe hanno attaccato un'auto civile a Kherson con un drone, causando ferite a due persone. Danni significativi a edifici e infrastrutture nella zona sono stati riportati, con un bilancio di quattro morti e undici feriti in attacchi recenti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25252,10 +25252,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicoli civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 luglio 2023, truppe russe hanno attaccato un'auto civile a Kherson, causando ferite a due persone. Danni significativi a edifici e veicoli nella zona. Sono stati utilizzati droni per l'attacco."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25264,10 +25264,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina in zona residenziale a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 agosto 2023, un uomo Ã¨ rimasto ferito a causa di un'esplosione di una mina russa nel distretto Korabelnyi di Kherson. Un adolescente Ã¨ stato gravemente ferito da una mina mini-petal. La situazione evidenzia il pericolo delle mine nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -25276,10 +25276,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 ottobre 2025, un attacco aereo con droni russi ha colpito Kherson, causando la morte di una donna e ferendo un'altra persona. Ã stata avviata un'indagine per crimine di guerra."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25288,10 +25288,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 marzo 2024, un attacco con droni ha colpito Kherson, causando la morte di un civile e ferendo un altro. Le forze russe hanno utilizzato droni per lanciare esplosivi su aree residenziali, contribuendo a un bilancio totale di tre morti e tre feriti nella regione durante la giornata."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25300,10 +25300,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina antiuomo 'Petal' contro civili a Kherson",
+        "text": "<b>Tipo:</b> Sabotage<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un'esplosione di una mina antiuomo 'Petal' ha causato un morto e quattro feriti a Kherson. L'incidente Ã¨ avvenuto in un contesto di attacchi russi nella regione, con un totale di 38 esplosioni registrate dall'inizio dell'anno."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Sabotage"
     },
     {
       "start_date": {
@@ -25312,10 +25312,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 marzo 2024, un attacco con droni ha colpito Kherson, causando un morto e un ferito. Altri attacchi nella regione hanno provocato ulteriori vittime, tra cui un ragazzo di 17 anni ferito da una mina. Le forze russe continuano a utilizzare droni per attacchi mirati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25324,10 +25324,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina contro civili a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un uomo di 58 anni Ã¨ rimasto ferito a causa dell'esplosione di una mina russa nel distretto Korabelnyi di Kherson. Un ragazzo di 17 anni ha subito un'amputazione traumatica a causa di una mina 'mini-petal'."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -25336,10 +25336,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 giugno 2024, un attacco con droni ha colpito Kherson, causando ferite a due residenti. Durante la giornata, l'artiglieria russa ha bombardato la cittÃ , contribuendo a un bilancio di cinque feriti in un attacco a Inhulets, inclusa una bambina di tre anni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25348,10 +25348,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 luglio 2024, attacchi di artiglieria russa hanno causato la morte di tre civili e ferito altri tre nella regione di Kherson. Le forze russe hanno utilizzato mortai e droni, colpendo aree popolate."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25360,8 +25360,8 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 agosto 2024, esplosioni causate da ordigni esplosivi remoti hanno colpito aree civili a Kherson, causando danni a edifici residenziali e infrastrutture. Il bilancio delle vittime non Ã¨ stato specificato, ma il contesto di bombardamenti russi intensificati suggerisce un alto numero di feriti."
       },
       "group": "Explosions/Remote violence"
     },
@@ -25372,10 +25372,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivo remoto contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 ottobre, un uomo di 59 anni Ã¨ stato ferito da un munizione lanciata da un drone russo nel quartiere HBK di Kherson. L'esplosione ha causato ferite da schegge all'addome. Il 24 ottobre, attacchi russi hanno ucciso tre persone e ferito 29, tra cui tre bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25384,10 +25384,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 ottobre, un uomo di 59 anni Ã¨ stato ferito da una munizione lanciata da un drone russo nel quartiere HBK di Kherson. Il giorno precedente, attacchi russi hanno causato la morte di tre persone e ferito 29, inclusi bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25396,10 +25396,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina contro civili a Kherson",
+        "text": "<b>Tipo:</b> Sabotage<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un uomo di 58 anni Ã¨ rimasto ferito a causa di un'esplosione di una mina russa nel distretto Korabelnyi di Kherson. Un ragazzo di 17 anni ha subito un'amputazione traumatica a causa di una mina 'mini-petal'."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Sabotage"
     },
     {
       "start_date": {
@@ -25408,10 +25408,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicoli civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 gennaio 2025, un attacco russo con droni ha colpito un'auto civile nel distretto Korabelny di Kherson, causando ferite a due persone. Complessivamente, quattro civili sono morti e undici sono stati feriti in attacchi recenti nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25420,10 +25420,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 marzo 2025, un attacco con droni ha colpito Kherson, causando ferite a due residenti. L'uso di mine 'petal' ha portato a ulteriori feriti nella regione, con un totale di un morto e quattro feriti durante la giornata."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25432,10 +25432,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina contro civili a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Due incidenti di esplosione di mine nella regione di Kherson hanno causato ferite a un uomo di 58 anni e a un ragazzo di 17 anni, con amputazioni traumatiche. Le mine continuano a rappresentare una grave minaccia per i civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -25444,10 +25444,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro veicoli civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 aprile 2025, un attacco con droni russi ha colpito un'auto civile nel distretto Korabelny di Kherson, causando ferite a due persone. Inoltre, esplosioni di mine hanno provocato ulteriori feriti nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25456,10 +25456,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro veicolo civile a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 aprile 2025, un drone russo ha attaccato un'auto civile nel distretto Korabelny di Kherson, causando ferite a due persone. Quattro civili sono morti e 11 sono stati feriti in attacchi aerei e bombardamenti nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25468,10 +25468,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 maggio 2025, un attacco russo ha colpito un'auto civile a Kherson, causando ferite a due persone. Inoltre, un uomo Ã¨ stato ferito da una mina. Quattro civili sono morti e undici sono rimasti feriti in attacchi recenti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25480,10 +25480,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con drone contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 maggio 2025, un attacco aereo con drone russo ha colpito Kherson, uccidendo una donna. Questo attacco fa parte di una serie di attacchi mirati contro i civili nella regione, con un bilancio totale di quasi 150 morti dal luglio 2024. Le autoritÃ  hanno avviato un'indagine per crimine di guerra."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25492,10 +25492,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi remoti contro civili a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 maggio 2025, esplosioni di mine e IED hanno colpito aree civili a Kherson, causando feriti tra i residenti. Le mine, difficili da rilevare, sono state disseminate dai russi come parte della loro strategia offensiva."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -25504,10 +25504,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco esplosivo remoto contro civili a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 giugno 2025, esplosioni causate da ordigni esplosivi remoti hanno colpito la cittÃ  di Kherson, causando un numero imprecisato di vittime tra i civili. Le vittime fanno parte di un totale di 42,569 casi di violenza esplosiva documentati in Ucraina dall'inizio dell'invasione russa."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -25516,10 +25516,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Esplosione di mina antiuomo a Kherson",
+        "text": "<b>Tipo:</b> Sabotage<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un'esplosione di una mina 'petal' ha causato un morto e quattro feriti nella regione di Kherson. La vittima Ã¨ in condizioni gravi. Dall'inizio del 2024, sono stati registrati 38 incidenti esplosivi nella regione, con 11 morti e 33 feriti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Sabotage"
     },
     {
       "start_date": {
@@ -25528,10 +25528,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 giugno 2025, un attacco aereo russo ha colpito la cittÃ  di Kherson, causando la morte di un civile e ferendone tre. Le forze russe hanno utilizzato bombe a guida per colpire edifici residenziali e infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -25540,10 +25540,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 luglio 2025, un attacco con droni ha colpito un'auto civile nel distretto Korabelny di Kherson, causando ferite a due persone. Le forze russe hanno utilizzato droni per attaccare obiettivi civili, contribuendo a un bilancio di vittime in aumento nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25552,10 +25552,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con esplosivi contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un residente di 64 anni a Kherson Ã¨ stato colpito da un drone russo, riportando traumi da esplosione e ferite da schegge. Il bilancio totale delle vittime civili in Ucraina ha superato i 42.000, con 9.297 morti e 33.272 feriti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25564,10 +25564,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Remote explosive/landmine/IED",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 24 ottobre, attacchi russi nella regione di Kherson hanno provocato la morte di tre persone e 29 feriti, inclusi tre bambini. Il giorno successivo, un uomo di 59 anni Ã¨ stato ferito da una munizione lanciata da un drone russo."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25576,10 +25576,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 marzo 2022, un attacco di artiglieria ha causato un morto e un ferito a Kherson. Le forze russe hanno utilizzato armi esplosive con un'ampia area d'impatto, contribuendo a un alto numero di vittime civili nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25588,10 +25588,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 marzo 2022, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Le forze russe hanno utilizzato mortai e droni, danneggiando anche infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25600,10 +25600,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 aprile 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di due civili e ferendo 17 persone. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e commerciali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25612,10 +25612,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 aprile 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e ferendo 17 persone. Sono stati colpiti edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25624,10 +25624,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 aprile 2022, le forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e ferendone 22, tra cui bambini. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25636,10 +25636,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni e artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 maggio 2022, le forze russe hanno bombardato Kherson con artiglieria e hanno lanciato un dispositivo esplosivo da un drone, ferendo due residenti locali. Le vittime includono anche una bambina di tre anni in un attacco a Inhulets."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -25648,10 +25648,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 20 maggio 2022, le forze russe hanno bombardato la regione di Kherson, causando la morte di tre civili e ferendo 22 persone, tra cui bambini. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25660,10 +25660,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 maggio 2022, le forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 3 civili e ferendo 22 persone, tra cui bambini. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25672,10 +25672,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 17 giugno 2022, un attacco di artiglieria ha colpito Kherson, causando un morto e un ferito. Le forze russe hanno utilizzato vari sistemi d'arma, inclusi droni e artiglieria, danneggiando anche edifici civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25684,10 +25684,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 24 giugno 2022, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Danni a case private e strutture agricole sono stati segnalati."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25696,10 +25696,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 luglio 2022, le forze russe hanno bombardato Kherson con artiglieria e droni, causando ferite a due residenti locali. L'attacco ha colpito aree civili, evidenziando l'uso di munizioni esplosive."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25708,10 +25708,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 luglio 2022, le forze russe hanno bombardato sei insediamenti nella comunitÃ  di Kherson, causando danni a infrastrutture critiche e civili. Il bilancio Ã¨ di 1 morto e 22 feriti, inclusi bambini."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25720,10 +25720,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 luglio 2022, un attacco di artiglieria ha colpito Kherson, causando un morto e un ferito. Le forze russe hanno utilizzato mortai e droni, danneggiando anche infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25732,10 +25732,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 agosto 2022, le forze russe hanno bombardato Kherson con artiglieria e droni, causando ferite a due residenti. L'attacco ha danneggiato edifici e veicoli nella zona."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25744,10 +25744,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 agosto 2022, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Le forze russe hanno utilizzato mortai e droni, danneggiando anche infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25756,10 +25756,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 settembre 2022, un attacco di artiglieria ha colpito Kherson, causando la morte di un civile e ferendo un altro. Le forze russe hanno utilizzato mortai e droni, danneggiando anche abitazioni e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25768,10 +25768,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 ottobre 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno due civili e ferendo 17 altri. Gli attacchi hanno colpito edifici residenziali e commerciali, utilizzando artiglieria e droni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25780,10 +25780,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 ottobre 2022, un attacco di artiglieria ha colpito Kherson, uccidendo una persona e ferendone un'altra. Le forze russe hanno utilizzato mortai e droni, causando danni a infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25792,10 +25792,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 ottobre 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno due civili e ferendo 17 persone. Sono stati colpiti edifici residenziali e strutture pubbliche, con danni significativi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25804,10 +25804,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 gennaio 2023, un attacco missilistico ha colpito Kherson, causando 44 morti, tra cui 5 bambini, e 79 feriti. Le esplosioni hanno distrutto edifici residenziali e veicoli. Testimoni confermano che non c'erano obiettivi militari nella zona colpita."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -25816,10 +25816,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 gennaio 2023, Kherson Ã¨ stata colpita da un attacco di artiglieria russa, causando la morte di almeno 21 persone e ferendo 48, tra cui soccorritori. Gli obiettivi includevano una stazione ferroviaria e negozi."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25828,10 +25828,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 gennaio 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Danni anche a case private e strutture agricole. Le forze russe hanno utilizzato mortai e artiglieria."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25840,10 +25840,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 marzo 2023, Kherson Ã¨ stata colpita da un attacco missilistico delle forze armate russe, causando diversi feriti tra i civili. Le armi utilizzate includono missili e droni. Il bilancio delle vittime non Ã¨ stato specificato."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -25852,10 +25852,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 marzo 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e ferendo un'altra. Altri attacchi nella regione hanno provocato ulteriori vittime e danni a infrastrutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25864,10 +25864,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro posizioni ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 31 marzo 2023, le forze russe hanno continuato a bombardare Kherson, colpendo posizioni ucraine. Le forze ucraine hanno risposto con attacchi contro sistemi di guerra elettronica russi a Nova Kakhovka. Non sono stati riportati feriti o morti."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25876,10 +25876,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 aprile 2023, un attacco di artiglieria russa ha colpito la regione di Kherson, causando la morte di almeno una persona e ferendo un'altra. Sono stati danneggiati edifici residenziali e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25888,10 +25888,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 aprile 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di un civile e ferendo un altro. Le forze russe hanno utilizzato artiglieria e droni, danneggiando abitazioni e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25900,10 +25900,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 aprile 2023, l'esercito russo ha bombardato Kherson, causando la morte di due civili e ferendo altri residenti. Sono stati utilizzati droni per attacchi aggiuntivi, aggravando la situazione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25912,10 +25912,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 maggio 2023, un attacco di artiglieria russa ha colpito Kherson, causando la morte di un civile e il ferimento di un altro. Danni significativi sono stati riportati a strutture residenziali e commerciali."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25924,10 +25924,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 maggio 2023, le forze russe hanno colpito Kherson con attacchi di artiglieria, causando almeno 21 morti e 48 feriti. Gli obiettivi includevano una stazione ferroviaria e vari edifici civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25936,10 +25936,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 giugno 2023, attacchi di artiglieria russa hanno colpito Kherson, uccidendo due civili e danneggiando un punto di assistenza medica. Le esplosioni hanno causato blackout in tutta la cittÃ ."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25948,10 +25948,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 giugno 2023, attacchi di artiglieria russa a Kherson hanno causato la morte di almeno 21 persone e 48 feriti, colpendo stazioni ferroviarie e negozi. I residenti sono stati avvisati di rimanere in casa a causa della gravitÃ  della situazione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25960,10 +25960,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 giugno 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Inoltre, sono stati segnalati danni a case private e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25972,10 +25972,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 luglio 2023, forze russe hanno bombardato la regione di Kherson, causando la morte di due civili e 17 feriti. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25984,10 +25984,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 luglio 2023, le forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di due civili e ferendo 17 persone. I colpi hanno colpito edifici residenziali e strutture pubbliche."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -25996,10 +25996,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 luglio 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Le forze russe hanno utilizzato mortai e droni, danneggiando abitazioni e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -26008,10 +26008,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 agosto 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Altri attacchi nella regione hanno provocato ulteriori vittime e danni a strutture civili."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -26020,10 +26020,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro aree residenziali a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 agosto 2023, forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di 2 civili e ferendone 17. Gli attacchi hanno colpito edifici residenziali e strutture pubbliche, utilizzando artiglieria e droni."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -26032,10 +26032,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 ottobre, attacchi missilistici russi hanno colpito Kherson, causando la morte di oltre una dozzina di civili. Le forze russe continuano a utilizzare droni e missili, aggravando la situazione umanitaria nella regione."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -26044,10 +26044,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Explosions/Remote violence - Shelling/artillery/missile attack",
-        "text": "<b>Tipo:</b> Explosions/Remote violence<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 20 ottobre 2023, un attacco di artiglieria ha colpito Kherson, causando la morte di una persona e il ferimento di un'altra. Le forze russe hanno utilizzato mortai e droni, danneggiando abitazioni e strutture agricole."
       },
-      "group": "Explosions/Remote violence"
+      "group": "Artillery"
     },
     {
       "start_date": {
