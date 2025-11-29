@@ -264,15 +264,72 @@
       </div>
 
       <div class="timeline-section-wrapper">
-        <div class="section-header" style="margin-bottom:20px;">
-          <h3>Cronologia Narrativa</h3>
-          <p style="color:var(--text-muted);">Analisi dettagliata degli eventi verificati nel tempo.</p>
+        
+        <div class="section-header" style="margin-bottom:15px; display:flex; justify-content:space-between; align-items:end;">
+          <div>
+            <h3>Analisi Operativa</h3>
+            <p style="color:var(--text-muted);">Monitoraggio eventi in tempo reale</p>
+          </div>
+          
+          <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); padding: 5px 15px; border-radius: 20px; display:flex; align-items:center; gap:10px;">
+            <i class="fa-solid fa-robot" style="color:var(--primary);"></i>
+            <span style="font-size:0.8rem; color:var(--primary);"><strong>AI Insight:</strong> Attività elevata nel settore Sud.</span>
+          </div>
         </div>
-        <div id="timeline-embed" style="width: 100%; height: 600px;"></div>
-      </div>
 
-    </main>
-  </div>
+        <div class="view-switcher">
+          <button class="view-btn active" onclick="switchView('kanban', this)"><i class="fa-solid fa-clipboard-list"></i> War Room</button>
+          <button class="view-btn" onclick="switchView('visual', this)"><i class="fa-solid fa-images"></i> Visual Tracker</button>
+          <button class="view-btn" onclick="switchView('intel', this)"><i class="fa-solid fa-satellite-dish"></i> Intel Feed</button>
+        </div>
+
+        <div id="view-kanban" class="view-container active">
+          <div class="kanban-board">
+            <div class="kanban-column" id="col-ground">
+                <div class="column-header"><span><i class="fa-solid fa-person-rifle"></i> Terra & Scontri</span> <span class="count-badge">0</span></div>
+                <div class="column-content"></div>
+            </div>
+            <div class="kanban-column" id="col-air">
+                <div class="column-header"><span><i class="fa-solid fa-jet-fighter"></i> Aereo & Deep Strike</span> <span class="count-badge">0</span></div>
+                <div class="column-content"></div>
+            </div>
+            <div class="kanban-column" id="col-strat">
+                <div class="column-header"><span><i class="fa-solid fa-city"></i> Civile & Strategico</span> <span class="count-badge">0</span></div>
+                <div class="column-content"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="view-visual" class="view-container">
+          <div class="visual-grid" id="visual-grid-content">
+            </div>
+        </div>
+
+        <div id="view-intel" class="view-container">
+          <div class="intel-layout">
+            <div class="intel-list" id="intel-list-content">
+              </div>
+            <div class="intel-detail" id="intel-detail-content">
+              <div style="height:100%; display:flex; align-items:center; justify-content:center; color:#64748b; flex-direction:column;">
+                <i class="fa-solid fa-crosshairs" style="font-size:3rem; margin-bottom:15px; opacity:0.3;"></i>
+                <p>Seleziona un evento dal feed per visualizzare il dossier.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <script>
+        function switchView(viewName, btn) {
+            // UI Button Update
+            document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // View Container Update
+            document.querySelectorAll('.view-container').forEach(c => c.classList.remove('active'));
+            document.getElementById('view-' + viewName).classList.add('active');
+        }
+      </script>
 
   <div id="videoModal" class="modal-overlay" onclick="closeModal(event)">
     <div class="modal-content">
