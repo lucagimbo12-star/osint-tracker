@@ -22452,10 +22452,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro aree residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 agosto 2022, attacchi missilistici russi hanno colpito edifici residenziali a Kharkiv, causando la morte di almeno 12 civili. La cittÃ , a 15 km dalla linea del fronte, Ã¨ sotto costante minaccia di artiglieria russa."
       },
-      "group": "Strategic developments"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22464,10 +22464,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro aree civili a Sumy e Chernihiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 21 ottobre, le forze russe hanno bombardato aree civili nelle regioni di Sumy e Chernihiv, causando feriti tra la popolazione. Le perdite russe ammontano a 1.050 soldati, 2 carri armati e 11 veicoli blindati."
       },
-      "group": "Strategic developments"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22476,10 +22476,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 31 marzo 2023, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno tre persone e oltre 20 feriti, inclusi un neonato e una ragazza di 14 anni. L'attacco ha danneggiato edifici residenziali e strutture pubbliche."
       },
-      "group": "Strategic developments"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22488,10 +22488,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico Iskander e droni contro infrastrutture ucraine a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Nella notte tra il 26 e il 27 ottobre, forze russe hanno lanciato un attacco missilistico con un missile Iskander-M e sei droni Shahed-131/136 contro l'Ucraina. Cinque droni sono stati distrutti dalle forze ucraine. Non sono stati riportati feriti."
       },
-      "group": "Strategic developments"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22500,10 +22500,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico S-300 contro edifici residenziali a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 aprile 2024, attacchi missilistici S-300 hanno danneggiato edifici residenziali a Kharkiv, causando sei feriti. La cittÃ  ha subito 136 attacchi in aprile, con un totale di 533 edifici danneggiati."
       },
-      "group": "Strategic developments"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22512,10 +22512,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Strategic developments - Other",
-        "text": "<b>Tipo:</b> Strategic developments<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Attacco aereo russo su Kharkiv ha colpito un asilo e diverse abitazioni, causando 8 feriti e danni a oltre 12 edifici. Le forze russe continuano a subire pesanti perdite sul fronte settentrionale."
       },
-      "group": "Strategic developments"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22524,10 +22524,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Abduzione e scomparsa forzata di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Nel marzo 2022, forze russe hanno effettuato abduzioni e scomparse forzate di civili a Kharkiv, con segnalazioni di torture e maltrattamenti. Almeno 270 casi documentati, con 8 vittime trovate morte."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22536,10 +22536,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Arresto arbitrario e scomparsa forzata di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>A Kharkiv, nel marzo 2022, si sono registrati 34 casi di scomparsa forzata e detenzione arbitraria di civili da parte di forze russe. Le vittime hanno riportato abusi, tra cui torture e malnutrizione."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22548,10 +22548,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Abduzione di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Dal 24 febbraio 2022, le forze russe hanno attuato una campagna sistematica di abduzioni e sparizioni forzate di civili a Kharkiv, con oltre 765 casi registrati. Le vittime, tra cui attivisti e giornalisti, sono spesso scambiate in operazioni di prigionieri."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22560,10 +22560,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Abduzione forzata di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Dal 24 febbraio 2022, le forze russe hanno perpetrato abduzioni forzate di civili a Kharkiv, con casi documentati di torture e maltrattamenti. Le vittime, tra cui attivisti e giornalisti, sono state spesso rilasciate in scambi di prigionieri."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22572,10 +22572,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 maggio 2022, un attacco di artiglieria ha colpito aree residenziali a Kharkiv, causando la morte di nove persone e ferendo 19. Le forze russe hanno intensificato gli attacchi nella regione orientale dell'Ucraina."
       },
-      "group": "Violence against civilians"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22584,10 +22584,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Abduzione forzata di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Dal febbraio 2022, le forze russe hanno perpetrato abduzioni e detenzioni arbitrarie di civili a Kharkiv, con decine di migliaia di persone coinvolte. Sono stati documentati casi di torture e omicidi di detenuti."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22596,10 +22596,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Abduzione e sparizione forzata di civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Forze affiliate alla Russia hanno perpetrato 34 casi di sparizione forzata e detenzione arbitraria di civili a Kharkiv, con segnalazioni di torture e maltrattamenti. I detenuti liberati hanno riferito di abusi gravi."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22608,10 +22608,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Violenza contro i civili - Rapimento a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Le forze russe hanno perpetrato rapimenti e sparizioni forzate di civili a Kharkiv, con testimonianze di torture e omicidi. Decine di migliaia di civili sono stati detenuti, con segni di violenza su molti corpi rinvenuti."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22620,10 +22620,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 agosto 2022, attacco aereo russo su Kharkiv ha causato feriti tra i civili, danneggiando magazzini e veicoli. Le forze russe hanno utilizzato cinque munizioni aeree, in un contesto di crescente violenza contro i civili."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22632,10 +22632,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Violence against civilians - Abduction/forced disappearance",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 agosto 2022, attacchi russi su Kharkiv hanno provocato oltre 400 vittime civili e sfollato piÃ¹ di 18.000 persone. Le operazioni mirano a terrorizzare la popolazione e includono l'abduzione di bambini ucraini."
       },
-      "group": "Violence against civilians"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22644,10 +22644,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 marzo 2022, attacchi aerei russi hanno colpito aree popolate a Kharkiv, causando oltre 450 vittime tra morti e feriti. Le esplosioni hanno danneggiato edifici civili e infrastrutture vitali, utilizzando armi esplosive a largo raggio."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22656,10 +22656,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 marzo 2022, un attacco aereo russo su Kharkiv ha causato la morte di almeno tre persone e ferito oltre 20, tra cui un bambino e una ragazza di 14 anni. Le forze russe hanno utilizzato droni e missili, danneggiando edifici residenziali."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22668,10 +22668,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco con munizioni a grappolo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 15 aprile 2022, l'esercito russo ha lanciato attacchi con munizioni a grappolo 9N210/9N235 nel distretto Industrialnyi di Kharkiv, uccidendo 9 civili e ferendone 35, tra cui bambini. Amnesty International ha descritto questi attacchi come possibili crimini di guerra."
       },
-      "group": "Violence against civilians"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22680,10 +22680,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 aprile 2022, Kharkiv Ã¨ stata colpita da attacchi aerei russi, causando la morte di almeno 606 civili e ferendo oltre 20 persone, tra cui bambini. Le forze russe hanno utilizzato droni e munizioni guidate, danneggiando gravemente infrastrutture civili."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22692,10 +22692,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro infrastrutture civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 aprile 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno 3 civili e oltre 20 feriti, tra cui un neonato e una ragazza di 14 anni. L'attacco ha danneggiato gravemente edifici residenziali e infrastrutture civili."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22704,10 +22704,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 13 maggio 2022, attacchi di artiglieria russi hanno causato la morte di almeno 606 civili a Kharkiv, con danni significativi a infrastrutture civili. Le vittime sono aumentate a causa della continua violenza nella regione."
       },
-      "group": "Violence against civilians"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22716,10 +22716,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 27 maggio 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno 3 civili e ferito oltre 20 persone, tra cui un neonato e una ragazza di 14 anni. Sono stati utilizzati droni e bombe guidate."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22728,10 +22728,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 17 giugno 2022, attacchi russi hanno causato la morte di almeno 606 civili a Kharkiv. Le operazioni hanno portato a gravi danni e sfollamenti, con oltre 600.000 evacuati. Le forze russe hanno continuato a colpire aree densamente popolate."
       },
-      "group": "Violence against civilians"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22740,10 +22740,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 22 luglio 2022, Kharkiv Ã¨ stata colpita da un attacco aereo russo che ha causato la morte di almeno 606 civili e ferito oltre 20 persone, tra cui un neonato. L'attacco ha coinvolto cinque munizioni aeree, causando danni significativi a edifici residenziali."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22752,10 +22752,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 29 luglio 2022, Kharkiv Ã¨ stata colpita da un attacco missilistico che ha causato la morte di almeno 606 civili e numerosi feriti. I missili S-300 sono stati utilizzati, colpendo aree residenziali e infrastrutture alimentari."
       },
-      "group": "Violence against civilians"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22764,10 +22764,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 19 agosto 2022, un attacco aereo russo ha colpito Kharkiv, causando ferite a otto persone, tra cui quattro uomini e quattro donne. Sono stati utilizzati cinque ordigni aerei. Ã stata avviata un'indagine preliminare per crimine di guerra."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22776,10 +22776,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 26 agosto 2022, un attacco aereo russo su Kharkiv ha causato la morte di almeno 606 civili, con danni significativi a edifici residenziali. Le forze russe hanno utilizzato droni e missili, colpendo anche infrastrutture civili."
       },
-      "group": "Violence against civilians"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -22788,10 +22788,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro edifici civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 31 maggio 2024, attacchi missilistici russi su Kharkiv hanno causato almeno 3 morti e 16 feriti, inclusi bambini. Un edificio di cinque piani Ã¨ stato gravemente danneggiato, con rischio di persone intrappolate sotto le macerie."
       },
-      "group": "Violence against civilians"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22800,10 +22800,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Violence against civilians - Attack",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Il 18 gennaio 2025, un attacco missilistico russo ha colpito aree residenziali a Kharkiv, causando la morte di un uomo di 79 anni e ferendo almeno 60 persone, tra cui diversi bambini. Sono stati utilizzati missili balistici con munizioni a grappolo."
       },
-      "group": "Violence against civilians"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22812,10 +22812,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Violence against civilians - Sexual violence",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Violenza sessuale contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Dall'inizio del conflitto, forze russe sono accusate di violenze sessuali contro civili a Kharkiv. Le vittime principali sono donne e ragazze, con casi documentati di torture e abusi in detenzione."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22824,10 +22824,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Violence against civilians - Sexual violence",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Violenza sessuale contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> UKR<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Dal febbraio 2022, i procuratori ucraini hanno aperto 335 casi di violenza sessuale legata al conflitto, principalmente contro donne e ragazze. La vera entitÃ  Ã¨ probabilmente piÃ¹ alta a causa della stigmatizzazione e della paura di ritorsioni."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22836,10 +22836,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Violence against civilians - Sexual violence",
-        "text": "<b>Tipo:</b> Violence against civilians<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>"
+        "headline": "Attacco contro civili a Kharkiv",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kharkiv, Europe, Ukraine<br><br>Nel 2022, sono state segnalate violenze sessuali contro civili a Kharkiv, con 23 casi verificati attribuiti alle forze russe. Le vittime includono donne e ragazze, con un contesto di torture e abusi sistematici."
       },
-      "group": "Violence against civilians"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -22848,10 +22848,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato contro forze russe a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 marzo 2022, scontri armati a Kherson hanno visto l'uso di artiglieria da parte delle forze russe. Le vittime ucraine sono state segnalate, con un bilancio di almeno 40 soldati uccisi in attacchi a Mykolaiv. Le perdite russe sono stimate in 14.400 soldati."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22860,10 +22860,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro forze ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 marzo 2022, le forze russe hanno inflitto danni alle truppe ucraine nella direzione di Kherson, causando la perdita di circa 60 soldati e 3 veicoli. Le forze ucraine hanno subito pesanti perdite, con 40 soldati e 3 veicoli distrutti."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22872,10 +22872,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 aprile 2022, scontri tra forze russe e ucraine a Kherson hanno causato almeno 24 morti tra i soldati ucraini. I russi hanno subito perdite minori, con un solo soldato ucciso. L'uso di artiglieria ha portato a feriti e danni significativi."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22884,10 +22884,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro insediamenti civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 aprile 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e 17 feriti. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22896,10 +22896,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 aprile 2022, scontri tra forze russe e ucraine a Kherson hanno causato la morte di almeno 24 soldati ucraini, con i russi che hanno subito perdite minori. Le forze ucraine hanno utilizzato armi leggere durante il conflitto."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22908,10 +22908,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 maggio 2022, si Ã¨ verificato uno scontro armato a Kherson, con pesanti perdite per le forze ucraine. Almeno 24 soldati ucraini sono stati uccisi, mentre i russi hanno subito solo un morto. I combattimenti hanno coinvolto anche veicoli militari russi."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22920,10 +22920,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze ucraine e russe a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 20 maggio 2022, scontri tra le forze ucraine e 40 soldati russi a Kherson hanno portato a 7 vittime ucraine. Le forze russe hanno subito perdite significative, con un veicolo militare coinvolto. I combattimenti continuano nella regione."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22932,10 +22932,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 maggio 2022, intensi scontri tra le forze russe e la 59Âª Brigata Motorizzata ucraina a Kherson hanno portato a pesanti perdite, con circa 300 soldati e civili ucraini uccisi. Le forze russe hanno impiegato artiglieria pesante."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22944,10 +22944,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro insediamenti civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 17 giugno 2022, le forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di almeno 2 civili e 17 feriti. Sono stati colpiti edifici residenziali e strutture civili, utilizzando artiglieria e droni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22956,10 +22956,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 24 giugno, le forze russe hanno lanciato attacchi missilistici su Kherson, causando la morte di almeno due persone e ferendo oltre venti, inclusi bambini. Le forze ucraine hanno intercettato alcuni missili, ma i danni sono stati significativi."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22968,10 +22968,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Vinnytsia",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 luglio 2022, un attacco missilistico russo ha colpito Vinnytsia, causando 23 morti e oltre 110 feriti. Le autoritÃ  ucraine stanno cercando 39 dispersi tra le macerie. Il presidente Zelenskyy ha denunciato l'attacco come un atto di terrore russo."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -22980,10 +22980,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 luglio 2022, un attacco di artiglieria russa ha colpito il distretto di Korabelnyi a Kherson, causando la morte di tre persone e ferendo 22, tra cui bambini. Le vittime hanno subito ferite da esplosione e contusioni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -22992,10 +22992,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro unitÃ  di addestramento militare a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 luglio 2022, forze russe hanno lanciato un attacco missilistico su un'unitÃ  di addestramento militare ucraina, causando 3 morti e almeno 18 feriti. L'attacco ha colpito un'area non specificata, evidenziando la continua aggressione russa nella regione di Kherson."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23004,10 +23004,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 agosto 2022, un attacco di artiglieria russa ha colpito il distretto Korabelnyi di Kherson, causando la morte di tre persone e 22 feriti, tra cui bambini. Le vittime hanno subito ferite da esplosione e contusioni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23016,10 +23016,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 agosto 2022, le forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di almeno due civili e ferendo 17 persone. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23028,10 +23028,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 settembre, le forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di almeno 2 civili e ferendone 17. Sono stati utilizzati droni e artiglieria, danneggiando edifici residenziali e commerciali."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23040,10 +23040,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 ottobre 2022, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e 17 feriti, tra cui un uomo di 83 anni. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e commerciali."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23052,10 +23052,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 ottobre 2022, le forze russe hanno bombardato insediamenti nella regione di Kherson, causando la morte di 2 civili e ferendo 17 persone. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23064,10 +23064,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 ottobre 2022, si sono verificati scontri tra le forze russe e ucraine a Kherson. Le perdite ucraine sono state significative, con almeno 24 soldati morti. Le forze russe hanno subito perdite minori. La battaglia ha portato a danni significativi alle infrastrutture cittadine."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23076,10 +23076,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 gennaio 2023, un attacco aereo russo ha colpito la regione di Kherson, causando la morte di almeno 21 persone e ferendo 48. Gli obiettivi includevano una stazione ferroviaria e diversi edifici civili. Le forze ucraine hanno subito pesanti perdite, con circa 300 soldati e civili uccisi dall'inizio del conflitto."
       },
-      "group": "Battles"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -23088,10 +23088,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 gennaio 2023, attacchi di artiglieria russa hanno colpito diverse aree di Kherson, causando almeno 21 morti e 48 feriti. Le vittime includono civili in un supermercato e altre strutture. La cittÃ , recentemente liberata, Ã¨ ancora sotto minaccia di bombardamenti."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23100,10 +23100,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro edifici civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 gennaio 2023, Kherson Ã¨ stata colpita da un attacco di artiglieria che ha danneggiato gravemente un edificio, causando la morte di diverse persone. Le forze russe hanno continuato a bombardare la cittÃ , mentre la popolazione Ã¨ stata avvisata di rimanere in casa."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23112,10 +23112,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 marzo 2023, si Ã¨ verificato un intenso scontro tra forze russe e ucraine a Kherson, con almeno 24 soldati ucraini morti. I russi hanno continuato a colpire infrastrutture civili in diverse regioni, causando ulteriori vittime tra i civili."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23124,10 +23124,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 marzo, scontri tra forze ucraine e russe a Kherson hanno portato a pesanti perdite per le truppe ucraine, con almeno 24 soldati uccisi. I russi hanno subito perdite minori. Gli scontri si sono verificati in un contesto di bombardamenti russi nella regione."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23136,10 +23136,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze ucraine e russe a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 31 marzo 2023, scontri tra forze ucraine e russe a Kherson hanno portato a pesanti perdite. Le forze ucraine hanno subito almeno 24 morti, mentre i russi hanno avuto 10 soldati uccisi o feriti. I combattimenti si sono intensificati dopo i contrattacchi ucraini del 23 marzo."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23148,10 +23148,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro edifici residenziali a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 aprile 2023, attacchi missilistici russi hanno colpito edifici residenziali a Kherson, causando la morte di almeno 15 civili e oltre 20 feriti. Le forze russe continuano a bombardare aree civili, mentre l'Ucraina si prepara a un'offensiva primaverile."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23160,10 +23160,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 aprile 2023, un attacco missilistico russo ha colpito diverse infrastrutture civili a Kherson, causando almeno 21 morti e 48 feriti. Le vittime includono colpi a una stazione ferroviaria e a negozi. L'azione Ã¨ avvenuta mentre le autoritÃ  locali imponevano un coprifuoco di 58 ore."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23172,10 +23172,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 aprile 2023, Kherson Ã¨ stata colpita da un attacco di artiglieria russa, causando la morte di almeno 21 persone e ferendo numerosi civili. Le vittime includevano anche ingegneri impegnati nella riparazione della rete elettrica. Le forze russe continuano a bombardare aree residenziali."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23184,10 +23184,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 maggio 2023, attacchi missilistici russi hanno colpito Kherson, causando la morte di almeno 21 persone e 48 feriti. Gli obiettivi includevano una stazione ferroviaria, un supermercato e altre strutture civili. Il bilancio delle vittime Ã¨ significativo."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23196,10 +23196,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico e aereo contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 maggio, forze russe hanno lanciato un attacco missilistico e aereo su Kherson, colpendo aree residenziali e strutture sanitarie, causando almeno 2 morti e oltre 30 feriti, tra cui bambini. Sono stati utilizzati missili Kh-101 e droni Shahed."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23208,10 +23208,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 giugno 2023, un massiccio attacco di artiglieria russa ha colpito Kherson, causando 23 feriti, tra cui tre bambini. Le strutture danneggiate includono un centro medico e un asilo. Le forze ucraine continuano a subire resistenza russa nella regione."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23220,10 +23220,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro base Rosgvardia a Henichesk",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> UKR<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 giugno 2023, forze ucraine hanno lanciato quattro missili Storm Shadow contro una base Rosgvardia a Henichesk, causando danni significativi. Il bilancio delle vittime non Ã¨ stato reso noto."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23232,10 +23232,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo contro forze ucraine a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 giugno 2023, un attacco aereo russo ha colpito la cittÃ  di Kherson, causando circa 300 vittime tra soldati e civili. Le forze ucraine hanno subito pesanti perdite, mentre le truppe russe hanno continuato a bombardare la regione."
       },
-      "group": "Battles"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -23244,10 +23244,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 luglio, Kherson Ã¨ stata colpita da un intenso bombardamento russo, causando danni a edifici e vittime tra i civili. Le autoritÃ  ucraine hanno imposto un coprifuoco per facilitare i movimenti delle truppe. Bilancio vittime non specificato."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23256,10 +23256,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 21 luglio 2023, Kherson Ã¨ stata colpita da attacchi missilistici russi, causando la morte di almeno 21 persone e ferendo 48. Le strutture colpite includono una stazione ferroviaria, negozi e abitazioni. Il sindaco ha dichiarato che la cittÃ  Ã¨ stata gravemente danneggiata."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23268,10 +23268,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato contro forze russe a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 luglio 2023, le forze armate ucraine hanno inflitto gravi perdite alle truppe russe, uccidendo 560 soldati e distruggendo 4 carri armati, 14 veicoli blindati e 30 sistemi di artiglieria. L'operazione ha avuto luogo nella regione di Kherson, cruciale per la controffensiva ucraina."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23280,10 +23280,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro forze russe a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 agosto 2023, le forze ucraine hanno inflitto pesanti perdite alle truppe russe a Kherson, con 940 soldati russi eliminati. L'artiglieria ucraina ha colpito posizioni nemiche, contribuendo a un bilancio totale di 1,070,890 perdite russe dall'inizio del conflitto."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23292,10 +23292,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro civili a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 agosto 2023, forze russe hanno lanciato attacchi aerei sulla regione di Kherson, causando la morte di almeno due persone e ferendo oltre venti, tra cui bambini. I bombardamenti hanno colpito aree residenziali e attivitÃ  commerciali."
       },
-      "group": "Battles"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -23304,10 +23304,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze ucraine e russe a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 ottobre, intensi scontri a Kherson hanno portato a pesanti perdite per le forze russe, con 1.050 soldati uccisi in un giorno. Le forze ucraine hanno neutralizzato diversi veicoli e droni nemici. La situazione rimane critica con un coprifuoco in atto."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23316,10 +23316,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro civili a Kherson",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 20 ottobre 2023, attacchi aerei russi hanno colpito Kherson, causando almeno 8 morti e 69 feriti. Le difese aeree ucraine hanno intercettato 92 droni Shahed. La situazione rimane critica con continui bombardamenti nella regione."
       },
-      "group": "Battles"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -23328,10 +23328,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 ottobre, forze russe hanno colpito il centro di Kherson con attacchi missilistici, causando 8 feriti e danneggiando almeno 15 edifici. I bombardamenti hanno colpito aree civili, con danni significativi alle infrastrutture."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23340,10 +23340,10 @@
         "day": 13
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 13 gennaio 2024, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 3 civili e 17 feriti, tra cui un bambino. Sono stati colpiti edifici residenziali e strutture pubbliche. Le forze russe hanno utilizzato artiglieria e droni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23352,10 +23352,10 @@
         "day": 20
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 20 gennaio 2024 si Ã¨ verificato uno scontro tra soldati russi e ucraini a Kherson, con almeno 24 soldati ucraini morti e un numero imprecisato di feriti russi. I russi hanno continuato a colpire i feriti ucraini. Le perdite totali ucraine potrebbero superare le 300 unitÃ ."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23364,10 +23364,10 @@
         "day": 27
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 27 gennaio 2024, bombardamenti russi hanno colpito l'area di Beryslav, Kherson, causando la morte di quattro civili, tra cui due operatori umanitari francesi, e ferendo sei persone. Danni significativi a edifici residenziali e centri di aiuto umanitario."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23376,10 +23376,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 marzo 2024, forze russe hanno bombardato la regione di Kherson, causando la morte di 2 civili e ferendo 17 persone. Sono stati colpiti edifici residenziali e strutture pubbliche. Le forze russe hanno utilizzato artiglieria e droni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23388,10 +23388,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 marzo, scontri tra forze ucraine e russe a Kherson hanno causato la morte di almeno 24 soldati ucraini. I russi hanno subito perdite minori, con solo un soldato ucciso. Le forze ucraine hanno lanciato contrattacchi nella regione."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23400,10 +23400,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 30 marzo, le forze russe hanno bombardato la regione di Kherson, causando la morte di due civili e ferendo 17 persone. Sono stati utilizzati artiglieria e droni, danneggiando edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23412,10 +23412,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 aprile 2024, intensi scontri armati si sono verificati a Kherson, con l'uso di artiglieria pesante da entrambe le parti. Le perdite sono stimate in decine di soldati, ma i dati esatti rimangono incerti."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23424,10 +23424,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Intensi combattimenti a Kherson hanno causato la morte di almeno 24 soldati ucraini, con i russi che hanno subito perdite minori. Le forze ucraine hanno dovuto ritirarsi dopo pesanti bombardamenti. Armi utilizzate includono artiglieria e aerei da combattimento."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23436,10 +23436,10 @@
         "day": 17
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 17 maggio 2024, le forze russe hanno bombardato la regione di Kherson, causando la morte di due civili e ferendo 17 persone. Sono stati colpiti edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23448,10 +23448,10 @@
         "day": 24
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico contro infrastrutture civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 24 maggio 2024, un attacco missilistico russo ha colpito Kherson, causando circa 30 vittime civili. Le forze russe hanno intensificato i bombardamenti nella regione, mentre l'Ucraina si prepara a un'offensiva primaverile."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23460,10 +23460,10 @@
         "day": 31
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 31 maggio 2024, le forze russe hanno bombardato la regione di Kherson, uccidendo almeno 2 civili e ferendone 17. Sono stati utilizzati artiglieria e droni, causando danni a edifici residenziali e commerciali."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23472,10 +23472,10 @@
         "day": 14
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e AFU a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 14 giugno 2024, le forze russe hanno subito pesanti perdite a Kherson, con 263 soldati uccisi o feriti. Le forze ucraine hanno registrato 965 perdite, inclusi 12 pezzi di artiglieria. La situazione rimane tesa a causa di bombardamenti regolari."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23484,10 +23484,10 @@
         "day": 21
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra unitÃ  russe a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Uno scontro tra la 127Âª brigata di ricognizione e il 24Âº reggimento fucilieri motorizzati ha causato 21 morti e 17 feriti tra le forze russe. L'incidente Ã¨ avvenuto a Kherson e ha portato a controlli piÃ¹ severi tra le unitÃ ."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23496,10 +23496,10 @@
         "day": 28
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro abitazioni civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 28 giugno 2024, attacchi russi hanno colpito diverse abitazioni a Kherson, causando la morte di tre persone e ferendo cinque, tra cui un bambino. Sono stati utilizzati artiglieria e droni, con danni a edifici residenziali e infrastrutture."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23508,10 +23508,10 @@
         "day": 19
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 19 luglio 2024, uno scontro tra la 127Âª brigata di ricognizione e il 24Âº reggimento fucilieri motorizzati ha causato 21 morti e 17 feriti. L'incidente Ã¨ stato scatenato da un fuoco amico, con conseguenti ispezioni nelle unitÃ  coinvolte."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23520,10 +23520,10 @@
         "day": 26
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro insediamenti civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 26 luglio 2024, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e 17 feriti. Sono stati colpiti edifici residenziali e strutture pubbliche. L'attacco ha utilizzato artiglieria e droni di vario tipo."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23532,10 +23532,10 @@
         "day": 16
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 16 agosto 2024, forze russe hanno bombardato la regione di Kherson, causando la morte di 2 civili e il ferimento di 17. Sono stati colpiti edifici residenziali e strutture pubbliche."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23544,10 +23544,10 @@
         "day": 23
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 23 agosto 2024, le forze russe hanno bombardato la regione di Kherson, causando la morte di almeno 2 civili e ferendone 17. Sono stati colpiti edifici residenziali e infrastrutture civili."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23556,10 +23556,10 @@
         "day": 30
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco aereo russo contro infrastrutture civili a Sumy",
+        "text": "<b>Tipo:</b> Airstrike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Un attacco aereo russo ha colpito una fabbrica a Sumy, causando la morte di due persone e ferendo almeno otto, tra cui 22 bambini. L'attacco ha provocato un incendio nell'impianto di imballaggio per alimenti per bambini."
       },
-      "group": "Battles"
+      "group": "Airstrike"
     },
     {
       "start_date": {
@@ -23568,10 +23568,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro insediamenti civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 ottobre 2024, forze russe hanno bombardato la regione di Kherson, causando la morte di almeno due civili e ferendone 17. Sono stati colpiti edifici residenziali e strutture pubbliche. Le armi utilizzate includono artiglieria e droni."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23580,10 +23580,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 ottobre 2024, un attacco di artiglieria russa ha colpito Kherson, causando la morte di sei civili e ferendo 13 persone, tra cui due bambini. Il bombardamento ha danneggiato edifici residenziali e infrastrutture locali."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
@@ -23592,10 +23592,10 @@
         "day": 18
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco missilistico russo contro civili a Kherson",
+        "text": "<b>Tipo:</b> Missile Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 18 gennaio 2025, un attacco missilistico russo ha colpito la cittÃ  di Kherson, causando la morte di almeno 4 civili e ferendone 3. Questo attacco fa parte di un aumento generale delle vittime civili in Ucraina, con un significativo impatto da droni e missili."
       },
-      "group": "Battles"
+      "group": "Missile Strike"
     },
     {
       "start_date": {
@@ -23604,10 +23604,10 @@
         "day": 25
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco con droni contro civili a Kherson",
+        "text": "<b>Tipo:</b> Drone Strike<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 25 gennaio 2025, attacchi russi con droni hanno causato la morte di tre persone e il ferimento di altre tre a Kherson. I droni di tipo First-Person-View sono stati utilizzati, contribuendo all'aumento delle vittime civili nella regione."
       },
-      "group": "Battles"
+      "group": "Drone Strike"
     },
     {
       "start_date": {
@@ -23616,10 +23616,10 @@
         "day": 15
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 15 marzo 2025, si Ã¨ verificato uno scontro armato a Kherson tra forze russe e ucraine, con pesanti perdite per entrambe le parti. I russi hanno subito 10 vittime, mentre i soldati ucraini hanno riportato almeno 24 morti. Le forze ucraine hanno tentato di riprendere il controllo della zona."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23628,10 +23628,10 @@
         "day": 22
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Scontro armato tra forze russe e ucraine a Kherson",
+        "text": "<b>Tipo:</b> Unknown<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 22 marzo 2025, le forze ucraine hanno lanciato contrattacchi contro le forze russe a Kherson. Si segnalano circa 300 vittime tra soldati e civili ucraini. La situazione rimane confusa riguardo al controllo della cittÃ ."
       },
-      "group": "Battles"
+      "group": "Unknown"
     },
     {
       "start_date": {
@@ -23640,10 +23640,10 @@
         "day": 29
       },
       "text": {
-        "headline": "Battles - Armed clash",
-        "text": "<b>Tipo:</b> Battles<br><b>Attore:</b> UNK<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>"
+        "headline": "Attacco di artiglieria contro civili a Kherson",
+        "text": "<b>Tipo:</b> Artillery<br><b>Attore:</b> RUS<br><b>Luogo:</b> Kherson, Europe, Ukraine<br><br>Il 29 marzo 2025, attacchi russi hanno causato la morte di tre persone e ferimenti a tre, inclusi colpi di artiglieria a Kherson e un attacco con drone a Novovorontsovka. Le vittime includono una donna uccisa e un'altra ferita."
       },
-      "group": "Battles"
+      "group": "Artillery"
     },
     {
       "start_date": {
